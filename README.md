@@ -68,10 +68,11 @@ On a benchmark sweep of 100 cases using real-world RAG datasets (RAGBench):
 ## 📂 Project Layout
 
 - [src/highway/](file:///c:/Users/nicol/Documents/Highway/src/highway/): Core source code (runtime, retrieval, database storage, and evaluation benchmarks).
-- [tests/](file:///c:/Users/c:/Users/nicol/Documents/Highway/tests/): Automated unit tests verifying program correctness.
+- [tests/](file:///c:/Users/nicol/Documents/Highway/tests/): Automated unit tests verifying program correctness.
 - [data/](file:///c:/Users/nicol/Documents/Highway/data/): Corpus documents, QA data, and index offsets.
 - [docs/](file:///c:/Users/nicol/Documents/Highway/docs/): Architectural guides, roadmaps, and validated results.
-- [artifacts/runs/](file:///c:/Users/nicol/Documents/Highway/artifacts/runs/): Test reports and logs of all benchmark runs (fully preserved for auditability).
+- [artifacts/runs/](file:///c:/Users/nicol/Documents/Highway/artifacts/runs/): Historical test reports, metric sweeps, and execution logs of all benchmark runs (preserves `report.md`, `metrics.json`, `records.jsonl`, `*.csv` configurations; heavy `.npy` embeddings/`.sqlite` indexes are ignored).
+
 
 ---
 
