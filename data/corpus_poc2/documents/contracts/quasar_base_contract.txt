@@ -1,0 +1,10 @@
+=========================================
+SERVICE CONTRACT: PROJECT QUASAR
+=========================================
+Date: 15 July 2026
+Approved Budget: $60,000
+Completion Date: 15 July 2026
+Contract Manager: Alice Martin
+
+This document details the initial terms. The project QUASAR is launched with an approved budget of $60,000 under the management of Alice Martin.
+The scheduled completion date is set to 15 July 2026.

@@ -1,0 +1,3 @@
+--- G g_mixed_091 ---
+Project HELIOS budget: 0.238M.
+Project VEGA budget: USD 987k.

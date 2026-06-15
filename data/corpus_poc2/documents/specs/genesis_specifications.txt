@@ -1,0 +1,8 @@
+=========================================
+TECHNICAL SPECIFICATIONS: PROJECT GENESIS
+=========================================
+Project Owner: Pierre Leroy
+Lead Unit: HR
+
+This document describes the technical architecture for project GENESIS.
+The project is overseen by the HR unit, with Pierre Leroy as director.

@@ -1,0 +1,4 @@
+--- H h_adv_082 ---
+Project NEXUS was renamed to Project NEXUS-R.
+Project NEXUS-R is managed by Sophie Richard.
+Project ZENITH is managed by Sophie Richard.

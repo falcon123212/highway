@@ -1,0 +1,3 @@
+--- G g_mixed_049 ---
+Project PEGASE budget: 101000.
+Project VEGA budget: USD 632k.

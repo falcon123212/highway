@@ -1,0 +1,4 @@
+Synthetic aggregation evidence.
+Project HELIOS is managed by Michel Bernard.
+Project SIRIUS is managed by Michel Bernard.
+Project JUPITER is managed by Michel Bernard.

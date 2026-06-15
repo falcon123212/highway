@@ -1,0 +1,4 @@
+--- H h_mixed_180 ---
+Project AURORA is managed by Thomas Petit.
+Project NEXUS is managed by Thomas Petit.
+Project LUNA is managed by Thomas Petit.

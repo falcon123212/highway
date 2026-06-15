@@ -1,0 +1,6 @@
+--- H h_adv_045 ---
+Old record: Emma Michel managed Project CHRONOS.
+Current record: Project CHRONOS is reassigned to Jean Dupont.
+Project FALCON is currently managed by Emma Michel.
+Project ZENITH is currently managed by Emma Michel.
+Project BEACON is currently managed by Emma Michel.

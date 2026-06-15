@@ -1,0 +1,3 @@
+--- I1 i_risk_016 ---
+Old record: Thomas Petit managed Project PEGASE.
+Current record: Project PEGASE is reassigned to Thomas Petit.

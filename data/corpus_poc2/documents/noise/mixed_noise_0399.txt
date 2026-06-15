@@ -1,0 +1,5 @@
+--- H h_mixed_199 ---
+Project BEACON is led by Nicolas Durand in HR.
+Project KRONOS is led by Nicolas Durand in Sales.
+Project IRIS is led by Nicolas Durand in Legal.
+Project PEGASE is led by Nicolas Durand in Marketing.

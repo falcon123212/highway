@@ -1,0 +1,502 @@
+[
+  {
+    "id": "q051",
+    "question": "Quelle ville abrite le Laboratoire de physique atmosphÃ©rique et spatiale (Laboratory for Atmospheric and Space Physics) de l'UniversitÃ© du Colorado ?",
+    "expected_answer": "Boulder",
+    "category": "A",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Laboratory for Atmospheric and Space Physics, University of Colorado Boulder, Boulder, CO 80309",
+    "reasoning": "Lookup simple (CatÃ©gorie A). Extraction directe du nom de la ville d'affiliation prÃ©sente en premiÃ¨re page[cite: 6]."
+  },
+  {
+    "id": "q052",
+    "question": "Quel est le nom de l'institut allemand situÃ© Ã  l'adresse 'An der Sternwarte 16' Ã  Potsdam ?",
+    "expected_answer": "Leibniz-Institut fÃ¼r Astrophysik Potsdam (AIP)",
+    "category": "A",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Leibniz-Institut fÃ¼r Astrophysik Potsdam (AIP), An der Sternwarte 16, 14482 Potsdam, Germany",
+    "reasoning": "Lookup simple (CatÃ©gorie A) permettant d'identifier le nom complet exact d'un organisme de recherche[cite: 8]."
+  },
+  {
+    "id": "q053",
+    "question": "Quel composant ou rÃ©servoir de gaz constitue la source de carburant qui alimentera la future formation d'Ã©toiles ?",
+    "expected_answer": "this material",
+    "category": "A",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "since this material represents the fuel that will/would produce stars on timescales ~ 1 Gyr in the future.",
+    "reasoning": "Lookup simple (CatÃ©gorie A) demandant l'expression nominale ou le pronom exact dÃ©signant le gaz d'accrÃ©tion comme carburant[cite: 35]."
+  },
+  {
+    "id": "q054",
+    "question": "Quelle galaxie est citÃ©e en exemple pour illustrer des vents s'Ã©tendant sur sept ordres de grandeur en tempÃ©rature ?",
+    "expected_answer": "M82",
+    "category": "A",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Winds, such as those in M82, show gas spanning seven orders of magnitude in temperature",
+    "reasoning": "Lookup simple (CatÃ©gorie A) pour retrouver le nom de la galaxie modÃ¨le citÃ©e dans le texte[cite: 40]."
+  },
+  {
+    "id": "q055",
+    "question": "Quelle raie d'Ã©mission mÃ©tallique observable est dÃ©signÃ©e comme cruciale pour tracer la perte d'Ã©nergie thermique du CGM ?",
+    "expected_answer": "OVI",
+    "category": "A",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "The main observable line is that of OVI, which we therefore argue must be observed.",
+    "reasoning": "Lookup simple (CatÃ©gorie A) d'un ion mÃ©tallique spÃ©cifique mentionnÃ© verbatim comme cible d'observation principale[cite: 44]."
+  },
+  {
+    "id": "q056",
+    "question": "Quelle mÃ©thode d'analyse utilisant des spectres de quasars permet d'Ã©chantillonner statistiquement le CGM ?",
+    "expected_answer": "absorption line spectroscopy",
+    "category": "A",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "The overwhelming majority of what we know of the CGM comes from absorption line spectroscopy, using quasar- galaxy pairs.",
+    "reasoning": "Lookup simple (CatÃ©gorie A) d'une technique d'observation fondamentale dÃ©crite au paragraphe 2.1[cite: 57]."
+  },
+  {
+    "id": "q057",
+    "question": "Quel paramÃ¨tre gÃ©omÃ©trique d'impact et quelles propriÃ©tÃ©s de galaxies (comme le SFR) servent Ã  dÃ©duire des statistiques ?",
+    "expected_answer": "impact parameters",
+    "category": "A",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Thus the CGM is studied in a statistical/ensemble fashion by selecting a range of impact parameters and galaxy properties (e.g. SFR or stellar mass).",
+    "reasoning": "Lookup simple (CatÃ©gorie A) d'une grandeur physique de sÃ©lection mentionnÃ©e verbatim dans le texte[cite: 64]."
+  },
+  {
+    "id": "q058",
+    "question": "Quelle galaxie est analysÃ©e en CIV Ã  un redshift z=0,013 dans le troisiÃ¨me panneau de la figure 2 ?",
+    "expected_answer": "J1044+0353",
+    "category": "A",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Third: CIV image of the z=0.013 starburst galaxy J1044+0353, synthesized from data in GO 16209.",
+    "reasoning": "Lookup simple (CatÃ©gorie A) d'un identifiant de cible astronomique prÃ©sent dans les lÃ©gendes d'illustrations[cite: 129]."
+  },
+  {
+    "id": "q059",
+    "question": "Quel instrument d'imagerie Ã  champ intÃ©gral (IFS) ou multi-objets est pressenti pour Ã©quiper le futur HWO ?",
+    "expected_answer": "ultraviolet integral field spectrograph (IFS)",
+    "category": "A",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "HWO is likely to fly with both an ultraviolet integral field spectrograph (IFS) and a MOS.",
+    "reasoning": "Lookup simple (CatÃ©gorie A) pour extraire la dÃ©signation instrumentale exacte prÃ©vue pour HWO[cite: 170]."
+  },
+  {
+    "id": "q060",
+    "question": "Quel est le titre de la publication de J. N. Bahcall et al. (1996) parue dans l'Astrophysical Journal ?",
+    "expected_answer": "ApJ",
+    "category": "A",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Bahcall, J. N., Bergeron, J., Boksenberg, A., et al. 1996, ApJ, 457, 19, doi: 10.1086/176709",
+    "reasoning": "Lookup simple (CatÃ©gorie A) demandant l'abrÃ©viation de la revue dans l'index bibliographique[cite: 196]."
+  },
+  {
+    "id": "q061",
+    "question": "Quel chiffre compose le numÃ©ro de la rue de l'adresse du Space Telescope Science Institute Ã  Baltimore ?",
+    "expected_answer": "3700",
+    "category": "B",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "16 AURA for ESA, Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA",
+    "reasoning": "Valeur numÃ©rique unique (CatÃ©gorie B) correspondant Ã  un numÃ©ro de rue d'une adresse d'affiliation[cite: 12]."
+  },
+  {
+    "id": "q062",
+    "question": "Quel est le numÃ©ro de la boÃ®te postale (PO Box) de l'UniversitÃ© d'Ã‰tat du Nouveau-Mexique (New Mexico State University) ?",
+    "expected_answer": "30001",
+    "category": "B",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Department of Astronomy, New Mexico State University, PO Box 30001, USA",
+    "reasoning": "Valeur numÃ©rique unique (CatÃ©gorie B) identifiant un numÃ©ro de boÃ®te postale[cite: 8]."
+  },
+  {
+    "id": "q063",
+    "question": "Quel est le numÃ©ro de code postal allemand de la ville de Heidelberg listÃ© Ã  l'affiliation 17 ?",
+    "expected_answer": "69120",
+    "category": "B",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "17 UniversitÃ¤t Heidelberg, Institut fÃ¼r Theoretische Astrophysik, Zentrum fÃ¼r Astronomie, AU-Str. 2, 69120 Heidelberg, Germany",
+    "reasoning": "Valeur numÃ©rique unique (CatÃ©gorie B) extrayant un code postal verbatim[cite: 13]."
+  },
+  {
+    "id": "q064",
+    "question": "Quelle est la valeur numÃ©rique du numÃ©ro de la rue Delmer Street Ã  Oakland dans l'affiliation 24 ?",
+    "expected_answer": "2452",
+    "category": "B",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "24 Eureka Scientific, Inc., 2452 Delmer Street, Oakland, CA 94602, USA",
+    "reasoning": "Valeur numÃ©rique unique (CatÃ©gorie B) isolant une coordonnÃ©e d'adresse urbaine[cite: 19]."
+  },
+  {
+    "id": "q065",
+    "question": "En quelle annÃ©e est parue l'Ã©tude de dÃ©cennie Astro2020 de la National Academy of Sciences (NAS) ?",
+    "expected_answer": "2021",
+    "category": "B",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Astro2020 Decadal survey (NAS 2021).",
+    "reasoning": "Valeur numÃ©rique temporelle unique (CatÃ©gorie B) extraite d'une parenthÃ¨se de citation[cite: 36]."
+  },
+  {
+    "id": "q066",
+    "question": "Quelle est la borne supÃ©rieure de la plage de tempÃ©rature en Kelvin caractÃ©risant le gaz choquÃ© du saut de viriel ?",
+    "expected_answer": "10^{6}",
+    "category": "B",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "while inflowing material gets shocked to around the virial temperature of \\sim10^{5}-10^{6}K depending on the halo mass",
+    "reasoning": "Valeur numÃ©rique exponentielle unique (CatÃ©gorie B) indiquant une limite de tempÃ©rature physique[cite: 37]."
+  },
+  {
+    "id": "q067",
+    "question": "En quelle annÃ©e s'est tenue la publication de l'Ã©tude de J. N. Burchett et al. sur le milieu circumgalactique ?",
+    "expected_answer": "2019",
+    "category": "B",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "J. N. Burchett et al. 2019; Z. Qu et al. 2024).",
+    "reasoning": "Date unique (CatÃ©gorie B) liÃ©e Ã  la chronologie d'une Ã©quipe de recherche mentionnÃ©e dans le texte[cite: 61]."
+  },
+  {
+    "id": "q068",
+    "question": "Combien de galaxies au total ont fait l'objet d'observations d'imagerie pour l'hydrogÃ¨ne Lyman-alpha (HI Lya) ?",
+    "expected_answer": "100",
+    "category": "B",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "This has been verified for HI Lya in \\le100 galaxies (G. Ã–stlin et al. 2009; J. Melinder et al. 2023;",
+    "reasoning": "Valeur numÃ©rique unique (CatÃ©gorie B) indiquant la taille globale d'un Ã©chantillon d'objets validÃ©s[cite: 108]."
+  },
+  {
+    "id": "q069",
+    "question": "Quelle est la valeur de la longueur d'onde centrale en AngstrÃ¶ms du filtre dÃ©diÃ© STIS/CIII ?",
+    "expected_answer": "1900",
+    "category": "B",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "The STIS/CIII dedicated narrowband filter at \\lambda_{c}\\simeq1900A provides further line imaging capabilities",
+    "reasoning": "Valeur chiffrÃ©e unique (CatÃ©gorie B) spÃ©cifiant une caractÃ©ristique de bande passante optique[cite: 110]."
+  },
+  {
+    "id": "q070",
+    "question": "Quel est le numÃ©ro d'article (page) de la publication de G. Micheva et al. (2020) dans l'Astrophysical Journal ?",
+    "expected_answer": "123",
+    "category": "B",
+    "difficulty": "easy",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Micheva, G., Ã–stlin, G., Melinder, J., et al. 2020, ApJ, 903, 123, doi: 10.3847/1538-4357/abbdff",
+    "reasoning": "Valeur chiffrÃ©e unique (CatÃ©gorie B) reprÃ©sentant un repÃ¨re d'indexation d'article de journal[cite: 221]."
+  },
+  {
+    "id": "q071",
+    "question": "Quelle modification radicale affecte la tempÃ©rature et le statut du gaz de halo lorsqu'il transite depuis l'Ã©tat d'Ã©jection d'une supernova jusqu'Ã  l'Ã©tat condensÃ© d'une Ã©toile ?",
+    "expected_answer": "begins its outflow at temperatures almost 10^{8} K, while inflowing material gets shocked to around the virial temperature of \\sim10^{5}-10^{6}K... substanially if it is to somehow reach the disk, become the \\le30K gas that makes up molecular clouds",
+    "category": "C",
+    "difficulty": "medium",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Gas that is shock-heated by SN explosions begins its outflow at temperatures almost 10^{8} K, while inflowing material gets shocked to around the virial temperature of \\sim10^{5}-10^{6}K depending on the halo mass of the galaxy (e.g., Y. Birnboim & A. Dekel 2003; A. Dekel et al. 2009; C. A. Correa et al. 2018). Regardless of the origins we consider, the material filling the CGM must cool substantially if it is to somehow reach the disk, become the \\le30K gas that makes up molecular clouds, and ultimately end up inside a star",
+    "reasoning": "Statut / Ã©volution / contradiction (CatÃ©gorie C). Comparaison multi-Ã©tapes de l'Ã©volution thermique globale descendante du gaz[cite: 37, 38]."
+  },
+  {
+    "id": "q072",
+    "question": "Comment le comportement d'instabilitÃ© du gaz modifie-t-il l'efficacitÃ© de la rÃ©tention d'Ã©nergie thermique dans le rÃ©gime de la pente nÃ©gative de la fonction de refroidissement ?",
+    "expected_answer": "implies an unstable process once gas starts cooling it cannot be stopped and an almost immediate loss of thermal energy occurs",
+    "category": "C",
+    "difficulty": "medium",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "In this regime the negative slope of the cooling function implies an unstable process once gas starts cooling it cannot be stopped and an almost immediate loss of thermal energy occurs",
+    "reasoning": "Description textuelle du basculement d'Ã©quilibre et de l'Ã©volution de la dissipation thermique (CatÃ©gorie C)[cite: 42]."
+  },
+  {
+    "id": "q073",
+    "question": "Quelle Ã©volution de rÃ©solution et de performance s'est produite lors de la transition historique de STIS vers le spectrographe COS ?",
+    "expected_answer": "followed at higher resolution with the Space Telescope Imaging Spectrograph (STIS...). More recently the Cosmic Origins Spectrograph (COS) has transformed the field with its broad spectral bandpass",
+    "category": "C",
+    "difficulty": "medium",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "going back to HST's first generation spectrographs of the Faint Object Spectrograph (FOS, J. N. Bahcall et al. 1996) and the Goddard High Resolution Spectrograph (GHRS, B. D. Savage et al. 1998; T. M. Tripp et al. 1998), later followed at higher resolution with the Space Telescope Imaging Spectrograph (STIS, J. X. Prochaska et al. 2004; J. C. Howk et al. 2009). More recently the Cosmic Origins Spectrograph (COS) has transformed the field with its broad spectral bandpass",
+    "reasoning": "Analyse de l'Ã©volution technologique d'une suite instrumentale pour en dÃ©terminer le changement de performance (CatÃ©gorie C)[cite: 58, 59]."
+  },
+  {
+    "id": "q074",
+    "question": "En quoi l'incapacitÃ© des modÃ¨les FIRE-2/FOGGIE Ã  reproduire la dispersion constatÃ©e pose-t-elle une contradiction vis-Ã -vis des donnÃ©es observationnelles du gaz ionisÃ© ?",
+    "expected_answer": "are not able to match either the dispersion or the high observed column density of highly ionized gas.",
+    "category": "C",
+    "difficulty": "medium",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Intriguingly, current hydrodynamical simulations (e.g. FIRE-2/FOGGIE, N. A. Wijers et al. 2024; R. Augustin et al. 2025) are not able to match either the dispersion or the high observed column density of highly ionized gas.",
+    "reasoning": "Mise en Ã©vidence d'une contradiction formelle entre des valeurs prÃ©dites par simulation et des valeurs physiques empiriques (CatÃ©gorie C)[cite: 67]."
+  },
+  {
+    "id": "q075",
+    "question": "Quelle convention de dÃ©signation est instaurÃ©e pour isoler la raie CIII de 1907,09 Ã… de la transition de rÃ©sonance permise Ã  977 Ã… ?",
+    "expected_answer": "always denoted with the intercombination specifier",
+    "category": "C",
+    "difficulty": "medium",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "The Cm A11907,09 Ã… emission line is always denoted with the intercombination specifier to distinguish it from the permitted resonance line at 977 Ã….",
+    "reasoning": "DÃ©termination du statut sÃ©mantique d'un indicateur de notation conÃ§u pour contourner une confusion (CatÃ©gorie C)[cite: 118]."
+  },
+  {
+    "id": "q076",
+    "question": "Comment se positionne la densitÃ© volumique des structures d'OVI de J1156+5008 vis-Ã -vis des Ã©chelles de l'ISM et du CGM diffus ?",
+    "expected_answer": "very low compared to typical ISM densities (\\sim1-10^{3}cm^{-3}), but very high compared to those inferred for the diffuse CGM (\\sim10^{-3}cm^{-3})",
+    "category": "C",
+    "difficulty": "medium",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "These densities are very low compared to typical ISM densities (\\sim1-10^{3}cm^{-3}), but very high compared to those inferred for the diffuse CGM (\\sim10^{-3}cm^{-3}) of normal galaxies",
+    "reasoning": "DÃ©termination d'un statut par rapport Ã  deux Ã©talons contradictoires d'environnement physique (CatÃ©gorie C)[cite: 150]."
+  },
+  {
+    "id": "q077",
+    "question": "Quelle anomalie temporelle relative au refroidissement et au franchissement acoustique du gaz impose un renouvellement dynamique permanent de cette phase ?",
+    "expected_answer": "must be exceedingly short (\\sim10^{5}-10^{6} years) compared to typical starburst lifetimes... This gas phase, therefore, must be constantly replenished.",
+    "category": "C",
+    "difficulty": "medium",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "show both the cooling times and sound-crossing times of the clouds must be exceedingly short (\\sim10^{5}-10^{6} years) compared to typical starburst lifetimes and the times needed to lift gas from central regions to the radial distances at which emission is observed. This gas phase, therefore, must be constantly replenished.",
+    "reasoning": "Mise en relation d'une contradiction d'Ã©chelles temporelles provoquant l'obligation d'un processus d'Ã©volution continue (CatÃ©gorie C)[cite: 152, 153]."
+  },
+  {
+    "id": "q078",
+    "question": "Quel statut d'avancement asymÃ©trique diffÃ©rencie la raie CIV1550 (dÃ©jÃ  observÃ©e) des raies d'ions CIII 977Ã… ou NeVIII 775Ã… ?",
+    "expected_answer": "Observations have been obtained in Crv1550 for three galaxies (Figure 2), but possible features like CIII 977Ã… and NeVIII 775Ã…... have never been targeted with HST.",
+    "category": "C",
+    "difficulty": "medium",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Observations have been obtained in Crv1550 for three galaxies (Figure 2), but possible features like CIII 977Ã… and NeVIII 775Ã…, which trace gas near 10^{5} and 10^{6}I K respectively and could have similar or very different origins, have never been targeted with HST.",
+    "reasoning": "Comparaison de deux Ã©tats d'acquisition de donnÃ©es archivistiques (dÃ©jÃ  exÃ©cutÃ© vs jamais tentÃ©) (CatÃ©gorie C)[cite: 157]."
+  },
+  {
+    "id": "q079",
+    "question": "Comment la contrainte gÃ©omÃ©trique du surÃ©chantillonnage de Nyquist par HWO altÃ¨re-t-elle l'efficacitÃ© globale du balayage spatial ?",
+    "expected_answer": "the spaxel areas are likely to be very small. Hence the field-of-view will also be small, making the mapping of large areas an extremely time consuming task.",
+    "category": "C",
+    "difficulty": "medium",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "However, under the assumption this spectral imager will come close to Nyquist sampling the PSF, the spaxel areas are likely to be very small. Hence the field-of-view will also be small, making the mapping of large areas an extremely time consuming task.",
+    "reasoning": "DÃ©duction d'une modification de statut d'efficacitÃ© (ralentissement) induite par des critÃ¨res optiques gÃ©omÃ©triques (CatÃ©gorie C)[cite: 173, 174]."
+  },
+  {
+    "id": "q080",
+    "question": "En quoi l'apport de la spectroscopie UV rÃ©solue en espace brise-t-il le biais d'Ã©blouissement provoquÃ© par les flambÃ©es de formation d'Ã©toiles ?",
+    "expected_answer": "the stellar conditions can be directly connected to the gas, and (b.) very recent episodes of massive star formation do not completely outshine the more evolved stars",
+    "category": "C",
+    "difficulty": "medium",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "The optimal observations would be spatially resolved such that (a.) the stellar conditions can be directly connected to the gas, and (b.) very recent episodes of massive star formation do not completely outshine the more evolved stars that formed 100 Myr in the past.",
+    "reasoning": "Opposition de deux statuts mÃ©thodologiques d'analyse montrant l'Ã©volution de la clartÃ© des composantes stellaires (CatÃ©gorie C)[cite: 191]."
+  },
+  {
+    "id": "q081",
+    "question": "Quels sont le rayon physique d'extension et la valeur moyenne de densitÃ© volumique mesurÃ©s pour le gaz d'OVI de J1156+5008 ?",
+    "expected_answer": "\\simeq10~pc et \\simeq0.1~cm^{-3}",
+    "category": "D",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "infer the Ovi bearing gas to be confined to relatively narrow clouds ( \\simeq10~pc in length, filling \\times10^{-3} of the volume) of intermediate density (\\simeq0.1~cm^{-3}).",
+    "reasoning": "Multi-faits (CatÃ©gorie D). Extraction conjointe de deux grandeurs physiques (Ã©chelle spatiale et concentration volumique) reliÃ©es par \"et\"[cite: 139, 150]."
+  },
+  {
+    "id": "q082",
+    "question": "Quelles sont les valeurs thermiques de dÃ©marcation (en Kelvin) dÃ©finissant la zone instable par laquelle le gaz transite lors de sa condensation ?",
+    "expected_answer": "10^{5} et 10^{6} K",
+    "category": "D",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "If gas is to transition from >10^{6}] K to <10^{4} K, it must cool through intermediate temperatures between 10^{5} and 10^{6} K.",
+    "reasoning": "Multi-faits (CatÃ©gorie D). Extraction coordonnÃ©e des deux limites thermiques d'un domaine d'instabilitÃ© physique[cite: 42]."
+  },
+  {
+    "id": "q083",
+    "question": "Donnez le volume total de galaxies imagÃ©es pour l'OVI et le volume correspondant de galaxies documentÃ© pour la raie CIV1550 Ã  la page 5.",
+    "expected_answer": "6 et three",
+    "category": "D",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Only 6 galaxies have OVI imaging observations obtained, with two publications... Observations have been obtained in Crv1550 for three galaxies (Figure 2)",
+    "reasoning": "Multi-faits (CatÃ©gorie D). Extraction croisÃ©e de deux dÃ©comptes statistiques rÃ©partis dans deux phrases distinctes[cite: 156, 157]."
+  },
+  {
+    "id": "q084",
+    "question": "Quels sont les identifiants techniques des deux rÃ©seaux Ã  fente de rÃ©solution moyenne requis pour le travail sur les raies d'absorption avec COS ?",
+    "expected_answer": "G130M et G160M",
+    "category": "D",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "The G130M and G160M elements are needed to measure the column densities and kinematics of the absorption lines (CIV, OVI, NEVIII, others).",
+    "reasoning": "Multi-faits (CatÃ©gorie D). Identification conjointe de deux composants d'instrumentation dispersifs[cite: 186]."
+  },
+  {
+    "id": "q085",
+    "question": "Quels sont la plage d'orbites consommÃ©e par cible pour l'imagerie SBC d'une raie et le nombre d'orbites minimal requis en spectroscopie COS ?",
+    "expected_answer": "16-20 et at least 5",
+    "category": "D",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Existing programs to image OVI have used 16-20 orbits of SBC imaging for one line, and will require at least 5 orbits of COS spectroscopy to measure the absorption lines down-the-barrel.",
+    "reasoning": "Multi-faits (CatÃ©gorie D). Extraction de deux types d'exigences temporelles d'allocation d'orbites instrumentales[cite: 167]."
+  },
+  {
+    "id": "q086",
+    "question": "Dans la cellule d'exemples de publications pour le dÃ©calage 0,03â€“0,06 du tableau 1, quels sont les trois indices numÃ©riques fournis ?",
+    "expected_answer": "1 et 2 et 3",
+    "category": "D",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "\"0.03-0.06 \",\"Lya (F125LP) + Civ (F150LP) + CIII] (STIS/CIII) \",\"1,2,3 \"",
+    "reasoning": "Multi-faits (CatÃ©gorie D). Extraction d'un groupe d'indices de rÃ©fÃ©rence nichÃ© au sein des donnÃ©es tabulaires[cite: 115]."
+  },
+  {
+    "id": "q087",
+    "question": "Quels sont le nom de l'auteur principal et l'annÃ©e d'Ã©dition de l'Ã©tude dÃ©diÃ©e Ã  la cartographie de la galaxie Ã  sursaut 'Makani' ?",
+    "expected_answer": "Ha et 2025",
+    "category": "D",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "In the z~0.4 starburst 'Makani', these observations trace emission from starburst-driven winds out to ~ 100 kpc (T. Ha et al. 2025).",
+    "reasoning": "Multi-faits (CatÃ©gorie D). Identification de l'auteur et de la date associÃ©s Ã  une analyse de cas de vents cosmiques[cite: 133]."
+  },
+  {
+    "id": "q088",
+    "question": "Dans le tableau 1 pour le redshift 0,22â€“0,30, quels sont les deux codes de filtres prescrits pour isoler les raies de l'OVI et de LyÎ± ?",
+    "expected_answer": "F125LP et F150LP",
+    "category": "D",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "\"0.22-0.30 \",\"OVI (F125LP) + Lya (F150LP) + Crv (STIS/CIII) \",\"4,5 \"",
+    "reasoning": "Multi-faits (CatÃ©gorie D). Extraction de deux configurations de filtres spÃ©cifiques de la deuxiÃ¨me ligne du tableau[cite: 115]."
+  },
+  {
+    "id": "q089",
+    "question": "Quels sont l'abrÃ©viation de revue et le numÃ©ro de volume correspondant Ã  l'article de rÃ©fÃ©rence de Maller & Bullock (2004) ?",
+    "expected_answer": "MNRAS et 355",
+    "category": "D",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Maller, A. H., & Bullock, J. S. 2004, MNRAS, 355, 694, doi: 10.1111/j.1365-2966.2004.08349.x",
+    "reasoning": "Multi-faits (CatÃ©gorie D). Extraction combinÃ©e de mÃ©tadonnÃ©es de publication au sein de l'index bibliographique[cite: 217]."
+  },
+  {
+    "id": "q090",
+    "question": "Quels sont le numÃ©ro d'identification de volume et le numÃ©ro de page initiale pour la publication de Borthakur et al. (2013) dans l'ApJ ?",
+    "expected_answer": "768 et 18",
+    "category": "D",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "Borthakur, S., Heckman, T., Strickland, D., Wild, V., & Schiminovich, D 2013, ApJ, 768, 18, doi: 10.1088/0004-637X/768/1/18",
+    "reasoning": "Multi-faits (CatÃ©gorie D). Collecte coordonnÃ©e de deux paramÃ¨tres numÃ©riques d'indexation de revue[cite: 200]."
+  },
+  {
+    "id": "q091",
+    "question": "Quel est le budget financier global en euros allouÃ© au dÃ©veloppement du modÃ¨le d'inversion Galaxie-Gamma ?",
+    "expected_answer": "NOT_FOUND",
+    "category": "E",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "",
+    "reasoning": "EntitÃ© absente (E1). RequÃªte portant sur une enveloppe financiÃ¨re et un modÃ¨le informatique inventÃ©s de toutes piÃ¨ces."
+  },
+  {
+    "id": "q092",
+    "question": "Ã€ quelle date exacte a Ã©tÃ© ratifiÃ©e l'ordonnance de prolongation budgÃ©taire pour la mission spatiale Neptune-v3 ?",
+    "expected_answer": "NOT_FOUND",
+    "category": "E",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "",
+    "reasoning": "EntitÃ© absente (E1). Formulation d'une question sur un acte administratif et une mission spatiale fictive."
+  },
+  {
+    "id": "q093",
+    "question": "Quelle est la date de fin de dÃ©tachement de la secrÃ©taire administrative Marie Martin au pÃ´le d'astrophysique de Boulder ?",
+    "expected_answer": "NOT_FOUND",
+    "category": "E",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "",
+    "reasoning": "EntitÃ© absente (E1). Recherche d'une identitÃ© civile et d'un Ã©vÃ©nement RH absents de la publication scientifique."
+  },
+  {
+    "id": "q094",
+    "question": "Quel est le diamÃ¨tre en millimÃ¨tres de la lentille de collimation du spectrographe Ã  haute fidÃ©litÃ© Horizon-Max ?",
+    "expected_answer": "NOT_FOUND",
+    "category": "E",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "",
+    "reasoning": "EntitÃ© absente (E1). Question sur une dimension matÃ©rielle d'un instrument optique imaginaire."
+  },
+  {
+    "id": "q095",
+    "question": "Quel est le chiffre d'affaires annuel de la succursale commerciale Eureka Scientific Germany listÃ©e dans les documents annexes ?",
+    "expected_answer": "NOT_FOUND",
+    "category": "E",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "",
+    "reasoning": "EntitÃ© absente (E1). Demande de donnÃ©es de comptabilitÃ© privÃ©e sur une entitÃ© fictive absente du texte."
+  },
+  {
+    "id": "q096",
+    "question": "Quelle est la valeur de l'efficacitÃ© absolue mesurÃ©e pour la dÃ©clinaison de filtre appelÃ©e F140LP-bis ?",
+    "expected_answer": "NOT_FOUND",
+    "category": "E",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "",
+    "reasoning": "Distracteur par suffixe (E2). Le filtre 'F140LP' est analysÃ©[cite: 76, 92], mais sa variante avec le suffixe '-bis' est un distracteur inventÃ©."
+  },
+  {
+    "id": "q097",
+    "question": "Quelle est la date de mise en service du serveur de calcul hÃ©bergeant le code de simulation FIRE-2-v4 ?",
+    "expected_answer": "NOT_FOUND",
+    "category": "E",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "",
+    "reasoning": "Distracteur par suffixe (E2). Le modÃ¨le 'FIRE-2' est Ã©voquÃ©[cite: 67], mais l'extension suffixÃ©e '-v4' est une invention."
+  },
+  {
+    "id": "q098",
+    "question": "Quelle est la tempÃ©rature de coupure d'ionisation mesurÃ©e pour la simulation de contrÃ´le GIBLE-Pro ?",
+    "expected_answer": "NOT_FOUND",
+    "category": "E",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "",
+    "reasoning": "Distracteur par suffixe (E2). Le projet 'GIBLE' est prÃ©sent[cite: 145], mais la dÃ©clinaison '-Pro' constitue un distracteur."
+  },
+  {
+    "id": "q099",
+    "question": "Quelle est la rÃ©solution spectrale du canal de guidage du satellite d'exploration UVEX-Extended ?",
+    "expected_answer": "NOT_FOUND",
+    "category": "E",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "",
+    "reasoning": "Distracteur par suffixe (E2). Le tÃ©lescope 'UVEX' est mentionnÃ©[cite: 162], l'extension suffixÃ©e '-Extended' est fictive."
+  },
+  {
+    "id": "q100",
+    "question": "Quel est le numÃ©ro d'enregistrement ascl de la version rÃ©visÃ©e de l'outil informatique FICUS-v2 ?",
+    "expected_answer": "NOT_FOUND",
+    "category": "E",
+    "difficulty": "hard",
+    "source_file": "2606.00164v1.pdf",
+    "evidence_quote": "",
+    "reasoning": "Distracteur par suffixe (E2). L'outil 'FICUS' est indexÃ©[cite: 234], mais sa variante suffixÃ©e '-v2' est un distracteur."
+  }
+]

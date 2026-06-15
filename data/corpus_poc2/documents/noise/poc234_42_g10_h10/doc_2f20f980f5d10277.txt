@@ -1,0 +1,7 @@
+Reference ref_fd4b408ebc contains synthetic aggregation evidence.
+Project HELIOS is managed by Nicolas Durand.
+Contract indicates Project HELIOS is managed by Nicolas Durand.
+Project GENESIS is managed by Nicolas Durand.
+Contract indicates Project GENESIS is managed by Nicolas Durand.
+Project SIRIUS is managed by Nicolas Durand.
+Contract indicates Project SIRIUS is managed by Nicolas Durand.

@@ -1,0 +1,5 @@
+--- H h_adv_040 ---
+Project AURORA was renamed to Project AURORA-R.
+Project AURORA-R is managed by Pierre Leroy.
+Project CHRONOS is managed by Pierre Leroy.
+Project SIRIUS is managed by Pierre Leroy.

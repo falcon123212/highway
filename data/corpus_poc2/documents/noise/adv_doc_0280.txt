@@ -1,0 +1,7 @@
+--- H h_adv_080 ---
+Project DAWN is managed by Nicolas Durand.
+Contract indicates Project DAWN is managed by Nicolas Durand.
+Project SOLARIS is managed by Nicolas Durand.
+Contract indicates Project SOLARIS is managed by Nicolas Durand.
+Project IRIS is managed by Nicolas Durand.
+Contract indicates Project IRIS is managed by Nicolas Durand.

@@ -1,0 +1,9 @@
+--- H h_mixed_104 ---
+Project PHOENIX is managed by Nicolas Durand.
+Contract indicates Project PHOENIX is managed by Nicolas Durand.
+Project ORION is managed by Nicolas Durand.
+Contract indicates Project ORION is managed by Nicolas Durand.
+Project SOLARIS is managed by Nicolas Durand.
+Contract indicates Project SOLARIS is managed by Nicolas Durand.
+Project LUNA is managed by Nicolas Durand.
+Contract indicates Project LUNA is managed by Nicolas Durand.

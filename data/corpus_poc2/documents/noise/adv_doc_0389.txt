@@ -1,0 +1,7 @@
+--- H h_adv_189 ---
+Old record: Jean Dupont managed Project NEPTUNE.
+Current record: Project NEPTUNE is reassigned to Michel Bernard.
+Project TITAN is currently managed by Jean Dupont.
+Project SIRIUS is currently managed by Jean Dupont.
+Project ORION is currently managed by Jean Dupont.
+Project SOLARIS is currently managed by Jean Dupont.

@@ -1,0 +1,3 @@
+--- G g_adv_046 ---
+project solaris has a budget of $305,000.
+Project Pegase budget: $830,000.

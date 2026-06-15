@@ -1,0 +1,5 @@
+--- H h_mixed_105 ---
+Old record: Emma Michel managed Project HELIOS.
+Current record: Project HELIOS is reassigned to Pierre Leroy.
+Project QUASAR is currently managed by Emma Michel.
+Project ECLIPSE is currently managed by Emma Michel.

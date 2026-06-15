@@ -1,0 +1,5 @@
+--- H h_adv_123 ---
+Old record: Nicolas Durand managed Project FALCON.
+Current record: Project FALCON is reassigned to Thomas Petit.
+Project SIRIUS is currently managed by Nicolas Durand.
+Project VEGA is currently managed by Nicolas Durand.

@@ -1,0 +1,6 @@
+--- H h_adv_058 ---
+Project ZENITH was renamed to Project ZENITH-R.
+Project ZENITH-R is managed by Thomas Petit.
+Project NEPTUNE is managed by Thomas Petit.
+Project PHOENIX is managed by Thomas Petit.
+Project LUNA is managed by Thomas Petit.

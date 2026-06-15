@@ -1,0 +1,5 @@
+--- H h_adv_057 ---
+Old record: Pierre Leroy managed Project ORION.
+Current record: Project ORION is reassigned to Nicolas Durand.
+Project ZENITH is currently managed by Pierre Leroy.
+Project HELIOS is currently managed by Pierre Leroy.

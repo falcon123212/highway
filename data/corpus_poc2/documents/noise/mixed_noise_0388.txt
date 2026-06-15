@@ -1,0 +1,9 @@
+--- H h_mixed_188 ---
+Project BEACON is managed by Pierre Leroy.
+Contract indicates Project BEACON is managed by Pierre Leroy.
+Project ZENITH is managed by Pierre Leroy.
+Contract indicates Project ZENITH is managed by Pierre Leroy.
+Project AURORA is managed by Pierre Leroy.
+Contract indicates Project AURORA is managed by Pierre Leroy.
+Project PHOENIX is managed by Pierre Leroy.
+Contract indicates Project PHOENIX is managed by Pierre Leroy.

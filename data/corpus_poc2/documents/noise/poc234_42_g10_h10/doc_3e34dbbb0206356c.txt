@@ -1,0 +1,5 @@
+Synthetic aggregation evidence.
+Old record: Emma Michel managed Project KRONOS.
+Current record: Project KRONOS is reassigned to Marie Dubois.
+Project PEGASE is currently managed by Emma Michel.
+Project ECLIPSE is currently managed by Emma Michel.

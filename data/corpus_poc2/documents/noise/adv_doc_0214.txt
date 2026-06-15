@@ -1,0 +1,9 @@
+--- H h_adv_014 ---
+Project NEXUS is managed by Alice Martin.
+Contract indicates Project NEXUS is managed by Alice Martin.
+Project HELIOS is managed by Alice Martin.
+Contract indicates Project HELIOS is managed by Alice Martin.
+Project IRIS is managed by Alice Martin.
+Contract indicates Project IRIS is managed by Alice Martin.
+Project ORION is managed by Alice Martin.
+Contract indicates Project ORION is managed by Alice Martin.

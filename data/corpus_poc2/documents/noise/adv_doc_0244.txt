@@ -1,0 +1,7 @@
+--- H h_adv_044 ---
+Project KRONOS is managed by Pierre Leroy.
+Contract indicates Project KRONOS is managed by Pierre Leroy.
+Project IRIS is managed by Pierre Leroy.
+Contract indicates Project IRIS is managed by Pierre Leroy.
+Project BEACON is managed by Pierre Leroy.
+Contract indicates Project BEACON is managed by Pierre Leroy.

@@ -1,0 +1,6 @@
+--- H h_adv_094 ---
+Project FALCON was renamed to Project FALCON-R.
+Project FALCON-R is managed by Sophie Richard.
+Project DAWN is managed by Sophie Richard.
+Project ZENITH is managed by Sophie Richard.
+Project BEACON is managed by Sophie Richard.

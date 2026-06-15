@@ -1,0 +1,9 @@
+--- H h_mixed_044 ---
+Project ZENITH is managed by Alice Martin.
+Contract indicates Project ZENITH is managed by Alice Martin.
+Project SIRIUS is managed by Alice Martin.
+Contract indicates Project SIRIUS is managed by Alice Martin.
+Project BEACON is managed by Alice Martin.
+Contract indicates Project BEACON is managed by Alice Martin.
+Project DAWN is managed by Alice Martin.
+Contract indicates Project DAWN is managed by Alice Martin.

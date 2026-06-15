@@ -1,0 +1,4 @@
+--- H h_mixed_142 ---
+Project PEGASE was renamed to Project PEGASE-R.
+Project PEGASE-R is managed by Pierre Leroy.
+Project ECLIPSE is managed by Pierre Leroy.

@@ -1,0 +1,7 @@
+--- H h_adv_033 ---
+Old record: Thomas Petit managed Project PHOENIX.
+Current record: Project PHOENIX is reassigned to Alice Martin.
+Project NEPTUNE is currently managed by Thomas Petit.
+Project CHRONOS is currently managed by Thomas Petit.
+Project VEGA is currently managed by Thomas Petit.
+Project ECLIPSE is currently managed by Thomas Petit.

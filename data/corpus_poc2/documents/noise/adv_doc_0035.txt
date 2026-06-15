@@ -1,0 +1,3 @@
+--- G g_adv_035 ---
+Project SOLARIS budget is not defined yet.
+Project ORION budget: $880,000.

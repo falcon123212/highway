@@ -1,0 +1,7 @@
+--- H h_mixed_129 ---
+Old record: Thomas Petit managed Project SOLARIS.
+Current record: Project SOLARIS is reassigned to Jean Dupont.
+Project PEGASE is currently managed by Thomas Petit.
+Project IRIS is currently managed by Thomas Petit.
+Project AURORA is currently managed by Thomas Petit.
+Project ZENITH is currently managed by Thomas Petit.

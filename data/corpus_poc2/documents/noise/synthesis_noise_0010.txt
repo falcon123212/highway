@@ -1,0 +1,4 @@
+--- I1 i_risk_010 ---
+Old record: Marie Dubois managed Project NEXUS.
+Current record: Project NEXUS is reassigned to Thomas Petit.
+Thomas Petit managed TITAN-Legacy with a budget of $999,000.

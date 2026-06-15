@@ -1,0 +1,6 @@
+--- H h_mixed_039 ---
+Old record: Marie Dubois managed Project QUASAR.
+Current record: Project QUASAR is reassigned to Pierre Leroy.
+Project IRIS is currently managed by Marie Dubois.
+Project GENESIS is currently managed by Marie Dubois.
+Project NEPTUNE is currently managed by Marie Dubois.

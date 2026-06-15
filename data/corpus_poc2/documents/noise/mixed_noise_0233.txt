@@ -1,0 +1,7 @@
+--- H h_mixed_033 ---
+Old record: Marie Dubois managed Project AURORA.
+Current record: Project AURORA is reassigned to Emma Michel.
+Project ZENITH is currently managed by Marie Dubois.
+Project NEXUS is currently managed by Marie Dubois.
+Project SIRIUS is currently managed by Marie Dubois.
+Project FALCON is currently managed by Marie Dubois.

@@ -1,0 +1,3 @@
+--- H h_mixed_008 ---
+Project ZENITH is managed by Thomas Petit.
+Contract indicates Project ZENITH is managed by Thomas Petit.

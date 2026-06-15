@@ -1,0 +1,3 @@
+--- G g_adv_142 ---
+project iris has a budget of $319,000.
+Project Pegase budget: $165,000.

@@ -1,0 +1,6 @@
+--- H h_mixed_141 ---
+Old record: Nicolas Durand managed Project AURORA.
+Current record: Project AURORA is reassigned to Julie Thomas.
+Project HELIOS is currently managed by Nicolas Durand.
+Project JUPITER is currently managed by Nicolas Durand.
+Project LUNA is currently managed by Nicolas Durand.

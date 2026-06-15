@@ -1,0 +1,5 @@
+--- H h_mixed_027 ---
+Old record: Emma Michel managed Project PEGASE.
+Current record: Project PEGASE is reassigned to Julie Thomas.
+Project HELIOS is currently managed by Emma Michel.
+Project ECLIPSE is currently managed by Emma Michel.

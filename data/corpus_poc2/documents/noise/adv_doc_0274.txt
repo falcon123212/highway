@@ -1,0 +1,9 @@
+--- H h_adv_074 ---
+Project TITAN is managed by Thomas Petit.
+Contract indicates Project TITAN is managed by Thomas Petit.
+Project HELIOS is managed by Thomas Petit.
+Contract indicates Project HELIOS is managed by Thomas Petit.
+Project SIRIUS is managed by Thomas Petit.
+Contract indicates Project SIRIUS is managed by Thomas Petit.
+Project FALCON is managed by Thomas Petit.
+Contract indicates Project FALCON is managed by Thomas Petit.

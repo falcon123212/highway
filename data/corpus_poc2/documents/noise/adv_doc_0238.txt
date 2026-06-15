@@ -1,0 +1,7 @@
+--- H h_adv_038 ---
+Project QUASAR is managed by Thomas Petit.
+Contract indicates Project QUASAR is managed by Thomas Petit.
+Project BEACON is managed by Thomas Petit.
+Contract indicates Project BEACON is managed by Thomas Petit.
+Project ORION is managed by Thomas Petit.
+Contract indicates Project ORION is managed by Thomas Petit.

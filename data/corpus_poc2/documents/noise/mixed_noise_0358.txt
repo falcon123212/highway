@@ -1,0 +1,9 @@
+--- H h_mixed_158 ---
+Project QUASAR is managed by Sophie Richard.
+Contract indicates Project QUASAR is managed by Sophie Richard.
+Project HELIOS is managed by Sophie Richard.
+Contract indicates Project HELIOS is managed by Sophie Richard.
+Project ORION is managed by Sophie Richard.
+Contract indicates Project ORION is managed by Sophie Richard.
+Project NEXUS is managed by Sophie Richard.
+Contract indicates Project NEXUS is managed by Sophie Richard.

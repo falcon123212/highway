@@ -1,0 +1,6 @@
+--- H h_mixed_069 ---
+Old record: Sophie Richard managed Project LUNA.
+Current record: Project LUNA is reassigned to Alice Martin.
+Project SOLARIS is currently managed by Sophie Richard.
+Project QUASAR is currently managed by Sophie Richard.
+Project DAWN is currently managed by Sophie Richard.

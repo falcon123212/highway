@@ -1,0 +1,5 @@
+--- H h_adv_021 ---
+Old record: Jean Dupont managed Project PEGASE.
+Current record: Project PEGASE is reassigned to Nicolas Durand.
+Project AURORA is currently managed by Jean Dupont.
+Project BEACON is currently managed by Jean Dupont.

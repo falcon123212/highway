@@ -1,0 +1,9 @@
+--- H h_adv_008 ---
+Project METEOR is managed by Marie Dubois.
+Contract indicates Project METEOR is managed by Marie Dubois.
+Project ORION is managed by Marie Dubois.
+Contract indicates Project ORION is managed by Marie Dubois.
+Project LUNA is managed by Marie Dubois.
+Contract indicates Project LUNA is managed by Marie Dubois.
+Project ECLIPSE is managed by Marie Dubois.
+Contract indicates Project ECLIPSE is managed by Marie Dubois.

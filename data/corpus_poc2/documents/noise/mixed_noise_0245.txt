@@ -1,0 +1,7 @@
+--- H h_mixed_045 ---
+Old record: Alice Martin managed Project HELIOS.
+Current record: Project HELIOS is reassigned to Sophie Richard.
+Project BEACON is currently managed by Alice Martin.
+Project NEXUS is currently managed by Alice Martin.
+Project GENESIS is currently managed by Alice Martin.
+Project KRONOS is currently managed by Alice Martin.

@@ -1,0 +1,7 @@
+--- H h_adv_081 ---
+Old record: Michel Bernard managed Project PHOENIX.
+Current record: Project PHOENIX is reassigned to Jean Dupont.
+Project FALCON is currently managed by Michel Bernard.
+Project AURORA is currently managed by Michel Bernard.
+Project GENESIS is currently managed by Michel Bernard.
+Project VEGA is currently managed by Michel Bernard.

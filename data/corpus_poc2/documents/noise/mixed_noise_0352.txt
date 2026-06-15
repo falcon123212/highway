@@ -1,0 +1,7 @@
+--- H h_mixed_152 ---
+Project GENESIS is managed by Jean Dupont.
+Contract indicates Project GENESIS is managed by Jean Dupont.
+Project VEGA is managed by Jean Dupont.
+Contract indicates Project VEGA is managed by Jean Dupont.
+Project ORION is managed by Jean Dupont.
+Contract indicates Project ORION is managed by Jean Dupont.

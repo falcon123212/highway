@@ -1,0 +1,4 @@
+--- I1 i_risk_002 ---
+Old record: Alice Martin managed Project BEACON.
+Current record: Project BEACON is reassigned to Thomas Petit.
+Marie Dubois managed CHRONOS-Legacy with a budget of $999,000.

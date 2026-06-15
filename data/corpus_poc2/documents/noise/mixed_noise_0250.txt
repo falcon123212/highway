@@ -1,0 +1,7 @@
+--- H h_mixed_050 ---
+Project TITAN is managed by Emma Michel.
+Contract indicates Project TITAN is managed by Emma Michel.
+Project GENESIS is managed by Emma Michel.
+Contract indicates Project GENESIS is managed by Emma Michel.
+Project BEACON is managed by Emma Michel.
+Contract indicates Project BEACON is managed by Emma Michel.

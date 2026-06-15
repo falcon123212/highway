@@ -1,0 +1,4 @@
+--- H h_mixed_022 ---
+Project SOLARIS was renamed to Project SOLARIS-R.
+Project SOLARIS-R is managed by Pierre Leroy.
+Project LUNA is managed by Pierre Leroy.

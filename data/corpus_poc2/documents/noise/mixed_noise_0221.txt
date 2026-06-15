@@ -1,0 +1,7 @@
+--- H h_mixed_021 ---
+Old record: Thomas Petit managed Project CHRONOS.
+Current record: Project CHRONOS is reassigned to Alice Martin.
+Project PHOENIX is currently managed by Thomas Petit.
+Project SOLARIS is currently managed by Thomas Petit.
+Project QUASAR is currently managed by Thomas Petit.
+Project FALCON is currently managed by Thomas Petit.

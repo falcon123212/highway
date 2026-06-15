@@ -1,0 +1,9 @@
+--- H h_adv_194 ---
+Project ZENITH is managed by Alice Martin.
+Contract indicates Project ZENITH is managed by Alice Martin.
+Project KRONOS is managed by Alice Martin.
+Contract indicates Project KRONOS is managed by Alice Martin.
+Project PHOENIX is managed by Alice Martin.
+Contract indicates Project PHOENIX is managed by Alice Martin.
+Project METEOR is managed by Alice Martin.
+Contract indicates Project METEOR is managed by Alice Martin.

@@ -1,0 +1,3 @@
+--- H h_mixed_086 ---
+Project BEACON is managed by Alice Martin.
+Contract indicates Project BEACON is managed by Alice Martin.

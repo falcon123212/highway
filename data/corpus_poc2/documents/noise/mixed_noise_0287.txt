@@ -1,0 +1,5 @@
+--- H h_mixed_087 ---
+Old record: Nicolas Durand managed Project LUNA.
+Current record: Project LUNA is reassigned to Pierre Leroy.
+Project SIRIUS is currently managed by Nicolas Durand.
+Project SOLARIS is currently managed by Nicolas Durand.

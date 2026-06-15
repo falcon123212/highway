@@ -1,0 +1,5 @@
+--- H h_mixed_163 ---
+Project ECLIPSE is led by Pierre Leroy in Operations.
+Project LUNA is led by Pierre Leroy in Engineering.
+Project QUASAR is led by Pierre Leroy in Marketing.
+Project SIRIUS is led by Pierre Leroy in Marketing.

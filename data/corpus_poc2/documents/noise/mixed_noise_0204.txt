@@ -1,0 +1,4 @@
+--- H h_mixed_004 ---
+Project BEACON was renamed to Project BEACON-R.
+Project BEACON-R is managed by Pierre Leroy.
+Project VEGA is managed by Pierre Leroy.

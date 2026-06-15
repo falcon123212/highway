@@ -1,0 +1,5 @@
+--- H h_adv_009 ---
+Old record: Pierre Leroy managed Project ECLIPSE.
+Current record: Project ECLIPSE is reassigned to Marie Dubois.
+Project JUPITER is currently managed by Pierre Leroy.
+Project CHRONOS is currently managed by Pierre Leroy.

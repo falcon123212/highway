@@ -1,0 +1,4 @@
+--- H h_adv_178 ---
+Project PHOENIX was renamed to Project PHOENIX-R.
+Project PHOENIX-R is managed by Pierre Leroy.
+Project AURORA is managed by Pierre Leroy.

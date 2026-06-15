@@ -1,0 +1,5 @@
+--- H h_mixed_111 ---
+Old record: Pierre Leroy managed Project METEOR.
+Current record: Project METEOR is reassigned to Thomas Petit.
+Project QUASAR is currently managed by Pierre Leroy.
+Project AURORA is currently managed by Pierre Leroy.

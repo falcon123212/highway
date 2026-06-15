@@ -1,0 +1,4 @@
+--- H h_adv_166 ---
+Project VEGA was renamed to Project VEGA-R.
+Project VEGA-R is managed by Julie Thomas.
+Project SIRIUS is managed by Julie Thomas.

@@ -1,0 +1,6 @@
+--- H h_mixed_003 ---
+Old record: Jean Dupont managed Project ZENITH.
+Current record: Project ZENITH is reassigned to Julie Thomas.
+Project KRONOS is currently managed by Jean Dupont.
+Project PHOENIX is currently managed by Jean Dupont.
+Project SIRIUS is currently managed by Jean Dupont.

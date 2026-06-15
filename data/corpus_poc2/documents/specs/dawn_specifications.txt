@@ -1,0 +1,8 @@
+=========================================
+TECHNICAL SPECIFICATIONS: PROJECT DAWN
+=========================================
+Project Owner: Alice Martin
+Lead Unit: HR
+
+This document describes the technical architecture for project DAWN.
+The project is overseen by the HR unit, with Alice Martin as director.

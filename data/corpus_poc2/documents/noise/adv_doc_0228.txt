@@ -1,0 +1,5 @@
+--- H h_adv_028 ---
+Project METEOR was renamed to Project METEOR-R.
+Project METEOR-R is managed by Julie Thomas.
+Project KRONOS is managed by Julie Thomas.
+Project BEACON is managed by Julie Thomas.

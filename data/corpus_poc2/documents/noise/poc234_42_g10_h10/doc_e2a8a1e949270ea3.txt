@@ -1,0 +1,7 @@
+Synthetic aggregation evidence.
+Old record: Thomas Petit managed Project SIRIUS.
+Current record: Project SIRIUS is reassigned to Jean Dupont.
+Project PEGASE is currently managed by Thomas Petit.
+Project CHRONOS is currently managed by Thomas Petit.
+Project NEXUS is currently managed by Thomas Petit.
+Project LUNA is currently managed by Thomas Petit.

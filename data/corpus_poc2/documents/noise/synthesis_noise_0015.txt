@@ -1,0 +1,3 @@
+--- I1 i_risk_015 ---
+Old record: Jean Dupont managed Project QUASAR.
+Current record: Project QUASAR is reassigned to Thomas Petit.

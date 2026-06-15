@@ -1,0 +1,3 @@
+--- H h_mixed_080 ---
+Project QUASAR is managed by Julie Thomas.
+Contract indicates Project QUASAR is managed by Julie Thomas.

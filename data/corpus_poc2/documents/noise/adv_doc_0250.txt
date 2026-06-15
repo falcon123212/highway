@@ -1,0 +1,5 @@
+--- H h_adv_050 ---
+Project SOLARIS is managed by Thomas Petit.
+Contract indicates Project SOLARIS is managed by Thomas Petit.
+Project ECLIPSE is managed by Thomas Petit.
+Contract indicates Project ECLIPSE is managed by Thomas Petit.

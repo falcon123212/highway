@@ -1,0 +1,401 @@
+question_id,category,mode,expected,answer,exact_match,numeric_preservation,gold_recall,active_truth,kept_blocks,input_tokens,ttft_ms
+Q0036,A,predictor,01 March 2027,01 March 2027,True,True,True,True,13,1546,2085.661599994637
+Q0036,A,random,01 March 2027,,False,False,False,False,13,1625,1200.020600001153
+Q0036,A,dense,01 March 2027,01 March 2027,True,True,True,True,13,1571,2048.3162000018638
+Q0036,A,hybrid,01 March 2027,01 March 2027,True,True,True,True,13,1571,2071.233700000448
+Q0331,D,predictor,"23 January 2027 and $553,000","23 January 2027, $553,000",False,True,True,False,14,1600,3324.797299996135
+Q0331,D,random,"23 January 2027 and $553,000",23 January 2027,False,False,False,False,14,1681,2133.673700001964
+Q0331,D,dense,"23 January 2027 and $553,000","$553,000",False,False,True,False,14,1603,2209.699200000614
+Q0331,D,hybrid,"23 January 2027 and $553,000","$553,000",False,False,True,False,14,1603,2004.6272999970824
+Q0349,D,predictor,"17 November 2027 and $754,000",17 November 2027,False,False,True,False,14,1597,2050.3897000016877
+Q0349,D,random,"17 November 2027 and $754,000","$754,000",False,False,False,False,14,1678,2081.130700003996
+Q0349,D,dense,"17 November 2027 and $754,000","17 November 2027, $754,000",False,True,True,False,14,1603,2676.451300001645
+Q0349,D,hybrid,"17 November 2027 and $754,000",754000,False,False,True,False,14,1603,1922.1710999991046
+Q0470,E,predictor,17 August 2027,17 August 2027,True,True,True,True,14,1385,2219.124600000214
+Q0470,E,random,17 August 2027,17 August 2027,True,True,True,True,14,1595,2112.9704999984824
+Q0470,E,dense,17 August 2027,17 August 2027,True,True,True,True,14,1392,2250.1735999976518
+Q0470,E,hybrid,17 August 2027,17 August 2027,True,True,True,True,14,1392,2291.7032999976072
+Q0136,B,predictor,15 February 2027,15 February 2027,True,True,True,True,15,1768,2297.750999998243
+Q0136,B,random,15 February 2027,,False,False,False,False,15,1859,6834.285400000226
+Q0136,B,dense,15 February 2027,15 February 2027,True,True,True,True,15,1800,2255.98539999919
+Q0136,B,hybrid,15 February 2027,15 February 2027,True,True,True,True,15,1800,2320.0309999956517
+Q0343,D,predictor,"18 December 2027 and $723,000",18 December 2027,False,False,True,False,13,1473,2006.1474000031012
+Q0343,D,random,"18 December 2027 and $723,000",ACTIVE,False,False,False,False,13,1550,1597.0366000037757
+Q0343,D,dense,"18 December 2027 and $723,000","$723,000",False,False,True,False,13,1492,2138.159000001906
+Q0343,D,hybrid,"18 December 2027 and $723,000","$723,000",False,False,True,False,13,1492,1984.920200004126
+Q0107,B,predictor,10 May 2027,10 May 2027,True,True,True,True,14,1656,2213.9055999941775
+Q0107,B,random,10 May 2027,,False,False,False,False,14,1731,1756.2503999943146
+Q0107,B,dense,10 May 2027,10 May 2027,True,True,True,True,14,1667,2083.8229000000865
+Q0107,B,hybrid,10 May 2027,10 May 2027,True,True,True,True,14,1667,4170.923400000902
+Q0181,B,predictor,02 January 2027,02 January 2027,True,True,True,True,13,1548,2103.5010000050534
+Q0181,B,random,02 January 2027,02 January 2027,True,True,True,True,13,1561,2143.8516000052914
+Q0181,B,dense,02 January 2027,02 January 2027,True,True,True,True,13,1550,2062.705199998163
+Q0181,B,hybrid,02 January 2027,02 January 2027,True,True,True,True,13,1550,2033.9471000042977
+Q0189,B,predictor,20 February 2027,20 February 2027,True,True,True,True,12,1426,2016.4893999972264
+Q0189,B,random,20 February 2027,,False,False,False,False,12,1505,1880.1342000006116
+Q0189,B,dense,20 February 2027,20 February 2027,True,True,True,True,12,1442,2155.9209000042756
+Q0189,B,hybrid,20 February 2027,20 February 2027,True,True,True,True,12,1442,2155.7274000006146
+Q0083,A,predictor,25 September 2027,25 September 2027,True,True,True,True,13,1532,2031.474999996135
+Q0083,A,random,25 September 2027,,False,False,False,False,13,1632,6254.143700003624
+Q0083,A,dense,25 September 2027,25 September 2027,True,True,True,True,13,1553,2038.4674000015366
+Q0083,A,hybrid,25 September 2027,25 September 2027,True,True,True,True,13,1553,2056.1215999987326
+Q0186,B,predictor,14 November 2027,14 November 2027,True,True,True,True,12,1429,2123.7263000002713
+Q0186,B,random,14 November 2027,,False,False,False,False,12,1508,1138.3147000015015
+Q0186,B,dense,14 November 2027,14 November 2027,True,True,True,True,12,1444,2300.97289999685
+Q0186,B,hybrid,14 November 2027,14 November 2027,True,True,True,True,12,1444,2122.131399999489
+Q0325,D,predictor,"21 February 2027 and $894,000",21 February 2027,False,False,True,False,14,1589,2065.591400001722
+Q0325,D,random,"21 February 2027 and $894,000",,False,False,False,False,14,1742,6539.693599996099
+Q0325,D,dense,"21 February 2027 and $894,000",894000,False,False,True,False,14,1612,1960.438800000702
+Q0325,D,hybrid,"21 February 2027 and $894,000",894000,False,False,True,False,14,1612,1820.3856000036467
+Q0232,C,predictor,21 April 2027,21 April 2027,True,True,True,True,14,1586,1906.0419999950682
+Q0232,C,random,21 April 2027,21 April 2027,True,True,True,True,14,1666,6509.943800003384
+Q0232,C,dense,21 April 2027,21 April 2027,True,True,True,True,14,1583,2109.9854999993113
+Q0232,C,hybrid,21 April 2027,21 April 2027,True,True,True,True,14,1583,1899.1769999993267
+Q0454,E,predictor,23 August 2027,23 August 2027,True,True,True,True,16,1622,6636.603499995545
+Q0454,E,random,23 August 2027,16 August 2027,False,False,False,False,16,1893,7609.070100006647
+Q0454,E,dense,23 August 2027,23 August 2027,True,True,True,True,16,1633,6403.3837000024505
+Q0454,E,hybrid,23 August 2027,23 August 2027,True,True,True,True,16,1633,6398.696500000369
+Q0447,E,predictor,21 November 2027,21 November 2027,True,True,True,True,14,1393,1862.0526000013342
+Q0447,E,random,21 November 2027,27 March 2027,False,False,False,False,14,1670,6603.761799997301
+Q0447,E,dense,21 November 2027,21 November 2027,True,True,True,True,14,1408,1840.8927000054973
+Q0447,E,hybrid,21 November 2027,21 November 2027,True,True,True,True,14,1408,1852.9008999976213
+Q0051,A,predictor,22 February 2027,22 February 2027,True,True,True,True,14,1663,6463.993199999095
+Q0051,A,random,22 February 2027,,False,False,False,False,14,1745,5856.532600002538
+Q0051,A,dense,22 February 2027,22 February 2027,True,True,True,True,14,1683,6547.313399998529
+Q0051,A,hybrid,22 February 2027,22 February 2027,True,True,True,True,14,1683,6591.293099998438
+Q0478,E,predictor,17 August 2027,16 May 2027,False,False,True,False,16,1625,6533.2550000021
+Q0478,E,random,17 August 2027,17 August 2027,True,True,True,True,16,1842,7161.027000001923
+Q0478,E,dense,17 August 2027,16 May 2027,False,False,True,False,16,1630,6781.777000003785
+Q0478,E,hybrid,17 August 2027,16 May 2027,False,False,True,False,16,1630,6400.846900003671
+Q0444,E,predictor,24 December 2027,24 December 2027,True,True,True,True,12,1166,1818.1012999993982
+Q0444,E,random,24 December 2027,19 January 2027,False,False,False,False,12,1439,2451.746999999159
+Q0444,E,dense,24 December 2027,24 December 2027,True,True,True,True,12,1172,2385.3082999994513
+Q0444,E,hybrid,24 December 2027,24 December 2027,True,True,True,True,12,1172,2040.050199997495
+Q0148,B,predictor,14 October 2027,14 October 2027,True,True,True,True,13,1546,1881.9653000027756
+Q0148,B,random,14 October 2027,,False,False,False,False,13,1624,5484.926400000404
+Q0148,B,dense,14 October 2027,14 October 2027,True,True,True,True,13,1559,1955.8311000000685
+Q0148,B,hybrid,14 October 2027,14 October 2027,True,True,True,True,13,1559,1913.650200003758
+Q0395,D,predictor,"10 June 2027 and $757,000",10 June 2027,False,False,True,False,14,1585,1885.9856000053696
+Q0395,D,random,"10 June 2027 and $757,000",,False,False,False,False,14,1736,6069.662399997469
+Q0395,D,dense,"10 June 2027 and $757,000",10 June 2027,False,False,True,False,14,1603,2027.8143999967142
+Q0395,D,hybrid,"10 June 2027 and $757,000","10 June 2027, $757,000",False,True,True,False,14,1603,2530.294500000309
+Q0116,B,predictor,28 April 2027,28 April 2027,True,True,True,True,12,1434,1858.1617000018014
+Q0116,B,random,28 April 2027,,False,False,False,False,12,1508,1394.6877000053064
+Q0116,B,dense,28 April 2027,28 April 2027,True,True,True,True,12,1438,2439.243799999531
+Q0116,B,hybrid,28 April 2027,28 April 2027,True,True,True,True,12,1438,2070.344199993997
+Q0338,D,predictor,"15 November 2027 and $846,000",15 November 2027,False,False,True,False,15,1707,6626.084200004698
+Q0338,D,random,"15 November 2027 and $846,000",15 November 2027,False,False,False,False,15,1796,7212.857899998198
+Q0338,D,dense,"15 November 2027 and $846,000",15 November 2027,False,False,True,False,15,1726,7322.837200001231
+Q0338,D,hybrid,"15 November 2027 and $846,000",15 November 2027,False,False,True,False,15,1726,7180.702700003167
+Q0023,A,predictor,17 March 2027,17 March 2027,True,True,True,True,13,1536,2064.8182000004454
+Q0023,A,random,17 March 2027,,False,False,False,False,13,1624,6004.443500001798
+Q0023,A,dense,17 March 2027,17 March 2027,True,True,True,True,13,1552,2004.9932000038098
+Q0023,A,hybrid,17 March 2027,17 March 2027,True,True,True,True,13,1552,2253.5609000042314
+Q0035,A,predictor,19 October 2027,19 October 2027,True,True,True,True,13,1532,2250.3779999969993
+Q0035,A,random,19 October 2027,,False,False,False,False,13,1623,5988.655900000595
+Q0035,A,dense,19 October 2027,19 October 2027,True,True,True,True,13,1558,2041.4270000037504
+Q0035,A,hybrid,19 October 2027,19 October 2027,True,True,True,True,13,1558,2011.2462999968557
+Q0360,D,predictor,"02 June 2027 and $823,000",02 June 2027,False,False,True,False,14,1581,2207.827099999122
+Q0360,D,random,"02 June 2027 and $823,000",,False,False,False,False,14,1737,5920.924800004286
+Q0360,D,dense,"02 June 2027 and $823,000","$823,000",False,False,True,False,14,1599,2019.6928000004846
+Q0360,D,hybrid,"02 June 2027 and $823,000","$823,000",False,False,True,False,14,1599,2288.1816000008257
+Q0098,A,predictor,15 February 2027,15 February 2027,True,True,True,True,13,1539,2181.346299999859
+Q0098,A,random,15 February 2027,,False,False,False,False,13,1615,1178.436000001966
+Q0098,A,dense,15 February 2027,15 February 2027,True,True,True,True,13,1546,2233.8852000029874
+Q0098,A,hybrid,15 February 2027,15 February 2027,True,True,True,True,13,1546,2067.0015000068815
+Q0295,C,predictor,21 December 2027,21 December 2027,True,True,True,True,13,1462,2001.2447999979486
+Q0295,C,random,21 December 2027,DEPRECATED,False,False,False,False,13,1549,1670.953200002259
+Q0295,C,dense,21 December 2027,21 December 2027,True,True,True,True,13,1469,2171.17159999907
+Q0295,C,hybrid,21 December 2027,21 December 2027,True,True,True,True,13,1469,2121.902900005807
+Q0185,B,predictor,14 November 2027,14 November 2027,True,True,True,True,14,1646,7031.703599997854
+Q0185,B,random,14 November 2027,,False,False,False,False,14,1737,6138.407300000836
+Q0185,B,dense,14 November 2027,14 November 2027,True,True,True,True,14,1675,6736.280900004203
+Q0185,B,hybrid,14 November 2027,14 November 2027,True,True,True,True,14,1675,6610.184299999673
+Q0316,D,predictor,"19 March 2027 and $922,000",19 March 2027,False,False,True,False,14,1597,1967.6838000013959
+Q0316,D,random,"19 March 2027 and $922,000",FACT_ID: F-0316-B,False,False,False,False,14,1677,6790.210799998022
+Q0316,D,dense,"19 March 2027 and $922,000","$922,000",False,False,True,False,14,1603,2178.309299997636
+Q0316,D,hybrid,"19 March 2027 and $922,000","$922,000",False,False,True,False,14,1603,2110.702999998466
+Q0321,D,predictor,"15 May 2027 and $664,000",15 May 2027,False,False,True,False,14,1587,2082.8825999997207
+Q0321,D,random,"15 May 2027 and $664,000",,False,False,False,False,14,1741,5886.246099995333
+Q0321,D,dense,"15 May 2027 and $664,000","FACT_ID: F-0321-A, Budget: $664,000",False,False,True,False,14,1602,2922.436500004551
+Q0321,D,hybrid,"15 May 2027 and $664,000","FACT_ID: F-0321-A, Budget: $664,000",False,False,True,False,14,1602,2809.0720000036526
+Q0424,E,predictor,16 September 2027,16 September 2027,True,True,True,True,15,1508,1944.3780000001425
+Q0424,E,random,16 September 2027,27 June 2027,False,False,False,False,15,1779,6905.043500002648
+Q0424,E,dense,16 September 2027,16 September 2027,True,True,True,True,15,1523,2245.916200001375
+Q0424,E,hybrid,16 September 2027,16 September 2027,True,True,True,True,15,1523,1995.5231999992975
+Q0150,B,predictor,17 July 2027,17 July 2027,True,True,True,True,13,1544,1986.7905999999493
+Q0150,B,random,17 July 2027,,False,False,False,False,13,1627,6051.081799996609
+Q0150,B,dense,17 July 2027,17 July 2027,True,True,True,True,13,1571,2029.6300999980303
+Q0150,B,hybrid,17 July 2027,17 July 2027,True,True,True,True,13,1571,2001.055599997926
+Q0282,C,predictor,04 September 2027,04 September 2027,True,True,True,True,14,1589,1972.2886000017752
+Q0282,C,random,04 September 2027,04 September 2027,True,True,True,True,14,1679,6627.215600005002
+Q0282,C,dense,04 September 2027,04 September 2027,True,True,True,True,14,1591,2229.8621000009007
+Q0282,C,hybrid,04 September 2027,04 September 2027,True,True,True,True,14,1591,1991.0776000033366
+Q0040,A,predictor,03 March 2027,03 March 2027,True,True,True,True,12,1424,2001.4033999977983
+Q0040,A,random,03 March 2027,,False,False,False,False,12,1512,1029.265100005432
+Q0040,A,dense,03 March 2027,03 March 2027,True,True,True,True,12,1440,1958.7264000001596
+Q0040,A,hybrid,03 March 2027,03 March 2027,True,True,True,True,12,1440,1974.6845999979996
+Q0193,B,predictor,07 May 2027,07 May 2027,True,True,True,True,14,1665,6619.499400003406
+Q0193,B,random,07 May 2027,07 May 2027,True,True,True,True,14,1671,6627.400700002909
+Q0193,B,dense,07 May 2027,07 May 2027,True,True,True,True,14,1686,6657.534099998884
+Q0193,B,hybrid,07 May 2027,07 May 2027,True,True,True,True,14,1686,6644.064599997364
+Q0063,A,predictor,16 March 2027,16 March 2027,True,True,True,True,13,1538,2102.877699995588
+Q0063,A,random,16 March 2027,,False,False,False,False,13,1613,1701.1477000050945
+Q0063,A,dense,16 March 2027,16 March 2027,True,True,True,True,13,1567,2170.072799999616
+Q0063,A,hybrid,16 March 2027,16 March 2027,True,True,True,True,13,1567,1994.313000002876
+Q0274,C,predictor,26 November 2027,26 November 2027,True,True,True,True,14,1587,1973.4705999944708
+Q0274,C,random,26 November 2027,,False,False,False,False,14,1738,7401.04959999735
+Q0274,C,dense,26 November 2027,26 November 2027,True,True,True,True,14,1595,2039.5387999960803
+Q0274,C,hybrid,26 November 2027,26 November 2027,True,True,True,True,14,1595,2000.4886000024271
+Q0235,C,predictor,13 December 2027,13 December 2027,True,True,True,True,14,1569,1991.6075000001001
+Q0235,C,random,13 December 2027,,False,False,False,False,14,1732,5858.467400001246
+Q0235,C,dense,13 December 2027,13 December 2027,True,True,True,True,14,1584,2128.1998999984353
+Q0235,C,hybrid,13 December 2027,13 December 2027,True,True,True,True,14,1584,2004.2146999985562
+Q0373,D,predictor,"19 June 2027 and $859,000",19 June 2027,False,False,True,False,14,1601,2038.397399999667
+Q0373,D,random,"19 June 2027 and $859,000",,False,False,False,False,14,1676,6060.813500000222
+Q0373,D,dense,"19 June 2027 and $859,000","19 June 2027, $859,000",False,True,True,False,14,1609,2785.5349000019487
+Q0373,D,hybrid,"19 June 2027 and $859,000","19 June 2027, $859,000",False,True,True,False,14,1609,2774.5556000008946
+Q0022,A,predictor,22 April 2027,22 April 2027,True,True,True,True,13,1540,2086.4872000020114
+Q0022,A,random,22 April 2027,,False,False,False,False,13,1620,6072.2928999966825
+Q0022,A,dense,22 April 2027,22 April 2027,True,True,True,True,13,1553,2341.344999993453
+Q0022,A,hybrid,22 April 2027,22 April 2027,True,True,True,True,13,1553,2115.7175000043935
+Q0413,E,predictor,01 October 2027,01 October 2027,True,True,True,True,15,1506,1957.3816999982228
+Q0413,E,random,01 October 2027,01 October 2027,True,True,True,True,15,1781,7080.054700003529
+Q0413,E,dense,01 October 2027,09 January 2027,False,False,True,False,15,1511,1977.8512000048067
+Q0413,E,hybrid,01 October 2027,09 January 2027,False,False,True,False,15,1511,2114.8589000003994
+Q0135,B,predictor,27 September 2027,27 September 2027,True,True,True,True,12,1432,1992.4085000020568
+Q0135,B,random,27 September 2027,,False,False,False,False,12,1511,1035.8887999973376
+Q0135,B,dense,27 September 2027,27 September 2027,True,True,True,True,12,1430,2090.4695999997784
+Q0135,B,hybrid,27 September 2027,27 September 2027,True,True,True,True,12,1430,1962.2240000026068
+Q0309,D,predictor,"15 February 2027 and $508,000",15 February 2027,False,False,True,False,14,1589,2178.5344000018085
+Q0309,D,random,"15 February 2027 and $508,000",,False,False,False,False,14,1732,5911.668399996415
+Q0309,D,dense,"15 February 2027 and $508,000",15 February 2027,False,False,True,False,14,1595,2286.579300001904
+Q0309,D,hybrid,"15 February 2027 and $508,000","15 February 2027, $508,000",False,True,True,False,14,1595,2566.681400006928
+Q0176,B,predictor,19 April 2027,19 April 2027,True,True,True,True,14,1657,6792.481899996346
+Q0176,B,random,19 April 2027,19 April 2027,True,True,True,True,14,1672,6645.17909999995
+Q0176,B,dense,19 April 2027,19 April 2027,True,True,True,True,14,1680,6692.012699997576
+Q0176,B,hybrid,19 April 2027,19 April 2027,True,True,True,True,14,1680,6915.522900002543
+Q0433,E,predictor,04 May 2027,04 May 2027,True,True,True,True,16,1624,6527.212999993935
+Q0433,E,random,04 May 2027,,False,False,False,False,16,1969,1149.3305999974837
+Q0433,E,dense,04 May 2027,04 May 2027,True,True,True,True,16,1628,6527.466899999126
+Q0433,E,hybrid,04 May 2027,03 December 2027,False,False,True,False,16,1628,6471.259999998438
+Q0183,B,predictor,28 August 2027,28 August 2027,True,True,True,True,13,1542,1982.3020000039833
+Q0183,B,random,28 August 2027,,False,False,False,False,13,1617,1091.961199999787
+Q0183,B,dense,28 August 2027,28 August 2027,True,True,True,True,13,1547,2524.985200005176
+Q0183,B,hybrid,28 August 2027,28 August 2027,True,True,True,True,13,1547,2133.5395999994944
+Q0049,A,predictor,14 September 2027,14 September 2027,True,True,True,True,13,1547,1991.7692000017269
+Q0049,A,random,14 September 2027,,False,False,False,False,13,1621,5518.117500003427
+Q0049,A,dense,14 September 2027,14 September 2027,True,True,True,True,13,1566,1985.621899999387
+Q0049,A,hybrid,14 September 2027,14 September 2027,True,True,True,True,13,1566,2055.780299997423
+Q0194,B,predictor,13 June 2027,13 June 2027,True,True,True,True,14,1663,6550.671600001806
+Q0194,B,random,13 June 2027,,False,False,False,False,14,1745,5895.548799999233
+Q0194,B,dense,13 June 2027,13 June 2027,True,True,True,True,14,1672,6624.3954000019585
+Q0194,B,hybrid,13 June 2027,13 June 2027,True,True,True,True,14,1672,6728.341499998351
+Q0480,E,predictor,28 November 2027,28 November 2027,True,True,True,True,16,1626,6445.279799998389
+Q0480,E,random,28 November 2027,28 November 2027,True,True,True,True,16,1764,6902.025200004573
+Q0480,E,dense,28 November 2027,28 November 2027,True,True,True,True,16,1638,6566.313600000285
+Q0480,E,hybrid,28 November 2027,28 November 2027,True,True,True,True,16,1638,6604.920000005222
+Q0490,E,predictor,21 October 2027,21 October 2027,True,True,True,True,14,1405,2008.353500001249
+Q0490,E,random,21 October 2027,21 October 2027,True,True,True,True,14,1670,6644.210499995097
+Q0490,E,dense,21 October 2027,14 August 2027,False,False,True,False,14,1410,2055.3198999987217
+Q0490,E,hybrid,21 October 2027,14 August 2027,False,False,True,False,14,1410,2083.113599997887
+Q0172,B,predictor,02 August 2027,02 August 2027,True,True,True,True,13,1538,1984.3086000037147
+Q0172,B,random,02 August 2027,02 August 2027,True,True,True,True,13,1556,1980.5366000000504
+Q0172,B,dense,02 August 2027,02 August 2027,True,True,True,True,13,1554,1994.1813000041293
+Q0172,B,hybrid,02 August 2027,02 August 2027,True,True,True,True,13,1554,1994.2809999993187
+Q0390,D,predictor,"23 December 2027 and $611,000",23 December 2027,False,False,True,False,14,1591,2012.8140000015264
+Q0390,D,random,"23 December 2027 and $611,000",23 December 2027,False,False,False,False,14,1679,6982.6670000038575
+Q0390,D,dense,"23 December 2027 and $611,000",ACTIVE,False,False,True,False,14,1607,1567.1082999979262
+Q0390,D,hybrid,"23 December 2027 and $611,000",611000,False,False,True,False,14,1607,1987.2818000003463
+Q0110,B,predictor,16 August 2027,16 August 2027,True,True,True,True,13,1543,1974.4209999989835
+Q0110,B,random,16 August 2027,,False,False,False,False,13,1621,5965.205100001185
+Q0110,B,dense,16 August 2027,16 August 2027,True,True,True,True,13,1544,1995.712600000843
+Q0110,B,hybrid,16 August 2027,16 August 2027,True,True,True,True,13,1544,2194.628700002795
+Q0079,A,predictor,02 March 2027,02 March 2027,True,True,True,True,13,1544,1976.7926999993506
+Q0079,A,random,02 March 2027,,False,False,False,False,13,1619,1438.4734999985085
+Q0079,A,dense,02 March 2027,02 March 2027,True,True,True,True,13,1554,2002.4818000019877
+Q0079,A,hybrid,02 March 2027,02 March 2027,True,True,True,True,13,1554,1996.8378000048688
+Q0464,E,predictor,21 November 2027,21 November 2027,True,True,True,True,15,1512,1956.6235000020242
+Q0464,E,random,21 November 2027,09 October 2027,False,False,False,False,15,1781,7190.663899993524
+Q0464,E,dense,21 November 2027,21 November 2027,True,True,True,True,15,1520,2049.607599998126
+Q0464,E,hybrid,21 November 2027,21 November 2027,True,True,True,True,15,1520,1970.5032000056235
+Q0174,B,predictor,05 April 2027,05 April 2027,True,True,True,True,12,1418,1993.89190000511
+Q0174,B,random,05 April 2027,,False,False,False,False,12,1504,1645.135200000368
+Q0174,B,dense,05 April 2027,05 April 2027,True,True,True,True,12,1427,1959.937899999204
+Q0174,B,hybrid,05 April 2027,05 April 2027,True,True,True,True,12,1427,1943.1275999959325
+Q0483,E,predictor,02 May 2027,02 May 2027,True,True,True,True,14,1398,1982.8179999967688
+Q0483,E,random,02 May 2027,26 August 2027,False,False,False,False,14,1679,6652.09280000272
+Q0483,E,dense,02 May 2027,02 May 2027,True,True,True,True,14,1412,1975.1127000054112
+Q0483,E,hybrid,02 May 2027,02 May 2027,True,True,True,True,14,1412,2079.406299999391
+Q0357,D,predictor,"03 January 2027 and $990,000",03 January 2027,False,False,True,False,14,1585,2332.378699997207
+Q0357,D,random,"03 January 2027 and $990,000",,False,False,False,False,14,1749,5884.401000002981
+Q0357,D,dense,"03 January 2027 and $990,000","03 January 2027, $990,000",False,True,True,False,14,1600,2489.2322000014246
+Q0357,D,hybrid,"03 January 2027 and $990,000","$990,000",False,False,True,False,14,1600,1899.628200000734
+Q0081,A,predictor,05 June 2027,05 June 2027,True,True,True,True,14,1660,6737.273400001868
+Q0081,A,random,05 June 2027,,False,False,False,False,14,1732,7132.523300002504
+Q0081,A,dense,05 June 2027,05 June 2027,True,True,True,True,14,1673,6637.961600004928
+Q0081,A,hybrid,05 June 2027,05 June 2027,True,True,True,True,14,1673,6839.117899995472
+Q0412,E,predictor,12 May 2027,12 May 2027,True,True,True,True,17,1740,6769.817100001092
+Q0412,E,random,12 May 2027,12 May 2027,True,True,False,True,17,1888,6988.642799995432
+Q0412,E,dense,12 May 2027,12 May 2027,True,True,True,True,17,1747,7075.585099999444
+Q0412,E,hybrid,12 May 2027,12 May 2027,True,True,True,True,17,1747,6890.662700003304
+Q0388,D,predictor,"07 September 2027 and $797,000",07 September 2027,False,False,True,False,14,1601,1986.9389000014053
+Q0388,D,random,"07 September 2027 and $797,000","$797,000",False,False,False,False,14,1667,6705.846999997448
+Q0388,D,dense,"07 September 2027 and $797,000","$797,000",False,False,True,False,14,1608,1920.532899996033
+Q0388,D,hybrid,"07 September 2027 and $797,000","$797,000",False,False,True,False,14,1608,1945.0295999995433
+Q0003,A,predictor,27 November 2027,27 November 2027,True,True,True,True,13,1540,1979.309900001681
+Q0003,A,random,27 November 2027,,False,False,False,False,13,1620,5514.665700000478
+Q0003,A,dense,27 November 2027,27 November 2027,True,True,True,True,13,1544,2326.890900003491
+Q0003,A,hybrid,27 November 2027,27 November 2027,True,True,True,True,13,1544,2019.1301000013482
+Q0445,E,predictor,12 December 2027,12 December 2027,True,True,True,True,15,1498,2057.157499999448
+Q0445,E,random,12 December 2027,,False,False,False,False,15,1849,6426.796899999317
+Q0445,E,dense,12 December 2027,12 December 2027,True,True,True,True,15,1511,1951.7893999945954
+Q0445,E,hybrid,12 December 2027,12 December 2027,True,True,True,True,15,1511,1962.7870000040275
+Q0414,E,predictor,06 January 2027,06 January 2027,True,True,True,True,14,1391,1931.2162999995053
+Q0414,E,random,06 January 2027,,False,False,False,False,14,1730,5847.069600000395
+Q0414,E,dense,06 January 2027,06 January 2027,True,True,True,True,14,1401,1968.7028999978793
+Q0414,E,hybrid,06 January 2027,06 January 2027,True,True,True,True,14,1401,1991.3983000005828
+Q0142,B,predictor,22 July 2027,22 July 2027,True,True,True,True,12,1428,1981.3501000026008
+Q0142,B,random,22 July 2027,,False,False,False,False,12,1512,1417.2256999954698
+Q0142,B,dense,22 July 2027,22 July 2027,True,True,True,True,12,1443,1960.7475000011618
+Q0142,B,hybrid,22 July 2027,22 July 2027,True,True,True,True,12,1443,2031.4878999997745
+Q0301,D,predictor,"20 July 2027 and $638,000","$638,000",False,False,True,False,14,1588,1935.133400002087
+Q0301,D,random,"20 July 2027 and $638,000",,False,False,False,False,14,1747,6267.00140000321
+Q0301,D,dense,"20 July 2027 and $638,000","$638,000",False,False,True,False,14,1612,1931.128300006094
+Q0301,D,hybrid,"20 July 2027 and $638,000","$638,000",False,False,True,False,14,1612,2175.8611999975983
+Q0229,C,predictor,17 July 2027,17 July 2027,True,True,True,True,13,1463,2263.697199996386
+Q0229,C,random,17 July 2027,DEPRECATED,False,False,False,False,13,1547,1604.2319999978645
+Q0229,C,dense,17 July 2027,17 July 2027,True,True,True,True,13,1482,1942.2734000036144
+Q0229,C,hybrid,17 July 2027,17 July 2027,True,True,True,True,13,1482,1941.8605000028037
+Q0112,B,predictor,15 January 2027,15 January 2027,True,True,True,True,13,1549,2010.1783999998588
+Q0112,B,random,15 January 2027,,False,False,False,False,13,1630,7029.60819999862
+Q0112,B,dense,15 January 2027,15 January 2027,True,True,True,True,13,1555,2246.911700000055
+Q0112,B,hybrid,15 January 2027,15 January 2027,True,True,True,True,13,1555,2209.3942999999854
+Q0214,C,predictor,05 June 2027,05 June 2027,True,True,True,True,14,1575,2155.3970000022673
+Q0214,C,random,05 June 2027,,False,False,False,False,14,1736,6462.676299997838
+Q0214,C,dense,05 June 2027,05 June 2027,True,True,True,True,14,1595,1990.5421000003116
+Q0214,C,hybrid,05 June 2027,05 June 2027,True,True,True,True,14,1595,1978.1777000025613
+Q0486,E,predictor,03 October 2027,03 October 2027,True,True,True,True,15,1497,1946.0843999986537
+Q0486,E,random,03 October 2027,26 February 2027,False,False,False,False,15,1782,6924.750400001358
+Q0486,E,dense,03 October 2027,03 October 2027,True,True,True,True,15,1519,2264.716199999384
+Q0486,E,hybrid,03 October 2027,03 October 2027,True,True,True,True,15,1519,1995.7996000011917
+Q0359,D,predictor,"28 July 2027 and $721,000","$721,000",False,False,True,False,15,1701,7038.666100001137
+Q0359,D,random,"28 July 2027 and $721,000","$721,000",False,False,False,False,15,1779,6951.583400004893
+Q0359,D,dense,"28 July 2027 and $721,000","$721,000",False,False,True,False,15,1716,6676.444099997752
+Q0359,D,hybrid,"28 July 2027 and $721,000","$721,000",False,False,True,False,15,1716,7095.500600000378
+Q0332,D,predictor,"05 February 2027 and $497,000",05 February 2027,False,False,True,False,13,1476,1938.9432000025408
+Q0332,D,random,"05 February 2027 and $497,000","$497,000",False,False,True,False,13,1480,1872.5221999993664
+Q0332,D,dense,"05 February 2027 and $497,000","$497,000",False,False,True,False,13,1494,1951.0501000040676
+Q0332,D,hybrid,"05 February 2027 and $497,000","$497,000",False,False,True,False,13,1494,1875.5010000022594
+Q0366,D,predictor,"04 September 2027 and $946,000",04 September 2027,False,False,True,False,14,1584,2355.2588999955333
+Q0366,D,random,"04 September 2027 and $946,000",04 September 2027,False,False,True,False,14,1593,2096.742300003825
+Q0366,D,dense,"04 September 2027 and $946,000","$946,000",False,False,True,False,14,1610,2081.125400000019
+Q0366,D,hybrid,"04 September 2027 and $946,000",946000,False,False,True,False,14,1610,1884.9837999950978
+Q0101,B,predictor,03 August 2027,03 August 2027,True,True,True,True,14,1658,6537.527100001171
+Q0101,B,random,03 August 2027,,False,False,False,False,14,1738,6324.482899995928
+Q0101,B,dense,03 August 2027,03 August 2027,True,True,True,True,14,1672,6634.372399996209
+Q0101,B,hybrid,03 August 2027,03 August 2027,True,True,True,True,14,1672,6683.544799998344
+Q0287,C,predictor,04 July 2027,04 July 2027,True,True,True,True,14,1586,2092.1841000017594
+Q0287,C,random,04 July 2027,15 April 2026,False,False,False,False,14,1662,6595.934700002545
+Q0287,C,dense,04 July 2027,04 July 2027,True,True,True,True,14,1596,2057.962300001236
+Q0287,C,hybrid,04 July 2027,04 July 2027,True,True,True,True,14,1596,1988.5682000021916
+Q0013,A,predictor,16 April 2027,16 April 2027,True,True,True,True,13,1546,1971.1795999974129
+Q0013,A,random,16 April 2027,16 April 2027,True,True,True,True,13,1558,2013.7154000040027
+Q0013,A,dense,16 April 2027,16 April 2027,True,True,True,True,13,1564,1986.3709000055678
+Q0013,A,hybrid,16 April 2027,16 April 2027,True,True,True,True,13,1564,1987.0070999968448
+Q0308,D,predictor,"02 October 2027 and $135,000",02 October 2027,False,False,True,False,14,1594,2212.480999995023
+Q0308,D,random,"02 October 2027 and $135,000",02 October 2027,False,False,False,False,14,1675,6641.69640000182
+Q0308,D,dense,"02 October 2027 and $135,000","02 October 2027, $135,000",False,True,True,False,14,1615,3457.024299998011
+Q0308,D,hybrid,"02 October 2027 and $135,000","02 October 2027, $135,000",False,True,True,False,14,1615,2769.6403000009013
+Q0258,C,predictor,10 July 2027,10 July 2027,True,True,True,True,14,1579,2051.532600002247
+Q0258,C,random,10 July 2027,,False,False,False,False,14,1744,5981.804299997748
+Q0258,C,dense,10 July 2027,10 July 2027,True,True,True,True,14,1599,2311.209899999085
+Q0258,C,hybrid,10 July 2027,10 July 2027,True,True,True,True,14,1599,1986.2091999966651
+Q0119,B,predictor,27 March 2027,27 March 2027,True,True,True,True,14,1664,6591.35360000073
+Q0119,B,random,27 March 2027,,False,False,False,False,14,1743,5882.316800001718
+Q0119,B,dense,27 March 2027,27 March 2027,True,True,True,True,14,1674,6602.862899999309
+Q0119,B,hybrid,27 March 2027,27 March 2027,True,True,True,True,14,1674,6609.171300005983
+Q0111,B,predictor,18 September 2027,18 September 2027,True,True,True,True,12,1425,1982.2099000011804
+Q0111,B,random,18 September 2027,,False,False,False,False,12,1512,1113.0950000006123
+Q0111,B,dense,18 September 2027,18 September 2027,True,True,True,True,12,1436,1955.257800000254
+Q0111,B,hybrid,18 September 2027,18 September 2027,True,True,True,True,12,1436,1979.2020999957458
+Q0047,A,predictor,15 January 2027,15 January 2027,True,True,True,True,12,1428,2066.770200006431
+Q0047,A,random,15 January 2027,,False,False,False,False,12,1512,1731.8529999974999
+Q0047,A,dense,15 January 2027,15 January 2027,True,True,True,True,12,1453,1951.472200002172
+Q0047,A,hybrid,15 January 2027,15 January 2027,True,True,True,True,12,1453,1955.3526999952737
+Q0015,A,predictor,05 April 2027,05 April 2027,True,True,True,True,13,1544,1973.977500005276
+Q0015,A,random,05 April 2027,,False,False,False,False,13,1624,5519.653600000311
+Q0015,A,dense,05 April 2027,05 April 2027,True,True,True,True,13,1571,2001.9704999940586
+Q0015,A,hybrid,05 April 2027,05 April 2027,True,True,True,True,13,1571,1853.9225999993505
+Q0016,A,predictor,14 November 2027,14 November 2027,True,True,True,True,13,1543,1980.6582999954117
+Q0016,A,random,14 November 2027,14 November 2027,True,True,True,True,13,1538,1989.1433000011602
+Q0016,A,dense,14 November 2027,14 November 2027,True,True,True,True,13,1560,2140.816099999938
+Q0016,A,hybrid,14 November 2027,14 November 2027,True,True,True,True,13,1560,1996.9167000017478
+Q0216,C,predictor,27 April 2027,27 April 2027,True,True,True,True,14,1580,1978.7696999992477
+Q0216,C,random,27 April 2027,27 April 2027,True,True,True,True,14,1674,6704.844500003674
+Q0216,C,dense,27 April 2027,27 April 2027,True,True,True,True,14,1598,1983.6207999978797
+Q0216,C,hybrid,27 April 2027,27 April 2027,True,True,True,True,14,1598,2150.142800004687
+Q0302,D,predictor,"17 January 2027 and $965,000",17 January 2027,False,False,True,False,14,1588,2000.1962999958778
+Q0302,D,random,"17 January 2027 and $965,000",17 January 2027,False,False,True,False,14,1602,1986.5582000056747
+Q0302,D,dense,"17 January 2027 and $965,000",17 January 2027,False,False,True,False,14,1596,1984.3216000008397
+Q0302,D,hybrid,"17 January 2027 and $965,000",17 January 2027,False,False,True,False,14,1596,2130.3432999993674
+Q0044,A,predictor,14 June 2027,14 June 2027,True,True,True,True,13,1538,2191.4757000049576
+Q0044,A,random,14 June 2027,,False,False,False,False,13,1622,6166.487700000289
+Q0044,A,dense,14 June 2027,14 June 2027,True,True,True,True,13,1550,2120.672899996862
+Q0044,A,hybrid,14 June 2027,14 June 2027,True,True,True,True,13,1550,2139.136099998723
+Q0279,C,predictor,03 September 2027,03 September 2027,True,True,True,True,14,1578,1994.266100002278
+Q0279,C,random,03 September 2027,05 March 2026,False,False,False,False,14,1659,6559.866800002055
+Q0279,C,dense,03 September 2027,03 September 2027,True,True,True,True,14,1590,2274.468399999023
+Q0279,C,hybrid,03 September 2027,03 September 2027,True,True,True,True,14,1590,2041.455099999439
+Q0456,E,predictor,18 August 2027,18 August 2027,True,True,True,True,15,1523,1933.713099999295
+Q0456,E,random,18 August 2027,18 August 2027,True,True,True,True,15,1726,6841.79949999816
+Q0456,E,dense,18 August 2027,18 August 2027,True,True,True,True,15,1533,1944.840899996052
+Q0456,E,hybrid,18 August 2027,18 August 2027,True,True,True,True,15,1533,1946.6568999996525
+Q0496,E,predictor,02 December 2027,02 December 2027,True,True,True,True,16,1622,6442.621700000018
+Q0496,E,random,02 December 2027,16 December 2027,False,False,False,False,16,1901,7033.31170000456
+Q0496,E,dense,02 December 2027,02 December 2027,True,True,True,True,16,1631,6464.487199998985
+Q0496,E,hybrid,02 December 2027,02 December 2027,True,True,True,True,16,1631,6677.557300004992
+Q0346,D,predictor,"05 August 2027 and $975,000","$975,000",False,False,True,False,13,1475,1883.0305000010412
+Q0346,D,random,"05 August 2027 and $975,000",,False,False,False,False,13,1620,5518.329999998969
+Q0346,D,dense,"05 August 2027 and $975,000","$975,000",False,False,True,False,13,1499,2032.1856000009575
+Q0346,D,hybrid,"05 August 2027 and $975,000","$975,000",False,False,True,False,13,1499,1891.4474999983213
+Q0052,A,predictor,25 February 2027,25 February 2027,True,True,True,True,13,1548,2012.5343000036082
+Q0052,A,random,25 February 2027,,False,False,False,False,13,1627,5566.86589999299
+Q0052,A,dense,25 February 2027,25 February 2027,True,True,True,True,13,1566,2089.167999998608
+Q0052,A,hybrid,25 February 2027,25 February 2027,True,True,True,True,13,1566,2029.574699998193
+Q0377,D,predictor,"11 June 2027 and $951,000","$951,000",False,False,True,False,13,1475,1879.951599999913
+Q0377,D,random,"11 June 2027 and $951,000","$951,000",False,False,True,False,13,1499,1891.7214999964926
+Q0377,D,dense,"11 June 2027 and $951,000","$951,000",False,False,True,False,13,1496,1889.8434999937308
+Q0377,D,hybrid,"11 June 2027 and $951,000","$951,000",False,False,True,False,13,1496,1986.9547999987844
+Q0071,A,predictor,08 December 2027,08 December 2027,True,True,True,True,13,1542,2138.172699997085
+Q0071,A,random,08 December 2027,08 December 2027,True,True,True,True,13,1555,2048.824900004547
+Q0071,A,dense,08 December 2027,08 December 2027,True,True,True,True,13,1543,2144.959600002039
+Q0071,A,hybrid,08 December 2027,08 December 2027,True,True,True,True,13,1543,2040.4816000009305
+Q0114,B,predictor,07 March 2027,07 March 2027,True,True,True,True,13,1536,1964.029800001299
+Q0114,B,random,07 March 2027,07 March 2027,True,True,True,True,13,1554,2381.0861999954795
+Q0114,B,dense,07 March 2027,07 March 2027,True,True,True,True,13,1550,2049.784399998316
+Q0114,B,hybrid,07 March 2027,07 March 2027,True,True,True,True,13,1550,2078.0455999993137
+Q0125,B,predictor,17 August 2027,17 August 2027,True,True,True,True,13,1550,2286.694399997941
+Q0125,B,random,17 August 2027,,False,False,False,False,13,1627,5538.728500003344
+Q0125,B,dense,17 August 2027,17 August 2027,True,True,True,True,13,1558,2021.6330999974161
+Q0125,B,hybrid,17 August 2027,17 August 2027,True,True,True,True,13,1558,2077.6592000038363
+Q0140,B,predictor,14 October 2027,14 October 2027,True,True,True,True,15,1767,7308.017499999551
+Q0140,B,random,14 October 2027,,False,False,False,False,15,1861,6469.031500004348
+Q0140,B,dense,14 October 2027,14 October 2027,True,True,True,True,15,1791,7048.007499994128
+Q0140,B,hybrid,14 October 2027,14 October 2027,True,True,True,True,15,1791,6947.086699998181
+Q0379,D,predictor,"15 March 2027 and $383,000",15 March 2027,False,False,True,False,13,1475,1952.748799994879
+Q0379,D,random,"15 March 2027 and $383,000",,False,False,False,False,13,1623,5523.795699999027
+Q0379,D,dense,"15 March 2027 and $383,000","15 March 2027, $383,000",False,True,True,False,13,1495,2653.888900000311
+Q0379,D,hybrid,"15 March 2027 and $383,000","15 March 2027, $383,000",False,True,True,False,13,1495,3075.002699995821
+Q0012,A,predictor,22 June 2027,22 June 2027,True,True,True,True,13,1538,2016.7849999997998
+Q0012,A,random,22 June 2027,,False,False,False,False,13,1631,5666.715500003193
+Q0012,A,dense,22 June 2027,22 June 2027,True,True,True,True,13,1556,2034.9365999936708
+Q0012,A,hybrid,22 June 2027,22 June 2027,True,True,True,True,13,1556,2023.56200000213
+Q0057,A,predictor,20 January 2027,20 January 2027,True,True,True,True,13,1539,2145.567299994582
+Q0057,A,random,20 January 2027,,False,False,False,False,13,1631,5946.791899994423
+Q0057,A,dense,20 January 2027,20 January 2027,True,True,True,True,13,1552,1929.6566999983042
+Q0057,A,hybrid,20 January 2027,20 January 2027,True,True,True,True,13,1552,1917.0579000056023
+Q0327,D,predictor,"28 July 2027 and $672,000",28 July 2027,False,False,True,False,15,1702,6588.944700000866
+Q0327,D,random,"28 July 2027 and $672,000",28 July 2027,False,False,False,False,15,1783,6824.466099998972
+Q0327,D,dense,"28 July 2027 and $672,000","28 July 2027, $672,000",False,True,True,False,15,1721,7222.871899997699
+Q0327,D,hybrid,"28 July 2027 and $672,000","28 July 2027, $672,000",False,True,True,False,15,1721,7387.24579999689

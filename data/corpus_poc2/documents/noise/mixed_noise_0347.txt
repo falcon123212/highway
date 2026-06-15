@@ -1,0 +1,7 @@
+--- H h_mixed_147 ---
+Old record: Pierre Leroy managed Project ORION.
+Current record: Project ORION is reassigned to Alice Martin.
+Project PEGASE is currently managed by Pierre Leroy.
+Project AURORA is currently managed by Pierre Leroy.
+Project SIRIUS is currently managed by Pierre Leroy.
+Project BEACON is currently managed by Pierre Leroy.

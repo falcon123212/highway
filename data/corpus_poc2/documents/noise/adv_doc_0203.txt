@@ -1,0 +1,7 @@
+--- H h_adv_003 ---
+Old record: Alice Martin managed Project METEOR.
+Current record: Project METEOR is reassigned to Sophie Richard.
+Project HELIOS is currently managed by Alice Martin.
+Project LUNA is currently managed by Alice Martin.
+Project KRONOS is currently managed by Alice Martin.
+Project IRIS is currently managed by Alice Martin.

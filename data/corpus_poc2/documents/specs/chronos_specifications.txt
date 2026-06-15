@@ -1,0 +1,8 @@
+=========================================
+TECHNICAL SPECIFICATIONS: PROJECT CHRONOS
+=========================================
+Project Owner: Alice Martin
+Lead Unit: Marketing
+
+This document describes the technical architecture for project CHRONOS.
+The project is overseen by the Marketing unit, with Alice Martin as director.

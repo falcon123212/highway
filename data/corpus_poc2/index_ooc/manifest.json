@@ -1,0 +1,15 @@
+{
+  "layout": "highway_out_of_core_v1",
+  "storage_mode": "out_of_core",
+  "blocks_file": "blocks.jsonl",
+  "offsets_file": "block_offsets.json",
+  "embeddings_file": "embeddings.npy",
+  "postings_file": "postings.sqlite",
+  "entity_file": "entity_list.json",
+  "num_blocks": 1277,
+  "embedding_shape": [
+    1277,
+    384
+  ],
+  "embedding_dtype": "float32"
+}

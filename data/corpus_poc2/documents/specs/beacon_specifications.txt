@@ -1,0 +1,8 @@
+=========================================
+TECHNICAL SPECIFICATIONS: PROJECT BEACON
+=========================================
+Project Owner: Jean Dupont
+Lead Unit: Finance
+
+This document describes the technical architecture for project BEACON.
+The project is overseen by the Finance unit, with Jean Dupont as director.

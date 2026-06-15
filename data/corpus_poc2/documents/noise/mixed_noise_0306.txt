@@ -1,0 +1,5 @@
+--- H h_mixed_106 ---
+Project PEGASE was renamed to Project PEGASE-R.
+Project PEGASE-R is managed by Sophie Richard.
+Project HELIOS is managed by Sophie Richard.
+Project LUNA is managed by Sophie Richard.

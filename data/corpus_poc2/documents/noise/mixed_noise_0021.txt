@@ -1,0 +1,3 @@
+--- G g_mixed_021 ---
+Project FALCON budget is $666,000.
+Project SOLARIS budget is $667,000.

@@ -1,0 +1,5 @@
+--- H h_mixed_040 ---
+Project JUPITER was renamed to Project JUPITER-R.
+Project JUPITER-R is managed by Pierre Leroy.
+Project FALCON is managed by Pierre Leroy.
+Project LUNA is managed by Pierre Leroy.

@@ -1,0 +1,7 @@
+--- H h_mixed_081 ---
+Old record: Emma Michel managed Project ZENITH.
+Current record: Project ZENITH is reassigned to Thomas Petit.
+Project DAWN is currently managed by Emma Michel.
+Project TITAN is currently managed by Emma Michel.
+Project PEGASE is currently managed by Emma Michel.
+Project HELIOS is currently managed by Emma Michel.

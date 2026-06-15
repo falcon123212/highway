@@ -1,0 +1,6 @@
+--- H h_mixed_177 ---
+Old record: Pierre Leroy managed Project IRIS.
+Current record: Project IRIS is reassigned to Jean Dupont.
+Project DAWN is currently managed by Pierre Leroy.
+Project KRONOS is currently managed by Pierre Leroy.
+Project NEPTUNE is currently managed by Pierre Leroy.

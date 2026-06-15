@@ -1,0 +1,9 @@
+--- H h_mixed_116 ---
+Project KRONOS is managed by Pierre Leroy.
+Contract indicates Project KRONOS is managed by Pierre Leroy.
+Project VEGA is managed by Pierre Leroy.
+Contract indicates Project VEGA is managed by Pierre Leroy.
+Project SIRIUS is managed by Pierre Leroy.
+Contract indicates Project SIRIUS is managed by Pierre Leroy.
+Project LUNA is managed by Pierre Leroy.
+Contract indicates Project LUNA is managed by Pierre Leroy.

@@ -1,0 +1,6 @@
+--- H h_adv_105 ---
+Old record: Thomas Petit managed Project ECLIPSE.
+Current record: Project ECLIPSE is reassigned to Alice Martin.
+Project IRIS is currently managed by Thomas Petit.
+Project LUNA is currently managed by Thomas Petit.
+Project AURORA is currently managed by Thomas Petit.

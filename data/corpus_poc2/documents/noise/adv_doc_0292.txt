@@ -1,0 +1,5 @@
+--- H h_adv_092 ---
+Project SOLARIS is managed by Jean Dupont.
+Contract indicates Project SOLARIS is managed by Jean Dupont.
+Project VEGA is managed by Jean Dupont.
+Contract indicates Project VEGA is managed by Jean Dupont.

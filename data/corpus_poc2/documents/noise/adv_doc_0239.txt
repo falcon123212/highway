@@ -1,0 +1,6 @@
+--- H h_adv_039 ---
+Old record: Jean Dupont managed Project HELIOS.
+Current record: Project HELIOS is reassigned to Nicolas Durand.
+Project SOLARIS is currently managed by Jean Dupont.
+Project PHOENIX is currently managed by Jean Dupont.
+Project DAWN is currently managed by Jean Dupont.

@@ -1,0 +1,9 @@
+--- H h_mixed_146 ---
+Project TITAN is managed by Sophie Richard.
+Contract indicates Project TITAN is managed by Sophie Richard.
+Project SOLARIS is managed by Sophie Richard.
+Contract indicates Project SOLARIS is managed by Sophie Richard.
+Project ZENITH is managed by Sophie Richard.
+Contract indicates Project ZENITH is managed by Sophie Richard.
+Project QUASAR is managed by Sophie Richard.
+Contract indicates Project QUASAR is managed by Sophie Richard.

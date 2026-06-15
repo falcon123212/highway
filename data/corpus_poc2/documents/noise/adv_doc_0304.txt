@@ -1,0 +1,7 @@
+--- H h_adv_104 ---
+Project VEGA is managed by Alice Martin.
+Contract indicates Project VEGA is managed by Alice Martin.
+Project QUASAR is managed by Alice Martin.
+Contract indicates Project QUASAR is managed by Alice Martin.
+Project LUNA is managed by Alice Martin.
+Contract indicates Project LUNA is managed by Alice Martin.

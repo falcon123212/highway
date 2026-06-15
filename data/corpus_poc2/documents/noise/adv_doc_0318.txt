@@ -1,0 +1,5 @@
+--- H h_adv_118 ---
+Project JUPITER was renamed to Project JUPITER-R.
+Project JUPITER-R is managed by Michel Bernard.
+Project QUASAR is managed by Michel Bernard.
+Project SIRIUS is managed by Michel Bernard.

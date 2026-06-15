@@ -1,0 +1,7 @@
+--- H h_mixed_020 ---
+Project BEACON is managed by Nicolas Durand.
+Contract indicates Project BEACON is managed by Nicolas Durand.
+Project ORION is managed by Nicolas Durand.
+Contract indicates Project ORION is managed by Nicolas Durand.
+Project JUPITER is managed by Nicolas Durand.
+Contract indicates Project JUPITER is managed by Nicolas Durand.

@@ -1,0 +1,7 @@
+--- H h_mixed_015 ---
+Old record: Jean Dupont managed Project ORION.
+Current record: Project ORION is reassigned to Thomas Petit.
+Project PHOENIX is currently managed by Jean Dupont.
+Project NEXUS is currently managed by Jean Dupont.
+Project GENESIS is currently managed by Jean Dupont.
+Project SIRIUS is currently managed by Jean Dupont.

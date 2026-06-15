@@ -1,0 +1,8 @@
+torch>=2.1
+transformers>=4.40
+accelerate
+rank-bm25
+pandas
+tqdm
+jinja2
+matplotlib

@@ -1,0 +1,6 @@
+--- H h_adv_136 ---
+Project QUASAR was renamed to Project QUASAR-R.
+Project QUASAR-R is managed by Thomas Petit.
+Project NEXUS is managed by Thomas Petit.
+Project JUPITER is managed by Thomas Petit.
+Project ECLIPSE is managed by Thomas Petit.

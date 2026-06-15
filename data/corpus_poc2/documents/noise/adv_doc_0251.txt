@@ -1,0 +1,5 @@
+--- H h_adv_051 ---
+Old record: Michel Bernard managed Project FALCON.
+Current record: Project FALCON is reassigned to Nicolas Durand.
+Project HELIOS is currently managed by Michel Bernard.
+Project PEGASE is currently managed by Michel Bernard.

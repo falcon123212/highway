@@ -1,0 +1,5 @@
+--- H h_adv_100 ---
+Project BEACON was renamed to Project BEACON-R.
+Project BEACON-R is managed by Sophie Richard.
+Project GENESIS is managed by Sophie Richard.
+Project PHOENIX is managed by Sophie Richard.

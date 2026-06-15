@@ -1,0 +1,3 @@
+--- G g_mixed_043 ---
+Project ORION budget: 0.756M.
+Project SIRIUS budget: 621000.

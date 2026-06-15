@@ -1,0 +1,7 @@
+--- H h_mixed_117 ---
+Old record: Marie Dubois managed Project NEXUS.
+Current record: Project NEXUS is reassigned to Emma Michel.
+Project GENESIS is currently managed by Marie Dubois.
+Project PHOENIX is currently managed by Marie Dubois.
+Project SOLARIS is currently managed by Marie Dubois.
+Project ZENITH is currently managed by Marie Dubois.

@@ -1,0 +1,433 @@
+question_id,category,mode,expected,answer,exact_match,numeric_preservation,gold_recall,kept_blocks,input_tokens,ttft_ms,oracle_exact_match
+Q0400,E,predictor,16 July 2027,"According to the context provided, the active delivery date for Project APEX-400 is 27 November 2027.",false,false,true,14,1333,2283.56,false
+Q0400,E,random,16 July 2027,"According to the provided context, the active delivery date for Project APEX-400-A is ""27 November 2027"". This can be seen in the last row of the table, where it lists ""Active delivery date: 27 November 2027"" under the Project",false,false,false,14,1612,4030.81,false
+Q0400,E,dense,16 July 2027,"Based on the information provided in the context, the active delivery date for Project APEX-400 is 27 November 2027.",false,false,true,14,1342,2107.37,false
+Q0400,E,hybrid,16 July 2027,"According to the context, Project APEX-400 has an active delivery date of 02 February 2027.",false,false,true,14,1342,1951.20,false
+Q0401,E,predictor,24 May 2027,"According to the given context, Project BEACON-401 has an active delivery date of 05 May 2027.",false,false,true,15,1445,1717.60,false
+Q0401,E,random,24 May 2027,"Based on the information provided in the context, there is no specific mention of an active delivery date for Project BEACON-401. The context only discusses various strategic initiatives related to different departments within a company, without providing details about any particular project or delivery dates. Therefore, it's not possible to determine the",false,false,false,15,1794,3669.54,false
+Q0401,E,dense,24 May 2027,The active delivery date for Project BEACON-401 is 05 May 2027.,false,false,true,15,1465,1948.96,false
+Q0401,E,hybrid,24 May 2027,The active delivery date for Project BEACON-401 is 05 May 2027.,false,false,true,15,1465,1675.75,false
+Q0402,E,predictor,03 February 2027,"According to the context, Project CHRONOS-402 has an active delivery date of 07 July 2027.",false,false,true,15,1444,2338.69,false
+Q0402,E,random,03 February 2027,"To answer this question, I'll need more specific information about the project and its timeline. However, generally speaking:
+
+If we're referring to a project with a specific date (like ""Project CHRONOS-402""), the most common way to find out what the active delivery date is would be through the project",false,false,false,15,1786,3894.26,false
+Q0402,E,dense,03 February 2027,The active delivery date for Project CHRONOS-402 is 07 July 2027.,false,false,true,15,1458,1752.28,false
+Q0402,E,hybrid,03 February 2027,The active delivery date for Project CHRONOS-402 is 07 July 2027.,false,false,true,15,1458,1568.47,false
+Q0403,E,predictor,15 May 2027,"Based on the information provided, the active delivery date for Project DAWN-403 is 15 May 2027.",false,true,true,14,1325,1613.74,false
+Q0403,E,random,15 May 2027,"According to the information provided, the active delivery date for Project DAWN-403-A is 28 July 2027.",false,false,false,14,1624,1686.26,false
+Q0403,E,dense,15 May 2027,"According to the context, the active delivery date for Project DAWN-403 is 15 May 2027.",false,true,true,14,1340,1649.70,false
+Q0403,E,hybrid,15 May 2027,The active delivery date for Project DAWN-403 is 28 July 2027.,false,false,true,14,1340,1415.65,false
+Q0404,E,predictor,10 July 2027,"According to the context, Project ECLIPSE-404 has an Active Delivery Date of 10 July 2027.",false,true,true,14,1330,1722.27,true
+Q0404,E,random,10 July 2027,The active delivery date for Project ECLIPSE-404-A was 02 June 2027.,false,false,false,14,1618,1897.66,true
+Q0404,E,dense,10 July 2027,The active delivery date for Project ECLIPSE-404 is 20 September 2027.,false,false,true,14,1346,1847.43,true
+Q0404,E,hybrid,10 July 2027,"According to the given context, Project ECLIPSE-404 has an active delivery date of 20 September 2027.",false,false,true,14,1346,2434.11,true
+Q0405,E,predictor,09 September 2027,"According to the given information, Project FALCON-405 has an active delivery date of 12 September 2027.",false,false,true,16,1564,1818.76,false
+Q0405,E,random,09 September 2027,The active delivery date for Project FALCON-405 is 09 September 2027.,true,true,true,16,1768,1722.40,false
+Q0405,E,dense,09 September 2027,"According to the information provided, Project FALCON-405 has an active delivery date of 09 September 2027.",true,true,true,16,1565,1723.15,false
+Q0405,E,hybrid,09 September 2027,"According to the given information, Project FALCON-405 has an active delivery date of September 12, 2027.",false,false,true,16,1565,1738.03,false
+Q0406,E,predictor,21 October 2027,"According to the given context, Project GENESIS-406 has an active delivery date of 21 October 2027.",true,true,true,16,1551,1687.61,true
+Q0406,E,random,21 October 2027,"According to the given text, the active delivery date for Project GENESIS-406 (which appears to be a project number) is not explicitly stated in the provided context. However, based on typical practices in project management literature:
+
+1. A project can have multiple phases or stages.
+2. The ""active delivery",false,false,false,16,1906,3393.32,true
+Q0406,E,dense,21 October 2027,The active delivery date for Project GENESIS-406 is 17 July 2027.,false,false,true,16,1575,1439.82,true
+Q0406,E,hybrid,21 October 2027,The active delivery date for Project GENESIS-406 is 17 July 2027.,false,false,true,16,1575,1801.10,true
+Q0407,E,predictor,13 August 2027,The active delivery date for Project HELIOS-407 is 03 November 2027.,false,false,true,15,1437,2081.27,false
+Q0407,E,random,13 August 2027,The active delivery date for Project HELIOS-407-A is 07 May 2027.,false,false,false,15,1725,1975.65,false
+Q0407,E,dense,13 August 2027,The active delivery date for Project HELIOS-407 is 03 November 2027.,false,false,true,15,1439,1807.55,false
+Q0407,E,hybrid,13 August 2027,"According to the information provided, the active delivery date for Project HELIOS-407 is 13 August 2027.",false,true,true,15,1439,1962.97,false
+Q0408,E,predictor,16 June 2027,"Based on the information provided in the context, the active delivery date for Project IRIS-408 is 12 November 2027.",false,false,true,15,1445,2025.00,false
+Q0408,E,random,16 June 2027,The active delivery date for Project IRIS-408 is 16 June 2027.,true,true,true,15,1596,1436.35,false
+Q0408,E,dense,16 June 2027,The active delivery date for Project IRIS-408 is 16 June 2027.,true,true,true,15,1454,1281.42,false
+Q0408,E,hybrid,16 June 2027,The active delivery date for Project IRIS-408 is 12 November 2027.,false,false,true,15,1454,1514.38,false
+Q0409,E,predictor,04 August 2027,"Based on the information provided in the context, the active delivery date for Project JUPITER-409 is 04 August 2027.",false,true,true,14,1329,1898.09,false
+Q0409,E,random,04 August 2027,The active delivery date for Project JUPITER-409 is 15 June 2027.,false,false,false,14,1541,1362.51,false
+Q0409,E,dense,04 August 2027,"According to the context, Project JUPITER-409 has an active delivery date of 12 November 2027.",false,false,true,14,1342,1664.43,false
+Q0409,E,hybrid,04 August 2027,The active delivery date for Project JUPITER-409 is 12 November 2027.,false,false,true,14,1342,1617.60,false
+Q0410,E,predictor,17 February 2027,"Based on the information provided, the active delivery date for Project KRONOS-410 is 13 April 2027.",false,false,true,15,1437,2470.98,false
+Q0410,E,random,17 February 2027,"According to the given context, the active delivery date for Project KRONOS-410-A is 24 November 2027.",false,false,true,15,1659,2648.86,false
+Q0410,E,dense,17 February 2027,"According to the given context, Project KRONOS-410 has an active delivery date of 13 April 2027.",false,false,true,15,1453,1976.61,false
+Q0410,E,hybrid,17 February 2027,"Based on the information provided in the context, the active delivery date for Project KRONOS-410 is 13 April 2027. This can be seen from the FACT_ID (Fact Object ID) field of DOC_0000, which lists Project KRONOS-41",false,false,true,15,1453,3675.37,false
+Q0411,E,predictor,08 May 2027,"Based on the information provided, the active delivery date for Project LUNA-411 is 09 October 2027.",false,false,true,15,1443,1918.11,false
+Q0411,E,random,08 May 2027,The active delivery date for Project LUNA-411 was 22 June 2027.,false,false,false,15,1725,1664.01,false
+Q0411,E,dense,08 May 2027,"According to the context, Project LUNA-411 has an active delivery date of 08 May 2027.",false,true,true,15,1460,1645.58,false
+Q0411,E,hybrid,08 May 2027,"According to the context, the active delivery date for Project LUNA-411 was 08 May 2027.",false,true,true,15,1460,1731.87,false
+Q0412,E,predictor,12 May 2027,"According to the information provided, Project METEOR-412-A has an active delivery date of 12 May 2027.",false,true,true,16,1561,1828.97,true
+Q0412,E,random,12 May 2027,"I'm sorry, but I don't have enough information to determine the specific project or milestone you're referring to as ""Project METEOR-412."" Without more details about which project this refers to within the context of your question, it's not possible to provide an accurate answer. Could you please clarify which",false,false,false,16,1910,4404.15,true
+Q0412,E,dense,12 May 2027,"Based on the information provided in the context, Project METEOR-412 has an active delivery date of 12 May 2027. This can be seen in the factoid about Project METEOR-412-A, where it states that the ""Project"" is ""Fact ID",false,true,true,16,1572,4276.78,true
+Q0412,E,hybrid,12 May 2027,The active delivery date for Project METEOR-412 is 12 May 2027.,true,true,true,16,1572,1745.05,true
+Q0413,E,predictor,01 October 2027,"According to the context, the active delivery date for Project NEXUS-413 is 09 January 2027.",false,false,true,15,1444,1880.62,false
+Q0413,E,random,01 October 2027,"To determine the active delivery date for Project NEXUS-413, I'll need to follow these steps:
+
+1. Identify the project number (NEXUS-413) in the context of the given document.
+2. Locate the relevant information about the project's status or deliverables.
+3.",false,false,false,15,1791,3409.32,false
+Q0413,E,dense,01 October 2027,"According to the information provided, Project NEXUS-413 has an active delivery date of 09 January 2027.",false,false,true,15,1462,1779.30,false
+Q0413,E,hybrid,01 October 2027,"According to the information provided, Project NEXUS-413 has an active delivery date of 09 January 2027.",false,false,true,15,1462,1767.15,false
+Q0414,E,predictor,06 January 2027,The active delivery date for Project ORION-414 is 06 January 2027.,true,true,true,14,1319,1368.65,true
+Q0414,E,random,06 January 2027,The active delivery date for Project ORION-414 is 08 August 2027.,false,false,false,14,1541,1515.58,true
+Q0414,E,dense,06 January 2027,The active delivery date for Project ORION-414 is 06 January 2027.,true,true,true,14,1326,1726.36,true
+Q0414,E,hybrid,06 January 2027,The active delivery date for Project ORION-414 is 06 January 2027.,true,true,true,14,1326,1708.24,true
+Q0415,E,predictor,02 May 2027,The active delivery date for Project PHOENIX-415 is 16 August 2027.,false,false,true,16,1570,1710.03,false
+Q0415,E,random,02 May 2027,The active delivery date for Project PHOENIX-415-A is 12 April 2027.,false,false,false,16,1852,1816.20,false
+Q0415,E,dense,02 May 2027,"According to the context, Project PHOENIX-415 has an active delivery date of 16 August 2027.",false,false,true,16,1583,1916.15,false
+Q0415,E,hybrid,02 May 2027,The active delivery date for Project PHOENIX-415 is 12 April 2027.,false,false,true,16,1583,1559.12,false
+Q0416,E,predictor,01 January 2027,The active delivery date for Project QUASAR-416 is 01 January 2027.,true,true,true,15,1444,1370.08,false
+Q0416,E,random,01 January 2027,The active delivery date for Project QUASAR-416 is 13 May 2027.,false,false,false,15,1731,1430.08,false
+Q0416,E,dense,01 January 2027,"According to the information provided, Project QUASAR-416 has an active delivery date of 01 January 2027.",false,true,true,15,1458,1672.85,false
+Q0416,E,hybrid,01 January 2027,The active delivery date for Project QUASAR-416 is 18 March 2027.,false,false,true,15,1458,1407.73,false
+Q0417,E,predictor,23 March 2027,The active delivery date for Project RADAR-417 is 23 March 2027.,true,true,true,16,1555,1396.38,true
+Q0417,E,random,23 March 2027,"According to the information provided, Project RADAR-417-Legacy has an active delivery date of 05 February 2027.",false,false,false,16,1846,1937.12,true
+Q0417,E,dense,23 March 2027,"Based on the information provided, the active delivery date for Project RADAR-417 is 23 March 2027. This can be seen in the first row of the DOC_0004 document, where it states ""The Engineering department is optimizing its framework strategies to achieve better standardization",false,true,true,16,1561,4400.89,true
+Q0417,E,hybrid,23 March 2027,The active delivery date for Project RADAR-417 is 15 December 2027.,false,false,true,16,1561,1725.40,true
+Q0418,E,predictor,07 January 2027,"Based on the information provided in the given context, the active delivery date for Project SIRIUS-418 is 23 November 2027.",false,false,true,14,1340,2372.65,false
+Q0418,E,random,07 January 2027,The active delivery date for Project SIRIUS-418 is 02 August 2027.,false,false,false,14,1611,1783.59,false
+Q0418,E,dense,07 January 2027,"Based on the information provided in the context, Project SIRIUS-418 has an active delivery date of 23 November 2027.",false,false,true,14,1349,2150.50,false
+Q0418,E,hybrid,07 January 2027,"Based on the given context, Project SIRIUS-418 has an active delivery date of 23 November 2027.",false,false,true,14,1349,1876.14,false
+Q0419,E,predictor,21 March 2027,"According to the context, the active delivery date for Project TITAN-419 was 28 June 2027.",false,false,true,17,1670,1888.09,false
+Q0419,E,random,21 March 2027,"According to the information provided, Project TITAN-419 is currently in an ""ACTIVE"" status as of the latest update. The active delivery date listed with the project ID F-0419 is 21 March 2027.",false,true,true,17,1953,3114.92,false
+Q0419,E,dense,21 March 2027,The active delivery date for Project TITAN-419 was 04 January 2027.,false,false,true,17,1685,1594.41,false
+Q0419,E,hybrid,21 March 2027,The active delivery date for Project TITAN-419 was 21 March 2027.,true,true,true,17,1685,2225.08,false
+Q0420,E,predictor,27 July 2027,"According to the information provided, Project URANUS-420 has an active delivery date of 27 July 2027.",false,true,true,17,1680,2558.98,false
+Q0420,E,random,27 July 2027,"I apologize, but I do not have enough context or information to determine the exact date of Project URANUS-420's active delivery date. Without additional details about the project timeline or any specific milestones or deadlines mentioned in the given context, it would be challenging to provide an accurate answer. Could you please provide",false,false,false,17,2029,4367.55,false
+Q0420,E,dense,27 July 2027,"The active delivery date for Project URANUS-420 was 02 August 2027, as stated in the given context.",false,false,true,17,1711,2158.14,false
+Q0420,E,hybrid,27 July 2027,"According to the given context, Project URANUS-420 has an active delivery date of 02 August 2027.",false,false,true,17,1711,1930.25,false
+Q0421,E,predictor,05 November 2027,"Based on the information provided in the context, the active delivery date for Project VEGA-421 is 10 April 2027. This can be seen in the last sentence of the second document (DOC_0012), which states ""Fact ID: F-0421",false,false,true,15,1445,3691.32,false
+Q0421,E,random,05 November 2027,"According to the context, Project VEGA-421 has an active delivery date of 05 November 2027.",true,true,true,15,1645,1729.03,false
+Q0421,E,dense,05 November 2027,The active delivery date for Project VEGA-421 is 10 April 2027.,false,false,true,15,1446,1303.03,false
+Q0421,E,hybrid,05 November 2027,"According to the context, Project VEGA-421 has an active delivery date of 08 January 2027.",false,false,true,15,1446,1655.70,false
+Q0422,E,predictor,07 March 2027,"According to the given context, Project WARP-422 has an active delivery date of 10 January 2027.",false,false,true,16,1554,2223.58,false
+Q0422,E,random,07 March 2027,"According to the context, Project WARP-422 has an active delivery date of 10 January 2027.",false,false,true,16,1699,2338.88,false
+Q0422,E,dense,07 March 2027,The active delivery date for Project WARP-422 is 03 September 2027.,false,false,true,16,1567,1604.86,false
+Q0422,E,hybrid,07 March 2027,The active delivery date for Project WARP-422 is 03 September 2027.,false,false,true,16,1567,1546.72,false
+Q0423,E,predictor,28 February 2027,"According to the information provided, Project XENON-423 has an active delivery date of 28 February 2027.",false,true,true,16,1567,1969.73,true
+Q0423,E,random,28 February 2027,"According to the provided context, Project XENON-423 has an active delivery date of October 17, 2022.",false,false,false,16,1906,2181.96,true
+Q0423,E,dense,28 February 2027,The active delivery date for Project XENON-423 is 28 February 2027.,true,true,true,16,1578,1671.49,true
+Q0423,E,hybrid,28 February 2027,"According to the information provided, Project XENON-423 has an active delivery date of 28 February 2027.",false,true,true,16,1578,1866.58,true
+Q0424,E,predictor,16 September 2027,The active delivery date for Project ZENITH-424 is 27 June 2027.,false,false,true,15,1442,1489.09,false
+Q0424,E,random,16 September 2027,The active delivery date for Project ZENITH-424 was 12 January 2027.,false,false,false,15,1724,1515.73,false
+Q0424,E,dense,16 September 2027,The active delivery date for Project ZENITH-424 is 27 June 2027.,false,false,true,15,1462,1444.80,false
+Q0424,E,hybrid,16 September 2027,"The active delivery date for Project ZENITH-424-A is 27 June 2027, as indicated in the first fact line under the ""Fact"" section of the DOC_0000 document.",false,false,true,15,1462,3997.11,false
+Q0425,E,predictor,27 May 2027,The active delivery date for Project APEX-425 was 20 September 2027.,false,false,true,16,1565,2037.78,false
+Q0425,E,random,27 May 2027,"According to the information provided, Project APEX-425-A has an active delivery date of 20 September 2027.",false,false,false,16,1778,2004.96,false
+Q0425,E,dense,27 May 2027,"Based on the information provided, the active delivery date for Project APEX-425 was 03 May 2027.",false,false,true,16,1574,2085.99,false
+Q0425,E,hybrid,27 May 2027,The active delivery date for Project APEX-425 is 03 May 2027.,false,false,true,16,1574,1678.22,false
+Q0426,E,predictor,04 March 2027,"Based on the information provided in the given context, Project BEACON-426 has an active delivery date of 16 May 2027. This is explicitly stated in the last sentence of the relevant section:
+
+""Fact ID: F-0426-D Project: BEACON-",false,false,true,15,1444,3705.85,false
+Q0426,E,random,04 March 2027,"I apologize, but there appears to be an error in your request. The context you've provided does not contain any information about a project or its deliverables. If you have additional details or specific questions related to this topic, please feel free to ask them, and I'll do my best to assist you. Otherwise,",false,false,false,15,1799,3764.28,false
+Q0426,E,dense,04 March 2027,The active delivery date for Project BEACON-426 is 16 May 2027.,false,false,true,15,1458,1434.55,false
+Q0426,E,hybrid,04 March 2027,"Based on the given context, the active delivery date for Project BEACON-426 is 16 May 2027.",false,false,true,15,1458,2116.25,false
+Q0427,E,predictor,03 October 2027,"According to the context, the active delivery date for Project CHRONOS-427 is 20 April 2027.",false,false,true,15,1446,2410.23,true
+Q0427,E,random,03 October 2027,The active delivery date for Project CHRONOS-427 is 03 October 2027.,true,true,true,15,1659,1862.33,true
+Q0427,E,dense,03 October 2027,The active delivery date for Project CHRONOS-427 is 03 October 2027.,true,true,true,15,1466,1790.46,true
+Q0427,E,hybrid,03 October 2027,"According to the context, Project CHRONOS-427 has an active delivery date of 03 October 2027.",true,true,true,15,1466,1811.73,true
+Q0428,E,predictor,26 March 2027,The active delivery date for Project DAWN-428 is 04 April 2027.,false,false,true,16,1557,1621.61,false
+Q0428,E,random,26 March 2027,The active delivery date for Project DAWN-428-A is 02 February 2027.,false,false,false,16,1845,1577.44,false
+Q0428,E,dense,26 March 2027,"Based on the information provided in the context, the active delivery date for Project DAWN-428 is 04 April 2027.",false,false,true,16,1573,1932.13,false
+Q0428,E,hybrid,26 March 2027,"The active delivery date for Project DAWN-428 was 26 March 2027, as stated in the last document with that ID: DOC_0033.",false,true,true,16,1573,2296.82,false
+Q0429,E,predictor,01 June 2027,"According to the given context, Project ECLIPSE-429 has an active delivery date of 09 December 2027.",false,false,true,16,1561,1879.53,false
+Q0429,E,random,01 June 2027,"According to the information provided, Project ECLIPSE-429 has an active delivery date of 20 November 2027.",false,false,false,16,1718,1717.04,false
+Q0429,E,dense,01 June 2027,The active delivery date for Project ECLIPSE-429 is 01 June 2027.,true,true,true,16,1581,1835.52,false
+Q0429,E,hybrid,01 June 2027,The active delivery date for Project ECLIPSE-429 is 18 October 2027.,false,false,true,16,1581,1861.26,false
+Q0430,E,predictor,04 December 2027,"According to the given context, the active delivery date for Project FALCON-430 is 15 December 2027.",false,false,true,15,1449,2113.37,false
+Q0430,E,random,04 December 2027,The active delivery date for Project FALCON-430-A is 16 June 2027.,false,false,false,15,1734,1733.54,false
+Q0430,E,dense,04 December 2027,"Based on the information provided, Project FALCON-430 has an active delivery date of 15 December 2027.",false,false,true,15,1468,1923.85,false
+Q0430,E,hybrid,04 December 2027,"Based on the information provided, the active delivery date for Project FALCON-430 is 15 December 2027.",false,false,true,15,1468,1861.69,false
+Q0431,E,predictor,05 June 2027,"According to the context, Project GENESIS-431-Legacy has an active delivery date of 06 January 2027.",false,false,true,15,1428,1930.99,false
+Q0431,E,random,05 June 2027,The active delivery date for Project GENESIS-431-A was 17 August 2027.,false,false,false,15,1723,1436.45,false
+Q0431,E,dense,05 June 2027,"According to the information provided, the active delivery date for Project GENESIS-431-Legacy is 06 January 2027.",false,false,true,15,1456,1745.43,false
+Q0431,E,hybrid,05 June 2027,"Based on the information provided in the context, Project GENESIS-431 has an active delivery date of 05 June 2027.",false,true,true,15,1456,1737.00,false
+Q0432,E,predictor,23 November 2027,"Based on the information provided in the context, the active delivery date for Project HELIOS-432 is 25 March 2027.",false,false,true,15,1438,1768.96,false
+Q0432,E,random,23 November 2027,The active delivery date for Project HELIOS-432 is 25 March 2027.,false,false,true,15,1444,1300.35,false
+Q0432,E,dense,23 November 2027,The active delivery date for Project HELIOS-432 is 25 March 2027.,false,false,true,15,1442,2039.97,false
+Q0432,E,hybrid,23 November 2027,"Based on the information provided, the active delivery date for Project HELIOS-432 is 25 March 2027.",false,false,true,15,1442,2308.11,false
+Q0433,E,predictor,04 May 2027,The active delivery date for Project IRIS-433 is 03 December 2027.,false,false,true,16,1556,2042.96,false
+Q0433,E,random,04 May 2027,The active delivery date for Project IRIS-433 is 10 November 2027.,false,false,false,16,1780,1626.71,false
+Q0433,E,dense,04 May 2027,"Based on the information provided in the context, the active delivery date for Project IRIS-433 is:
+
+03 December 2027",false,false,true,16,1573,2051.94,false
+Q0433,E,hybrid,04 May 2027,The active delivery date for Project IRIS-433 was 03 December 2027.,false,false,true,16,1573,1548.16,false
+Q0434,E,predictor,13 April 2027,"According to the given context, the active delivery date for Project JUPITER-434 is 12 October 2027.",false,false,true,16,1563,1838.72,false
+Q0434,E,random,13 April 2027,The active delivery date for Project JUPITER-434 was 09 April 2027.,false,false,false,16,1843,1585.37,false
+Q0434,E,dense,13 April 2027,"The active delivery date for Project JUPITER-434 is 13 April 2027, which is listed in the second entry of the DOC_0005 document.",false,true,true,16,1569,2352.72,false
+Q0434,E,hybrid,13 April 2027,The active delivery date for Project JUPITER-434 was 12 October 2027.,false,false,true,16,1569,1389.66,false
+Q0435,E,predictor,19 June 2027,The active delivery date for Project KRONOS-435 is 19 February 2027.,false,true,true,14,1329,1346.97,false
+Q0435,E,random,19 June 2027,The active delivery date for Project KRONOS-435 is 19 February 2027.,false,true,false,14,1481,1567.62,false
+Q0435,E,dense,19 June 2027,The active delivery date for Project KRONOS-435 is 19 February 2027.,false,true,true,14,1346,1651.05,false
+Q0435,E,hybrid,19 June 2027,"According to the context, Project KRONOS-435 has an active delivery date of 19 February 2027.",false,true,true,14,1346,2248.26,false
+Q0436,E,predictor,22 May 2027,The active delivery date for Project LUNA-436 is 22 May 2027.,true,true,true,14,1334,1878.39,true
+Q0436,E,random,22 May 2027,The active delivery date for Project LUNA-436 was 11 April 2027.,false,false,false,14,1547,1482.98,true
+Q0436,E,dense,22 May 2027,"Based on the information provided, the active delivery date for Project LUNA-436 is 22 May 2027.",false,true,true,14,1347,1809.31,true
+Q0436,E,hybrid,22 May 2027,The active delivery date for Project LUNA-436 is 22 May 2027.,true,true,true,14,1347,1554.83,true
+Q0437,E,predictor,07 February 2027,"According to the context, Project METEOR-437 has an active delivery date of 06 November 2027.",false,false,true,15,1449,1834.45,false
+Q0437,E,random,07 February 2027,"I'm sorry, but I cannot provide an answer to your question without more context or information about which project you're referring to. Could you please provide me with the name of the project or the relevant document (like a contract) that contains this information?",false,false,false,15,1782,2987.34,false
+Q0437,E,dense,07 February 2027,"According to the given information, Project METEOR-437 has an active delivery date of 06 November 2027.",false,false,true,15,1459,1689.16,false
+Q0437,E,hybrid,07 February 2027,The active delivery date for Project METEOR-437 is 06 November 2027.,false,false,true,15,1459,1404.88,false
+Q0438,E,predictor,05 November 2027,The active delivery date for Project NEXUS-438 is 26 January 2027.,false,false,true,15,1442,1458.61,false
+Q0438,E,random,05 November 2027,The active delivery date for Project NEXUS-438 is 02 June 2027.,false,false,true,15,1656,1848.55,false
+Q0438,E,dense,05 November 2027,"Based on the information provided, Project NEXUS-438 has an active delivery date of 02 June 2027.",false,false,true,15,1478,2165.18,false
+Q0438,E,hybrid,05 November 2027,The active delivery date for Project NEXUS-438 is 02 June 2027.,false,false,true,15,1478,2234.77,false
+Q0439,E,predictor,10 January 2027,"According to the given context, Project ORION-439 has an active delivery date of 24 November 2027.",false,false,true,16,1562,1936.11,true
+Q0439,E,random,10 January 2027,The active delivery date for Project ORION-439 was 17 October 2027.,false,false,true,16,1695,1612.15,true
+Q0439,E,dense,10 January 2027,"According to the given information, Project ORION-439 has an active delivery date of 10 January 2027.",false,true,true,16,1567,1970.67,true
+Q0439,E,hybrid,10 January 2027,The active delivery date for Project ORION-439 is 10 January 2027.,true,true,true,16,1567,1481.82,true
+Q0440,E,predictor,01 December 2027,"According to the context, Project PHOENIX-440 has an active delivery date of 10 December 2027.",false,false,true,15,1452,1763.93,false
+Q0440,E,random,01 December 2027,The active delivery date for Project PHOENIX-440-Legacy is 28 February 2027.,false,false,false,15,1737,1678.04,false
+Q0440,E,dense,01 December 2027,The active delivery date for Project PHOENIX-440 is 04 July 2027.,false,false,true,15,1465,1359.78,false
+Q0440,E,hybrid,01 December 2027,"Based on the information provided in the context, the active delivery date for Project PHOENIX-440 is 11 September 2027.",false,false,true,15,1465,1980.90,false
+Q0441,E,predictor,04 September 2027,"According to the context, Project QUASAR-441 has an active delivery date of 04 September 2027.",true,true,true,15,1441,1943.92,false
+Q0441,E,random,04 September 2027,The active delivery date for Project QUASAR-441 is 04 September 2027.,true,true,true,15,1588,2019.64,false
+Q0441,E,dense,04 September 2027,"According to the given context, the active delivery date for Project QUASAR-441 is 04 September 2027.",true,true,true,15,1451,2464.82,false
+Q0441,E,hybrid,04 September 2027,"According to the information provided, the active delivery date for Project QUASAR-441 is 04 September 2027.",true,true,true,15,1451,2241.46,false
+Q0442,E,predictor,07 November 2027,"According to the given context, Project RADAR-442 has an Active Delivery Date of 20 November 2027.",false,false,true,16,1559,1938.53,false
+Q0442,E,random,07 November 2027,"According to the context, Project RADAR-442 has an Active Delivery Date of 20 November 2027.",false,false,false,16,1769,1834.50,false
+Q0442,E,dense,07 November 2027,"Based on the information provided, the active delivery date for Project RADAR-442 is 07 May 2027.",false,true,true,16,1566,1724.50,false
+Q0442,E,hybrid,07 November 2027,The active delivery date for Project RADAR-442 is 07 May 2027.,false,true,true,16,1566,1446.23,false
+Q0443,E,predictor,08 May 2027,"Based on the information provided, the active delivery date for Project SIRIUS-443 is 22 March 2027.",false,false,true,15,1448,1734.37,false
+Q0443,E,random,08 May 2027,The active delivery date for Project SIRIUS-443 was 03 June 2027.,false,false,true,15,1597,1497.61,false
+Q0443,E,dense,08 May 2027,"Based on the information provided, the active delivery date for Project SIRIUS-443 is 03 June 2027.",false,false,true,15,1467,1672.41,false
+Q0443,E,hybrid,08 May 2027,The active delivery date for Project SIRIUS-443 is 03 June 2027.,false,false,true,15,1467,1520.60,false
+Q0444,E,predictor,24 December 2027,"Based on the information provided in the context, the active delivery date for Project TITAN-444 (FACT_ID: F-0444-D) is 24 December 2027.",false,true,true,13,1220,3162.63,false
+Q0444,E,random,24 December 2027,The active delivery date for Project TITAN-444 is 09 August 2027.,false,false,false,13,1421,2251.60,false
+Q0444,E,dense,24 December 2027,"Based on the information provided in the given text, the active delivery date for Project TITAN-444 is 09 August 2027.",false,false,true,13,1227,2193.20,false
+Q0444,E,hybrid,24 December 2027,The active delivery date for Project TITAN-444 is 09 August 2027.,false,false,true,13,1227,1532.08,false
+Q0445,E,predictor,12 December 2027,"According to the context, the active delivery date for Project URANUS-445 is 12 December 2027.",true,true,true,16,1555,1812.66,true
+Q0445,E,random,12 December 2027,The active delivery date for Project URANUS-445-B was 11 November 2027.,false,false,false,16,1848,1596.52,true
+Q0445,E,dense,12 December 2027,"According to the information provided, Project URANUS-445 has an active delivery date of 12 December 2027.",false,true,true,16,1564,2230.73,true
+Q0445,E,hybrid,12 December 2027,"According to the given context, Project URANUS-445 has an active delivery date of 12 December 2027.",true,true,true,16,1564,1972.29,true
+Q0446,E,predictor,15 July 2027,"According to the given context, Project VEGA-446 has an active delivery date of 15 July 2027.",false,true,true,16,1549,1777.93,true
+Q0446,E,random,15 July 2027,The active delivery date for Project VEGA-446 is 15 July 2027.,true,true,true,16,1771,1441.08,true
+Q0446,E,dense,15 July 2027,"According to the given context, the active delivery date for Project VEGA-446 is 15 July 2027.",false,true,true,16,1566,1681.91,true
+Q0446,E,hybrid,15 July 2027,"According to the given context, Project VEGA-446 has an active delivery date of 15 July 2027.",false,true,true,16,1566,2142.45,true
+Q0447,E,predictor,21 November 2027,"According to the information provided, Project WARP-447-A has an active delivery date of 16 July 2027.",false,false,true,15,1441,2493.55,true
+Q0447,E,random,21 November 2027,"According to the given information, Project WARP-447 is Active Delivery Date (AD) of 04 March 2027.",false,false,false,15,1727,2392.86,true
+Q0447,E,dense,21 November 2027,"According to the context provided, Project WARP-447 has an active delivery date of 27 March 2027.",false,false,true,15,1454,1871.95,true
+Q0447,E,hybrid,21 November 2027,"The active delivery date for Project WARP-447-A (the first DOC_0002 entry) was 16 July 2027, which is the last update in this list of projects.",false,false,true,15,1454,2806.64,true
+Q0448,E,predictor,14 September 2027,"According to the information provided, Project XENON-448 has an active delivery date of 14 September 2027.",true,true,true,16,1558,1893.07,true
+Q0448,E,random,14 September 2027,The active delivery date for Project XENON-448 was 03 January 2027.,false,false,false,16,1835,1573.73,true
+Q0448,E,dense,14 September 2027,The active delivery date for Project XENON-448 is 17 August 2027.,false,false,true,16,1575,1537.58,true
+Q0448,E,hybrid,14 September 2027,"According to the information provided, Project XENON-448 has an Active Delivery Date of 17 August 2027.",false,false,true,16,1575,1761.80,true
+Q0449,E,predictor,27 October 2027,"According to the given context, the active delivery date for Project ZENITH-449 is 27 October 2027.",true,true,true,16,1562,1704.82,true
+Q0449,E,random,27 October 2027,"According to the provided context, Project ZENITH-449 has an active delivery date of 05/15/2022.",false,false,false,16,1906,2569.39,true
+Q0449,E,dense,27 October 2027,"According to the context, Project ZENITH-449 has an active delivery date of 27 October 2027.",true,true,true,16,1566,2454.94,true
+Q0449,E,hybrid,27 October 2027,The active delivery date for Project ZENITH-449 is 02 April 2027.,false,false,true,16,1566,2125.13,true
+Q0450,E,predictor,20 January 2027,"According to the information provided, Project APEX-450 has an active delivery date of 25 April 2027.",false,false,true,15,1443,1961.69,true
+Q0450,E,random,20 January 2027,"According to the information provided, Project APEX-450 is an Active Delivery Date (ADD) of 13 August 2027.",false,false,false,15,1662,2205.92,true
+Q0450,E,dense,20 January 2027,The active delivery date for Project APEX-450 is 20 January 2027.,true,true,true,15,1465,1537.89,true
+Q0450,E,hybrid,20 January 2027,"According to the given context, the active delivery date for Project APEX-450 is 20 January 2027.",true,true,true,15,1465,1948.97,true
+Q0451,E,predictor,04 November 2027,The active delivery date for Project BEACON-451 is 17 July 2027.,false,false,true,16,1564,1493.33,false
+Q0451,E,random,04 November 2027,The active delivery date for Project BEACON-451 is 17 July 2027.,false,false,true,16,1772,1461.02,false
+Q0451,E,dense,04 November 2027,The active delivery date for Project BEACON-451 is 05 July 2027.,false,false,true,16,1569,1448.42,false
+Q0451,E,hybrid,04 November 2027,The active delivery date for Project BEACON-451 is 05 July 2027.,false,false,true,16,1569,1379.07,false
+Q0452,E,predictor,02 June 2027,"According to the given context, the active delivery date for Project CHRONOS-452 is 15 February 2027.",false,false,true,15,1443,1861.00,false
+Q0452,E,random,02 June 2027,The active delivery date for Project CHRONOS-452 was 15 August 2027.,false,false,false,15,1735,1913.06,false
+Q0452,E,dense,02 June 2027,The active delivery date for Project CHRONOS-452 was 15 February 2027.,false,false,true,15,1465,1785.87,false
+Q0452,E,hybrid,02 June 2027,The active delivery date for Project CHRONOS-452 is 15 February 2027.,false,false,true,15,1465,1889.54,false
+Q0453,E,predictor,15 February 2027,The active delivery date for Project DAWN-453 is 15 February 2027.,true,true,true,16,1552,1644.87,true
+Q0453,E,random,15 February 2027,The active delivery date for Project DAWN-453 is 23 June 2027.,false,false,false,16,1836,1660.82,true
+Q0453,E,dense,15 February 2027,The active delivery date for Project DAWN-453 is 15 February 2027.,true,true,true,16,1564,1553.42,true
+Q0453,E,hybrid,15 February 2027,"According to the context, Project DAWN-453 has an active delivery date of 15 February 2027.",true,true,true,16,1564,1789.15,true
+Q0454,E,predictor,23 August 2027,The active delivery date for Project ECLIPSE-454 is 22 June 2027.,false,false,true,15,1457,1470.24,false
+Q0454,E,random,23 August 2027,The active delivery date for Project ECLIPSE-454 was 22 September 2027.,false,false,false,15,1724,1527.64,false
+Q0454,E,dense,23 August 2027,The active delivery date for Project ECLIPSE-454 was 22 June 2027.,false,false,true,15,1468,1461.65,false
+Q0454,E,hybrid,23 August 2027,The active delivery date for Project ECLIPSE-454 is 22 June 2027.,false,false,true,15,1468,1378.46,false
+Q0455,E,predictor,01 June 2027,The active delivery date for Project FALCON-455 is 01 February 2027.,false,true,true,15,1445,1479.16,false
+Q0455,E,random,01 June 2027,"According to the given context, Project FALCON-455 has an active delivery date of 01/11/2023. This can be inferred from the information provided about the project timeline, including the ""active"" status for certain milestones or deliverables within the project scope.",false,false,false,15,1787,4180.58,false
+Q0455,E,dense,01 June 2027,"Based on the information provided in the context, the active delivery date for Project FALCON-455 is:
+
+**24 June 2027**
+
+This can be inferred from the fact that Project FALCON-455-B has an active delivery date of ""24 June 20",false,false,true,15,1455,4502.69,false
+Q0455,E,hybrid,01 June 2027,The active delivery date for Project FALCON-455 is 01 February 2027.,false,true,true,15,1455,1873.43,false
+Q0456,E,predictor,18 August 2027,The active delivery date for Project GENESIS-456 is 18 August 2027.,true,true,true,15,1451,1432.30,true
+Q0456,E,random,18 August 2027,The active delivery date for Project GENESIS-456 is 18 August 2027.,true,true,true,15,1657,1459.68,true
+Q0456,E,dense,18 August 2027,"According to the information provided, Project GENESIS-456 has an active delivery date of 18 August 2027.",false,true,true,15,1454,1791.16,true
+Q0456,E,hybrid,18 August 2027,"According to the context, Project GENESIS-456 has an active delivery date of 18 August 2027.",true,true,true,15,1454,1744.45,true
+Q0457,E,predictor,10 November 2027,The active delivery date for Project HELIOS-457 is 15 February 2027.,false,false,true,15,1454,1347.94,false
+Q0457,E,random,10 November 2027,The active delivery date for Project HELIOS-457 is 10 November 2027.,true,true,true,15,1660,1305.20,false
+Q0457,E,dense,10 November 2027,The active delivery date for Project HELIOS-457 is 05 April 2027.,false,false,true,15,1459,1351.49,false
+Q0457,E,hybrid,10 November 2027,The active delivery date for Project HELIOS-457 is 10 November 2027.,true,true,true,15,1459,1639.98,false
+Q0458,E,predictor,24 February 2027,The active delivery date for Project IRIS-458 is 21 April 2027.,false,false,true,16,1562,1935.95,false
+Q0458,E,random,24 February 2027,The active delivery date for Project IRIS-458-A is 21 April 2027.,false,false,false,16,1836,2132.12,false
+Q0458,E,dense,24 February 2027,"According to the context, Project IRIS-458 has an active delivery date of 21 April 2027.",false,false,true,16,1557,2070.45,false
+Q0458,E,hybrid,24 February 2027,The active delivery date for Project IRIS-458 is 21 April 2027.,false,false,true,16,1557,1529.30,false
+Q0459,E,predictor,05 March 2027,The active delivery date for Project JUPITER-459 is 19 January 2027.,false,false,true,16,1561,1746.04,false
+Q0459,E,random,05 March 2027,"To determine the active delivery date for Project JUPITER-459, I'll need more specific information about that project. However, based on the context provided:
+
+1. The context mentions ""Project JUPITER-459"" without any additional details.
+2. It's mentioned in relation to other projects",false,false,false,16,1906,3718.48,false
+Q0459,E,dense,05 March 2027,"According to the information provided, Project JUPITER-459 has an active delivery date of 19 January 2027.",false,false,true,16,1576,1924.53,false
+Q0459,E,hybrid,05 March 2027,The active delivery date for Project JUPITER-459 was 19 January 2027.,false,false,true,16,1576,1444.51,false
+Q0460,E,predictor,02 November 2027,The active delivery date for Project KRONOS-460 is 02 November 2027.,true,true,true,15,1445,1340.99,true
+Q0460,E,random,02 November 2027,"Based on the information provided, the active delivery date for Project KRONOS-460 is 02 November 2027.",true,true,true,15,1536,1758.75,true
+Q0460,E,dense,02 November 2027,"The active delivery date for Project KRONOS-460 is stated as ""02 November 2027"".",true,true,true,15,1458,1794.59,true
+Q0460,E,hybrid,02 November 2027,"Based on the information provided in the given context, Project KRONOS-460 has an active delivery date of 19 August 2027.",false,false,true,15,1458,2513.82,true
+Q0461,E,predictor,08 May 2027,"According to the information provided, the active delivery date for Project LUNA-461-A is 19 July 2027.",false,false,true,17,1687,2681.48,false
+Q0461,E,random,08 May 2027,"The active delivery date for Project LUNA-461-A is 19 July 2027, as stated in the first DOC_0002 entry.",false,false,true,17,1757,2401.26,false
+Q0461,E,dense,08 May 2027,The active delivery date for Project LUNA-461 was 19 July 2027.,false,false,true,17,1696,1755.51,false
+Q0461,E,hybrid,08 May 2027,The active delivery date for Project LUNA-461 is 19 July 2027.,false,false,true,17,1696,1753.72,false
+Q0462,E,predictor,02 May 2027,"According to the given information, the active delivery date for Project METEOR-462 is 02 May 2027.",false,true,true,16,1561,1830.05,false
+Q0462,E,random,02 May 2027,"According to the information provided, Project METEOR-462 has an Active Delivery Date of 17 January 2027.",false,false,false,16,1704,1953.03,false
+Q0462,E,dense,02 May 2027,"According to the context, Project METEOR-462 has an active delivery date of 02 May 2027.",false,true,true,16,1567,1640.53,false
+Q0462,E,hybrid,02 May 2027,"According to the information provided, the active delivery date for Project METEOR-462 is 02 May 2027.",false,true,true,16,1567,1837.76,false
+Q0463,E,predictor,15 April 2027,"Based on the information provided in the context, the active delivery date for Project NEXUS-463 is 15 April 2027.",false,true,true,15,1448,1783.78,true
+Q0463,E,random,15 April 2027,"According to the information provided in the context, Project NEXUS-463 has an active delivery date of 13 September 2027.",false,false,false,15,1654,2473.81,true
+Q0463,E,dense,15 April 2027,"Based on the information provided in the given context, the active delivery date for Project NEXUS-463 is 15 April 2027.",false,true,true,15,1459,2710.42,true
+Q0463,E,hybrid,15 April 2027,"Based on the information provided in the context, the active delivery date for Project NEXUS-463 is:
+
+15 April 2027
+
+This can be found in the first fact with the ID ""F-0463"" listed under ""Project:"" in the context.",false,true,true,15,1459,3813.61,true
+Q0464,E,predictor,21 November 2027,The active delivery date for Project ORION-464 is 21 November 2027.,true,true,true,15,1441,1550.54,false
+Q0464,E,random,21 November 2027,The active delivery date for Project ORION-464 is 21 November 2027.,true,true,true,15,1716,1324.88,false
+Q0464,E,dense,21 November 2027,"According to the information provided, Project ORION-464 has an active delivery date of 21 November 2027.",false,true,true,15,1446,1649.01,false
+Q0464,E,hybrid,21 November 2027,"Based on the information provided, Project ORION-464 has an active delivery date of 21 September 2027.",false,true,true,15,1446,1725.97,false
+Q0465,E,predictor,12 November 2027,"Based on the information provided in the given context, Project PHOENIX-465 has an active delivery date of 12 November 2027.",false,true,true,15,1446,2087.92,false
+Q0465,E,random,12 November 2027,"According to the context, Project PHOENIX-465 has an active delivery date of 07 October 2027.",false,false,false,15,1586,1802.97,false
+Q0465,E,dense,12 November 2027,"According to the given context, Project PHOENIX-465 has an active delivery date of 12 November 2027.",true,true,true,15,1468,1680.39,false
+Q0465,E,hybrid,12 November 2027,The active delivery date for Project PHOENIX-465 is 12 November 2027.,true,true,true,15,1468,1775.36,false
+Q0466,E,predictor,05 March 2027,The active delivery date for Project QUASAR-466 is 03 March 2027.,false,false,true,16,1572,2247.20,false
+Q0466,E,random,05 March 2027,The active delivery date for Project QUASAR-466 was 05 March 2027.,true,true,true,16,1776,1831.00,false
+Q0466,E,dense,05 March 2027,"According to the context, Project QUASAR-466 has an Active Delivery Date of 03 March 2027.",false,false,true,16,1571,1999.26,false
+Q0466,E,hybrid,05 March 2027,The active delivery date for Project QUASAR-466 was 05 March 2027.,true,true,true,16,1571,1631.62,false
+Q0467,E,predictor,25 September 2027,"Based on the information provided, the active delivery date for Project RADAR-467 is 06 May 2027.",false,false,true,15,1438,1943.69,false
+Q0467,E,random,25 September 2027,"According to the information provided, the active delivery date for Project RADAR-467-A is 25 August 2027.",false,true,false,15,1721,1812.42,false
+Q0467,E,dense,25 September 2027,"According to the given information, Project RADAR-467 has an active delivery date of 25 August 2027.",false,true,true,15,1441,1840.85,false
+Q0467,E,hybrid,25 September 2027,"According to the given information, Project RADAR-467 has an active delivery date of 25 August 2027.",false,true,true,15,1441,1688.69,false
+Q0468,E,predictor,17 September 2027,The active delivery date for Project SIRIUS-468 is 17 September 2027.,true,true,true,14,1340,1475.87,true
+Q0468,E,random,17 September 2027,The active delivery date for Project SIRIUS-468 is 17 September 2027.,true,true,true,14,1622,1575.52,true
+Q0468,E,dense,17 September 2027,The active delivery date for Project SIRIUS-468 is 17 September 2027.,true,true,true,14,1358,1550.45,true
+Q0468,E,hybrid,17 September 2027,"Based on the information provided, the active delivery date for Project SIRIUS-468 is 17 September 2027. This can be found in the first document listed under ""DOC_0005"": ""The Legal department is optimizing its virtualization strategies to achieve better throughput and",false,true,true,14,1358,4732.97,true
+Q0469,E,predictor,21 May 2027,"According to the given information, Project TITAN-469 has an active delivery date of 21 May 2027.",false,true,true,16,1570,2386.34,false
+Q0469,E,random,21 May 2027,The active delivery date for Project TITAN-469 is 23 September 2027.,false,false,false,16,1765,1682.25,false
+Q0469,E,dense,21 May 2027,"According to the information provided, the active delivery date for Project TITAN-469 is 21 May 2027.",false,true,true,16,1569,1997.93,false
+Q0469,E,hybrid,21 May 2027,The active delivery date for Project TITAN-469 is 21 May 2027.,true,true,true,16,1569,1549.98,false
+Q0470,E,predictor,17 August 2027,The active delivery date for Project URANUS-470 is 02 February 2027.,false,false,true,14,1329,1456.87,false
+Q0470,E,random,17 August 2027,"According to the given context, Project URANUS-470 has an active delivery date of December 15, 2024. This information can be found in the last sentence of the document, which states that ""Project URANUS-470 has an active delivery date of December",false,false,false,14,1672,3523.33,false
+Q0470,E,dense,17 August 2027,The active delivery date for Project URANUS-470 is 02 February 2027.,false,false,true,14,1336,1491.44,false
+Q0470,E,hybrid,17 August 2027,"According to the context, the active delivery date for Project URANUS-470 was 02 February 2027.",false,false,true,14,1336,1644.18,false
+Q0471,E,predictor,03 June 2027,The active delivery date for Project VEGA-471 is 02 February 2027.,false,false,true,13,1209,1656.72,false
+Q0471,E,random,03 June 2027,"According to the context, the active delivery date for Project VEGA-471 was 17 March 2027.",false,false,false,13,1496,2111.98,false
+Q0471,E,dense,03 June 2027,"Based on the information provided in the context, the active delivery date for Project VEGA-471 is 02 February 2027.",false,false,true,13,1216,2218.26,false
+Q0471,E,hybrid,03 June 2027,The active delivery date for Project VEGA-471 is 02 February 2027.,false,false,true,13,1216,1509.13,false
+Q0472,E,predictor,09 February 2027,The active delivery date for Project WARP-472-Mobile was 08 November 2027.,false,false,true,16,1557,1585.49,false
+Q0472,E,random,09 February 2027,"According to the context, the active delivery date for Project WARP-472-Mobile is 08 November 2027.",false,false,false,16,1852,1947.52,false
+Q0472,E,dense,09 February 2027,The active delivery date for Project WARP-472 was 09 February 2027.,true,true,true,16,1581,1473.38,false
+Q0472,E,hybrid,09 February 2027,"According to the given context, Project WARP-472 has an active delivery date of ""09 February 2027"".",true,true,true,16,1581,1650.62,false
+Q0473,E,predictor,27 December 2027,"According to the given information, the active delivery date for Project XENON-473 (which is listed under DOC_0031) is 27 December 2027.",false,true,true,14,1326,2300.97,false
+Q0473,E,random,27 December 2027,"Unfortunately, I don't have access to specific project information or dates like this one. Without additional details about the projects in question, it's impossible to provide an accurate answer to your question. To find out the active delivery date for Project XENON-473, you would need to refer to the original project",false,false,false,14,1674,3481.28,false
+Q0473,E,dense,27 December 2027,"According to the given context, Project XENON-473 has an active delivery date of 14 January 2027.",false,false,true,14,1328,2280.10,false
+Q0473,E,hybrid,27 December 2027,The active delivery date for Project XENON-473 is 14 January 2027.,false,false,true,14,1328,1669.02,false
+Q0474,E,predictor,27 May 2027,The active delivery date for Project ZENITH-474 is 27 May 2027.,true,true,true,14,1339,1750.02,false
+Q0474,E,random,27 May 2027,The active delivery date for Project ZENITH-474 was 08 February 2027.,false,false,false,14,1550,1705.68,false
+Q0474,E,dense,27 May 2027,"According to the context, Project ZENITH-474 has an active delivery date of 27 May 2027.",false,true,true,14,1346,1867.65,false
+Q0474,E,hybrid,27 May 2027,The active delivery date for Project ZENITH-474 is 27 May 2027.,true,true,true,14,1346,1668.46,false
+Q0475,E,predictor,13 February 2027,"Based on the information provided, the active delivery date for Project APEX-475 is 13 February 2027.",true,true,true,15,1442,1615.09,false
+Q0475,E,random,13 February 2027,The active delivery date for Project APEX-475 is 13 February 2027.,true,true,true,15,1728,1447.21,false
+Q0475,E,dense,13 February 2027,"According to the information provided, Project APEX-475 has an Active Delivery Date of 28 March 2027.",false,false,true,15,1459,1634.68,false
+Q0475,E,hybrid,13 February 2027,"According to the given context, Project APEX-475 has an active delivery date of 13 February 2027.",true,true,true,15,1459,1831.54,false
+Q0476,E,predictor,22 May 2027,The active delivery date for Project BEACON-476 is 24 January 2027.,false,false,true,16,1563,1366.41,false
+Q0476,E,random,22 May 2027,The active delivery date for Project BEACON-476 is 28 August 2027.,false,false,true,16,1774,1526.51,false
+Q0476,E,dense,22 May 2027,The active delivery date for Project BEACON-476 is 24 January 2027.,false,false,true,16,1572,1696.42,false
+Q0476,E,hybrid,22 May 2027,"According to the context, Project BEACON-476 has an active delivery date of 24 January 2027.",false,false,true,16,1572,2033.12,false
+Q0477,E,predictor,26 May 2027,"According to the context, Project CHRONOS-477 has an active delivery date of 21 April 2027.",false,false,true,14,1320,1948.82,false
+Q0477,E,random,26 May 2027,The active delivery date for Project CHRONOS-477 is 12 August 2027.,false,false,false,14,1475,1705.98,false
+Q0477,E,dense,26 May 2027,"According to the context, Project CHRONOS-477 has an active delivery date of 12 August 2027.",false,false,true,14,1341,1974.61,false
+Q0477,E,hybrid,26 May 2027,"According to the given context, the active delivery date for Project CHRONOS-477 is 21 April 2027.",false,false,true,14,1341,1945.36,false
+Q0478,E,predictor,17 August 2027,"According to the information provided in the context, Project DAWN-478 has an active delivery date of 16 May 2027.",false,false,true,15,1441,1918.70,false
+Q0478,E,random,17 August 2027,The active delivery date for Project DAWN-478-A is 16 May 2027.,false,false,false,15,1720,1456.61,false
+Q0478,E,dense,17 August 2027,The active delivery date for Project DAWN-478 is 02 February 2027.,false,false,true,15,1446,1413.79,false
+Q0478,E,hybrid,17 August 2027,"According to the context, Project DAWN-478-A has an active delivery date of 16 May 2027.",false,false,true,15,1446,1694.84,false
+Q0479,E,predictor,27 October 2027,The active delivery date for Project ECLIPSE-479 is 10 December 2027.,false,false,true,16,1569,1463.30,false
+Q0479,E,random,27 October 2027,"According to the provided context, Project ECLIPSE-479 has an active delivery date of January 6, 2023. This can be seen in the information about the project's timeline and milestones, where it mentions that ""the Delivery Date"" for this project is set for January 6",false,false,false,16,1908,4235.46,false
+Q0479,E,dense,27 October 2027,"Based on the information provided in the context, the active delivery date for Project ECLIPSE-479 is:
+
+20 November 2027",false,false,true,16,1581,2703.29,false
+Q0479,E,hybrid,27 October 2027,"Based on the information provided, Project ECLIPSE-479 has an active delivery date of 20 November 2027.",false,false,true,16,1581,2066.86,false
+Q0480,E,predictor,28 November 2027,The active delivery date for Project FALCON-480 is 28 November 2027.,true,true,true,16,1561,1517.87,false
+Q0480,E,random,28 November 2027,The active delivery date for Project FALCON-480 is 28 November 2027.,true,true,true,16,1637,1636.20,false
+Q0480,E,dense,28 November 2027,The active delivery date for Project FALCON-480 is 01 July 2027.,false,false,true,16,1575,1448.22,false
+Q0480,E,hybrid,28 November 2027,"According to the context, Project FALCON-480 has an active delivery date of 28 November 2027.",true,true,true,16,1575,1949.09,false
+Q0481,E,predictor,03 December 2027,"According to the context provided, Project GENESIS-481 has an active delivery date of 03 December 2027.",true,true,true,15,1440,1735.07,true
+Q0481,E,random,03 December 2027,The active delivery date for Project GENESIS-481-A is 03 September 2027.,false,true,false,15,1660,1398.64,true
+Q0481,E,dense,03 December 2027,The active delivery date for Project GENESIS-481 is 03 December 2027.,true,true,true,15,1459,1305.83,true
+Q0481,E,hybrid,03 December 2027,The active delivery date for Project GENESIS-481 is 03 December 2027.,true,true,true,15,1459,1349.22,true
+Q0482,E,predictor,13 April 2027,The active delivery date for Project HELIOS-482 is 13 April 2027.,true,true,true,14,1331,1489.30,false
+Q0482,E,random,13 April 2027,"According to the information provided, the active delivery date for Project HELIOS-482 is 22 November 2027.",false,false,false,14,1605,1939.71,false
+Q0482,E,dense,13 April 2027,The active delivery date for Project HELIOS-482 is 11 June 2027.,false,false,true,14,1335,1675.99,false
+Q0482,E,hybrid,13 April 2027,The active delivery date for Project HELIOS-482 is 11 June 2027.,false,false,true,14,1335,1612.99,false
+Q0483,E,predictor,02 May 2027,The active delivery date for Project IRIS-483 is 26 August 2027.,false,false,true,15,1446,1535.06,false
+Q0483,E,random,02 May 2027,"According to the information provided, Project IRIS-483-B has an active delivery date of 26 August 2027.",false,false,false,15,1727,2100.36,false
+Q0483,E,dense,02 May 2027,"According to the context, Project IRIS-483 has an active delivery date of 11 November 2027.",false,false,true,15,1450,1711.35,false
+Q0483,E,hybrid,02 May 2027,The active delivery date for Project IRIS-483 is 02 May 2027.,true,true,true,15,1450,1426.83,false
+Q0484,E,predictor,22 January 2027,"According to the context, Project JUPITER-484 has an active delivery date of 23 January 2027.",false,false,true,17,1682,1668.87,false
+Q0484,E,random,22 January 2027,"According to the provided context, the active delivery date for Project JUPITER-484 was set as ""N/A"". This means there is no specific information available about when the project is expected to be completed or started.",false,false,false,17,2028,2579.87,false
+Q0484,E,dense,22 January 2027,"According to the information provided in the context, Project JUPITER-484 has an active delivery date of 23 January 2027.",false,false,true,17,1690,1943.12,false
+Q0484,E,hybrid,22 January 2027,"According to the given context, Project JUPITER-484 has an Active Delivery Date of 23 January 2027.",false,false,true,17,1690,1793.00,false
+Q0485,E,predictor,17 November 2027,"According to the context, the active delivery date for Project KRONOS-485 was 17 November 2027.",true,true,true,16,1564,2230.17,true
+Q0485,E,random,17 November 2027,"According to the information provided, the active delivery date for Project KRONOS-485 (Fact ID: F-0485-D) is 13 January 2027.",false,false,false,16,1844,3662.30,true
+Q0485,E,dense,17 November 2027,"According to the context, Project KRONOS-485-A has an active delivery date of 07 March 2027.",false,false,true,16,1574,1959.95,true
+Q0485,E,hybrid,17 November 2027,The active delivery date for Project KRONOS-485 was 07 March 2027.,false,false,true,16,1574,1706.90,true
+Q0486,E,predictor,03 October 2027,"According to the given information, the active delivery date for Project LUNA-486 is 28 August 2027.",false,false,true,14,1326,1805.56,false
+Q0486,E,random,03 October 2027,The active delivery date for Project LUNA-486 is 03 October 2027.,true,true,true,14,1623,1619.34,false
+Q0486,E,dense,03 October 2027,"Based on the information provided in the context, the active delivery date for Project LUNA-486-A is 22 February 2027.",false,false,true,14,1346,1979.67,false
+Q0486,E,hybrid,03 October 2027,The active delivery date for Project LUNA-486 was 22 February 2027.,false,false,true,14,1346,1485.29,false
+Q0487,E,predictor,21 August 2027,The active delivery date for Project METEOR-487-B is 28 January 2027.,false,false,true,14,1329,1463.34,false
+Q0487,E,random,21 August 2027,The active delivery date for Project METEOR-487-A is 10 December 2027.,false,false,false,14,1616,1612.50,false
+Q0487,E,dense,21 August 2027,The active delivery date for Project METEOR-487 is 21 August 2027.,true,true,true,14,1336,1512.50,false
+Q0487,E,hybrid,21 August 2027,"According to the context, the active delivery date for Project METEOR-487 was 21 August 2027.",true,true,true,14,1336,2522.07,false
+Q0488,E,predictor,25 March 2027,"According to the context, the active delivery date for Project NEXUS-488 is 01 June 2027.",false,false,true,17,1680,2315.28,false
+Q0488,E,random,25 March 2027,"According to the information provided, Project NEXUS-488 has an Active Delivery Date of 26 July 2027.",false,false,false,17,1898,2153.34,false
+Q0488,E,dense,25 March 2027,"According to the information provided, the active delivery date for Project NEXUS-488 was 26 July 2027.",false,false,true,17,1681,1988.86,false
+Q0488,E,hybrid,25 March 2027,The active delivery date for Project NEXUS-488 was 26 July 2027.,false,false,true,17,1681,1611.37,false
+Q0489,E,predictor,04 September 2027,"According to the given context, the active delivery date for Project ORION-489 is 08 September 2027.",false,false,true,15,1438,1712.93,false
+Q0489,E,random,04 September 2027,The active delivery date for Project ORION-489 is 16 September 2027.,false,false,false,15,1737,1375.20,false
+Q0489,E,dense,04 September 2027,The active delivery date for Project ORION-489 is 08 August 2027.,false,false,true,15,1451,1318.68,false
+Q0489,E,hybrid,04 September 2027,"According to the information provided, the active delivery date for Project ORION-489 was 08 August 2027.",false,false,true,15,1451,1675.92,false
+Q0490,E,predictor,21 October 2027,The active delivery date for Project PHOENIX-490 is 21 October 2027.,true,true,true,15,1462,1580.59,true
+Q0490,E,random,21 October 2027,The active delivery date for Project PHOENIX-490 is 21 October 2027.,true,true,true,15,1592,1501.76,true
+Q0490,E,dense,21 October 2027,"According to the context, Project PHOENIX-490 has an active delivery date of 21 October 2027.",true,true,true,15,1468,2317.18,true
+Q0490,E,hybrid,21 October 2027,The active delivery date for Project PHOENIX-490 is 21 October 2027.,true,true,true,15,1468,2179.77,true
+Q0491,E,predictor,09 December 2027,The active delivery date for Project QUASAR-491 is 06 March 2027.,false,false,true,15,1450,2042.63,false
+Q0491,E,random,09 December 2027,"According to the context, Project QUASAR-491 has an Active Delivery Date (ADD) of 1/30/2015. This information can be found in the ""Project"" section of the given text, where it states ""Project QUASAR-491 has an Active",false,false,false,15,1792,3714.46,false
+Q0491,E,dense,09 December 2027,"Based on the information provided, the active delivery date for Project QUASAR-491 is 06 March 2027.",false,false,true,15,1459,2040.59,false
+Q0491,E,hybrid,09 December 2027,The active delivery date for Project QUASAR-491 is 06 March 2027.,false,false,true,15,1459,1633.74,false
+Q0492,E,predictor,18 September 2027,"According to the given context, Project RADAR-492-B has an active delivery date of 16 August 2027.",false,false,true,16,1559,1764.63,false
+Q0492,E,random,18 September 2027,The active delivery date for Project RADAR-492-B is 16 August 2027.,false,false,false,16,1842,1578.04,false
+Q0492,E,dense,18 September 2027,"According to the context, Project RADAR-492 has an active delivery date of 16 August 2027.",false,false,true,16,1562,1661.89,false
+Q0492,E,hybrid,18 September 2027,"According to the given context, Project RADAR-492-B has an active delivery date of 16 August 2027.",false,false,true,16,1562,1881.76,false
+Q0493,E,predictor,07 December 2027,The active delivery date for Project SIRIUS-493 is 10 February 2027.,false,false,true,15,1448,1584.94,false
+Q0493,E,random,07 December 2027,The active delivery date for Project SIRIUS-493 was 23 August 2027.,false,false,false,15,1728,2077.95,false
+Q0493,E,dense,07 December 2027,The active delivery date for Project SIRIUS-493 is 07 December 2027.,true,true,true,15,1471,1754.63,false
+Q0493,E,hybrid,07 December 2027,"According to the context, Project SIRIUS-493 has an active delivery date of 07 October 2027.",false,true,true,15,1471,2168.51,false
+Q0494,E,predictor,20 August 2027,"According to the information provided, the active delivery date for Project TITAN-494 is 22 February 2027.",false,false,true,14,1337,2017.67,false
+Q0494,E,random,20 August 2027,"According to the context provided, the active delivery date for Project TITAN-494-B is 02 July 2027.",false,false,false,14,1622,2064.44,false
+Q0494,E,dense,20 August 2027,The active delivery date for Project TITAN-494 is 20 August 2027.,true,true,true,14,1351,1583.67,false
+Q0494,E,hybrid,20 August 2027,The active delivery date for Project TITAN-494 is 02 July 2027.,false,false,true,14,1351,1472.10,false
+Q0495,E,predictor,24 February 2027,"Based on the information provided in the context, the active delivery date for Project URANUS-495 is 24 April 2027.",false,true,true,15,1441,1796.20,false
+Q0495,E,random,24 February 2027,"According to the context, the active delivery date for Project URANUS-495 was 20 June 2027.",false,false,false,15,1719,1774.50,false
+Q0495,E,dense,24 February 2027,The active delivery date for Project URANUS-495 is 24 April 2027.,false,true,true,15,1459,1383.04,false
+Q0495,E,hybrid,24 February 2027,"Based on the information provided in the context, the active delivery date for Project URANUS-495 is 20 June 2027.",false,false,true,15,1459,2037.04,false
+Q0496,E,predictor,02 December 2027,The active delivery date for Project VEGA-496 is 04 September 2027.,false,false,true,15,1437,1741.79,false
+Q0496,E,random,02 December 2027,"According to the given context, the active delivery date for Project VEGA-496 is ""02 December 2027"".",true,true,true,15,1710,2449.29,false
+Q0496,E,dense,02 December 2027,The active delivery date for Project VEGA-496 is 04 September 2027.,false,false,true,15,1441,2010.75,false
+Q0496,E,hybrid,02 December 2027,The active delivery date for Project VEGA-496 is 24 September 2027.,false,false,true,15,1441,1465.74,false
+Q0497,E,predictor,03 January 2027,"According to the context, the active delivery date for Project WARP-497 is 03 January 2027.",true,true,true,15,1430,1970.18,false
+Q0497,E,random,03 January 2027,The active delivery date for Project WARP-497-B was 15 February 2027.,false,false,true,15,1589,1540.59,false
+Q0497,E,dense,03 January 2027,The active delivery date for Project WARP-497 is 03 January 2027.,true,true,true,15,1449,1382.59,false
+Q0497,E,hybrid,03 January 2027,The active delivery date for Project WARP-497 is 15 February 2027.,false,false,true,15,1449,1285.08,false
+Q0498,E,predictor,15 December 2027,"Based on the information provided in the context, the active delivery date for Project XENON-498 is 24 October 2027. This can be seen from the FACT_ID (Fact Object Identifier) listed under DOC_0000, which indicates that this project has an Active Delivery",false,false,true,14,1340,3750.95,false
+Q0498,E,random,15 December 2027,The active delivery date for Project XENON-498 is 19 April 2027.,false,false,false,14,1550,1534.96,false
+Q0498,E,dense,15 December 2027,"According to the information provided, the active delivery dates for Project XENON-498 are as follows:
+
+1. Active delivery date for Project XENON-498-A: 24 October 2027
+2. Active delivery date for Project XENON-498-B",false,false,true,14,1344,4195.90,false
+Q0498,E,hybrid,15 December 2027,"Based on the information provided in the given context, the active delivery dates for the projects listed are:
+
+1. Project XENON-498-A: Active delivery date is 24 October 2027
+2. Project XENON-498-B: Active delivery date is 0",false,false,true,14,1344,4308.56,false
+Q0499,E,predictor,19 February 2027,"According to the given context, Project ZENITH-499 has an active delivery date of 19 February 2027.",true,true,true,15,1452,2047.74,false
+Q0499,E,random,19 February 2027,The active delivery date for Project ZENITH-499 was 11 November 2027.,false,false,false,15,1733,1554.83,false
+Q0499,E,dense,19 February 2027,"According to the information provided, Project ZENITH-499 has an active delivery date of 19 February 2027.",false,true,true,15,1462,1724.97,false
+Q0499,E,hybrid,19 February 2027,"According to the given context, Project ZENITH-499 has an active delivery date of 11 November 2027.",false,false,true,15,1462,1934.85,false

@@ -1,0 +1,3 @@
+--- H h_mixed_098 ---
+Project ZENITH is managed by Pierre Leroy.
+Contract indicates Project ZENITH is managed by Pierre Leroy.

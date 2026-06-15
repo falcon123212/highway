@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: highway
+Version: 0.1.0
+Summary: No-leak LLM context, retrieval, and deterministic kernel research prototype.
+Requires-Python: >=3.10
+Provides-Extra: ann
+Requires-Dist: faiss-cpu>=1.8; extra == "ann"
+Provides-Extra: embeddings
+Requires-Dist: sentence-transformers>=2.7; extra == "embeddings"
+Requires-Dist: torch>=2; extra == "embeddings"
+Provides-Extra: rerank
+Requires-Dist: sentence-transformers>=2.7; extra == "rerank"
+Requires-Dist: torch>=2; extra == "rerank"
+Provides-Extra: benchmark
+Requires-Dist: datasets>=2.19; extra == "benchmark"
+Requires-Dist: pyarrow>=15; extra == "benchmark"
+Requires-Dist: pandas>=2; extra == "benchmark"

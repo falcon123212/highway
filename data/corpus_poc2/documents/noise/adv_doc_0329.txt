@@ -1,0 +1,7 @@
+--- H h_adv_129 ---
+Old record: Nicolas Durand managed Project TITAN.
+Current record: Project TITAN is reassigned to Alice Martin.
+Project NEXUS is currently managed by Nicolas Durand.
+Project BEACON is currently managed by Nicolas Durand.
+Project CHRONOS is currently managed by Nicolas Durand.
+Project LUNA is currently managed by Nicolas Durand.

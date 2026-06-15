@@ -1,0 +1,6 @@
+--- H h_mixed_052 ---
+Project QUASAR was renamed to Project QUASAR-R.
+Project QUASAR-R is managed by Marie Dubois.
+Project ZENITH is managed by Marie Dubois.
+Project NEXUS is managed by Marie Dubois.
+Project VEGA is managed by Marie Dubois.

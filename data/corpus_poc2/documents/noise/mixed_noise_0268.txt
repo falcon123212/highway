@@ -1,0 +1,9 @@
+--- H h_mixed_068 ---
+Project VEGA is managed by Marie Dubois.
+Contract indicates Project VEGA is managed by Marie Dubois.
+Project ZENITH is managed by Marie Dubois.
+Contract indicates Project ZENITH is managed by Marie Dubois.
+Project QUASAR is managed by Marie Dubois.
+Contract indicates Project QUASAR is managed by Marie Dubois.
+Project JUPITER is managed by Marie Dubois.
+Contract indicates Project JUPITER is managed by Marie Dubois.

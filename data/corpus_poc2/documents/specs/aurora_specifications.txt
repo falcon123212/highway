@@ -1,0 +1,8 @@
+=========================================
+TECHNICAL SPECIFICATIONS: PROJECT AURORA
+=========================================
+Project Owner: Emma Michel
+Lead Unit: Finance
+
+This document describes the technical architecture for project AURORA.
+The project is overseen by the Finance unit, with Emma Michel as director.

@@ -1,0 +1,7 @@
+--- H h_adv_086 ---
+Project NEXUS is managed by Jean Dupont.
+Contract indicates Project NEXUS is managed by Jean Dupont.
+Project IRIS is managed by Jean Dupont.
+Contract indicates Project IRIS is managed by Jean Dupont.
+Project DAWN is managed by Jean Dupont.
+Contract indicates Project DAWN is managed by Jean Dupont.

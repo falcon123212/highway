@@ -1,0 +1,7 @@
+--- H h_mixed_164 ---
+Project JUPITER is managed by Thomas Petit.
+Contract indicates Project JUPITER is managed by Thomas Petit.
+Project PEGASE is managed by Thomas Petit.
+Contract indicates Project PEGASE is managed by Thomas Petit.
+Project HELIOS is managed by Thomas Petit.
+Contract indicates Project HELIOS is managed by Thomas Petit.

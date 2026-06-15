@@ -1,0 +1,3 @@
+Reference ref_9df748fd6a contains synthetic comparison evidence.
+Project ECLIPSE budget is $199,000.
+Project TITAN budget is $200,000.

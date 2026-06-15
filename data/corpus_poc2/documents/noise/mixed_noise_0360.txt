@@ -1,0 +1,6 @@
+--- H h_mixed_160 ---
+Project PEGASE was renamed to Project PEGASE-R.
+Project PEGASE-R is managed by Nicolas Durand.
+Project CHRONOS is managed by Nicolas Durand.
+Project FALCON is managed by Nicolas Durand.
+Project ORION is managed by Nicolas Durand.

@@ -1,0 +1,4 @@
+--- H h_mixed_153 ---
+Old record: Jean Dupont managed Project HELIOS.
+Current record: Project HELIOS is reassigned to Julie Thomas.
+Project LUNA is currently managed by Jean Dupont.

@@ -1,0 +1,300 @@
+{"question_id": "Q0000", "category": "A", "expected_answer": "01 December 2027", "gold_block_ids": [13], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0001", "category": "A", "expected_answer": "19 October 2027", "gold_block_ids": [6], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0002", "category": "A", "expected_answer": "22 May 2027", "gold_block_ids": [43], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0003", "category": "A", "expected_answer": "23 February 2027", "gold_block_ids": [25], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0004", "category": "A", "expected_answer": "20 January 2027", "gold_block_ids": [30], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0005", "category": "A", "expected_answer": "24 January 2027", "gold_block_ids": [29], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0006", "category": "A", "expected_answer": "23 October 2027", "gold_block_ids": [20], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0007", "category": "A", "expected_answer": "09 May 2027", "gold_block_ids": [30], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0008", "category": "A", "expected_answer": "24 February 2027", "gold_block_ids": [35], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0009", "category": "A", "expected_answer": "08 October 2027", "gold_block_ids": [35], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0010", "category": "A", "expected_answer": "24 January 2027", "gold_block_ids": [8], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0011", "category": "A", "expected_answer": "20 April 2027", "gold_block_ids": [14], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0012", "category": "A", "expected_answer": "13 March 2027", "gold_block_ids": [7], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0013", "category": "A", "expected_answer": "21 September 2027", "gold_block_ids": [34], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0014", "category": "A", "expected_answer": "13 December 2027", "gold_block_ids": [32], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0015", "category": "A", "expected_answer": "06 October 2027", "gold_block_ids": [23], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0016", "category": "A", "expected_answer": "01 July 2027", "gold_block_ids": [14], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0017", "category": "A", "expected_answer": "06 April 2027", "gold_block_ids": [44], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0018", "category": "A", "expected_answer": "12 February 2027", "gold_block_ids": [9], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0019", "category": "A", "expected_answer": "23 April 2027", "gold_block_ids": [34], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0020", "category": "A", "expected_answer": "04 January 2027", "gold_block_ids": [39], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0021", "category": "A", "expected_answer": "23 August 2027", "gold_block_ids": [43], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0022", "category": "A", "expected_answer": "03 March 2027", "gold_block_ids": [39], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0023", "category": "A", "expected_answer": "27 February 2027", "gold_block_ids": [20], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0024", "category": "A", "expected_answer": "08 August 2027", "gold_block_ids": [18], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0025", "category": "A", "expected_answer": "18 March 2027", "gold_block_ids": [5], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0026", "category": "A", "expected_answer": "21 February 2027", "gold_block_ids": [40], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0027", "category": "A", "expected_answer": "07 October 2027", "gold_block_ids": [6], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0028", "category": "A", "expected_answer": "25 September 2027", "gold_block_ids": [9], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0029", "category": "A", "expected_answer": "01 October 2027", "gold_block_ids": [28], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0030", "category": "B", "expected_answer": "18 June 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0031", "category": "B", "expected_answer": "08 February 2027", "gold_block_ids": [25], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0032", "category": "B", "expected_answer": "09 May 2027", "gold_block_ids": [47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0033", "category": "B", "expected_answer": "26 March 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0034", "category": "B", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0035", "category": "B", "expected_answer": "27 May 2027", "gold_block_ids": [47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0036", "category": "B", "expected_answer": "19 August 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0037", "category": "B", "expected_answer": "09 March 2027", "gold_block_ids": [25], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0038", "category": "B", "expected_answer": "03 May 2027", "gold_block_ids": [47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0039", "category": "B", "expected_answer": "09 April 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0040", "category": "B", "expected_answer": "22 September 2027", "gold_block_ids": [25], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0041", "category": "B", "expected_answer": "04 September 2027", "gold_block_ids": [47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0042", "category": "B", "expected_answer": "26 November 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0043", "category": "B", "expected_answer": "24 February 2027", "gold_block_ids": [25], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0044", "category": "B", "expected_answer": "11 October 2027", "gold_block_ids": [47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0045", "category": "B", "expected_answer": "01 September 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0046", "category": "B", "expected_answer": "23 December 2027", "gold_block_ids": [25], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0047", "category": "B", "expected_answer": "11 June 2027", "gold_block_ids": [47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0048", "category": "B", "expected_answer": "22 August 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0049", "category": "B", "expected_answer": "23 October 2027", "gold_block_ids": [25], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0050", "category": "B", "expected_answer": "23 March 2027", "gold_block_ids": [47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0051", "category": "B", "expected_answer": "24 March 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0052", "category": "B", "expected_answer": "26 April 2027", "gold_block_ids": [25], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0053", "category": "B", "expected_answer": "06 October 2027", "gold_block_ids": [47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0054", "category": "B", "expected_answer": "21 May 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0055", "category": "B", "expected_answer": "23 June 2027", "gold_block_ids": [25], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0056", "category": "B", "expected_answer": "01 May 2027", "gold_block_ids": [47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0057", "category": "B", "expected_answer": "10 May 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0058", "category": "B", "expected_answer": "22 December 2027", "gold_block_ids": [25], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0059", "category": "B", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0060", "category": "C", "expected_answer": "18 June 2027", "gold_block_ids": [30], "deprecated_block_ids": [4], "is_abstention": false}
+{"question_id": "Q0061", "category": "C", "expected_answer": "27 September 2027", "gold_block_ids": [32], "deprecated_block_ids": [20], "is_abstention": false}
+{"question_id": "Q0062", "category": "C", "expected_answer": "10 July 2027", "gold_block_ids": [40], "deprecated_block_ids": [12], "is_abstention": false}
+{"question_id": "Q0063", "category": "C", "expected_answer": "19 August 2027", "gold_block_ids": [32], "deprecated_block_ids": [4], "is_abstention": false}
+{"question_id": "Q0064", "category": "C", "expected_answer": "07 September 2027", "gold_block_ids": [40], "deprecated_block_ids": [23], "is_abstention": false}
+{"question_id": "Q0065", "category": "C", "expected_answer": "26 July 2027", "gold_block_ids": [29], "deprecated_block_ids": [8], "is_abstention": false}
+{"question_id": "Q0066", "category": "C", "expected_answer": "14 February 2027", "gold_block_ids": [28], "deprecated_block_ids": [6], "is_abstention": false}
+{"question_id": "Q0067", "category": "C", "expected_answer": "12 July 2027", "gold_block_ids": [34], "deprecated_block_ids": [4], "is_abstention": false}
+{"question_id": "Q0068", "category": "C", "expected_answer": "01 July 2027", "gold_block_ids": [43], "deprecated_block_ids": [18], "is_abstention": false}
+{"question_id": "Q0069", "category": "C", "expected_answer": "25 April 2027", "gold_block_ids": [27], "deprecated_block_ids": [23], "is_abstention": false}
+{"question_id": "Q0070", "category": "C", "expected_answer": "25 January 2027", "gold_block_ids": [41], "deprecated_block_ids": [2], "is_abstention": false}
+{"question_id": "Q0071", "category": "C", "expected_answer": "18 April 2027", "gold_block_ids": [38], "deprecated_block_ids": [19], "is_abstention": false}
+{"question_id": "Q0072", "category": "C", "expected_answer": "01 October 2027", "gold_block_ids": [35], "deprecated_block_ids": [13], "is_abstention": false}
+{"question_id": "Q0073", "category": "C", "expected_answer": "22 August 2027", "gold_block_ids": [27], "deprecated_block_ids": [10], "is_abstention": false}
+{"question_id": "Q0074", "category": "C", "expected_answer": "20 August 2027", "gold_block_ids": [29], "deprecated_block_ids": [4], "is_abstention": false}
+{"question_id": "Q0075", "category": "C", "expected_answer": "24 February 2027", "gold_block_ids": [36], "deprecated_block_ids": [6], "is_abstention": false}
+{"question_id": "Q0076", "category": "C", "expected_answer": "21 December 2027", "gold_block_ids": [40], "deprecated_block_ids": [18], "is_abstention": false}
+{"question_id": "Q0077", "category": "C", "expected_answer": "15 May 2027", "gold_block_ids": [33], "deprecated_block_ids": [4], "is_abstention": false}
+{"question_id": "Q0078", "category": "C", "expected_answer": "15 October 2027", "gold_block_ids": [45], "deprecated_block_ids": [20], "is_abstention": false}
+{"question_id": "Q0079", "category": "C", "expected_answer": "05 September 2027", "gold_block_ids": [36], "deprecated_block_ids": [3], "is_abstention": false}
+{"question_id": "Q0080", "category": "C", "expected_answer": "09 October 2027", "gold_block_ids": [47], "deprecated_block_ids": [13], "is_abstention": false}
+{"question_id": "Q0081", "category": "C", "expected_answer": "15 September 2027", "gold_block_ids": [42], "deprecated_block_ids": [15], "is_abstention": false}
+{"question_id": "Q0082", "category": "C", "expected_answer": "09 April 2027", "gold_block_ids": [40], "deprecated_block_ids": [5], "is_abstention": false}
+{"question_id": "Q0083", "category": "C", "expected_answer": "19 April 2027", "gold_block_ids": [29], "deprecated_block_ids": [21], "is_abstention": false}
+{"question_id": "Q0084", "category": "C", "expected_answer": "24 June 2027", "gold_block_ids": [47], "deprecated_block_ids": [19], "is_abstention": false}
+{"question_id": "Q0085", "category": "C", "expected_answer": "15 April 2027", "gold_block_ids": [36], "deprecated_block_ids": [13], "is_abstention": false}
+{"question_id": "Q0086", "category": "C", "expected_answer": "28 August 2027", "gold_block_ids": [29], "deprecated_block_ids": [16], "is_abstention": false}
+{"question_id": "Q0087", "category": "C", "expected_answer": "11 February 2027", "gold_block_ids": [28], "deprecated_block_ids": [15], "is_abstention": false}
+{"question_id": "Q0088", "category": "C", "expected_answer": "14 April 2027", "gold_block_ids": [45], "deprecated_block_ids": [10], "is_abstention": false}
+{"question_id": "Q0089", "category": "C", "expected_answer": "04 October 2027", "gold_block_ids": [44], "deprecated_block_ids": [2], "is_abstention": false}
+{"question_id": "Q0090", "category": "D", "expected_answer": "18 September 2027 and $299,000", "gold_block_ids": [11, 27], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0091", "category": "D", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0092", "category": "D", "expected_answer": "16 June 2027 and $598,000", "gold_block_ids": [15, 44], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0093", "category": "D", "expected_answer": "06 August 2027 and $635,000", "gold_block_ids": [13, 41], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0094", "category": "D", "expected_answer": "27 February 2027 and $655,000", "gold_block_ids": [22, 38], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0095", "category": "D", "expected_answer": "11 April 2027 and $435,000", "gold_block_ids": [6, 44], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0096", "category": "D", "expected_answer": "05 April 2027 and $239,000", "gold_block_ids": [9, 37], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0097", "category": "D", "expected_answer": "03 April 2027 and $592,000", "gold_block_ids": [18, 33], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0098", "category": "D", "expected_answer": "06 May 2027 and $807,000", "gold_block_ids": [10, 35], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0099", "category": "D", "expected_answer": "02 February 2027 and $435,000", "gold_block_ids": [6, 32], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0100", "category": "D", "expected_answer": "26 January 2027 and $395,000", "gold_block_ids": [4, 38], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0101", "category": "D", "expected_answer": "20 May 2027 and $458,000", "gold_block_ids": [5, 43], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0102", "category": "D", "expected_answer": "22 March 2027 and $874,000", "gold_block_ids": [18, 47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0103", "category": "D", "expected_answer": "13 June 2027 and $374,000", "gold_block_ids": [20, 28], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0104", "category": "D", "expected_answer": "02 February 2027 and $866,000", "gold_block_ids": [22, 31], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0105", "category": "D", "expected_answer": "18 June 2027 and $743,000", "gold_block_ids": [4, 40], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0106", "category": "D", "expected_answer": "11 May 2027 and $721,000", "gold_block_ids": [11, 31], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0107", "category": "D", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0108", "category": "D", "expected_answer": "19 February 2027 and $373,000", "gold_block_ids": [21, 41], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0109", "category": "D", "expected_answer": "03 May 2027 and $181,000", "gold_block_ids": [4, 38], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0110", "category": "D", "expected_answer": "11 February 2027 and $236,000", "gold_block_ids": [14, 29], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0111", "category": "D", "expected_answer": "11 April 2027 and $601,000", "gold_block_ids": [3, 46], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0112", "category": "D", "expected_answer": "23 May 2027 and $323,000", "gold_block_ids": [12, 28], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0113", "category": "D", "expected_answer": "15 November 2027 and $475,000", "gold_block_ids": [11, 32], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0114", "category": "D", "expected_answer": "27 May 2027 and $125,000", "gold_block_ids": [8, 29], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0115", "category": "D", "expected_answer": "04 May 2027 and $803,000", "gold_block_ids": [23, 47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0116", "category": "D", "expected_answer": "23 November 2027 and $614,000", "gold_block_ids": [10, 31], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0117", "category": "D", "expected_answer": "05 February 2027 and $115,000", "gold_block_ids": [9, 46], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0118", "category": "D", "expected_answer": "28 August 2027 and $200,000", "gold_block_ids": [18, 33], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0119", "category": "D", "expected_answer": "04 August 2027 and $514,000", "gold_block_ids": [17, 43], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0120", "category": "E", "expected_answer": "14 November 2027", "gold_block_ids": [14], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0121", "category": "E", "expected_answer": "09 June 2027", "gold_block_ids": [5], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0122", "category": "E", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0123", "category": "E", "expected_answer": "26 May 2027", "gold_block_ids": [17], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0124", "category": "E", "expected_answer": "02 February 2027", "gold_block_ids": [30], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0125", "category": "E", "expected_answer": "04 February 2027", "gold_block_ids": [28], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0126", "category": "E", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0127", "category": "E", "expected_answer": "20 February 2027", "gold_block_ids": [15], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0128", "category": "E", "expected_answer": "18 October 2027", "gold_block_ids": [6], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0129", "category": "E", "expected_answer": "12 June 2027", "gold_block_ids": [26], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0130", "category": "E", "expected_answer": "18 March 2027", "gold_block_ids": [36], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0131", "category": "E", "expected_answer": "28 June 2027", "gold_block_ids": [14], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0132", "category": "E", "expected_answer": "13 April 2027", "gold_block_ids": [37], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0133", "category": "E", "expected_answer": "04 May 2027", "gold_block_ids": [45], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0134", "category": "E", "expected_answer": "26 October 2027", "gold_block_ids": [14], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0135", "category": "E", "expected_answer": "09 February 2027", "gold_block_ids": [21], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0136", "category": "E", "expected_answer": "02 October 2027", "gold_block_ids": [22], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0137", "category": "E", "expected_answer": "03 October 2027", "gold_block_ids": [13], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0138", "category": "E", "expected_answer": "17 March 2027", "gold_block_ids": [6], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0139", "category": "E", "expected_answer": "15 January 2027", "gold_block_ids": [7], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0140", "category": "E", "expected_answer": "16 April 2027", "gold_block_ids": [40], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0141", "category": "E", "expected_answer": "15 April 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0142", "category": "E", "expected_answer": "08 October 2027", "gold_block_ids": [49], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0143", "category": "E", "expected_answer": "15 July 2027", "gold_block_ids": [24], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0144", "category": "E", "expected_answer": "19 May 2027", "gold_block_ids": [24], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0145", "category": "E", "expected_answer": "23 August 2027", "gold_block_ids": [8], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0146", "category": "E", "expected_answer": "19 May 2027", "gold_block_ids": [19], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0147", "category": "E", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0148", "category": "E", "expected_answer": "14 February 2027", "gold_block_ids": [4], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0149", "category": "E", "expected_answer": "27 January 2027", "gold_block_ids": [8], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0150", "category": "F", "expected_answer": "18 May 2027", "gold_block_ids": [32], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0151", "category": "F", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0152", "category": "F", "expected_answer": "02 February 2027", "gold_block_ids": [26], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0153", "category": "F", "expected_answer": "13 May 2027", "gold_block_ids": [11], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0154", "category": "F", "expected_answer": "22 January 2027", "gold_block_ids": [37], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0155", "category": "F", "expected_answer": "26 June 2027", "gold_block_ids": [21], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0156", "category": "F", "expected_answer": "11 January 2027", "gold_block_ids": [36], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0157", "category": "F", "expected_answer": "18 January 2027", "gold_block_ids": [31], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0158", "category": "F", "expected_answer": "12 January 2027", "gold_block_ids": [10], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0159", "category": "F", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0160", "category": "F", "expected_answer": "17 April 2027", "gold_block_ids": [8], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0161", "category": "F", "expected_answer": "24 April 2027", "gold_block_ids": [32], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0162", "category": "F", "expected_answer": "06 May 2027", "gold_block_ids": [11], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0163", "category": "F", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0164", "category": "F", "expected_answer": "17 February 2027", "gold_block_ids": [13], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0165", "category": "F", "expected_answer": "07 February 2027", "gold_block_ids": [6], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0166", "category": "F", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0167", "category": "F", "expected_answer": "24 July 2027", "gold_block_ids": [22], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0168", "category": "F", "expected_answer": "13 April 2027", "gold_block_ids": [22], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0169", "category": "F", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0170", "category": "F", "expected_answer": "23 February 2027", "gold_block_ids": [38], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0171", "category": "F", "expected_answer": "26 April 2027", "gold_block_ids": [28], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0172", "category": "F", "expected_answer": "05 August 2027", "gold_block_ids": [22], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0173", "category": "F", "expected_answer": "16 May 2027", "gold_block_ids": [22], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0174", "category": "F", "expected_answer": "11 January 2027", "gold_block_ids": [6], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0175", "category": "F", "expected_answer": "14 January 2027", "gold_block_ids": [30], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0176", "category": "F", "expected_answer": "04 November 2027", "gold_block_ids": [15], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0177", "category": "F", "expected_answer": "15 February 2027", "gold_block_ids": [34], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0178", "category": "F", "expected_answer": "09 March 2027", "gold_block_ids": [10], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0179", "category": "F", "expected_answer": "26 March 2027", "gold_block_ids": [20], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0180", "category": "G", "expected_answer": "The Marketing department utilizes redundancy, infrastructure, operational to improve systems.", "gold_block_ids": [27], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0181", "category": "G", "expected_answer": "The Operations department utilizes synergy, efficiency, framework to improve systems.", "gold_block_ids": [31], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0182", "category": "G", "expected_answer": "The Engineering department utilizes bandwidth, optimization, paradigm to improve systems.", "gold_block_ids": [43], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0183", "category": "G", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0184", "category": "G", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0185", "category": "G", "expected_answer": "The HR department utilizes containerization, methodology, paradigm to improve systems.", "gold_block_ids": [22], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0186", "category": "G", "expected_answer": "The Sales department utilizes architecture, optimization, integration to improve systems.", "gold_block_ids": [25], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0187", "category": "G", "expected_answer": "The Sales department utilizes compliance, efficiency, optimization to improve systems.", "gold_block_ids": [26], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0188", "category": "G", "expected_answer": "The Legal department utilizes scalability, redundancy, governance to improve systems.", "gold_block_ids": [11], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0189", "category": "G", "expected_answer": "The Sales department utilizes pipeline, paradigm, optimization to improve systems.", "gold_block_ids": [44], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0190", "category": "G", "expected_answer": "The HR department utilizes virtualization, monetization, synergy to improve systems.", "gold_block_ids": [10], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0191", "category": "G", "expected_answer": "The Operations department utilizes deployment, synergy, analytics to improve systems.", "gold_block_ids": [31], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0192", "category": "G", "expected_answer": "The Finance department utilizes compliance, infrastructure, governance to improve systems.", "gold_block_ids": [27], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0193", "category": "G", "expected_answer": "The Operations department utilizes scalability, orchestration, infrastructure to improve systems.", "gold_block_ids": [37], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0194", "category": "G", "expected_answer": "The Sales department utilizes framework, efficiency, infrastructure to improve systems.", "gold_block_ids": [25], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0195", "category": "G", "expected_answer": "The HR department utilizes leverage, operational, deployment to improve systems.", "gold_block_ids": [7], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0196", "category": "G", "expected_answer": "The Operations department utilizes methodology, redundancy, bandwidth to improve systems.", "gold_block_ids": [29], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0197", "category": "G", "expected_answer": "The Marketing department utilizes governance, leverage, methodology to improve systems.", "gold_block_ids": [30], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0198", "category": "G", "expected_answer": "The Finance department utilizes bandwidth, robust, analytics to improve systems.", "gold_block_ids": [27], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0199", "category": "G", "expected_answer": "The Engineering department utilizes monetization, virtualization, containerization to improve systems.", "gold_block_ids": [41], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0200", "category": "G", "expected_answer": "The Engineering department utilizes pipeline, robust, analytics to improve systems.", "gold_block_ids": [35], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0201", "category": "G", "expected_answer": "The Engineering department utilizes infrastructure, redundancy, architecture to improve systems.", "gold_block_ids": [5], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0202", "category": "G", "expected_answer": "The HR department utilizes synergy, infrastructure, throughput to improve systems.", "gold_block_ids": [23], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0203", "category": "G", "expected_answer": "The HR department utilizes operational, operational, collaboration to improve systems.", "gold_block_ids": [18], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0204", "category": "G", "expected_answer": "The Legal department utilizes orchestration, framework, paradigm to improve systems.", "gold_block_ids": [19], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0205", "category": "G", "expected_answer": "The Marketing department utilizes standardization, operational, collaboration to improve systems.", "gold_block_ids": [37], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0206", "category": "G", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0207", "category": "G", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0208", "category": "G", "expected_answer": "The Marketing department utilizes infrastructure, monetization, virtualization to improve systems.", "gold_block_ids": [11], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0209", "category": "G", "expected_answer": "The Operations department utilizes virtualization, architecture, efficiency to improve systems.", "gold_block_ids": [34], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0210", "category": "H", "expected_answer": "SUB_PROJ_210_0, SUB_PROJ_210_1, SUB_PROJ_210_2, SUB_PROJ_210_3", "gold_block_ids": [8, 21, 31, 37], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0211", "category": "H", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0212", "category": "H", "expected_answer": "SUB_PROJ_212_0, SUB_PROJ_212_1, SUB_PROJ_212_2, SUB_PROJ_212_3", "gold_block_ids": [4, 12, 22, 30], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0213", "category": "H", "expected_answer": "SUB_PROJ_213_0, SUB_PROJ_213_1, SUB_PROJ_213_2, SUB_PROJ_213_3", "gold_block_ids": [13, 15, 23, 47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0214", "category": "H", "expected_answer": "SUB_PROJ_214_0, SUB_PROJ_214_1, SUB_PROJ_214_2, SUB_PROJ_214_3", "gold_block_ids": [7, 8, 23, 47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0215", "category": "H", "expected_answer": "SUB_PROJ_215_0, SUB_PROJ_215_1, SUB_PROJ_215_2, SUB_PROJ_215_3", "gold_block_ids": [13, 19, 20, 27], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0216", "category": "H", "expected_answer": "SUB_PROJ_216_0, SUB_PROJ_216_1, SUB_PROJ_216_2, SUB_PROJ_216_3", "gold_block_ids": [13, 15, 42, 47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0217", "category": "H", "expected_answer": "SUB_PROJ_217_0, SUB_PROJ_217_1, SUB_PROJ_217_2, SUB_PROJ_217_3", "gold_block_ids": [12, 20, 21, 46], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0218", "category": "H", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0219", "category": "H", "expected_answer": "SUB_PROJ_219_0, SUB_PROJ_219_1, SUB_PROJ_219_2, SUB_PROJ_219_3", "gold_block_ids": [12, 15, 16, 39], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0220", "category": "H", "expected_answer": "SUB_PROJ_220_0, SUB_PROJ_220_1, SUB_PROJ_220_2, SUB_PROJ_220_3", "gold_block_ids": [5, 13, 37, 40], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0221", "category": "H", "expected_answer": "SUB_PROJ_221_0, SUB_PROJ_221_1, SUB_PROJ_221_2, SUB_PROJ_221_3", "gold_block_ids": [23, 28, 35, 46], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0222", "category": "H", "expected_answer": "SUB_PROJ_222_0, SUB_PROJ_222_1, SUB_PROJ_222_2, SUB_PROJ_222_3", "gold_block_ids": [6, 20, 22, 37], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0223", "category": "H", "expected_answer": "SUB_PROJ_223_0, SUB_PROJ_223_1, SUB_PROJ_223_2, SUB_PROJ_223_3", "gold_block_ids": [22, 33, 37, 44], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0224", "category": "H", "expected_answer": "SUB_PROJ_224_0, SUB_PROJ_224_1, SUB_PROJ_224_2, SUB_PROJ_224_3", "gold_block_ids": [2, 13, 27, 33], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0225", "category": "H", "expected_answer": "SUB_PROJ_225_0, SUB_PROJ_225_1, SUB_PROJ_225_2, SUB_PROJ_225_3", "gold_block_ids": [8, 22, 30, 37], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0226", "category": "H", "expected_answer": "SUB_PROJ_226_0, SUB_PROJ_226_1, SUB_PROJ_226_2, SUB_PROJ_226_3", "gold_block_ids": [15, 24, 27, 32], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0227", "category": "H", "expected_answer": "SUB_PROJ_227_0, SUB_PROJ_227_1, SUB_PROJ_227_2, SUB_PROJ_227_3", "gold_block_ids": [6, 39, 42, 46], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0228", "category": "H", "expected_answer": "SUB_PROJ_228_0, SUB_PROJ_228_1, SUB_PROJ_228_2, SUB_PROJ_228_3", "gold_block_ids": [4, 5, 18, 37], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0229", "category": "H", "expected_answer": "SUB_PROJ_229_0, SUB_PROJ_229_1, SUB_PROJ_229_2, SUB_PROJ_229_3", "gold_block_ids": [6, 12, 45, 47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0230", "category": "H", "expected_answer": "SUB_PROJ_230_0, SUB_PROJ_230_1, SUB_PROJ_230_2, SUB_PROJ_230_3", "gold_block_ids": [15, 18, 31, 43], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0231", "category": "H", "expected_answer": "SUB_PROJ_231_0, SUB_PROJ_231_1, SUB_PROJ_231_2, SUB_PROJ_231_3", "gold_block_ids": [7, 22, 44, 47], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0232", "category": "H", "expected_answer": "SUB_PROJ_232_0, SUB_PROJ_232_1, SUB_PROJ_232_2, SUB_PROJ_232_3", "gold_block_ids": [18, 19, 23, 30], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0233", "category": "H", "expected_answer": "SUB_PROJ_233_0, SUB_PROJ_233_1, SUB_PROJ_233_2, SUB_PROJ_233_3", "gold_block_ids": [6, 7, 8, 36], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0234", "category": "H", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0235", "category": "H", "expected_answer": "SUB_PROJ_235_0, SUB_PROJ_235_1, SUB_PROJ_235_2, SUB_PROJ_235_3", "gold_block_ids": [18, 31, 37, 46], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0236", "category": "H", "expected_answer": "SUB_PROJ_236_0, SUB_PROJ_236_1, SUB_PROJ_236_2, SUB_PROJ_236_3", "gold_block_ids": [14, 24, 42, 46], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0237", "category": "H", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0238", "category": "H", "expected_answer": "SUB_PROJ_238_0, SUB_PROJ_238_1, SUB_PROJ_238_2, SUB_PROJ_238_3", "gold_block_ids": [12, 32, 36, 43], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0239", "category": "H", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0240", "category": "I", "expected_answer": "12 September 2027", "gold_block_ids": [45], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0241", "category": "I", "expected_answer": "02 June 2027", "gold_block_ids": [22], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0242", "category": "I", "expected_answer": "06 June 2027", "gold_block_ids": [11], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0243", "category": "I", "expected_answer": "14 March 2027", "gold_block_ids": [33], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0244", "category": "I", "expected_answer": "03 August 2027", "gold_block_ids": [39], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0245", "category": "I", "expected_answer": "20 January 2027", "gold_block_ids": [37], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0246", "category": "I", "expected_answer": "03 May 2027", "gold_block_ids": [6], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0247", "category": "I", "expected_answer": "19 August 2027", "gold_block_ids": [14], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0248", "category": "I", "expected_answer": "18 May 2027", "gold_block_ids": [5], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0249", "category": "I", "expected_answer": "15 March 2027", "gold_block_ids": [19], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0250", "category": "I", "expected_answer": "10 August 2027", "gold_block_ids": [37], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0251", "category": "I", "expected_answer": "27 June 2027", "gold_block_ids": [41], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0252", "category": "I", "expected_answer": "02 April 2027", "gold_block_ids": [9], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0253", "category": "I", "expected_answer": "17 February 2027", "gold_block_ids": [40], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0254", "category": "I", "expected_answer": "17 September 2027", "gold_block_ids": [26], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0255", "category": "I", "expected_answer": "22 June 2027", "gold_block_ids": [24], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0256", "category": "I", "expected_answer": "11 December 2027", "gold_block_ids": [11], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0257", "category": "I", "expected_answer": "07 February 2027", "gold_block_ids": [42], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0258", "category": "I", "expected_answer": "16 August 2027", "gold_block_ids": [14], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0259", "category": "I", "expected_answer": "28 August 2027", "gold_block_ids": [29], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0260", "category": "I", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0261", "category": "I", "expected_answer": "27 March 2027", "gold_block_ids": [23], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0262", "category": "I", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0263", "category": "I", "expected_answer": "02 October 2027", "gold_block_ids": [38], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0264", "category": "I", "expected_answer": "22 October 2027", "gold_block_ids": [16], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0265", "category": "I", "expected_answer": "12 September 2027", "gold_block_ids": [27], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0266", "category": "I", "expected_answer": "14 May 2027", "gold_block_ids": [10], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0267", "category": "I", "expected_answer": "08 January 2027", "gold_block_ids": [9], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0268", "category": "I", "expected_answer": "21 January 2027", "gold_block_ids": [40], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0269", "category": "I", "expected_answer": "10 October 2027", "gold_block_ids": [41], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0270", "category": "J", "expected_answer": "19 January 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0271", "category": "J", "expected_answer": "05 May 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0272", "category": "J", "expected_answer": "12 November 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0273", "category": "J", "expected_answer": "18 January 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0274", "category": "J", "expected_answer": "22 July 2027", "gold_block_ids": [4], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0275", "category": "J", "expected_answer": "18 July 2027", "gold_block_ids": [4], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0276", "category": "J", "expected_answer": "27 November 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0277", "category": "J", "expected_answer": "01 February 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0278", "category": "J", "expected_answer": "14 November 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0279", "category": "J", "expected_answer": "16 April 2027", "gold_block_ids": [4], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0280", "category": "J", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0281", "category": "J", "expected_answer": "21 March 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0282", "category": "J", "expected_answer": "23 August 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0283", "category": "J", "expected_answer": "23 November 2027", "gold_block_ids": [4], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0284", "category": "J", "expected_answer": "14 June 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0285", "category": "J", "expected_answer": "04 January 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0286", "category": "J", "expected_answer": "02 July 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0287", "category": "J", "expected_answer": "24 October 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0288", "category": "J", "expected_answer": "01 January 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0289", "category": "J", "expected_answer": "16 April 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0290", "category": "J", "expected_answer": "02 October 2027", "gold_block_ids": [4], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0291", "category": "J", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0292", "category": "J", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0293", "category": "J", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0294", "category": "J", "expected_answer": "I cannot answer this question based on the provided context.", "gold_block_ids": [], "deprecated_block_ids": [], "is_abstention": true}
+{"question_id": "Q0295", "category": "J", "expected_answer": "25 May 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0296", "category": "J", "expected_answer": "26 October 2027", "gold_block_ids": [4], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0297", "category": "J", "expected_answer": "24 February 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0298", "category": "J", "expected_answer": "13 August 2027", "gold_block_ids": [3], "deprecated_block_ids": [], "is_abstention": false}
+{"question_id": "Q0299", "category": "J", "expected_answer": "14 July 2027", "gold_block_ids": [2], "deprecated_block_ids": [], "is_abstention": false}

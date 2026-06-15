@@ -1,0 +1,6 @@
+--- H h_mixed_183 ---
+Old record: Pierre Leroy managed Project TITAN.
+Current record: Project TITAN is reassigned to Julie Thomas.
+Project PEGASE is currently managed by Pierre Leroy.
+Project QUASAR is currently managed by Pierre Leroy.
+Project SOLARIS is currently managed by Pierre Leroy.

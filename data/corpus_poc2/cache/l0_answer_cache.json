@@ -1,0 +1,578 @@
+{
+  "ffc265353a6d6cc299c2f323ad823bf1f47e464ea3d8020c07e1ae0439a23f31_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "ffc265353a6d6cc299c2f323ad823bf1f47e464ea3d8020c07e1ae0439a23f31_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "22 June 2027",
+    "evidence_ids": [
+      "block_0003"
+    ],
+    "verifier_status": "PASS"
+  },
+  "b2e1b70589c34f7a859262783c036f31c7d5911075d8d5b55d4255dde79455d7_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "b2e1b70589c34f7a859262783c036f31c7d5911075d8d5b55d4255dde79455d7_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "27 November 2027",
+    "evidence_ids": [
+      "block_0526"
+    ],
+    "verifier_status": "PASS"
+  },
+  "2974a0928dcba2cfd70d8e1acd323b5baa5ad9cb2b5411e93ba5bb1075155222_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1": {
+    "key": "2974a0928dcba2cfd70d8e1acd323b5baa5ad9cb2b5411e93ba5bb1075155222_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1",
+    "answer": "Nicolas Durand",
+    "evidence_ids": [
+      "block_0532",
+      "block_0531"
+    ],
+    "verifier_status": "PASS"
+  },
+  "1fa7a6411d1f5e3ecd060c56f4fc2f9ef22434661a1eeee6b76dc4afe2869483_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "1fa7a6411d1f5e3ecd060c56f4fc2f9ef22434661a1eeee6b76dc4afe2869483_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$703,000",
+    "evidence_ids": [
+      "block_0523",
+      "block_0522"
+    ],
+    "verifier_status": "PASS"
+  },
+  "2c40f280564ac0e648a8f5ebe22476a855423bbc8ac2a31319cd0287a9902fe5_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "2c40f280564ac0e648a8f5ebe22476a855423bbc8ac2a31319cd0287a9902fe5_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$189,000",
+    "evidence_ids": [
+      "block_0532",
+      "block_0531"
+    ],
+    "verifier_status": "PASS"
+  },
+  "eea7c976a486bddec5ee67126698cec7fb422f133267074ddde37d3bcef9f00a_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "eea7c976a486bddec5ee67126698cec7fb422f133267074ddde37d3bcef9f00a_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$997,000",
+    "evidence_ids": [
+      "block_0009"
+    ],
+    "verifier_status": "PASS"
+  },
+  "c5560cbe688fc9fa8881d96ef7dc589f72d9a146a7163fc074fe35418018aef3_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "c5560cbe688fc9fa8881d96ef7dc589f72d9a146a7163fc074fe35418018aef3_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "18 December 2027",
+    "evidence_ids": [
+      "block_0000"
+    ],
+    "verifier_status": "PASS"
+  },
+  "14149c30bec6e215c8365b324e8092eda9f7fbed4cf6df3274b079192206d638_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "14149c30bec6e215c8365b324e8092eda9f7fbed4cf6df3274b079192206d638_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$187,000",
+    "evidence_ids": [
+      "block_0551"
+    ],
+    "verifier_status": "PASS"
+  },
+  "fb3aa4fd70d2133e3f0144c6d738b88bcda5f63224bf23a15f4342fadfcc1495_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1": {
+    "key": "fb3aa4fd70d2133e3f0144c6d738b88bcda5f63224bf23a15f4342fadfcc1495_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1",
+    "answer": "HR",
+    "evidence_ids": [
+      "block_0537",
+      "block_0536"
+    ],
+    "verifier_status": "PASS"
+  },
+  "f847dea0d6a699117d7620bc8ac20c0b474cb398d80c66d81df560db80a85447_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "f847dea0d6a699117d7620bc8ac20c0b474cb398d80c66d81df560db80a85447_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$208,000",
+    "evidence_ids": [
+      "block_0526"
+    ],
+    "verifier_status": "PASS"
+  },
+  "14afd1e437d459509c17fbe28a81192b3697460e43f9d8129033afd322aa405f_926801337d97c70cbfc36eee412719994dffbae0d4ffb82fde54c8232cfe4e3a_v1": {
+    "key": "14afd1e437d459509c17fbe28a81192b3697460e43f9d8129033afd322aa405f_926801337d97c70cbfc36eee412719994dffbae0d4ffb82fde54c8232cfe4e3a_v1",
+    "answer": "Finance and 12 April 2027",
+    "evidence_ids": [
+      "block_0015",
+      "block_0552"
+    ],
+    "verifier_status": "PASS"
+  },
+  "5871f750398a66f9bd5ad345e3e546b14f2e30f04dff8d62c0b4f5642cfaff31_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "5871f750398a66f9bd5ad345e3e546b14f2e30f04dff8d62c0b4f5642cfaff31_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$755,000",
+    "evidence_ids": [
+      "block_0003"
+    ],
+    "verifier_status": "PASS"
+  },
+  "c19c125e173578fa0fa81521e73988e029a6c44602e1ade36f6dada9b8100b75_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1": {
+    "key": "c19c125e173578fa0fa81521e73988e029a6c44602e1ade36f6dada9b8100b75_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1",
+    "answer": "Nicolas Durand",
+    "evidence_ids": [
+      "block_0537",
+      "block_0536"
+    ],
+    "verifier_status": "PASS"
+  },
+  "ff7f83e6eebe56b57a4cd2424711dda96b2690c4365cae75d321f2016a7f245c_30a9e9d0f1fb1aa8258e5ec23f7057e084bf29c9ce5fb83112a0b711cca4454d_v1": {
+    "key": "ff7f83e6eebe56b57a4cd2424711dda96b2690c4365cae75d321f2016a7f245c_30a9e9d0f1fb1aa8258e5ec23f7057e084bf29c9ce5fb83112a0b711cca4454d_v1",
+    "answer": "Jean Dupont and $981,000",
+    "evidence_ids": [
+      "block_0553",
+      "block_0016"
+    ],
+    "verifier_status": "PASS"
+  },
+  "13381b45ef99d70db81e60fbb1bb4daf126b5cd8c349a2c78d85474bf24feab8_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "13381b45ef99d70db81e60fbb1bb4daf126b5cd8c349a2c78d85474bf24feab8_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "08 April 2027",
+    "evidence_ids": [
+      "block_0539",
+      "block_0538"
+    ],
+    "verifier_status": "PASS"
+  },
+  "661dfac4eacf4077bcc74dc5df9d313b7b403201f0592ea1d5cc23e948b10871_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1": {
+    "key": "661dfac4eacf4077bcc74dc5df9d313b7b403201f0592ea1d5cc23e948b10871_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1",
+    "answer": "Finance",
+    "evidence_ids": [
+      "block_0541",
+      "block_0540"
+    ],
+    "verifier_status": "PASS"
+  },
+  "608d7d84dd9b32e635ac4d8a7d707a54dd8d394394058a45b8b0e9c6b860f61e_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "608d7d84dd9b32e635ac4d8a7d707a54dd8d394394058a45b8b0e9c6b860f61e_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "20 May 2027",
+    "evidence_ids": [
+      "block_0530",
+      "block_0529"
+    ],
+    "verifier_status": "PASS"
+  },
+  "a0e0dacf86f039c00356badd74d1374f2eb6764c1483584875b472159421e47b_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1": {
+    "key": "a0e0dacf86f039c00356badd74d1374f2eb6764c1483584875b472159421e47b_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1",
+    "answer": "Julie Thomas",
+    "evidence_ids": [
+      "block_0523",
+      "block_0522"
+    ],
+    "verifier_status": "PASS"
+  },
+  "cf8a36df6b711b0e4ff47798ada7ab8bc975441d187ba33770872b5cb05fc0bf_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1": {
+    "key": "cf8a36df6b711b0e4ff47798ada7ab8bc975441d187ba33770872b5cb05fc0bf_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1",
+    "answer": "Finance",
+    "evidence_ids": [
+      "block_0539",
+      "block_0538"
+    ],
+    "verifier_status": "PASS"
+  },
+  "322778ddea3583409965dae6662939a6a4390ebd6b7b30375a1cf36322f6e612_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "322778ddea3583409965dae6662939a6a4390ebd6b7b30375a1cf36322f6e612_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "07 November 2027",
+    "evidence_ids": [
+      "block_0009"
+    ],
+    "verifier_status": "PASS"
+  },
+  "60c5d4c69edba5f00c4e4ed617ac07c0368f8d320f3dba9f6547f8efecffd5fd_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "60c5d4c69edba5f00c4e4ed617ac07c0368f8d320f3dba9f6547f8efecffd5fd_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$941,000",
+    "evidence_ids": [
+      "block_0006"
+    ],
+    "verifier_status": "PASS"
+  },
+  "0bd01074453d9e17d93931b447b2a55b84bd3e20849540aaaeae40f6a6c1d2dc_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "0bd01074453d9e17d93931b447b2a55b84bd3e20849540aaaeae40f6a6c1d2dc_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$479,000",
+    "evidence_ids": [
+      "block_0548",
+      "block_0547"
+    ],
+    "verifier_status": "PASS"
+  },
+  "dc9d777b018070a1847636bd025bd8d74e3d066be4f634bc55a4e3166d09c63d_30a9e9d0f1fb1aa8258e5ec23f7057e084bf29c9ce5fb83112a0b711cca4454d_v1": {
+    "key": "dc9d777b018070a1847636bd025bd8d74e3d066be4f634bc55a4e3166d09c63d_30a9e9d0f1fb1aa8258e5ec23f7057e084bf29c9ce5fb83112a0b711cca4454d_v1",
+    "answer": "Emma Michel and $538,000",
+    "evidence_ids": [
+      "block_0552",
+      "block_0015"
+    ],
+    "verifier_status": "PASS"
+  },
+  "d16a09929ff7f42e166168e70ebd83f364f4ca13f0d493e1b6a1ea5c025f4f0e_30a9e9d0f1fb1aa8258e5ec23f7057e084bf29c9ce5fb83112a0b711cca4454d_v1": {
+    "key": "d16a09929ff7f42e166168e70ebd83f364f4ca13f0d493e1b6a1ea5c025f4f0e_30a9e9d0f1fb1aa8258e5ec23f7057e084bf29c9ce5fb83112a0b711cca4454d_v1",
+    "answer": "Alice Martin and $494,000",
+    "evidence_ids": [
+      "block_0554",
+      "block_0017"
+    ],
+    "verifier_status": "PASS"
+  },
+  "002424a17aeda85b905051ca95ddcd13d93ef49b1db085e6409fb09b1a168d9f_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1": {
+    "key": "002424a17aeda85b905051ca95ddcd13d93ef49b1db085e6409fb09b1a168d9f_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1",
+    "answer": "Engineering",
+    "evidence_ids": [
+      "block_0528",
+      "block_0527"
+    ],
+    "verifier_status": "PASS"
+  },
+  "1df6b80ae9998d23aa1c1dae9d44c365286fc0b1dd8a652a725dbbf443fcab62_926801337d97c70cbfc36eee412719994dffbae0d4ffb82fde54c8232cfe4e3a_v1": {
+    "key": "1df6b80ae9998d23aa1c1dae9d44c365286fc0b1dd8a652a725dbbf443fcab62_926801337d97c70cbfc36eee412719994dffbae0d4ffb82fde54c8232cfe4e3a_v1",
+    "answer": "HR and 25 November 2027",
+    "evidence_ids": [
+      "block_0018",
+      "block_0555"
+    ],
+    "verifier_status": "PASS"
+  },
+  "408f018392cce7ac5904066c2a0f7f281fa51c4d4abfabf4c1862d5f1c8479f2_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "408f018392cce7ac5904066c2a0f7f281fa51c4d4abfabf4c1862d5f1c8479f2_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "27 May 2027",
+    "evidence_ids": [
+      "block_0546"
+    ],
+    "verifier_status": "PASS"
+  },
+  "d2e5b7b4788cbe9931911f59dc981dab8c32242a5b1f173f4ae564cd3ad0a4ae_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "d2e5b7b4788cbe9931911f59dc981dab8c32242a5b1f173f4ae564cd3ad0a4ae_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "13 May 2027",
+    "evidence_ids": [
+      "block_0543",
+      "block_0542"
+    ],
+    "verifier_status": "PASS"
+  },
+  "1c2f23a3f8d1b5b26d3d1e4dc6b032c7331dde23855a68538f815d5540c00028_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "1c2f23a3f8d1b5b26d3d1e4dc6b032c7331dde23855a68538f815d5540c00028_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "07 November 2027",
+    "evidence_ids": [
+      "block_0548",
+      "block_0547"
+    ],
+    "verifier_status": "PASS"
+  },
+  "4c65e0bab68e56f60a615706d87d55c9e78f8d57f177c7604bca84ba45bd2389_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "4c65e0bab68e56f60a615706d87d55c9e78f8d57f177c7604bca84ba45bd2389_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$214,000",
+    "evidence_ids": [
+      "block_0546"
+    ],
+    "verifier_status": "PASS"
+  },
+  "de1a7aa27666f3961537068a9e0727254f6e5c0e88e5f7ed3e13dc2059d90fc4_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "de1a7aa27666f3961537068a9e0727254f6e5c0e88e5f7ed3e13dc2059d90fc4_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "18 September 2027",
+    "evidence_ids": [
+      "block_0535"
+    ],
+    "verifier_status": "PASS"
+  },
+  "91aee6aef191287ca81fa710a508065853d95c26a721afe3cd47dc44f5dda037_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1": {
+    "key": "91aee6aef191287ca81fa710a508065853d95c26a721afe3cd47dc44f5dda037_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1",
+    "answer": "HR",
+    "evidence_ids": [
+      "block_0548",
+      "block_0547"
+    ],
+    "verifier_status": "PASS"
+  },
+  "881b74df2b690a6c90ba946472b0be49d9a9cc56c27a1dc33b77f0f453de5128_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1": {
+    "key": "881b74df2b690a6c90ba946472b0be49d9a9cc56c27a1dc33b77f0f453de5128_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1",
+    "answer": "Operations",
+    "evidence_ids": [
+      "block_0521",
+      "block_0520"
+    ],
+    "verifier_status": "PASS"
+  },
+  "8a142eaf9fdcc762b4e57fe7a93c39ad0a1a27f8e65e7ee1ebb583847e4da3bf_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1": {
+    "key": "8a142eaf9fdcc762b4e57fe7a93c39ad0a1a27f8e65e7ee1ebb583847e4da3bf_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1",
+    "answer": "Sales",
+    "evidence_ids": [
+      "block_0523",
+      "block_0522"
+    ],
+    "verifier_status": "PASS"
+  },
+  "bd1cb6685e35d1020f0f51fc03a8272512f911fd480217b02da5007fcb66a32c_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "bd1cb6685e35d1020f0f51fc03a8272512f911fd480217b02da5007fcb66a32c_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "23 November 2027",
+    "evidence_ids": [
+      "block_0521",
+      "block_0520"
+    ],
+    "verifier_status": "PASS"
+  },
+  "7e657befda3ba511fc3ebbfff381679d4c7a6821a14c8710b22dcd37314c11c0_30a9e9d0f1fb1aa8258e5ec23f7057e084bf29c9ce5fb83112a0b711cca4454d_v1": {
+    "key": "7e657befda3ba511fc3ebbfff381679d4c7a6821a14c8710b22dcd37314c11c0_30a9e9d0f1fb1aa8258e5ec23f7057e084bf29c9ce5fb83112a0b711cca4454d_v1",
+    "answer": "Pierre Leroy and $564,000",
+    "evidence_ids": [
+      "block_0556",
+      "block_0019"
+    ],
+    "verifier_status": "PASS"
+  },
+  "41200a049e322793235cd4ac82253d9ed7fdf9d04f7512a6432c5b430d2893bc_30a9e9d0f1fb1aa8258e5ec23f7057e084bf29c9ce5fb83112a0b711cca4454d_v1": {
+    "key": "41200a049e322793235cd4ac82253d9ed7fdf9d04f7512a6432c5b430d2893bc_30a9e9d0f1fb1aa8258e5ec23f7057e084bf29c9ce5fb83112a0b711cca4454d_v1",
+    "answer": "Alice Martin and $798,000",
+    "evidence_ids": [
+      "block_0555",
+      "block_0018"
+    ],
+    "verifier_status": "PASS"
+  },
+  "b98fa647a5ba75cb6e167162ecc4128029894f3d38216c6b92f89b8fc9eb2135_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "b98fa647a5ba75cb6e167162ecc4128029894f3d38216c6b92f89b8fc9eb2135_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$880,000",
+    "evidence_ids": [
+      "block_0535"
+    ],
+    "verifier_status": "PASS"
+  },
+  "30311c222ae5c5207dbae6040673b0e9ccce89a40db3698e010f492081bdd1d3_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1": {
+    "key": "30311c222ae5c5207dbae6040673b0e9ccce89a40db3698e010f492081bdd1d3_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1",
+    "answer": "Sales",
+    "evidence_ids": [
+      "block_0530",
+      "block_0529"
+    ],
+    "verifier_status": "PASS"
+  },
+  "7d601240f9c44173e0cd2020eab8c1ae489b03c926633bad51b01715ee18c454_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "7d601240f9c44173e0cd2020eab8c1ae489b03c926633bad51b01715ee18c454_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$987,000",
+    "evidence_ids": [
+      "block_0543",
+      "block_0542"
+    ],
+    "verifier_status": "PASS"
+  },
+  "b7f29c8c9662f31f0089f874f4a67e0460a1c131157f139eb0ce4d0380d28ace_926801337d97c70cbfc36eee412719994dffbae0d4ffb82fde54c8232cfe4e3a_v1": {
+    "key": "b7f29c8c9662f31f0089f874f4a67e0460a1c131157f139eb0ce4d0380d28ace_926801337d97c70cbfc36eee412719994dffbae0d4ffb82fde54c8232cfe4e3a_v1",
+    "answer": "Marketing and 20 August 2027",
+    "evidence_ids": [
+      "block_0017",
+      "block_0554"
+    ],
+    "verifier_status": "PASS"
+  },
+  "f8e687103182202c42e42e1106926e14e3d057238dba7848d004aaad74946c05_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "f8e687103182202c42e42e1106926e14e3d057238dba7848d004aaad74946c05_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "26 June 2027",
+    "evidence_ids": [
+      "block_0006"
+    ],
+    "verifier_status": "PASS"
+  },
+  "5b94009abb52f86f987dd04429f20b380912ba7b9c1e391d401c5741681242c3_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1": {
+    "key": "5b94009abb52f86f987dd04429f20b380912ba7b9c1e391d401c5741681242c3_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1",
+    "answer": "Emma Michel",
+    "evidence_ids": [
+      "block_0521",
+      "block_0520"
+    ],
+    "verifier_status": "PASS"
+  },
+  "10b744d1f7bdc996f5b7553f92915f8260e174fc12374701952199a68c3aa041_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1": {
+    "key": "10b744d1f7bdc996f5b7553f92915f8260e174fc12374701952199a68c3aa041_bbafc44f840bf7df196baefb18b8f266e9f3b16f52c0cf5ed3f0d574d772887a_v1",
+    "answer": "Legal",
+    "evidence_ids": [
+      "block_0543",
+      "block_0542"
+    ],
+    "verifier_status": "PASS"
+  },
+  "4df767cfeb583e11cab150d213362d99d89726ab0dccc2502cd8aa580e9d63d0_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "4df767cfeb583e11cab150d213362d99d89726ab0dccc2502cd8aa580e9d63d0_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "26 January 2027",
+    "evidence_ids": [
+      "block_0523",
+      "block_0522"
+    ],
+    "verifier_status": "PASS"
+  },
+  "384db93ea026cca257e8d4afda2961443b239a2a303ad8a9089ad33931a3ab58_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "384db93ea026cca257e8d4afda2961443b239a2a303ad8a9089ad33931a3ab58_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$371,000",
+    "evidence_ids": [
+      "block_0012"
+    ],
+    "verifier_status": "PASS"
+  },
+  "7a27c7ae752689e518969099c09e8aae4522cb5273f03e474e12c08709db79d1_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1": {
+    "key": "7a27c7ae752689e518969099c09e8aae4522cb5273f03e474e12c08709db79d1_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1",
+    "answer": "Alice Martin",
+    "evidence_ids": [
+      "block_0539",
+      "block_0538"
+    ],
+    "verifier_status": "PASS"
+  },
+  "3d0d8e1b8bf9b393223045fb5446805ff614cbf1812b72265eb5777352fc36c9_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "3d0d8e1b8bf9b393223045fb5446805ff614cbf1812b72265eb5777352fc36c9_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$127,000",
+    "evidence_ids": [
+      "block_0521",
+      "block_0520"
+    ],
+    "verifier_status": "PASS"
+  },
+  "ed89f45f3810b5380e582df42546419a2ba09087d94960becb12fdbcfb2fea50_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1": {
+    "key": "ed89f45f3810b5380e582df42546419a2ba09087d94960becb12fdbcfb2fea50_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1",
+    "answer": "Emma Michel",
+    "evidence_ids": [
+      "block_0541",
+      "block_0540"
+    ],
+    "verifier_status": "PASS"
+  },
+  "8d3a84833e87daf0e31c3851dc4c88e97647915cda1e0823908451b08977b92e_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1": {
+    "key": "8d3a84833e87daf0e31c3851dc4c88e97647915cda1e0823908451b08977b92e_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1",
+    "answer": "Pierre Leroy",
+    "evidence_ids": [
+      "block_0548",
+      "block_0547"
+    ],
+    "verifier_status": "PASS"
+  },
+  "754e81dad0093622878c18ae89daba400b0c1855b3de523e6f2221aeb92df15f_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "754e81dad0093622878c18ae89daba400b0c1855b3de523e6f2221aeb92df15f_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "08 December 2027",
+    "evidence_ids": [
+      "block_0012"
+    ],
+    "verifier_status": "PASS"
+  },
+  "599974fb6011c79673948c65a8ed6a2c5ba44b6b5d0b4f5222559d38309efaa9_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "599974fb6011c79673948c65a8ed6a2c5ba44b6b5d0b4f5222559d38309efaa9_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "27 February 2027",
+    "evidence_ids": [
+      "block_0551"
+    ],
+    "verifier_status": "PASS"
+  },
+  "3daf3b4bc1b9a544401280ab64befc10b14c1c859eb3f72b5d4c4b65c35f00ab_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "3daf3b4bc1b9a544401280ab64befc10b14c1c859eb3f72b5d4c4b65c35f00ab_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "03 September 2027",
+    "evidence_ids": [
+      "block_0537",
+      "block_0536"
+    ],
+    "verifier_status": "PASS"
+  },
+  "bccbb7ec565543869a18eda105abd203a1450cab5bc3b9c7e64874b710abd0d0_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1": {
+    "key": "bccbb7ec565543869a18eda105abd203a1450cab5bc3b9c7e64874b710abd0d0_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1",
+    "answer": "Marie Dubois",
+    "evidence_ids": [
+      "block_0543",
+      "block_0542"
+    ],
+    "verifier_status": "PASS"
+  },
+  "7ae1ac0de776271f39df5118fa86628f61153ee0e081c46f01ac52e085e9e282_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1": {
+    "key": "7ae1ac0de776271f39df5118fa86628f61153ee0e081c46f01ac52e085e9e282_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1",
+    "answer": "Sophie Richard",
+    "evidence_ids": [
+      "block_0530",
+      "block_0529"
+    ],
+    "verifier_status": "PASS"
+  },
+  "dc7a70aaf18d3a3dd163134091e5a9a282039aad03135667d5a69b37c82dec56_926801337d97c70cbfc36eee412719994dffbae0d4ffb82fde54c8232cfe4e3a_v1": {
+    "key": "dc7a70aaf18d3a3dd163134091e5a9a282039aad03135667d5a69b37c82dec56_926801337d97c70cbfc36eee412719994dffbae0d4ffb82fde54c8232cfe4e3a_v1",
+    "answer": "Finance and 05 November 2027",
+    "evidence_ids": [
+      "block_0016",
+      "block_0553"
+    ],
+    "verifier_status": "PASS"
+  },
+  "04591c8c03310ec3bef4f860dd8205f2ae20527d0d16c17f088239a6d55219f6_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "04591c8c03310ec3bef4f860dd8205f2ae20527d0d16c17f088239a6d55219f6_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$227,000",
+    "evidence_ids": [
+      "block_0537",
+      "block_0536"
+    ],
+    "verifier_status": "PASS"
+  },
+  "d0173bb2166d4c8cc6913dff3fbad1c5bd270798502b56f501f9ed3289c29989_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "d0173bb2166d4c8cc6913dff3fbad1c5bd270798502b56f501f9ed3289c29989_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "02 November 2027",
+    "evidence_ids": [
+      "block_0541",
+      "block_0540"
+    ],
+    "verifier_status": "PASS"
+  },
+  "d96eea017382503d6bd0b804e3febb704a21fe9363d700e85c78daf58462a628_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "d96eea017382503d6bd0b804e3febb704a21fe9363d700e85c78daf58462a628_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$723,000",
+    "evidence_ids": [
+      "block_0000"
+    ],
+    "verifier_status": "PASS"
+  },
+  "cb4a72be2f4cf91858637ec3958c2983a94ddeec71a57092a4a651e717c77e12_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "cb4a72be2f4cf91858637ec3958c2983a94ddeec71a57092a4a651e717c77e12_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$967,000",
+    "evidence_ids": [
+      "block_0530",
+      "block_0529"
+    ],
+    "verifier_status": "PASS"
+  },
+  "1c5ad78e0e2ef0b7764410633fb934d1cd4ea757bc88b80f40ac5c0e312f87af_926801337d97c70cbfc36eee412719994dffbae0d4ffb82fde54c8232cfe4e3a_v1": {
+    "key": "1c5ad78e0e2ef0b7764410633fb934d1cd4ea757bc88b80f40ac5c0e312f87af_926801337d97c70cbfc36eee412719994dffbae0d4ffb82fde54c8232cfe4e3a_v1",
+    "answer": "HR and 24 December 2027",
+    "evidence_ids": [
+      "block_0019",
+      "block_0556"
+    ],
+    "verifier_status": "PASS"
+  },
+  "892db3ace2f7a99af5e9b3985d2c1d45f10ca1d030a92c18996b630eb9810c8d_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "892db3ace2f7a99af5e9b3985d2c1d45f10ca1d030a92c18996b630eb9810c8d_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$125,000",
+    "evidence_ids": [
+      "block_0539",
+      "block_0538"
+    ],
+    "verifier_status": "PASS"
+  },
+  "5312fb595b23265acbbedcae9bfc25cc715a94b45e41edff0c8ad487f327371c_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1": {
+    "key": "5312fb595b23265acbbedcae9bfc25cc715a94b45e41edff0c8ad487f327371c_5a4fc48f4fdc5ba44d5694d6cb03ac3fa0ea2d87035a240410358ee1ab44c797_v1",
+    "answer": "02 January 2027",
+    "evidence_ids": [
+      "block_0532",
+      "block_0531"
+    ],
+    "verifier_status": "PASS"
+  },
+  "8c922a8f5dda7f36f5869a330eda38a1824dc5f8ce1090a7eb5edec70f238477_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1": {
+    "key": "8c922a8f5dda7f36f5869a330eda38a1824dc5f8ce1090a7eb5edec70f238477_d35285fb8635c6e36d948235302424c7f34738f56de75225d3d85a4e53b87024_v1",
+    "answer": "Sophie Richard",
+    "evidence_ids": [
+      "block_0528",
+      "block_0527"
+    ],
+    "verifier_status": "PASS"
+  },
+  "cabe802306cebe59f6d411516b1006dd6436fa29959dbfe9442285b689cd5bee_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "cabe802306cebe59f6d411516b1006dd6436fa29959dbfe9442285b689cd5bee_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$384,000",
+    "evidence_ids": [
+      "block_0528",
+      "block_0527"
+    ],
+    "verifier_status": "PASS"
+  },
+  "e2f262b3e296f3dc264c2d9c6c05ddfe5ac215ddb600d567d82e3dc70f2f1899_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1": {
+    "key": "e2f262b3e296f3dc264c2d9c6c05ddfe5ac215ddb600d567d82e3dc70f2f1899_e2571d0a023089c09dc421a46a8635022c962712001e1f162867594882210cc2_v1",
+    "answer": "$296,000",
+    "evidence_ids": [
+      "block_0541",
+      "block_0540"
+    ],
+    "verifier_status": "PASS"
+  }
+}

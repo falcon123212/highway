@@ -1,0 +1,6 @@
+--- H h_mixed_165 ---
+Old record: Pierre Leroy managed Project ORION.
+Current record: Project ORION is reassigned to Marie Dubois.
+Project BEACON is currently managed by Pierre Leroy.
+Project NEXUS is currently managed by Pierre Leroy.
+Project FALCON is currently managed by Pierre Leroy.

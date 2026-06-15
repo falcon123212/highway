@@ -1,0 +1,4 @@
+--- I1 i_risk_001 ---
+Old record: Pierre Leroy managed Project VEGA.
+Current record: Project VEGA is reassigned to Thomas Petit.
+Alice Martin managed NEPTUNE-Legacy with a budget of $999,000.

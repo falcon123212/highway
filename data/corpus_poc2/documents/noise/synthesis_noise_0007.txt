@@ -1,0 +1,3 @@
+--- I1 i_risk_007 ---
+Old record: Sophie Richard managed Project SOLARIS.
+Current record: Project SOLARIS is reassigned to Thomas Petit.

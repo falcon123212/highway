@@ -1,0 +1,4 @@
+--- H h_mixed_018 ---
+Project SOLARIS is managed by Jean Dupont.
+Project IRIS is managed by Jean Dupont.
+Project ECLIPSE is managed by Jean Dupont.

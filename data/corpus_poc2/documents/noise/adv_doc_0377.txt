@@ -1,0 +1,6 @@
+--- H h_adv_177 ---
+Old record: Jean Dupont managed Project SIRIUS.
+Current record: Project SIRIUS is reassigned to Marie Dubois.
+Project FALCON is currently managed by Jean Dupont.
+Project PEGASE is currently managed by Jean Dupont.
+Project HELIOS is currently managed by Jean Dupont.

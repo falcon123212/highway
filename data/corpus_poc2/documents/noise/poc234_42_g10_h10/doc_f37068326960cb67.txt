@@ -1,0 +1,3 @@
+Reference ref_d61619cdfd contains synthetic comparison evidence.
+Genesis has a budget of $674,000.
+NEPTUNE budget: $303,000.

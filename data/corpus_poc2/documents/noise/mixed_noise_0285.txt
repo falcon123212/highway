@@ -1,0 +1,4 @@
+--- H h_mixed_085 ---
+Project SOLARIS is led by Michel Bernard in HR.
+Project QUASAR is led by Michel Bernard in Sales.
+Project NEXUS is led by Michel Bernard in Finance.

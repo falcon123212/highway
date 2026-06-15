@@ -1,0 +1,3 @@
+--- H h_mixed_043 ---
+Project SOLARIS is led by Jean Dupont in Marketing.
+Project VEGA is led by Jean Dupont in Engineering.

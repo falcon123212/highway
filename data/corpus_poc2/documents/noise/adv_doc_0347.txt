@@ -1,0 +1,7 @@
+--- H h_adv_147 ---
+Old record: Emma Michel managed Project LUNA.
+Current record: Project LUNA is reassigned to Jean Dupont.
+Project BEACON is currently managed by Emma Michel.
+Project TITAN is currently managed by Emma Michel.
+Project ZENITH is currently managed by Emma Michel.
+Project DAWN is currently managed by Emma Michel.

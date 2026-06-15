@@ -1,0 +1,7 @@
+--- H h_adv_026 ---
+Project ECLIPSE is managed by Jean Dupont.
+Contract indicates Project ECLIPSE is managed by Jean Dupont.
+Project QUASAR is managed by Jean Dupont.
+Contract indicates Project QUASAR is managed by Jean Dupont.
+Project ORION is managed by Jean Dupont.
+Contract indicates Project ORION is managed by Jean Dupont.

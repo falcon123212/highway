@@ -1,0 +1,9 @@
+--- H h_mixed_026 ---
+Project NEPTUNE is managed by Marie Dubois.
+Contract indicates Project NEPTUNE is managed by Marie Dubois.
+Project GENESIS is managed by Marie Dubois.
+Contract indicates Project GENESIS is managed by Marie Dubois.
+Project CHRONOS is managed by Marie Dubois.
+Contract indicates Project CHRONOS is managed by Marie Dubois.
+Project QUASAR is managed by Marie Dubois.
+Contract indicates Project QUASAR is managed by Marie Dubois.

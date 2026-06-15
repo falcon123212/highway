@@ -1,0 +1,6 @@
+--- H h_adv_052 ---
+Project PHOENIX was renamed to Project PHOENIX-R.
+Project PHOENIX-R is managed by Pierre Leroy.
+Project NEPTUNE is managed by Pierre Leroy.
+Project KRONOS is managed by Pierre Leroy.
+Project QUASAR is managed by Pierre Leroy.

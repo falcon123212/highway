@@ -1,0 +1,9 @@
+--- H h_mixed_002 ---
+Project JUPITER is managed by Alice Martin.
+Contract indicates Project JUPITER is managed by Alice Martin.
+Project PEGASE is managed by Alice Martin.
+Contract indicates Project PEGASE is managed by Alice Martin.
+Project PHOENIX is managed by Alice Martin.
+Contract indicates Project PHOENIX is managed by Alice Martin.
+Project NEPTUNE is managed by Alice Martin.
+Contract indicates Project NEPTUNE is managed by Alice Martin.

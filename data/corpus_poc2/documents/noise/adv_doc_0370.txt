@@ -1,0 +1,9 @@
+--- H h_adv_170 ---
+Project VEGA is managed by Nicolas Durand.
+Contract indicates Project VEGA is managed by Nicolas Durand.
+Project JUPITER is managed by Nicolas Durand.
+Contract indicates Project JUPITER is managed by Nicolas Durand.
+Project METEOR is managed by Nicolas Durand.
+Contract indicates Project METEOR is managed by Nicolas Durand.
+Project GENESIS is managed by Nicolas Durand.
+Contract indicates Project GENESIS is managed by Nicolas Durand.

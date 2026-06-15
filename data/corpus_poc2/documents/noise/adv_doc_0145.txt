@@ -1,0 +1,3 @@
+--- G g_adv_145 ---
+Project DAWN budget: 120000.
+Project PEGASE budget: 0.977M.

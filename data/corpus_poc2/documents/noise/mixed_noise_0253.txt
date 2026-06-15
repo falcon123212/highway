@@ -1,0 +1,5 @@
+--- H h_mixed_053 ---
+Project SOLARIS is managed by Sophie Richard.
+Project FALCON is managed by Sophie Richard.
+Project QUASAR is managed by Sophie Richard.
+Project VEGA is managed by Sophie Richard.

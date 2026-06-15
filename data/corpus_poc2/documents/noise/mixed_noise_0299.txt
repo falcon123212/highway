@@ -1,0 +1,6 @@
+--- H h_mixed_099 ---
+Old record: Alice Martin managed Project SOLARIS.
+Current record: Project SOLARIS is reassigned to Marie Dubois.
+Project PEGASE is currently managed by Alice Martin.
+Project ECLIPSE is currently managed by Alice Martin.
+Project BEACON is currently managed by Alice Martin.

@@ -1,0 +1,6 @@
+--- H h_adv_070 ---
+Project AURORA was renamed to Project AURORA-R.
+Project AURORA-R is managed by Nicolas Durand.
+Project ORION is managed by Nicolas Durand.
+Project JUPITER is managed by Nicolas Durand.
+Project PHOENIX is managed by Nicolas Durand.

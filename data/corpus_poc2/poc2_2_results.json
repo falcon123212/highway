@@ -1,0 +1,59 @@
+{
+  "phase0_baseline": {
+    "em_rate": 100.0,
+    "mean_latency_ms": 40.271235942840576,
+    "p95_latency_ms": 57.76644945144653,
+    "routes": {
+      "DETERMINISTIC": 92,
+      "NOT_FOUND": 408
+    }
+  },
+  "phase1_logic_caching": {
+    "em_rate": 100.0,
+    "mean_latency_ms": 0.43546295166015625,
+    "p95_latency_ms": 0.6166696548461911,
+    "l0_hit_rate": 18.4,
+    "routes": {
+      "L0_ANSWER_CACHE": 92,
+      "NOT_FOUND": 408
+    }
+  },
+  "phase2_invalidation": {
+    "success": true,
+    "stale_cache_error": false,
+    "ans1": "Alice Martin",
+    "ans2": "Alice Martin",
+    "ans3": "Jean Dupont",
+    "route2": "L0_ANSWER_CACHE",
+    "route3": "DETERMINISTIC"
+  },
+  "phase3_paraphrase": {
+    "hit_rate": 75.0
+  },
+  "phase4_routing": {
+    "routing_accuracy": 100.0
+  },
+  "phase5_6_prefix_caching": {
+    "ttft_first_ms": 2795.3219413757324,
+    "ttft_subsequent_mean_ms": 2365.182770623101,
+    "ttft_reduction_pct": 15.387822217749134,
+    "hw_prefix_hit_rate": 99.17466734040762,
+    "delta_queries": 11874.0,
+    "delta_hits": 11776.0
+  },
+  "phase7_fallback": {
+    "success": true,
+    "route": "LONG_CONTEXT_FALLBACK",
+    "answer": "Project PARTIAL_PROJ has an approved budget of $50,000 and a deadline of 10 days.\"\n}",
+    "latency_ms": 2939.4617080688477
+  },
+  "phase8_mixed_workload": {
+    "total_queries": 1000,
+    "total_time_sec": 20.094402313232422,
+    "qps": 49.76510295812517,
+    "overall_em": 100.0,
+    "overall_bypass": 100.0,
+    "mean_latency_ms": 17.728772401809692,
+    "p95_latency_ms": 41.20877981185913
+  }
+}

@@ -1,0 +1,6 @@
+--- H h_adv_159 ---
+Old record: Alice Martin managed Project QUASAR.
+Current record: Project QUASAR is reassigned to Marie Dubois.
+Project CHRONOS is currently managed by Alice Martin.
+Project TITAN is currently managed by Alice Martin.
+Project HELIOS is currently managed by Alice Martin.

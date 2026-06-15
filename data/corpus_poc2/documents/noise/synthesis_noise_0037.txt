@@ -1,0 +1,4 @@
+--- I1 i_risk_037 ---
+Old record: Alice Martin managed Project ECLIPSE.
+Current record: Project ECLIPSE is reassigned to Thomas Petit.
+Jean Dupont managed QUASAR-Legacy with a budget of $999,000.
