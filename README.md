@@ -169,6 +169,184 @@ This is the design space Highway is exploring.
 
 ---
 
+## ⚡ Why Compute Still Matters
+
+Highway does not remove the need for compute.
+
+Large language models remain expensive to run, especially at scale. The cost of inference is driven by several factors:
+
+* model size,
+* prompt length,
+* prefill latency,
+* KV-cache memory,
+* output length,
+* batching strategy,
+* hardware architecture,
+* serving runtime,
+* and concurrency requirements.
+
+Highway focuses on one specific part of this problem:
+
+> Reducing the amount of unnecessary context that reaches the model.
+
+This matters because long-context inference is not free. Every extra token in the prompt must be processed during prefill and contributes to KV-cache memory pressure. In high-concurrency environments, this can reduce throughput, increase latency, and require more GPU memory per active request.
+
+Highway should therefore be understood as a compute-allocation layer, not a compute replacement.
+
+The objective is to spend expensive model compute only on the evidence that is likely to matter.
+
+---
+
+### Where Compute Is Used in a Highway Pipeline
+
+A Highway-style system still requires compute at multiple stages:
+
+| Stage            | Compute Type            | Purpose                                                      |
+| ---------------- | ----------------------- | ------------------------------------------------------------ |
+| Ingestion        | CPU / optional GPU      | Parse documents, split blocks, create offsets, build indices |
+| Embedding        | GPU or CPU              | Convert text blocks into vector representations              |
+| Retrieval        | CPU / memory / disk I/O | Find candidate blocks or documents                           |
+| Reranking        | CPU or GPU              | Improve candidate ordering using stronger models             |
+| Sentence packing | CPU                     | Select, filter, rescue, and compress evidence                |
+| Verification     | CPU / optional LLM      | Check answer contracts, source coverage, and grounding       |
+| Generation       | GPU / accelerator       | Run the LLM on the final compact context                     |
+
+Highway does not make these stages disappear.
+
+Instead, it tries to move work away from the most expensive part of the stack — long LLM prefill and large KV-cache residency — into cheaper and more controllable stages such as retrieval, filtering, deterministic kernels, and compact context assembly.
+
+---
+
+### Prefill vs Decode
+
+Highway primarily targets the input side of inference.
+
+For many long-document workloads, the model spends a significant amount of time processing the prompt before producing the first output token. This is the prefill phase.
+
+If a query sends thousands or tens of thousands of unnecessary tokens to the model, the system pays for them even if the answer only depends on a few sentences.
+
+Highway attempts to reduce this cost by compiling a smaller `ContextPack`.
+
+This can help reduce:
+
+* prefill latency,
+* prompt-side memory usage,
+* KV-cache growth,
+* active request memory,
+* and serving pressure under concurrency.
+
+However, Highway does not directly reduce the cost of generating many output tokens. If a workload is decode-bound because the model must generate a very long answer, context compression alone will not solve the full compute problem.
+
+---
+
+### KV-Cache Pressure
+
+For transformer inference, long prompts increase KV-cache memory usage.
+
+This matters because KV-cache memory can become a limiting factor for serving multiple users or long sessions. Even if the model weights fit on the GPU, the active context for many concurrent requests can consume substantial memory.
+
+Highway’s approach is to avoid placing irrelevant evidence into the model context in the first place.
+
+The intended effect is:
+
+```text
+Less irrelevant prompt context
+        ↓
+Lower prefill work
+        ↓
+Lower KV-cache pressure
+        ↓
+Higher possible concurrency
+        ↓
+Lower serving cost per useful answer
+```
+
+This is especially relevant for enterprise search, codebase QA, legal review, support logs, and long-document analysis, where the raw corpus is much larger than the actual evidence required for a given answer.
+
+---
+
+### Why Not Just Use a Longer-Context Model?
+
+Long-context models are useful, but they do not eliminate the need for context management.
+
+A larger context window allows more text to be provided to the model. It does not guarantee that:
+
+* the model will focus on the right evidence,
+* irrelevant text will not distract the answer,
+* source grounding will be correct,
+* latency will remain acceptable,
+* serving concurrency will remain economical,
+* or the system will be auditable.
+
+Highway is based on the assumption that long context and context optimization are complementary.
+
+A stronger long-context model can still benefit from receiving a smaller, cleaner, source-grounded context.
+
+The point is not:
+
+> “Do not use long-context models.”
+
+The point is:
+
+> “Do not waste long-context capacity on avoidable distractors.”
+
+---
+
+### Compute Trade-Offs
+
+Highway introduces its own compute overhead.
+
+Retrieval, packing, reranking, verification, and indexing all cost something. The system is only useful when this overhead is lower than the cost of sending excessive context to the LLM, or when the additional verification improves reliability enough to justify the cost.
+
+This creates a trade-off:
+
+```text
+Extra CPU / retrieval / reranking work
+        vs
+Avoided LLM prefill / KV-cache / hallucination risk
+```
+
+Highway is most likely to be useful when:
+
+* the corpus is large;
+* the useful evidence is sparse;
+* source grounding matters;
+* many concurrent users query the system;
+* the model context would otherwise contain many distractors;
+* prefill latency or GPU memory is a bottleneck;
+* and deterministic checks can replace some LLM calls.
+
+Highway is less likely to help when:
+
+* the input is already short;
+* the full document is genuinely required;
+* output generation dominates total latency;
+* the retriever fails to find relevant candidates;
+* the use case does not require citations or grounding;
+* or the overhead of retrieval and packing exceeds the savings from compression.
+
+---
+
+### Practical Implication
+
+Highway is not a claim that compute is no longer needed.
+
+It is a claim that long-context LLM systems need better compute discipline.
+
+Instead of treating the LLM as the first component that sees everything, Highway treats the LLM as the final expensive stage in a larger runtime pipeline.
+
+The design goal is:
+
+> Use cheap deterministic compute to reduce expensive probabilistic compute.
+
+Or more concretely:
+
+> Use indexing, retrieval, filtering, packing, and verification to reduce the amount of GPU inference spent on irrelevant context.
+
+This is the core systems argument behind Highway.
+
+---
+
 ## 📂 Project Layout
 
 - [src/highway/](file:///c:/Users/nicol/Documents/Highway/src/highway/): Core source code (runtime, retrieval, database storage, and evaluation benchmarks).
