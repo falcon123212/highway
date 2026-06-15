@@ -1,0 +1,23 @@
+{
+  "summary": {
+    "status": "VALIDATING",
+    "model": "qwen3:8b",
+    "skip_reason": "",
+    "turns": 25,
+    "answer_satisfies_question_rate": 100.0,
+    "source_attribution_rate": 100.0,
+    "hallucination_rate": 0.0,
+    "coherence_rate": 100.0,
+    "avg_avoided_input_tokens_pct": 94.97045177045176,
+    "output_over_budget_rate": 0.0,
+    "context_p95_ms": 3.8051999988965624,
+    "retry_rate": 0.0,
+    "avg_output_tokens_saved_by_retry": 0,
+    "prompt_pair_is_distinct_rate": 100.0,
+    "poison_fail_rate": 0.0,
+    "avg_baseline_blocks": 168,
+    "avg_highway_blocks": 2.28,
+    "avg_baseline_tokens": 5050.44,
+    "avg_highway_tokens": 96.04
+  }
+}

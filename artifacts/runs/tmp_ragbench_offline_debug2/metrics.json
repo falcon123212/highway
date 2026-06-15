@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "status": "NON_VALIDATING",
+    "model": "ragbench_grounded_fake",
+    "configs": [
+      "techqa"
+    ],
+    "count": 2,
+    "baseline_answer_correct_rate": 100.0,
+    "highway_answer_correct_rate": 100.0,
+    "quality_delta_pp": 0.0,
+    "source_attribution_rate": 100.0,
+    "hallucination_rate": 0.0,
+    "tokens_avoided_pct": 20.6483268983269,
+    "prompt_pair_is_distinct_rate": 100.0,
+    "source_hash_present_rate": 100.0,
+    "avg_baseline_blocks": 4,
+    "avg_highway_blocks": 2,
+    "context_compile_p50_ms": 4.779099997904268,
+    "context_compile_p95_ms": 6.133779997799138,
+    "baseline_ttft_p95_ms": 1.3993749999999998,
+    "highway_ttft_p95_ms": 1.168125,
+    "net_latency_benefit_ms": -4.4915999979042684,
+    "tokens_per_correct_grounded_answer": 88.5,
+    "cost_avoided_per_1000_requests": 0.023,
+    "poison_fail_rate": 0.0,
+    "skip_reason": ""
+  },
+  "model_profile": {
+    "name": "ragbench_llm",
+    "layers": 24,
+    "hidden_size": 1024,
+    "bytes_per_element": 2
+  },
+  "license": "RAGBench is published under cc-by-4.0; reports avoid republishing full documents."
+}

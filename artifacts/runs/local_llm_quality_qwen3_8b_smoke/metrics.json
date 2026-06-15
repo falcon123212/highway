@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "status": "VALIDATING",
+    "model": "qwen3:8b",
+    "query_count": 1,
+    "seed": 42,
+    "strategy": "ooc_marker_entity_pruned",
+    "embedding_backend": "synthetic",
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "baseline_context_limit": 40,
+    "skip_reason": "",
+    "tiers": [
+      {
+        "size": 80,
+        "count": 1,
+        "baseline_em": 100.0,
+        "highway_em": 100.0,
+        "quality_delta_pp": 0.0,
+        "source_attribution_rate": 100.0,
+        "coherence_rate": 100.0,
+        "avg_avoided_input_tokens_pct": 93.0179320869897,
+        "baseline_ttft_p95_ms": 1356.437,
+        "highway_ttft_p95_ms": 107.616,
+        "baseline_total_p95_ms": 10124.164800001381,
+        "highway_total_p95_ms": 3190.869499998371,
+        "context_p95_ms": 4.700800000136951,
+        "metrics_complete_rate": 100.0
+      }
+    ]
+  },
+  "model_profile": {
+    "name": "local_ollama_llm",
+    "layers": 24,
+    "hidden_size": 1024,
+    "bytes_per_element": 2
+  },
+  "required_record_fields": [
+    "avoided_input_tokens_pct",
+    "baseline_answer",
+    "baseline_input_tokens",
+    "baseline_is_em",
+    "baseline_output_tokens",
+    "baseline_tokens_per_second",
+    "baseline_total_ms",
+    "baseline_ttft_ms",
+    "baseline_verdict",
+    "blocks_materialized",
+    "bytes_read",
+    "context_latency_ms",
+    "cost_avoided_estimated_usd",
+    "embedding_rows_scanned",
+    "expected_answer",
+    "highway_answer",
+    "highway_input_tokens",
+    "highway_is_em",
+    "highway_output_tokens",
+    "highway_tokens_per_second",
+    "highway_total_ms",
+    "highway_ttft_ms",
+    "highway_verdict",
+    "kv_bytes_avoided_estimated",
+    "kv_bytes_estimated",
+    "quality_delta"
+  ]
+}

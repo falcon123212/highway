@@ -1,0 +1,171 @@
+{
+  "summary": {
+    "status": "NON_VALIDATING",
+    "query_count": 20,
+    "seed": 42,
+    "recall_gate": 80.0,
+    "strategies": [
+      "ooc_full_scan",
+      "ooc_ann_flat",
+      "ooc_ann_hnsw"
+    ],
+    "candidate_sweep": [
+      200
+    ],
+    "lexical_sweep": [
+      1000
+    ],
+    "latency_budgets_ms": [
+      100.0,
+      200.0
+    ],
+    "tiers": [
+      {
+        "size": 100000,
+        "workload_type": "semantic_ann",
+        "strategies": [
+          "ooc_full_scan",
+          "ooc_ann_flat",
+          "ooc_ann_hnsw"
+        ],
+        "candidate_sweep": [
+          200
+        ],
+        "lexical_sweep": [
+          1000
+        ],
+        "strategy_summaries": [
+          {
+            "strategy": "ooc_full_scan",
+            "candidate_cap": 200,
+            "lexical_k": 0,
+            "count": 20,
+            "em": 100.0,
+            "recall_at_k": 100.0,
+            "p95_latency_ms": 435.3752599981817,
+            "avg_embedding_rows_scanned": 100000.0,
+            "avg_blocks_materialized": 50.0,
+            "avg_reranker_candidates_in": 0.0,
+            "avg_reranker_candidates_out": 0.0,
+            "p95_reranker_latency_ms": 0.0,
+            "metrics_complete_rate": 100.0
+          },
+          {
+            "strategy": "ooc_ann_flat",
+            "candidate_cap": 200,
+            "lexical_k": 0,
+            "count": 20,
+            "em": 100.0,
+            "recall_at_k": 12.8,
+            "p95_latency_ms": 12.80205500042945,
+            "avg_embedding_rows_scanned": 200.0,
+            "avg_blocks_materialized": 50.0,
+            "avg_reranker_candidates_in": 0.0,
+            "avg_reranker_candidates_out": 0.0,
+            "p95_reranker_latency_ms": 0.0,
+            "metrics_complete_rate": 100.0
+          },
+          {
+            "strategy": "ooc_ann_hnsw",
+            "candidate_cap": 200,
+            "lexical_k": 0,
+            "count": 20,
+            "em": 100.0,
+            "recall_at_k": 12.8,
+            "p95_latency_ms": 13.130020000244302,
+            "avg_embedding_rows_scanned": 200.0,
+            "avg_blocks_materialized": 50.0,
+            "avg_reranker_candidates_in": 0.0,
+            "avg_reranker_candidates_out": 0.0,
+            "p95_reranker_latency_ms": 0.0,
+            "metrics_complete_rate": 100.0
+          }
+        ],
+        "hnsw_recall_at_k": 12.8,
+        "hnsw_em": 100.0,
+        "hnsw_p95_latency_ms": 13.130020000244302,
+        "best_recall": {
+          "strategy": "ooc_full_scan",
+          "candidate_cap": 200,
+          "lexical_k": 0,
+          "count": 20,
+          "em": 100.0,
+          "recall_at_k": 100.0,
+          "p95_latency_ms": 435.3752599981817,
+          "avg_embedding_rows_scanned": 100000.0,
+          "avg_blocks_materialized": 50.0,
+          "avg_reranker_candidates_in": 0.0,
+          "avg_reranker_candidates_out": 0.0,
+          "p95_reranker_latency_ms": 0.0,
+          "metrics_complete_rate": 100.0
+        },
+        "best_latency": {
+          "strategy": "ooc_ann_flat",
+          "candidate_cap": 200,
+          "lexical_k": 0,
+          "count": 20,
+          "em": 100.0,
+          "recall_at_k": 12.8,
+          "p95_latency_ms": 12.80205500042945,
+          "avg_embedding_rows_scanned": 200.0,
+          "avg_blocks_materialized": 50.0,
+          "avg_reranker_candidates_in": 0.0,
+          "avg_reranker_candidates_out": 0.0,
+          "p95_reranker_latency_ms": 0.0,
+          "metrics_complete_rate": 100.0
+        },
+        "best_tradeoff": {
+          "strategy": "ooc_ann_flat",
+          "candidate_cap": 200,
+          "lexical_k": 0,
+          "count": 20,
+          "em": 100.0,
+          "recall_at_k": 12.8,
+          "p95_latency_ms": 12.80205500042945,
+          "avg_embedding_rows_scanned": 200.0,
+          "avg_blocks_materialized": 50.0,
+          "avg_reranker_candidates_in": 0.0,
+          "avg_reranker_candidates_out": 0.0,
+          "p95_reranker_latency_ms": 0.0,
+          "metrics_complete_rate": 100.0
+        },
+        "best_recall_under_100ms": {
+          "strategy": "ooc_ann_flat",
+          "candidate_cap": 200,
+          "lexical_k": 0,
+          "count": 20,
+          "em": 100.0,
+          "recall_at_k": 12.8,
+          "p95_latency_ms": 12.80205500042945,
+          "avg_embedding_rows_scanned": 200.0,
+          "avg_blocks_materialized": 50.0,
+          "avg_reranker_candidates_in": 0.0,
+          "avg_reranker_candidates_out": 0.0,
+          "p95_reranker_latency_ms": 0.0,
+          "metrics_complete_rate": 100.0
+        },
+        "best_recall_under_200ms": {
+          "strategy": "ooc_ann_flat",
+          "candidate_cap": 200,
+          "lexical_k": 0,
+          "count": 20,
+          "em": 100.0,
+          "recall_at_k": 12.8,
+          "p95_latency_ms": 12.80205500042945,
+          "avg_embedding_rows_scanned": 200.0,
+          "avg_blocks_materialized": 50.0,
+          "avg_reranker_candidates_in": 0.0,
+          "avg_reranker_candidates_out": 0.0,
+          "p95_reranker_latency_ms": 0.0,
+          "metrics_complete_rate": 100.0
+        },
+        "best_rescue_recall_at_k": 0.0,
+        "best_lexical_rescue_recall_at_k": 0.0,
+        "best_field_rescue_recall_at_k": 0.0,
+        "recall_gate": 80.0,
+        "metrics_complete_rate": 100.0,
+        "validating": false
+      }
+    ]
+  }
+}

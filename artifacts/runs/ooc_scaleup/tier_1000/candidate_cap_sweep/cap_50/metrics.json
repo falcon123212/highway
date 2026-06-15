@@ -1,0 +1,1596 @@
+{
+  "summary": {
+    "strategy": "ooc_full_scan",
+    "candidate_cap": 50,
+    "count": 20,
+    "overall_em": 100.0,
+    "gh_em_global": 100.0,
+    "no_leak_pass_rate": 100.0,
+    "llm_bypass_rate": 100.0,
+    "mean_latency_ms": 10.88182500025141,
+    "p50_latency_ms": 10.47264999942854,
+    "p95_latency_ms": 13.149714999053687,
+    "p99_latency_ms": 14.473862998311231,
+    "max_latency_ms": 14.80489999812562,
+    "avg_bytes_read": 14745.95,
+    "max_bytes_read": 14748.0,
+    "avg_blocks_materialized": 50.0,
+    "avg_embedding_rows_scanned": 1000.0,
+    "avg_resident_mb": 0.014062950000000001,
+    "max_resident_mb": 0.014065,
+    "index_size_mb": 2.8397483825683594,
+    "ooc_metrics_coverage": 100.0
+  },
+  "records": [
+    {
+      "id": "q_81ae49597d0c9c81",
+      "question": "In reference ref_1bd7b39f85 which project has a higher budget: Project NEPTUNE or Project KRONOS?",
+      "expected": "Project KRONOS (budget of $204,567)",
+      "expected_answer": "Project KRONOS (budget of $204,567)",
+      "generated": "Project KRONOS (budget of $204,567)",
+      "answer": "Project KRONOS (budget of $204,567)",
+      "category": "G",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_COMPARISON",
+      "latency_ms": 10.476600000401959,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14747,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14747,
+        "max_resident_mb": 0.014064,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 97,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_COMPARISON",
+        "kernel_audit": {
+          "query_id": "q_81ae49597d0c9c81",
+          "route": "COMPUTE_COMPARISON",
+          "answer": "Project KRONOS (budget of $204,567)",
+          "operation": "max_budget",
+          "inputs": {
+            "Project NEPTUNE": {
+              "budget": 100000,
+              "source": "noise/poc234_scaleup_42/doc_06b60ec3afb18739.txt",
+              "status": "active"
+            },
+            "Project KRONOS": {
+              "budget": 204567,
+              "source": "noise/poc234_scaleup_42/doc_06b60ec3afb18739.txt",
+              "status": "active"
+            }
+          },
+          "suppressed_evidence": [],
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "G",
+        "sub_type": 1,
+        "proj_a": "NEPTUNE",
+        "proj_b": "KRONOS",
+        "budget_a": 100000,
+        "budget_b": 204567,
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_b071795eef14e2a1",
+      "question": "In reference ref_8f927c37f8 list all project names managed by Alice Martin.",
+      "expected": "FALCON, IRIS, JUPITER",
+      "expected_answer": "FALCON, IRIS, JUPITER",
+      "generated": "FALCON, IRIS, JUPITER",
+      "answer": "FALCON, IRIS, JUPITER",
+      "category": "H",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_AGGREGATION",
+      "latency_ms": 9.651800002757227,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14743,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14743,
+        "max_resident_mb": 0.01406,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 95,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_AGGREGATION",
+        "kernel_audit": {
+          "query_id": "q_b071795eef14e2a1",
+          "route": "COMPUTE_AGGREGATION",
+          "answer": "FALCON, IRIS, JUPITER",
+          "operation": "list_projects_by_manager",
+          "inputs": {
+            "manager": "Alice Martin"
+          },
+          "outputs": [
+            {
+              "project": "FALCON",
+              "source": "noise/poc234_scaleup_42/doc_05c38d33e5e327be.txt"
+            },
+            {
+              "project": "IRIS",
+              "source": "noise/poc234_scaleup_42/doc_05c38d33e5e327be.txt"
+            },
+            {
+              "project": "JUPITER",
+              "source": "noise/poc234_scaleup_42/doc_05c38d33e5e327be.txt"
+            }
+          ],
+          "deduplicated": true,
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "H",
+        "sub_type": 1,
+        "manager": "Alice Martin",
+        "projects": [
+          "FALCON",
+          "IRIS",
+          "JUPITER"
+        ],
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_f934dbbb0f7e4f48",
+      "question": "In reference ref_95f5f21732 which project has a higher budget: Project IRIS or Project JUPITER?",
+      "expected": "Project JUPITER (budget of $216,869)",
+      "expected_answer": "Project JUPITER (budget of $216,869)",
+      "generated": "Project JUPITER (budget of $216,869)",
+      "answer": "Project JUPITER (budget of $216,869)",
+      "category": "G",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_COMPARISON",
+      "latency_ms": 10.468699998455122,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14747,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14747,
+        "max_resident_mb": 0.014064,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 96,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_COMPARISON",
+        "kernel_audit": {
+          "query_id": "q_f934dbbb0f7e4f48",
+          "route": "COMPUTE_COMPARISON",
+          "answer": "Project JUPITER (budget of $216,869)",
+          "operation": "max_budget",
+          "inputs": {
+            "Project JUPITER": {
+              "budget": 216869,
+              "source": "noise/poc234_scaleup_42/doc_ea4da1a26c3ca84c.txt",
+              "status": "active"
+            },
+            "Project IRIS": {
+              "budget": 115838,
+              "source": "noise/poc234_scaleup_42/doc_ea4da1a26c3ca84c.txt",
+              "status": "active"
+            }
+          },
+          "suppressed_evidence": [],
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "G",
+        "sub_type": 1,
+        "proj_a": "IRIS",
+        "proj_b": "JUPITER",
+        "budget_a": 115838,
+        "budget_b": 216869,
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_810ec48630588526",
+      "question": "In reference ref_d1234747da list all project names managed by Marie Dubois.",
+      "expected": "PHOENIX, QUASAR, SIRIUS",
+      "expected_answer": "PHOENIX, QUASAR, SIRIUS",
+      "generated": "PHOENIX, QUASAR, SIRIUS",
+      "answer": "PHOENIX, QUASAR, SIRIUS",
+      "category": "H",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_AGGREGATION",
+      "latency_ms": 14.80489999812562,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14745,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14745,
+        "max_resident_mb": 0.014062,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 99,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_AGGREGATION",
+        "kernel_audit": {
+          "query_id": "q_810ec48630588526",
+          "route": "COMPUTE_AGGREGATION",
+          "answer": "PHOENIX, QUASAR, SIRIUS",
+          "operation": "list_projects_by_manager",
+          "inputs": {
+            "manager": "Marie Dubois"
+          },
+          "outputs": [
+            {
+              "project": "PHOENIX",
+              "source": "noise/poc234_scaleup_42/doc_4be37bd2e3de30b4.txt"
+            },
+            {
+              "project": "QUASAR",
+              "source": "noise/poc234_scaleup_42/doc_4be37bd2e3de30b4.txt"
+            },
+            {
+              "project": "SIRIUS",
+              "source": "noise/poc234_scaleup_42/doc_4be37bd2e3de30b4.txt"
+            }
+          ],
+          "deduplicated": true,
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "H",
+        "sub_type": 1,
+        "manager": "Marie Dubois",
+        "projects": [
+          "PHOENIX",
+          "QUASAR",
+          "SIRIUS"
+        ],
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_2b0e1788c1dbbc4d",
+      "question": "In reference ref_2825c7f928 which project has a higher budget: Project ORION or Project PHOENIX?",
+      "expected": "Project PHOENIX (budget of $229,171)",
+      "expected_answer": "Project PHOENIX (budget of $229,171)",
+      "generated": "Project PHOENIX (budget of $229,171)",
+      "answer": "Project PHOENIX (budget of $229,171)",
+      "category": "G",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_COMPARISON",
+      "latency_ms": 11.769299999286886,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14746,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14746,
+        "max_resident_mb": 0.014063,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 94,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_COMPARISON",
+        "kernel_audit": {
+          "query_id": "q_2b0e1788c1dbbc4d",
+          "route": "COMPUTE_COMPARISON",
+          "answer": "Project PHOENIX (budget of $229,171)",
+          "operation": "max_budget",
+          "inputs": {
+            "Project PHOENIX": {
+              "budget": 229171,
+              "source": "noise/poc234_scaleup_42/doc_ef8b533321c13349.txt",
+              "status": "active"
+            },
+            "Project ORION": {
+              "budget": 131676,
+              "source": "noise/poc234_scaleup_42/doc_ef8b533321c13349.txt",
+              "status": "active"
+            }
+          },
+          "suppressed_evidence": [],
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "G",
+        "sub_type": 1,
+        "proj_a": "ORION",
+        "proj_b": "PHOENIX",
+        "budget_a": 131676,
+        "budget_b": 229171,
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_bf1c439785e328be",
+      "question": "In reference ref_7b3232c76d list all project names managed by Sophie Richard.",
+      "expected": "AURORA, BEACON, CHRONOS",
+      "expected_answer": "AURORA, BEACON, CHRONOS",
+      "generated": "AURORA, BEACON, CHRONOS",
+      "answer": "AURORA, BEACON, CHRONOS",
+      "category": "H",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_AGGREGATION",
+      "latency_ms": 11.95459999871673,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14747,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14747,
+        "max_resident_mb": 0.014064,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 96,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_AGGREGATION",
+        "kernel_audit": {
+          "query_id": "q_bf1c439785e328be",
+          "route": "COMPUTE_AGGREGATION",
+          "answer": "AURORA, BEACON, CHRONOS",
+          "operation": "list_projects_by_manager",
+          "inputs": {
+            "manager": "Sophie Richard"
+          },
+          "outputs": [
+            {
+              "project": "AURORA",
+              "source": "noise/poc234_scaleup_42/doc_c4da9110ca25e385.txt"
+            },
+            {
+              "project": "BEACON",
+              "source": "noise/poc234_scaleup_42/doc_c4da9110ca25e385.txt"
+            },
+            {
+              "project": "CHRONOS",
+              "source": "noise/poc234_scaleup_42/doc_c4da9110ca25e385.txt"
+            }
+          ],
+          "deduplicated": true,
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "H",
+        "sub_type": 1,
+        "manager": "Sophie Richard",
+        "projects": [
+          "AURORA",
+          "BEACON",
+          "CHRONOS"
+        ],
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_d3a429e69bb9708c",
+      "question": "In reference ref_2052a279d8 which project has a higher budget: Project TITAN or Project VEGA?",
+      "expected": "Project VEGA (budget of $241,473)",
+      "expected_answer": "Project VEGA (budget of $241,473)",
+      "generated": "Project VEGA (budget of $241,473)",
+      "answer": "Project VEGA (budget of $241,473)",
+      "category": "G",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_COMPARISON",
+      "latency_ms": 9.485400001722155,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14748,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14748,
+        "max_resident_mb": 0.014065,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 95,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_COMPARISON",
+        "kernel_audit": {
+          "query_id": "q_d3a429e69bb9708c",
+          "route": "COMPUTE_COMPARISON",
+          "answer": "Project VEGA (budget of $241,473)",
+          "operation": "max_budget",
+          "inputs": {
+            "Project TITAN": {
+              "budget": 147514,
+              "source": "noise/poc234_scaleup_42/doc_bda681dd6d794066.txt",
+              "status": "active"
+            },
+            "Project VEGA": {
+              "budget": 241473,
+              "source": "noise/poc234_scaleup_42/doc_bda681dd6d794066.txt",
+              "status": "active"
+            }
+          },
+          "suppressed_evidence": [],
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "G",
+        "sub_type": 1,
+        "proj_a": "TITAN",
+        "proj_b": "VEGA",
+        "budget_a": 147514,
+        "budget_b": 241473,
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_8b67434379441843",
+      "question": "In reference ref_563f91af66 list all project names managed by Julie Thomas.",
+      "expected": "LUNA, PEGASE, SOLARIS",
+      "expected_answer": "LUNA, PEGASE, SOLARIS",
+      "generated": "LUNA, PEGASE, SOLARIS",
+      "answer": "LUNA, PEGASE, SOLARIS",
+      "category": "H",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_AGGREGATION",
+      "latency_ms": 11.82630000039353,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14747,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14747,
+        "max_resident_mb": 0.014064,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 95,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_AGGREGATION",
+        "kernel_audit": {
+          "query_id": "q_8b67434379441843",
+          "route": "COMPUTE_AGGREGATION",
+          "answer": "LUNA, PEGASE, SOLARIS",
+          "operation": "list_projects_by_manager",
+          "inputs": {
+            "manager": "Julie Thomas"
+          },
+          "outputs": [
+            {
+              "project": "LUNA",
+              "source": "noise/poc234_scaleup_42/doc_be7671480e7688c4.txt"
+            },
+            {
+              "project": "PEGASE",
+              "source": "noise/poc234_scaleup_42/doc_be7671480e7688c4.txt"
+            },
+            {
+              "project": "SOLARIS",
+              "source": "noise/poc234_scaleup_42/doc_be7671480e7688c4.txt"
+            }
+          ],
+          "deduplicated": true,
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "H",
+        "sub_type": 1,
+        "manager": "Julie Thomas",
+        "projects": [
+          "LUNA",
+          "PEGASE",
+          "SOLARIS"
+        ],
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_148dffde6b993dcd",
+      "question": "In reference ref_0ab6e0f588 which project has a higher budget: Project BEACON or Project CHRONOS?",
+      "expected": "Project CHRONOS (budget of $253,775)",
+      "expected_answer": "Project CHRONOS (budget of $253,775)",
+      "generated": "Project CHRONOS (budget of $253,775)",
+      "answer": "Project CHRONOS (budget of $253,775)",
+      "category": "G",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_COMPARISON",
+      "latency_ms": 10.317500000383006,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14747,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14747,
+        "max_resident_mb": 0.014064,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 96,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_COMPARISON",
+        "kernel_audit": {
+          "query_id": "q_148dffde6b993dcd",
+          "route": "COMPUTE_COMPARISON",
+          "answer": "Project CHRONOS (budget of $253,775)",
+          "operation": "max_budget",
+          "inputs": {
+            "Project CHRONOS": {
+              "budget": 253775,
+              "source": "noise/poc234_scaleup_42/doc_358307e390fadcbf.txt",
+              "status": "active"
+            },
+            "Project BEACON": {
+              "budget": 163352,
+              "source": "noise/poc234_scaleup_42/doc_358307e390fadcbf.txt",
+              "status": "active"
+            }
+          },
+          "suppressed_evidence": [],
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "G",
+        "sub_type": 1,
+        "proj_a": "BEACON",
+        "proj_b": "CHRONOS",
+        "budget_a": 163352,
+        "budget_b": 253775,
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_6544c3b95ff3e322",
+      "question": "In reference ref_ab5b1af4f5 list all project names managed by Emma Michel.",
+      "expected": "FALCON, IRIS, JUPITER",
+      "expected_answer": "FALCON, IRIS, JUPITER",
+      "generated": "FALCON, IRIS, JUPITER",
+      "answer": "FALCON, IRIS, JUPITER",
+      "category": "H",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_AGGREGATION",
+      "latency_ms": 9.45770000180346,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14745,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14745,
+        "max_resident_mb": 0.014062,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 97,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_AGGREGATION",
+        "kernel_audit": {
+          "query_id": "q_6544c3b95ff3e322",
+          "route": "COMPUTE_AGGREGATION",
+          "answer": "FALCON, IRIS, JUPITER",
+          "operation": "list_projects_by_manager",
+          "inputs": {
+            "manager": "Emma Michel"
+          },
+          "outputs": [
+            {
+              "project": "FALCON",
+              "source": "noise/poc234_scaleup_42/doc_26968cc79678e86b.txt"
+            },
+            {
+              "project": "IRIS",
+              "source": "noise/poc234_scaleup_42/doc_26968cc79678e86b.txt"
+            },
+            {
+              "project": "JUPITER",
+              "source": "noise/poc234_scaleup_42/doc_26968cc79678e86b.txt"
+            }
+          ],
+          "deduplicated": true,
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "H",
+        "sub_type": 1,
+        "manager": "Emma Michel",
+        "projects": [
+          "FALCON",
+          "IRIS",
+          "JUPITER"
+        ],
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_94dbc5390bd152c6",
+      "question": "In reference ref_8afabe7ffd which project has a higher budget: Project HELIOS or Project LUNA?",
+      "expected": "Project LUNA (budget of $266,077)",
+      "expected_answer": "Project LUNA (budget of $266,077)",
+      "generated": "Project LUNA (budget of $266,077)",
+      "answer": "Project LUNA (budget of $266,077)",
+      "category": "G",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_COMPARISON",
+      "latency_ms": 10.505899997951929,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14748,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14748,
+        "max_resident_mb": 0.014065,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 97,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_COMPARISON",
+        "kernel_audit": {
+          "query_id": "q_94dbc5390bd152c6",
+          "route": "COMPUTE_COMPARISON",
+          "answer": "Project LUNA (budget of $266,077)",
+          "operation": "max_budget",
+          "inputs": {
+            "Project HELIOS": {
+              "budget": 179190,
+              "source": "noise/poc234_scaleup_42/doc_6f2a454710014a81.txt",
+              "status": "active"
+            },
+            "Project LUNA": {
+              "budget": 266077,
+              "source": "noise/poc234_scaleup_42/doc_6f2a454710014a81.txt",
+              "status": "active"
+            }
+          },
+          "suppressed_evidence": [],
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "G",
+        "sub_type": 1,
+        "proj_a": "HELIOS",
+        "proj_b": "LUNA",
+        "budget_a": 179190,
+        "budget_b": 266077,
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_35ae28ef984a6170",
+      "question": "In reference ref_768b3a4b50 list all project names managed by Alice Martin.",
+      "expected": "PHOENIX, QUASAR, SIRIUS",
+      "expected_answer": "PHOENIX, QUASAR, SIRIUS",
+      "generated": "PHOENIX, QUASAR, SIRIUS",
+      "answer": "PHOENIX, QUASAR, SIRIUS",
+      "category": "H",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_AGGREGATION",
+      "latency_ms": 9.833400003117276,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14745,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14745,
+        "max_resident_mb": 0.014062,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 98,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_AGGREGATION",
+        "kernel_audit": {
+          "query_id": "q_35ae28ef984a6170",
+          "route": "COMPUTE_AGGREGATION",
+          "answer": "PHOENIX, QUASAR, SIRIUS",
+          "operation": "list_projects_by_manager",
+          "inputs": {
+            "manager": "Alice Martin"
+          },
+          "outputs": [
+            {
+              "project": "PHOENIX",
+              "source": "noise/poc234_scaleup_42/doc_6ddb2cb65508196b.txt"
+            },
+            {
+              "project": "QUASAR",
+              "source": "noise/poc234_scaleup_42/doc_6ddb2cb65508196b.txt"
+            },
+            {
+              "project": "SIRIUS",
+              "source": "noise/poc234_scaleup_42/doc_6ddb2cb65508196b.txt"
+            }
+          ],
+          "deduplicated": true,
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "H",
+        "sub_type": 1,
+        "manager": "Alice Martin",
+        "projects": [
+          "PHOENIX",
+          "QUASAR",
+          "SIRIUS"
+        ],
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_5f9f15281372d0dc",
+      "question": "In reference ref_ffde911a48 which project has a higher budget: Project NEPTUNE or Project KRONOS?",
+      "expected": "Project KRONOS (budget of $278,379)",
+      "expected_answer": "Project KRONOS (budget of $278,379)",
+      "generated": "Project KRONOS (budget of $278,379)",
+      "answer": "Project KRONOS (budget of $278,379)",
+      "category": "G",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_COMPARISON",
+      "latency_ms": 13.062599999102531,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14744,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14744,
+        "max_resident_mb": 0.014061,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 97,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_COMPARISON",
+        "kernel_audit": {
+          "query_id": "q_5f9f15281372d0dc",
+          "route": "COMPUTE_COMPARISON",
+          "answer": "Project KRONOS (budget of $278,379)",
+          "operation": "max_budget",
+          "inputs": {
+            "Project NEPTUNE": {
+              "budget": 195028,
+              "source": "noise/poc234_scaleup_42/doc_6a2a6ca0b0bd05cd.txt",
+              "status": "active"
+            },
+            "Project KRONOS": {
+              "budget": 278379,
+              "source": "noise/poc234_scaleup_42/doc_6a2a6ca0b0bd05cd.txt",
+              "status": "active"
+            }
+          },
+          "suppressed_evidence": [],
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "G",
+        "sub_type": 1,
+        "proj_a": "NEPTUNE",
+        "proj_b": "KRONOS",
+        "budget_a": 195028,
+        "budget_b": 278379,
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_0428b75b566a5965",
+      "question": "In reference ref_a1375580a0 list all project names managed by Marie Dubois.",
+      "expected": "AURORA, BEACON, CHRONOS",
+      "expected_answer": "AURORA, BEACON, CHRONOS",
+      "generated": "AURORA, BEACON, CHRONOS",
+      "answer": "AURORA, BEACON, CHRONOS",
+      "category": "H",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_AGGREGATION",
+      "latency_ms": 10.898300002736505,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14747,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14747,
+        "max_resident_mb": 0.014064,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 97,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_AGGREGATION",
+        "kernel_audit": {
+          "query_id": "q_0428b75b566a5965",
+          "route": "COMPUTE_AGGREGATION",
+          "answer": "AURORA, BEACON, CHRONOS",
+          "operation": "list_projects_by_manager",
+          "inputs": {
+            "manager": "Marie Dubois"
+          },
+          "outputs": [
+            {
+              "project": "AURORA",
+              "source": "noise/poc234_scaleup_42/doc_07148f283e16ca20.txt"
+            },
+            {
+              "project": "BEACON",
+              "source": "noise/poc234_scaleup_42/doc_07148f283e16ca20.txt"
+            },
+            {
+              "project": "CHRONOS",
+              "source": "noise/poc234_scaleup_42/doc_07148f283e16ca20.txt"
+            }
+          ],
+          "deduplicated": true,
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "H",
+        "sub_type": 1,
+        "manager": "Marie Dubois",
+        "projects": [
+          "AURORA",
+          "BEACON",
+          "CHRONOS"
+        ],
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_c6137839be78ad4b",
+      "question": "In reference ref_6b950bd4ec which project has a higher budget: Project IRIS or Project JUPITER?",
+      "expected": "Project JUPITER (budget of $290,681)",
+      "expected_answer": "Project JUPITER (budget of $290,681)",
+      "generated": "Project JUPITER (budget of $290,681)",
+      "answer": "Project JUPITER (budget of $290,681)",
+      "category": "G",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_COMPARISON",
+      "latency_ms": 9.587699998519383,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14746,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14746,
+        "max_resident_mb": 0.014063,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 94,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_COMPARISON",
+        "kernel_audit": {
+          "query_id": "q_c6137839be78ad4b",
+          "route": "COMPUTE_COMPARISON",
+          "answer": "Project JUPITER (budget of $290,681)",
+          "operation": "max_budget",
+          "inputs": {
+            "Project JUPITER": {
+              "budget": 290681,
+              "source": "noise/poc234_scaleup_42/doc_6e437b3a99d6c1a9.txt",
+              "status": "active"
+            },
+            "Project IRIS": {
+              "budget": 210866,
+              "source": "noise/poc234_scaleup_42/doc_6e437b3a99d6c1a9.txt",
+              "status": "active"
+            }
+          },
+          "suppressed_evidence": [],
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "G",
+        "sub_type": 1,
+        "proj_a": "IRIS",
+        "proj_b": "JUPITER",
+        "budget_a": 210866,
+        "budget_b": 290681,
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_0a5bfc8bf9c1fac1",
+      "question": "In reference ref_54697ebaac list all project names managed by Sophie Richard.",
+      "expected": "LUNA, PEGASE, SOLARIS",
+      "expected_answer": "LUNA, PEGASE, SOLARIS",
+      "generated": "LUNA, PEGASE, SOLARIS",
+      "answer": "LUNA, PEGASE, SOLARIS",
+      "category": "H",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_AGGREGATION",
+      "latency_ms": 10.92860000062501,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14745,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14745,
+        "max_resident_mb": 0.014062,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 97,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_AGGREGATION",
+        "kernel_audit": {
+          "query_id": "q_0a5bfc8bf9c1fac1",
+          "route": "COMPUTE_AGGREGATION",
+          "answer": "LUNA, PEGASE, SOLARIS",
+          "operation": "list_projects_by_manager",
+          "inputs": {
+            "manager": "Sophie Richard"
+          },
+          "outputs": [
+            {
+              "project": "LUNA",
+              "source": "noise/poc234_scaleup_42/doc_47e7de5bee364009.txt"
+            },
+            {
+              "project": "PEGASE",
+              "source": "noise/poc234_scaleup_42/doc_47e7de5bee364009.txt"
+            },
+            {
+              "project": "SOLARIS",
+              "source": "noise/poc234_scaleup_42/doc_47e7de5bee364009.txt"
+            }
+          ],
+          "deduplicated": true,
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "H",
+        "sub_type": 1,
+        "manager": "Sophie Richard",
+        "projects": [
+          "LUNA",
+          "PEGASE",
+          "SOLARIS"
+        ],
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_931cdae9ff9d2ac7",
+      "question": "In reference ref_fc9908365a which project has a higher budget: Project ORION or Project PHOENIX?",
+      "expected": "Project PHOENIX (budget of $302,983)",
+      "expected_answer": "Project PHOENIX (budget of $302,983)",
+      "generated": "Project PHOENIX (budget of $302,983)",
+      "answer": "Project PHOENIX (budget of $302,983)",
+      "category": "G",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_COMPARISON",
+      "latency_ms": 12.083900001016445,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14743,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14743,
+        "max_resident_mb": 0.01406,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 96,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_COMPARISON",
+        "kernel_audit": {
+          "query_id": "q_931cdae9ff9d2ac7",
+          "route": "COMPUTE_COMPARISON",
+          "answer": "Project PHOENIX (budget of $302,983)",
+          "operation": "max_budget",
+          "inputs": {
+            "Project PHOENIX": {
+              "budget": 302983,
+              "source": "noise/poc234_scaleup_42/doc_711e1d7fcfff1b10.txt",
+              "status": "active"
+            },
+            "Project ORION": {
+              "budget": 226704,
+              "source": "noise/poc234_scaleup_42/doc_711e1d7fcfff1b10.txt",
+              "status": "active"
+            }
+          },
+          "suppressed_evidence": [],
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "G",
+        "sub_type": 1,
+        "proj_a": "ORION",
+        "proj_b": "PHOENIX",
+        "budget_a": 226704,
+        "budget_b": 302983,
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_304510b923960f09",
+      "question": "In reference ref_19df1f01f5 list all project names managed by Julie Thomas.",
+      "expected": "FALCON, IRIS, JUPITER",
+      "expected_answer": "FALCON, IRIS, JUPITER",
+      "generated": "FALCON, IRIS, JUPITER",
+      "answer": "FALCON, IRIS, JUPITER",
+      "category": "H",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_AGGREGATION",
+      "latency_ms": 10.264000000461238,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14745,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14745,
+        "max_resident_mb": 0.014062,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 97,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_AGGREGATION",
+        "kernel_audit": {
+          "query_id": "q_304510b923960f09",
+          "route": "COMPUTE_AGGREGATION",
+          "answer": "FALCON, IRIS, JUPITER",
+          "operation": "list_projects_by_manager",
+          "inputs": {
+            "manager": "Julie Thomas"
+          },
+          "outputs": [
+            {
+              "project": "FALCON",
+              "source": "noise/poc234_scaleup_42/doc_c25a9ea3ce6ab521.txt"
+            },
+            {
+              "project": "IRIS",
+              "source": "noise/poc234_scaleup_42/doc_c25a9ea3ce6ab521.txt"
+            },
+            {
+              "project": "JUPITER",
+              "source": "noise/poc234_scaleup_42/doc_c25a9ea3ce6ab521.txt"
+            }
+          ],
+          "deduplicated": true,
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "H",
+        "sub_type": 1,
+        "manager": "Julie Thomas",
+        "projects": [
+          "FALCON",
+          "IRIS",
+          "JUPITER"
+        ],
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_a98c17963ead29f4",
+      "question": "In reference ref_33e8e98c8c which project has a higher budget: Project TITAN or Project VEGA?",
+      "expected": "Project VEGA (budget of $315,285)",
+      "expected_answer": "Project VEGA (budget of $315,285)",
+      "generated": "Project VEGA (budget of $315,285)",
+      "answer": "Project VEGA (budget of $315,285)",
+      "category": "G",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_COMPARISON",
+      "latency_ms": 10.251799998513889,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14747,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14747,
+        "max_resident_mb": 0.014064,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 98,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_COMPARISON",
+        "kernel_audit": {
+          "query_id": "q_a98c17963ead29f4",
+          "route": "COMPUTE_COMPARISON",
+          "answer": "Project VEGA (budget of $315,285)",
+          "operation": "max_budget",
+          "inputs": {
+            "Project TITAN": {
+              "budget": 242542,
+              "source": "noise/poc234_scaleup_42/doc_6b894d6bfa867ef2.txt",
+              "status": "active"
+            },
+            "Project VEGA": {
+              "budget": 315285,
+              "source": "noise/poc234_scaleup_42/doc_6b894d6bfa867ef2.txt",
+              "status": "active"
+            }
+          },
+          "suppressed_evidence": [],
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "G",
+        "sub_type": 1,
+        "proj_a": "TITAN",
+        "proj_b": "VEGA",
+        "budget_a": 242542,
+        "budget_b": 315285,
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_a7b1f909ab58f6c9",
+      "question": "In reference ref_91a48f031d list all project names managed by Emma Michel.",
+      "expected": "PHOENIX, QUASAR, SIRIUS",
+      "expected_answer": "PHOENIX, QUASAR, SIRIUS",
+      "generated": "PHOENIX, QUASAR, SIRIUS",
+      "answer": "PHOENIX, QUASAR, SIRIUS",
+      "category": "H",
+      "mode": "ooc_full_scan",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_AGGREGATION",
+      "latency_ms": 10.007500000938307,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 14747,
+        "blocks_materialized": 50,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 14747,
+        "max_resident_mb": 0.014064,
+        "embedding_rows_scanned": 1000,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2977318,
+        "candidate_count": 97,
+        "pruned_candidate_count": 0,
+        "result_count": 50,
+        "max_candidates": 50,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_full_scan",
+        "route": "COMPUTE_AGGREGATION",
+        "kernel_audit": {
+          "query_id": "q_a7b1f909ab58f6c9",
+          "route": "COMPUTE_AGGREGATION",
+          "answer": "PHOENIX, QUASAR, SIRIUS",
+          "operation": "list_projects_by_manager",
+          "inputs": {
+            "manager": "Emma Michel"
+          },
+          "outputs": [
+            {
+              "project": "PHOENIX",
+              "source": "noise/poc234_scaleup_42/doc_bffaf276993edf31.txt"
+            },
+            {
+              "project": "QUASAR",
+              "source": "noise/poc234_scaleup_42/doc_bffaf276993edf31.txt"
+            },
+            {
+              "project": "SIRIUS",
+              "source": "noise/poc234_scaleup_42/doc_bffaf276993edf31.txt"
+            }
+          ],
+          "deduplicated": true,
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "H",
+        "sub_type": 1,
+        "manager": "Emma Michel",
+        "projects": [
+          "PHOENIX",
+          "QUASAR",
+          "SIRIUS"
+        ],
+        "is_missing": false
+      }
+    }
+  ]
+}

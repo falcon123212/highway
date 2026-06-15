@@ -1,0 +1,37 @@
+mode,stage1_type,aggregation_strategy,budget,top_m,grounded_success_rate,case_hit_rate,doc_hit_rate,support_sentence_recall,distractor_selection_rate
+highway_pruned_global_bm25_max,bm25,max_score,512,3,80.00,92.00,80.00,38.93,70.38
+highway_pruned_global_bm25_max,bm25,max_score,512,5,84.00,96.00,84.00,28.80,77.48
+highway_pruned_global_bm25_max,bm25,max_score,512,8,80.00,92.00,80.00,22.47,81.27
+highway_pruned_global_bm25_max,bm25,max_score,768,3,80.00,92.00,80.00,38.93,70.91
+highway_pruned_global_bm25_max,bm25,max_score,768,5,84.00,96.00,84.00,28.80,76.83
+highway_pruned_global_bm25_max,bm25,max_score,768,8,80.00,92.00,80.00,22.47,81.12
+highway_pruned_global_bm25_max,bm25,max_score,1024,3,80.00,92.00,80.00,38.93,70.49
+highway_pruned_global_bm25_max,bm25,max_score,1024,5,84.00,96.00,84.00,28.80,77.02
+highway_pruned_global_bm25_max,bm25,max_score,1024,8,80.00,92.00,80.00,23.80,81.15
+highway_pruned_global_bm25_stage1,bm25,bm25_doc_score + max_sentence_score,512,3,72.00,92.00,72.00,40.27,72.63
+highway_pruned_global_bm25_stage1,bm25,bm25_doc_score + max_sentence_score,512,5,88.00,100.00,88.00,29.60,77.97
+highway_pruned_global_bm25_stage1,bm25,bm25_doc_score + max_sentence_score,512,8,84.00,96.00,84.00,22.47,81.43
+highway_pruned_global_bm25_stage1,bm25,bm25_doc_score + max_sentence_score,768,3,72.00,92.00,72.00,40.27,73.25
+highway_pruned_global_bm25_stage1,bm25,bm25_doc_score + max_sentence_score,768,5,88.00,100.00,88.00,29.60,77.27
+highway_pruned_global_bm25_stage1,bm25,bm25_doc_score + max_sentence_score,768,8,84.00,96.00,84.00,22.47,81.18
+highway_pruned_global_bm25_stage1,bm25,bm25_doc_score + max_sentence_score,1024,3,72.00,92.00,72.00,40.27,72.83
+highway_pruned_global_bm25_stage1,bm25,bm25_doc_score + max_sentence_score,1024,5,88.00,100.00,88.00,29.60,77.26
+highway_pruned_global_bm25_stage1,bm25,bm25_doc_score + max_sentence_score,1024,8,84.00,96.00,84.00,23.80,80.95
+highway_pruned_global_bm25_top3avg,bm25,top3_avg_score,512,3,80.00,92.00,80.00,40.93,70.49
+highway_pruned_global_bm25_top3avg,bm25,top3_avg_score,512,5,80.00,92.00,80.00,26.93,80.64
+highway_pruned_global_bm25_top3avg,bm25,top3_avg_score,512,8,84.00,96.00,84.00,22.47,81.80
+highway_pruned_global_bm25_top3avg,bm25,top3_avg_score,768,3,80.00,92.00,80.00,40.93,70.28
+highway_pruned_global_bm25_top3avg,bm25,top3_avg_score,768,5,80.00,92.00,80.00,26.93,80.01
+highway_pruned_global_bm25_top3avg,bm25,top3_avg_score,768,8,84.00,96.00,84.00,23.80,81.28
+highway_pruned_global_bm25_top3avg,bm25,top3_avg_score,1024,3,80.00,92.00,80.00,40.93,70.17
+highway_pruned_global_bm25_top3avg,bm25,top3_avg_score,1024,5,80.00,92.00,80.00,26.93,80.20
+highway_pruned_global_bm25_top3avg,bm25,top3_avg_score,1024,8,84.00,96.00,84.00,23.80,81.40
+highway_pruned_global_hybrid_bm25doc_top3sent,hybrid,bm25_doc_score + top3_sentence_score,512,3,80.00,92.00,80.00,44.93,70.27
+highway_pruned_global_hybrid_bm25doc_top3sent,hybrid,bm25_doc_score + top3_sentence_score,512,5,88.00,100.00,88.00,30.60,76.15
+highway_pruned_global_hybrid_bm25doc_top3sent,hybrid,bm25_doc_score + top3_sentence_score,512,8,80.00,96.00,80.00,19.67,81.87
+highway_pruned_global_hybrid_bm25doc_top3sent,hybrid,bm25_doc_score + top3_sentence_score,768,3,80.00,92.00,80.00,44.93,70.43
+highway_pruned_global_hybrid_bm25doc_top3sent,hybrid,bm25_doc_score + top3_sentence_score,768,5,88.00,100.00,88.00,31.93,74.53
+highway_pruned_global_hybrid_bm25doc_top3sent,hybrid,bm25_doc_score + top3_sentence_score,768,8,80.00,96.00,80.00,21.00,81.62
+highway_pruned_global_hybrid_bm25doc_top3sent,hybrid,bm25_doc_score + top3_sentence_score,1024,3,80.00,92.00,80.00,44.93,70.09
+highway_pruned_global_hybrid_bm25doc_top3sent,hybrid,bm25_doc_score + top3_sentence_score,1024,5,88.00,100.00,88.00,31.93,75.01
+highway_pruned_global_hybrid_bm25doc_top3sent,hybrid,bm25_doc_score + top3_sentence_score,1024,8,80.00,96.00,80.00,21.00,81.82

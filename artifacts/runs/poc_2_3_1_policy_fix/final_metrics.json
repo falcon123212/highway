@@ -1,0 +1,156 @@
+{
+  "modes": {
+    "pccc_no_cache": {
+      "count": 108,
+      "overall_em": 86.11111111111111,
+      "mean_latency_ms": 108.05014769236247,
+      "p95_latency_ms": 481.36239051818836,
+      "llm_bypass_rate": 77.77777777777779,
+      "verifier_pass_rate": 100.0,
+      "routing_accuracy": 100.0,
+      "false_deterministic_rate": 0.0,
+      "false_not_found_rate": 0.0,
+      "llm_required_em": 37.5,
+      "llm_required_call_rate": 100.0,
+      "long_context_malformed_rate": 0.0,
+      "total_prompt_tokens": 19335,
+      "cat_breakdown": {
+        "A": {
+          "count": 10,
+          "em": 100.0
+        },
+        "B": {
+          "count": 10,
+          "em": 100.0
+        },
+        "C": {
+          "count": 20,
+          "em": 100.0
+        },
+        "D": {
+          "count": 15,
+          "em": 100.0
+        },
+        "E": {
+          "count": 15,
+          "em": 100.0
+        },
+        "F": {
+          "count": 14,
+          "em": 100.0
+        },
+        "G": {
+          "count": 15,
+          "em": 26.666666666666668
+        },
+        "H": {
+          "count": 9,
+          "em": 55.55555555555556
+        }
+      },
+      "oom_rate": 0.0
+    },
+    "pccc_cache_scheduler_prefix": {
+      "count": 108,
+      "overall_em": 86.11111111111111,
+      "mean_latency_ms": 100.2920667330424,
+      "p95_latency_ms": 458.3550333976743,
+      "llm_bypass_rate": 77.77777777777779,
+      "verifier_pass_rate": 100.0,
+      "routing_accuracy": 100.0,
+      "false_deterministic_rate": 0.0,
+      "false_not_found_rate": 0.0,
+      "llm_required_em": 37.5,
+      "llm_required_call_rate": 100.0,
+      "long_context_malformed_rate": 0.0,
+      "total_prompt_tokens": 19335,
+      "cat_breakdown": {
+        "A": {
+          "count": 10,
+          "em": 100.0
+        },
+        "B": {
+          "count": 10,
+          "em": 100.0
+        },
+        "C": {
+          "count": 20,
+          "em": 100.0
+        },
+        "D": {
+          "count": 15,
+          "em": 100.0
+        },
+        "E": {
+          "count": 15,
+          "em": 100.0
+        },
+        "F": {
+          "count": 14,
+          "em": 100.0
+        },
+        "G": {
+          "count": 15,
+          "em": 26.666666666666668
+        },
+        "H": {
+          "count": 9,
+          "em": 55.55555555555556
+        }
+      },
+      "oom_rate": 0.0
+    },
+    "hybrid_topk_llm_baseline_stratified_150": {
+      "count": 108,
+      "overall_em": 25.0,
+      "mean_latency_ms": 1425.2132486414027,
+      "p95_latency_ms": 2989.9311423301656,
+      "llm_bypass_rate": 0.0,
+      "verifier_pass_rate": 100.0,
+      "routing_accuracy": 0.0,
+      "false_deterministic_rate": 0.0,
+      "false_not_found_rate": 0.0,
+      "llm_required_em": 25.0,
+      "llm_required_call_rate": 0.0,
+      "long_context_malformed_rate": 0.0,
+      "total_prompt_tokens": 1365938,
+      "cat_breakdown": {
+        "A": {
+          "count": 10,
+          "em": 50.0
+        },
+        "B": {
+          "count": 10,
+          "em": 100.0
+        },
+        "C": {
+          "count": 20,
+          "em": 45.0
+        },
+        "D": {
+          "count": 15,
+          "em": 0.0
+        },
+        "E": {
+          "count": 15,
+          "em": 6.666666666666667
+        },
+        "F": {
+          "count": 14,
+          "em": 14.285714285714285
+        },
+        "G": {
+          "count": 15,
+          "em": 0.0
+        },
+        "H": {
+          "count": 9,
+          "em": 0.0
+        }
+      },
+      "oom_rate": 0.0
+    }
+  },
+  "kv_tokens_avoided_pct": 98.58448919350658,
+  "prefix_ttft_reduction_pct": 73.6484557999162
+}

@@ -1,0 +1,160 @@
+{
+  "summary": {
+    "status": "NON_VALIDATING",
+    "query_count": 20,
+    "seed": 42,
+    "recall_gate": 80.0,
+    "strategies": [
+      "ooc_full_scan",
+      "ooc_ann_hnsw",
+      "ooc_semantic_lexical_rescue",
+      "ooc_semantic_rerank_rescue"
+    ],
+    "candidate_sweep": [
+      200
+    ],
+    "lexical_sweep": [
+      1000
+    ],
+    "latency_budgets_ms": [
+      100.0,
+      200.0
+    ],
+    "tiers": [
+      {
+        "size": 100000,
+        "workload_type": "semantic_ann",
+        "strategies": [
+          "ooc_full_scan",
+          "ooc_ann_hnsw",
+          "ooc_semantic_lexical_rescue",
+          "ooc_semantic_rerank_rescue"
+        ],
+        "candidate_sweep": [
+          200
+        ],
+        "lexical_sweep": [
+          1000
+        ],
+        "strategy_summaries": [
+          {
+            "strategy": "ooc_full_scan",
+            "candidate_cap": 200,
+            "lexical_k": 0,
+            "count": 20,
+            "em": 100.0,
+            "recall_at_k": 100.0,
+            "p95_latency_ms": 424.2810449999524,
+            "avg_embedding_rows_scanned": 100000.0,
+            "avg_blocks_materialized": 50.0,
+            "metrics_complete_rate": 100.0
+          },
+          {
+            "strategy": "ooc_ann_hnsw",
+            "candidate_cap": 200,
+            "lexical_k": 0,
+            "count": 20,
+            "em": 95.0,
+            "recall_at_k": 12.8,
+            "p95_latency_ms": 13.410610000937655,
+            "avg_embedding_rows_scanned": 200.0,
+            "avg_blocks_materialized": 50.0,
+            "metrics_complete_rate": 100.0
+          },
+          {
+            "strategy": "ooc_semantic_lexical_rescue",
+            "candidate_cap": 200,
+            "lexical_k": 1000,
+            "count": 20,
+            "em": 100.0,
+            "recall_at_k": 76.0,
+            "p95_latency_ms": 317.592435005281,
+            "avg_embedding_rows_scanned": 201.1,
+            "avg_blocks_materialized": 50.0,
+            "metrics_complete_rate": 100.0
+          },
+          {
+            "strategy": "ooc_semantic_rerank_rescue",
+            "candidate_cap": 200,
+            "lexical_k": 1000,
+            "count": 20,
+            "em": 100.0,
+            "recall_at_k": 65.2,
+            "p95_latency_ms": 330.86223499994964,
+            "avg_embedding_rows_scanned": 201.1,
+            "avg_blocks_materialized": 50.0,
+            "metrics_complete_rate": 100.0
+          }
+        ],
+        "hnsw_recall_at_k": 12.8,
+        "hnsw_em": 95.0,
+        "hnsw_p95_latency_ms": 13.410610000937655,
+        "best_recall": {
+          "strategy": "ooc_full_scan",
+          "candidate_cap": 200,
+          "lexical_k": 0,
+          "count": 20,
+          "em": 100.0,
+          "recall_at_k": 100.0,
+          "p95_latency_ms": 424.2810449999524,
+          "avg_embedding_rows_scanned": 100000.0,
+          "avg_blocks_materialized": 50.0,
+          "metrics_complete_rate": 100.0
+        },
+        "best_latency": {
+          "strategy": "ooc_ann_hnsw",
+          "candidate_cap": 200,
+          "lexical_k": 0,
+          "count": 20,
+          "em": 95.0,
+          "recall_at_k": 12.8,
+          "p95_latency_ms": 13.410610000937655,
+          "avg_embedding_rows_scanned": 200.0,
+          "avg_blocks_materialized": 50.0,
+          "metrics_complete_rate": 100.0
+        },
+        "best_tradeoff": {
+          "strategy": "ooc_ann_hnsw",
+          "candidate_cap": 200,
+          "lexical_k": 0,
+          "count": 20,
+          "em": 95.0,
+          "recall_at_k": 12.8,
+          "p95_latency_ms": 13.410610000937655,
+          "avg_embedding_rows_scanned": 200.0,
+          "avg_blocks_materialized": 50.0,
+          "metrics_complete_rate": 100.0
+        },
+        "best_recall_under_100ms": {
+          "strategy": "ooc_ann_hnsw",
+          "candidate_cap": 200,
+          "lexical_k": 0,
+          "count": 20,
+          "em": 95.0,
+          "recall_at_k": 12.8,
+          "p95_latency_ms": 13.410610000937655,
+          "avg_embedding_rows_scanned": 200.0,
+          "avg_blocks_materialized": 50.0,
+          "metrics_complete_rate": 100.0
+        },
+        "best_recall_under_200ms": {
+          "strategy": "ooc_ann_hnsw",
+          "candidate_cap": 200,
+          "lexical_k": 0,
+          "count": 20,
+          "em": 95.0,
+          "recall_at_k": 12.8,
+          "p95_latency_ms": 13.410610000937655,
+          "avg_embedding_rows_scanned": 200.0,
+          "avg_blocks_materialized": 50.0,
+          "metrics_complete_rate": 100.0
+        },
+        "best_rescue_recall_at_k": 0.0,
+        "best_lexical_rescue_recall_at_k": 76.0,
+        "recall_gate": 80.0,
+        "metrics_complete_rate": 100.0,
+        "validating": false
+      }
+    ]
+  }
+}

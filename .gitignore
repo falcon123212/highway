@@ -5,5 +5,26 @@ __pycache__/
 .ruff_cache/
 .cache/
 *.log
-artifacts/
 tmp_test_run/
+
+# Caches and windows backups
+artifacts/legacy/
+artifacts/cache/
+
+# Ignore large binary/database files and index directories in runs
+artifacts/runs/**/*.npy
+artifacts/runs/**/*.sqlite
+artifacts/runs/**/*.pkl
+artifacts/runs/**/*.db
+artifacts/runs/**/*.tar.gz
+artifacts/runs/**/local_index_case_*/
+artifacts/runs/**/index/
+artifacts/runs/**/index_*/
+artifacts/runs/**/prompts/
+artifacts/runs/**/ragbench_index/
+artifacts/runs/**/dataset/
+artifacts/runs/**/dataset_*/
+artifacts/runs/**/corpus/
+artifacts/runs/**/documents/
+
+

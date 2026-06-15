@@ -1,0 +1,7 @@
+{
+  "status": "SKIPPED",
+  "skip_reason": "dataset_unavailable:swebench_load_failed:SWE-bench/SWE-bench_Verified:test:Couldn't reach 'SWE-bench/SWE-bench_Verified' on the Hub (LocalEntryNotFoundError)",
+  "dataset_id": "SWE-bench/SWE-bench_Verified",
+  "split": "test",
+  "records": 0
+}

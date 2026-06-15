@@ -1,0 +1,225 @@
+{
+  "summary": {
+    "status": "QUALITY_ONLY",
+    "query_count": 8,
+    "seed": 42,
+    "recall_gate": 80.0,
+    "strategies": [
+      "ooc_full_scan",
+      "ooc_semantic_cross_encoder_rescue"
+    ],
+    "candidate_sweep": [
+      20
+    ],
+    "lexical_sweep": [
+      40
+    ],
+    "reranker_backend": "cross_encoder",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "reranker_input_sweep": [
+      40
+    ],
+    "reranker_output_sweep": [
+      20
+    ],
+    "reranker_local_files_only": true,
+    "latency_budgets_ms": [
+      100.0,
+      200.0
+    ],
+    "tiers": [
+      {
+        "size": 80,
+        "workload_type": "semantic_ann",
+        "strategies": [
+          "ooc_full_scan",
+          "ooc_semantic_cross_encoder_rescue"
+        ],
+        "candidate_sweep": [
+          20
+        ],
+        "lexical_sweep": [
+          40
+        ],
+        "reranker_input_sweep": [
+          40
+        ],
+        "reranker_output_sweep": [
+          20
+        ],
+        "strategy_summaries": [
+          {
+            "strategy": "ooc_full_scan",
+            "candidate_cap": 20,
+            "lexical_k": 0,
+            "reranker_input_k": 0,
+            "reranker_output_k": 0,
+            "count": 8,
+            "em": 100.0,
+            "recall_at_k": 100.0,
+            "p95_latency_ms": 6.490514999973129,
+            "avg_embedding_rows_scanned": 80.0,
+            "avg_blocks_materialized": 50.0,
+            "avg_reranker_candidates_in": 0.0,
+            "avg_reranker_candidates_out": 0.0,
+            "p95_reranker_latency_ms": 0.0,
+            "reranker_available_rate": 0.0,
+            "reranker_fallback_reasons": [],
+            "metrics_complete_rate": 100.0
+          },
+          {
+            "strategy": "ooc_semantic_cross_encoder_rescue",
+            "candidate_cap": 20,
+            "lexical_k": 40,
+            "reranker_input_k": 40,
+            "reranker_output_k": 20,
+            "count": 8,
+            "em": 100.0,
+            "recall_at_k": 100.0,
+            "p95_latency_ms": 559.4067650001193,
+            "avg_embedding_rows_scanned": 50.0,
+            "avg_blocks_materialized": 50.0,
+            "avg_reranker_candidates_in": 50.0,
+            "avg_reranker_candidates_out": 50.0,
+            "p95_reranker_latency_ms": 536.5039349999051,
+            "reranker_available_rate": 100.0,
+            "reranker_fallback_reasons": [],
+            "metrics_complete_rate": 100.0
+          }
+        ],
+        "hnsw_recall_at_k": 0.0,
+        "hnsw_em": 0.0,
+        "hnsw_p95_latency_ms": 0.0,
+        "best_recall": {
+          "strategy": "ooc_full_scan",
+          "candidate_cap": 20,
+          "lexical_k": 0,
+          "reranker_input_k": 0,
+          "reranker_output_k": 0,
+          "count": 8,
+          "em": 100.0,
+          "recall_at_k": 100.0,
+          "p95_latency_ms": 6.490514999973129,
+          "avg_embedding_rows_scanned": 80.0,
+          "avg_blocks_materialized": 50.0,
+          "avg_reranker_candidates_in": 0.0,
+          "avg_reranker_candidates_out": 0.0,
+          "p95_reranker_latency_ms": 0.0,
+          "reranker_available_rate": 0.0,
+          "reranker_fallback_reasons": [],
+          "metrics_complete_rate": 100.0
+        },
+        "best_latency": {
+          "strategy": "ooc_full_scan",
+          "candidate_cap": 20,
+          "lexical_k": 0,
+          "reranker_input_k": 0,
+          "reranker_output_k": 0,
+          "count": 8,
+          "em": 100.0,
+          "recall_at_k": 100.0,
+          "p95_latency_ms": 6.490514999973129,
+          "avg_embedding_rows_scanned": 80.0,
+          "avg_blocks_materialized": 50.0,
+          "avg_reranker_candidates_in": 0.0,
+          "avg_reranker_candidates_out": 0.0,
+          "p95_reranker_latency_ms": 0.0,
+          "reranker_available_rate": 0.0,
+          "reranker_fallback_reasons": [],
+          "metrics_complete_rate": 100.0
+        },
+        "best_tradeoff": {
+          "strategy": "ooc_full_scan",
+          "candidate_cap": 20,
+          "lexical_k": 0,
+          "reranker_input_k": 0,
+          "reranker_output_k": 0,
+          "count": 8,
+          "em": 100.0,
+          "recall_at_k": 100.0,
+          "p95_latency_ms": 6.490514999973129,
+          "avg_embedding_rows_scanned": 80.0,
+          "avg_blocks_materialized": 50.0,
+          "avg_reranker_candidates_in": 0.0,
+          "avg_reranker_candidates_out": 0.0,
+          "p95_reranker_latency_ms": 0.0,
+          "reranker_available_rate": 0.0,
+          "reranker_fallback_reasons": [],
+          "metrics_complete_rate": 100.0
+        },
+        "best_recall_under_100ms": {
+          "strategy": "ooc_full_scan",
+          "candidate_cap": 20,
+          "lexical_k": 0,
+          "reranker_input_k": 0,
+          "reranker_output_k": 0,
+          "count": 8,
+          "em": 100.0,
+          "recall_at_k": 100.0,
+          "p95_latency_ms": 6.490514999973129,
+          "avg_embedding_rows_scanned": 80.0,
+          "avg_blocks_materialized": 50.0,
+          "avg_reranker_candidates_in": 0.0,
+          "avg_reranker_candidates_out": 0.0,
+          "p95_reranker_latency_ms": 0.0,
+          "reranker_available_rate": 0.0,
+          "reranker_fallback_reasons": [],
+          "metrics_complete_rate": 100.0
+        },
+        "best_recall_under_200ms": {
+          "strategy": "ooc_full_scan",
+          "candidate_cap": 20,
+          "lexical_k": 0,
+          "reranker_input_k": 0,
+          "reranker_output_k": 0,
+          "count": 8,
+          "em": 100.0,
+          "recall_at_k": 100.0,
+          "p95_latency_ms": 6.490514999973129,
+          "avg_embedding_rows_scanned": 80.0,
+          "avg_blocks_materialized": 50.0,
+          "avg_reranker_candidates_in": 0.0,
+          "avg_reranker_candidates_out": 0.0,
+          "p95_reranker_latency_ms": 0.0,
+          "reranker_available_rate": 0.0,
+          "reranker_fallback_reasons": [],
+          "metrics_complete_rate": 100.0
+        },
+        "best_rescue_recall_at_k": 0.0,
+        "best_lexical_rescue_recall_at_k": 0.0,
+        "best_field_rescue_recall_at_k": 0.0,
+        "runtime_best_recall": {
+          "strategy": "ooc_semantic_cross_encoder_rescue",
+          "candidate_cap": 20,
+          "lexical_k": 40,
+          "reranker_input_k": 40,
+          "reranker_output_k": 20,
+          "count": 8,
+          "em": 100.0,
+          "recall_at_k": 100.0,
+          "p95_latency_ms": 559.4067650001193,
+          "avg_embedding_rows_scanned": 50.0,
+          "avg_blocks_materialized": 50.0,
+          "avg_reranker_candidates_in": 50.0,
+          "avg_reranker_candidates_out": 50.0,
+          "p95_reranker_latency_ms": 536.5039349999051,
+          "reranker_available_rate": 100.0,
+          "reranker_fallback_reasons": [],
+          "metrics_complete_rate": 100.0
+        },
+        "runtime_best_under_200ms": {
+          "strategy": "none",
+          "candidate_cap": 0,
+          "lexical_k": 0,
+          "recall_at_k": 0.0,
+          "p95_latency_ms": 0.0
+        },
+        "cross_encoder_ready": true,
+        "recall_gate": 80.0,
+        "metrics_complete_rate": 100.0,
+        "validating": false,
+        "quality_only": true
+      }
+    ]
+  }
+}

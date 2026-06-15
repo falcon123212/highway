@@ -1,0 +1,9 @@
+{
+  "summary": {
+    "status": "SKIPPED",
+    "model": "qwen3:8b",
+    "configs": [],
+    "count": 0,
+    "skip_reason": "datasets_not_installed"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "summary": {
+    "status": "VALIDATING",
+    "model": "contract_aware_fake",
+    "skip_reason": "",
+    "turns": 100,
+    "answer_satisfies_question_rate": 100.0,
+    "source_attribution_rate": 100.0,
+    "hallucination_rate": 0.0,
+    "coherence_rate": 100.0,
+    "long_range_recall_success_rate": 100.0,
+    "avg_avoided_input_tokens_pct": 97.44875516880255,
+    "output_over_budget_rate": 0.0,
+    "prompt_pair_is_distinct_rate": 100.0,
+    "poison_fail_rate": 0.0,
+    "context_p95_ms": 2.120280000963248,
+    "avg_baseline_blocks": 252,
+    "avg_highway_blocks": 2
+  }
+}

@@ -1,0 +1,11 @@
+# OOC Scale-Up Benchmark - Candidate Cap Sweep
+
+| Size | Strategy | Cap | Count | EM | No-leak | ANN used | Recall | Mean ms | p95 ms | Rows scanned | Blocks mat. | Bytes read | Index MB |
+|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|  | ooc_full_scan | 20 | 20 | 100.00% | 100.00% |  |  | 34.98 | 46.40 | 10000.0 | 50.0 | 14784.0 | 28.717 |
+|  | ooc_full_scan | 50 | 20 | 100.00% | 100.00% |  |  | 34.92 | 45.94 | 10000.0 | 50.0 | 14701.6 | 28.717 |
+|  | ooc_full_scan | 200 | 20 | 100.00% | 100.00% |  |  | 37.80 | 49.52 | 10000.0 | 50.0 | 14707.8 | 28.717 |
+
+## Verdict
+
+Full mmap scan stays below the 500 ms p95 threshold through the largest measured tier blocks on this run (49.52 ms p95).

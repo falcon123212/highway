@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "status": "VALIDATING",
+    "query_count": 20,
+    "seed": 42,
+    "tiers": [
+      {
+        "size": 1000,
+        "workload_type": "structured_exact",
+        "count": 20,
+        "context_mean_ms": 2.343999999902735,
+        "context_p50_ms": 2.10560000004989,
+        "context_p95_ms": 3.260539999291725,
+        "runtime_mean_ms": 0.05696499983969261,
+        "runtime_p50_ms": 0.0555999999960477,
+        "runtime_p95_ms": 0.08726999958525994,
+        "avg_embedding_rows_scanned": 1.2,
+        "avg_blocks_materialized": 1.2,
+        "avg_hotset_hits": 0.0,
+        "avg_tokens_avoided": 15075.5,
+        "avg_kv_bytes_avoided_estimated": 1481981952.0,
+        "metrics_complete_rate": 100.0
+      },
+      {
+        "size": 10000,
+        "workload_type": "structured_exact",
+        "count": 20,
+        "context_mean_ms": 2.6324450001084188,
+        "context_p50_ms": 2.3960500002431218,
+        "context_p95_ms": 3.5932849998516763,
+        "runtime_mean_ms": 0.05293499993967998,
+        "runtime_p50_ms": 0.046099999963189475,
+        "runtime_p95_ms": 0.10464500019224943,
+        "avg_embedding_rows_scanned": 1.2,
+        "avg_blocks_materialized": 1.2,
+        "avg_hotset_hits": 0.0,
+        "avg_tokens_avoided": 150075.5,
+        "avg_kv_bytes_avoided_estimated": 14753021952.0,
+        "metrics_complete_rate": 100.0
+      },
+      {
+        "size": 100000,
+        "workload_type": "structured_exact",
+        "count": 20,
+        "context_mean_ms": 18.033380000088073,
+        "context_p50_ms": 18.282800000179122,
+        "context_p95_ms": 21.05622000049152,
+        "runtime_mean_ms": 0.07605999999213964,
+        "runtime_p50_ms": 0.07825000011507655,
+        "runtime_p95_ms": 0.09330000038971775,
+        "avg_embedding_rows_scanned": 1.2,
+        "avg_blocks_materialized": 1.2,
+        "avg_hotset_hits": 0.0,
+        "avg_tokens_avoided": 1500075.5,
+        "avg_kv_bytes_avoided_estimated": 147463421952.0,
+        "metrics_complete_rate": 100.0
+      }
+    ]
+  }
+}

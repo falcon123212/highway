@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "status": "VALIDATING",
+    "model": "qwen3:8b",
+    "skip_reason": "",
+    "turns": 4,
+    "answer_satisfies_question_rate": 100.0,
+    "source_attribution_rate": 100.0,
+    "hallucination_rate": 0.0,
+    "coherence_rate": 100.0,
+    "avg_avoided_input_tokens_pct": 94.82295482295481,
+    "output_over_budget_rate": 0.0,
+    "context_p95_ms": 9.652159997494888,
+    "retry_rate": 0.0,
+    "avg_output_tokens_saved_by_retry": 0
+  }
+}

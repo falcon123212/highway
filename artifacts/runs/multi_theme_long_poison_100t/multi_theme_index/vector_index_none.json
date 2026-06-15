@@ -1,0 +1,9 @@
+{
+  "vector_backend": "none",
+  "ann_metric": "inner_product",
+  "ann_params": {},
+  "ann_file": null,
+  "ann_available": false,
+  "ann_fallback_reason": "vector_backend_none",
+  "embeddings_file": "embeddings.npy"
+}

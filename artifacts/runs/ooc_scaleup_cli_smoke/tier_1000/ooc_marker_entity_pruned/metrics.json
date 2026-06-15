@@ -1,0 +1,183 @@
+{
+  "summary": {
+    "strategy": "ooc_marker_entity_pruned",
+    "candidate_cap": 200,
+    "count": 2,
+    "overall_em": 100.0,
+    "gh_em_global": 100.0,
+    "no_leak_pass_rate": 100.0,
+    "llm_bypass_rate": 100.0,
+    "mean_latency_ms": 9.005149999211426,
+    "p50_latency_ms": 9.005149999211426,
+    "p95_latency_ms": 14.198555000439228,
+    "p99_latency_ms": 14.660191000548366,
+    "max_latency_ms": 14.77560000057565,
+    "avg_bytes_read": 338.5,
+    "max_bytes_read": 368.0,
+    "avg_blocks_materialized": 1.0,
+    "avg_embedding_rows_scanned": 1.0,
+    "avg_resident_mb": 0.00032300000000000004,
+    "max_resident_mb": 0.000351,
+    "index_size_mb": 2.838491439819336,
+    "ooc_metrics_coverage": 100.0
+  },
+  "records": [
+    {
+      "id": "q_81ae49597d0c9c81",
+      "question": "In reference ref_1bd7b39f85 which project has a higher budget: Project NEPTUNE or Project KRONOS?",
+      "expected": "Project KRONOS (budget of $204,567)",
+      "expected_answer": "Project KRONOS (budget of $204,567)",
+      "generated": "Project KRONOS (budget of $204,567)",
+      "answer": "Project KRONOS (budget of $204,567)",
+      "category": "G",
+      "mode": "ooc_marker_entity_pruned",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_COMPARISON",
+      "latency_ms": 14.77560000057565,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 309,
+        "blocks_materialized": 1,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 309,
+        "max_resident_mb": 0.000295,
+        "embedding_rows_scanned": 1,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2976000,
+        "candidate_count": 1,
+        "pruned_candidate_count": 1,
+        "result_count": 1,
+        "max_candidates": 200,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_marker_entity_pruned",
+        "route": "COMPUTE_COMPARISON",
+        "kernel_audit": {
+          "query_id": "q_81ae49597d0c9c81",
+          "route": "COMPUTE_COMPARISON",
+          "answer": "Project KRONOS (budget of $204,567)",
+          "operation": "max_budget",
+          "inputs": {
+            "Project NEPTUNE": {
+              "budget": 100000,
+              "source": "noise/poc234_scaleup_42/doc_06b60ec3afb18739.txt",
+              "status": "active"
+            },
+            "Project KRONOS": {
+              "budget": 204567,
+              "source": "noise/poc234_scaleup_42/doc_06b60ec3afb18739.txt",
+              "status": "active"
+            }
+          },
+          "suppressed_evidence": [],
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "G",
+        "sub_type": 1,
+        "proj_a": "NEPTUNE",
+        "proj_b": "KRONOS",
+        "budget_a": 100000,
+        "budget_b": 204567,
+        "is_missing": false
+      }
+    },
+    {
+      "id": "q_b071795eef14e2a1",
+      "question": "In reference ref_8f927c37f8 list all project names managed by Alice Martin.",
+      "expected": "FALCON, IRIS, JUPITER",
+      "expected_answer": "FALCON, IRIS, JUPITER",
+      "generated": "FALCON, IRIS, JUPITER",
+      "answer": "FALCON, IRIS, JUPITER",
+      "category": "H",
+      "mode": "ooc_marker_entity_pruned",
+      "answer_matches_expected": true,
+      "leak_check_passed": true,
+      "leak_check_reasons": [],
+      "is_em": true,
+      "exact_match": true,
+      "route": "COMPUTE_AGGREGATION",
+      "latency_ms": 3.2346999978472013,
+      "is_bypass": true,
+      "verify_passed": true,
+      "prompt_tokens": 0,
+      "metrics": {
+        "bytes_read": 368,
+        "blocks_materialized": 1,
+        "hotset_hits": 0,
+        "evictions": 0,
+        "resident_bytes": 368,
+        "max_resident_mb": 0.000351,
+        "embedding_rows_scanned": 1,
+        "embedding_windows": 1,
+        "storage_mode": "out_of_core",
+        "index_bytes": 2976000,
+        "candidate_count": 1,
+        "pruned_candidate_count": 1,
+        "result_count": 1,
+        "max_candidates": 200,
+        "max_index_window_mb": 64,
+        "search_strategy": "ooc_marker_entity_pruned",
+        "route": "COMPUTE_AGGREGATION",
+        "kernel_audit": {
+          "query_id": "q_b071795eef14e2a1",
+          "route": "COMPUTE_AGGREGATION",
+          "answer": "FALCON, IRIS, JUPITER",
+          "operation": "list_projects_by_manager",
+          "inputs": {
+            "manager": "Alice Martin"
+          },
+          "outputs": [
+            {
+              "project": "FALCON",
+              "source": "noise/poc234_scaleup_42/doc_05c38d33e5e327be.txt"
+            },
+            {
+              "project": "IRIS",
+              "source": "noise/poc234_scaleup_42/doc_05c38d33e5e327be.txt"
+            },
+            {
+              "project": "JUPITER",
+              "source": "noise/poc234_scaleup_42/doc_05c38d33e5e327be.txt"
+            }
+          ],
+          "deduplicated": true,
+          "verifier_pass": true,
+          "llm_called": false,
+          "status": "PASS"
+        },
+        "llm_bypass": true,
+        "verifier_passed": true,
+        "prompt_tokens": 0,
+        "tokens_materialized_kv": 0,
+        "tokens_avoided": 1200
+      },
+      "metadata": {
+        "type": "H",
+        "sub_type": 1,
+        "manager": "Alice Martin",
+        "projects": [
+          "FALCON",
+          "IRIS",
+          "JUPITER"
+        ],
+        "is_missing": false
+      }
+    }
+  ]
+}

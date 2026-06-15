@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "status": "NON_VALIDATING",
+    "model": "contract_aware_fake",
+    "skip_reason": "",
+    "turns": 8,
+    "answer_satisfies_question_rate": 100.0,
+    "source_attribution_rate": 100.0,
+    "hallucination_rate": 0.0,
+    "coherence_rate": 100.0,
+    "avg_avoided_input_tokens_pct": 72.60480669435734,
+    "output_over_budget_rate": 0.0,
+    "context_p95_ms": 5.005185000391065
+  }
+}

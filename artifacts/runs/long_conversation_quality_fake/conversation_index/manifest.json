@@ -1,0 +1,28 @@
+{
+  "layout": "highway_out_of_core_v1",
+  "storage_mode": "out_of_core",
+  "blocks_file": "blocks.jsonl",
+  "offsets_file": "block_offsets.json",
+  "embeddings_file": "embeddings.npy",
+  "postings_file": "postings.sqlite",
+  "entity_file": "entity_list.json",
+  "num_blocks": 168,
+  "embedding_shape": [
+    168,
+    8
+  ],
+  "embedding_dtype": "float32",
+  "vector_backend": "none",
+  "ann_file": null,
+  "ann_metric": "inner_product",
+  "ann_params": {},
+  "ann_available": false,
+  "ann_fallback_reason": "vector_backend_none",
+  "embedding_backend": "conversation_fake",
+  "embedding_model": "conversation_fake",
+  "embedding_dim": 8,
+  "embedding_local_files_only": true,
+  "embedding_batch_size": 0,
+  "embedding_latency_ms": 0.0,
+  "embedding_fallback_reason": ""
+}

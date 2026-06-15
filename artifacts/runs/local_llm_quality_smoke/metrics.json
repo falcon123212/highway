@@ -1,0 +1,48 @@
+{
+  "summary": {
+    "status": "SKIPPED",
+    "model": "qwen2.5:0.5b",
+    "query_count": 1,
+    "seed": 42,
+    "strategy": "ooc_marker_entity_pruned",
+    "embedding_backend": "synthetic",
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "baseline_context_limit": 200,
+    "skip_reason": "ollama_unavailable:HTTP Error 404: Not Found",
+    "tiers": []
+  },
+  "model_profile": {
+    "name": "local_ollama_llm",
+    "layers": 24,
+    "hidden_size": 1024,
+    "bytes_per_element": 2
+  },
+  "required_record_fields": [
+    "avoided_input_tokens_pct",
+    "baseline_answer",
+    "baseline_input_tokens",
+    "baseline_is_em",
+    "baseline_output_tokens",
+    "baseline_tokens_per_second",
+    "baseline_total_ms",
+    "baseline_ttft_ms",
+    "baseline_verdict",
+    "blocks_materialized",
+    "bytes_read",
+    "context_latency_ms",
+    "cost_avoided_estimated_usd",
+    "embedding_rows_scanned",
+    "expected_answer",
+    "highway_answer",
+    "highway_input_tokens",
+    "highway_is_em",
+    "highway_output_tokens",
+    "highway_tokens_per_second",
+    "highway_total_ms",
+    "highway_ttft_ms",
+    "highway_verdict",
+    "kv_bytes_avoided_estimated",
+    "kv_bytes_estimated",
+    "quality_delta"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "modes": {
+    "pccc_compute_kernels": {
+      "count": 20,
+      "overall_em": 100.0,
+      "mean_latency_ms": 26.47879123687744,
+      "p95_latency_ms": 29.481780529022235,
+      "llm_bypass_rate": 100.0,
+      "verifier_pass_rate": 100.0,
+      "leak_check_pass_rate": 100.0,
+      "non_validating_records": 0,
+      "routing_accuracy": 95.0,
+      "false_deterministic_rate": 0.0,
+      "false_not_found_rate": 0.0,
+      "llm_required_em": 100.0,
+      "llm_required_call_rate": 0.0,
+      "long_context_malformed_rate": 0.0,
+      "total_prompt_tokens": 0,
+      "cat_breakdown": {
+        "G": {
+          "count": 10,
+          "em": 100.0
+        },
+        "H": {
+          "count": 10,
+          "em": 100.0
+        }
+      },
+      "oom_rate": 0.0,
+      "compute_comparison_em": 100.0,
+      "compute_aggregation_em": 100.0,
+      "gh_em_global": 100.0,
+      "gh_llm_call_rate": 0.0,
+      "exec_error_conversion_rate": 0.0,
+      "compute_comparison_count": 9,
+      "compute_aggregation_count": 9,
+      "budget_parse_accuracy": 100.0,
+      "entity_canonicalization_accuracy": 100.0,
+      "duplicate_suppression_accuracy": 100.0,
+      "alias_resolution_accuracy": 100.0,
+      "missing_field_accuracy": 100.0
+    }
+  },
+  "kv_tokens_avoided_pct": 0.0,
+  "prefix_ttft_reduction_pct": 0.0
+}

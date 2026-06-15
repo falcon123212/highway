@@ -1,0 +1,1682 @@
+[
+  {
+    "block_idx": 0,
+    "block_id": "alpha_budget",
+    "offset": 0,
+    "byte_length": 178,
+    "source_file": "docs/alpha_budget.txt",
+    "category": "conversation",
+    "token_count": 5,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 1,
+    "block_id": "alpha_manager",
+    "offset": 178,
+    "byte_length": 183,
+    "source_file": "docs/alpha_manager.txt",
+    "category": "conversation",
+    "token_count": 6,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 2,
+    "block_id": "alpha_deadline",
+    "offset": 361,
+    "byte_length": 186,
+    "source_file": "docs/alpha_deadline.txt",
+    "category": "conversation",
+    "token_count": 5,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 3,
+    "block_id": "beta_budget",
+    "offset": 547,
+    "byte_length": 175,
+    "source_file": "docs/beta_budget.txt",
+    "category": "conversation",
+    "token_count": 5,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 4,
+    "block_id": "beta_manager",
+    "offset": 722,
+    "byte_length": 179,
+    "source_file": "docs/beta_manager.txt",
+    "category": "conversation",
+    "token_count": 6,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 5,
+    "block_id": "gamma_budget",
+    "offset": 901,
+    "byte_length": 178,
+    "source_file": "docs/gamma_budget.txt",
+    "category": "conversation",
+    "token_count": 5,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 6,
+    "block_id": "gamma_risk",
+    "offset": 1079,
+    "byte_length": 178,
+    "source_file": "docs/gamma_risk.txt",
+    "category": "conversation",
+    "token_count": 6,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 7,
+    "block_id": "alpha_legacy_noise",
+    "offset": 1257,
+    "byte_length": 223,
+    "source_file": "docs/alpha_legacy_noise.txt",
+    "category": "conversation",
+    "token_count": 10,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 8,
+    "block_id": "noise_0",
+    "offset": 1480,
+    "byte_length": 359,
+    "source_file": "noise/noise_0.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 9,
+    "block_id": "noise_1",
+    "offset": 1839,
+    "byte_length": 359,
+    "source_file": "noise/noise_1.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 10,
+    "block_id": "noise_2",
+    "offset": 2198,
+    "byte_length": 359,
+    "source_file": "noise/noise_2.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 11,
+    "block_id": "noise_3",
+    "offset": 2557,
+    "byte_length": 359,
+    "source_file": "noise/noise_3.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 12,
+    "block_id": "noise_4",
+    "offset": 2916,
+    "byte_length": 359,
+    "source_file": "noise/noise_4.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 13,
+    "block_id": "noise_5",
+    "offset": 3275,
+    "byte_length": 359,
+    "source_file": "noise/noise_5.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 14,
+    "block_id": "noise_6",
+    "offset": 3634,
+    "byte_length": 359,
+    "source_file": "noise/noise_6.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 15,
+    "block_id": "noise_7",
+    "offset": 3993,
+    "byte_length": 359,
+    "source_file": "noise/noise_7.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 16,
+    "block_id": "noise_8",
+    "offset": 4352,
+    "byte_length": 359,
+    "source_file": "noise/noise_8.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 17,
+    "block_id": "noise_9",
+    "offset": 4711,
+    "byte_length": 359,
+    "source_file": "noise/noise_9.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 18,
+    "block_id": "noise_10",
+    "offset": 5070,
+    "byte_length": 362,
+    "source_file": "noise/noise_10.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 19,
+    "block_id": "noise_11",
+    "offset": 5432,
+    "byte_length": 362,
+    "source_file": "noise/noise_11.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 20,
+    "block_id": "noise_12",
+    "offset": 5794,
+    "byte_length": 362,
+    "source_file": "noise/noise_12.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 21,
+    "block_id": "noise_13",
+    "offset": 6156,
+    "byte_length": 362,
+    "source_file": "noise/noise_13.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 22,
+    "block_id": "noise_14",
+    "offset": 6518,
+    "byte_length": 362,
+    "source_file": "noise/noise_14.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 23,
+    "block_id": "noise_15",
+    "offset": 6880,
+    "byte_length": 362,
+    "source_file": "noise/noise_15.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 24,
+    "block_id": "noise_16",
+    "offset": 7242,
+    "byte_length": 362,
+    "source_file": "noise/noise_16.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 25,
+    "block_id": "noise_17",
+    "offset": 7604,
+    "byte_length": 362,
+    "source_file": "noise/noise_17.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 26,
+    "block_id": "noise_18",
+    "offset": 7966,
+    "byte_length": 362,
+    "source_file": "noise/noise_18.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 27,
+    "block_id": "noise_19",
+    "offset": 8328,
+    "byte_length": 362,
+    "source_file": "noise/noise_19.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 28,
+    "block_id": "noise_20",
+    "offset": 8690,
+    "byte_length": 362,
+    "source_file": "noise/noise_20.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 29,
+    "block_id": "noise_21",
+    "offset": 9052,
+    "byte_length": 362,
+    "source_file": "noise/noise_21.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 30,
+    "block_id": "noise_22",
+    "offset": 9414,
+    "byte_length": 362,
+    "source_file": "noise/noise_22.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 31,
+    "block_id": "noise_23",
+    "offset": 9776,
+    "byte_length": 362,
+    "source_file": "noise/noise_23.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 32,
+    "block_id": "noise_24",
+    "offset": 10138,
+    "byte_length": 362,
+    "source_file": "noise/noise_24.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 33,
+    "block_id": "noise_25",
+    "offset": 10500,
+    "byte_length": 362,
+    "source_file": "noise/noise_25.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 34,
+    "block_id": "noise_26",
+    "offset": 10862,
+    "byte_length": 362,
+    "source_file": "noise/noise_26.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 35,
+    "block_id": "noise_27",
+    "offset": 11224,
+    "byte_length": 362,
+    "source_file": "noise/noise_27.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 36,
+    "block_id": "noise_28",
+    "offset": 11586,
+    "byte_length": 362,
+    "source_file": "noise/noise_28.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 37,
+    "block_id": "noise_29",
+    "offset": 11948,
+    "byte_length": 362,
+    "source_file": "noise/noise_29.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 38,
+    "block_id": "noise_30",
+    "offset": 12310,
+    "byte_length": 362,
+    "source_file": "noise/noise_30.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 39,
+    "block_id": "noise_31",
+    "offset": 12672,
+    "byte_length": 362,
+    "source_file": "noise/noise_31.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 40,
+    "block_id": "noise_32",
+    "offset": 13034,
+    "byte_length": 362,
+    "source_file": "noise/noise_32.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 41,
+    "block_id": "noise_33",
+    "offset": 13396,
+    "byte_length": 362,
+    "source_file": "noise/noise_33.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 42,
+    "block_id": "noise_34",
+    "offset": 13758,
+    "byte_length": 362,
+    "source_file": "noise/noise_34.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 43,
+    "block_id": "noise_35",
+    "offset": 14120,
+    "byte_length": 362,
+    "source_file": "noise/noise_35.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 44,
+    "block_id": "noise_36",
+    "offset": 14482,
+    "byte_length": 362,
+    "source_file": "noise/noise_36.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 45,
+    "block_id": "noise_37",
+    "offset": 14844,
+    "byte_length": 362,
+    "source_file": "noise/noise_37.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 46,
+    "block_id": "noise_38",
+    "offset": 15206,
+    "byte_length": 362,
+    "source_file": "noise/noise_38.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 47,
+    "block_id": "noise_39",
+    "offset": 15568,
+    "byte_length": 362,
+    "source_file": "noise/noise_39.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 48,
+    "block_id": "noise_40",
+    "offset": 15930,
+    "byte_length": 362,
+    "source_file": "noise/noise_40.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 49,
+    "block_id": "noise_41",
+    "offset": 16292,
+    "byte_length": 362,
+    "source_file": "noise/noise_41.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 50,
+    "block_id": "noise_42",
+    "offset": 16654,
+    "byte_length": 362,
+    "source_file": "noise/noise_42.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 51,
+    "block_id": "noise_43",
+    "offset": 17016,
+    "byte_length": 362,
+    "source_file": "noise/noise_43.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 52,
+    "block_id": "noise_44",
+    "offset": 17378,
+    "byte_length": 362,
+    "source_file": "noise/noise_44.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 53,
+    "block_id": "noise_45",
+    "offset": 17740,
+    "byte_length": 362,
+    "source_file": "noise/noise_45.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 54,
+    "block_id": "noise_46",
+    "offset": 18102,
+    "byte_length": 362,
+    "source_file": "noise/noise_46.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 55,
+    "block_id": "noise_47",
+    "offset": 18464,
+    "byte_length": 362,
+    "source_file": "noise/noise_47.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 56,
+    "block_id": "noise_48",
+    "offset": 18826,
+    "byte_length": 362,
+    "source_file": "noise/noise_48.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 57,
+    "block_id": "noise_49",
+    "offset": 19188,
+    "byte_length": 362,
+    "source_file": "noise/noise_49.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 58,
+    "block_id": "noise_50",
+    "offset": 19550,
+    "byte_length": 362,
+    "source_file": "noise/noise_50.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 59,
+    "block_id": "noise_51",
+    "offset": 19912,
+    "byte_length": 362,
+    "source_file": "noise/noise_51.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 60,
+    "block_id": "noise_52",
+    "offset": 20274,
+    "byte_length": 362,
+    "source_file": "noise/noise_52.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 61,
+    "block_id": "noise_53",
+    "offset": 20636,
+    "byte_length": 362,
+    "source_file": "noise/noise_53.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 62,
+    "block_id": "noise_54",
+    "offset": 20998,
+    "byte_length": 362,
+    "source_file": "noise/noise_54.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 63,
+    "block_id": "noise_55",
+    "offset": 21360,
+    "byte_length": 362,
+    "source_file": "noise/noise_55.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 64,
+    "block_id": "noise_56",
+    "offset": 21722,
+    "byte_length": 362,
+    "source_file": "noise/noise_56.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 65,
+    "block_id": "noise_57",
+    "offset": 22084,
+    "byte_length": 362,
+    "source_file": "noise/noise_57.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 66,
+    "block_id": "noise_58",
+    "offset": 22446,
+    "byte_length": 362,
+    "source_file": "noise/noise_58.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 67,
+    "block_id": "noise_59",
+    "offset": 22808,
+    "byte_length": 362,
+    "source_file": "noise/noise_59.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 68,
+    "block_id": "noise_60",
+    "offset": 23170,
+    "byte_length": 362,
+    "source_file": "noise/noise_60.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 69,
+    "block_id": "noise_61",
+    "offset": 23532,
+    "byte_length": 362,
+    "source_file": "noise/noise_61.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 70,
+    "block_id": "noise_62",
+    "offset": 23894,
+    "byte_length": 362,
+    "source_file": "noise/noise_62.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 71,
+    "block_id": "noise_63",
+    "offset": 24256,
+    "byte_length": 362,
+    "source_file": "noise/noise_63.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 72,
+    "block_id": "noise_64",
+    "offset": 24618,
+    "byte_length": 362,
+    "source_file": "noise/noise_64.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 73,
+    "block_id": "noise_65",
+    "offset": 24980,
+    "byte_length": 362,
+    "source_file": "noise/noise_65.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 74,
+    "block_id": "noise_66",
+    "offset": 25342,
+    "byte_length": 362,
+    "source_file": "noise/noise_66.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 75,
+    "block_id": "noise_67",
+    "offset": 25704,
+    "byte_length": 362,
+    "source_file": "noise/noise_67.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 76,
+    "block_id": "noise_68",
+    "offset": 26066,
+    "byte_length": 362,
+    "source_file": "noise/noise_68.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 77,
+    "block_id": "noise_69",
+    "offset": 26428,
+    "byte_length": 362,
+    "source_file": "noise/noise_69.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 78,
+    "block_id": "noise_70",
+    "offset": 26790,
+    "byte_length": 362,
+    "source_file": "noise/noise_70.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 79,
+    "block_id": "noise_71",
+    "offset": 27152,
+    "byte_length": 362,
+    "source_file": "noise/noise_71.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 80,
+    "block_id": "noise_72",
+    "offset": 27514,
+    "byte_length": 362,
+    "source_file": "noise/noise_72.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 81,
+    "block_id": "noise_73",
+    "offset": 27876,
+    "byte_length": 362,
+    "source_file": "noise/noise_73.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 82,
+    "block_id": "noise_74",
+    "offset": 28238,
+    "byte_length": 362,
+    "source_file": "noise/noise_74.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 83,
+    "block_id": "noise_75",
+    "offset": 28600,
+    "byte_length": 362,
+    "source_file": "noise/noise_75.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 84,
+    "block_id": "noise_76",
+    "offset": 28962,
+    "byte_length": 362,
+    "source_file": "noise/noise_76.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 85,
+    "block_id": "noise_77",
+    "offset": 29324,
+    "byte_length": 362,
+    "source_file": "noise/noise_77.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 86,
+    "block_id": "noise_78",
+    "offset": 29686,
+    "byte_length": 362,
+    "source_file": "noise/noise_78.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 87,
+    "block_id": "noise_79",
+    "offset": 30048,
+    "byte_length": 362,
+    "source_file": "noise/noise_79.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 88,
+    "block_id": "noise_80",
+    "offset": 30410,
+    "byte_length": 362,
+    "source_file": "noise/noise_80.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 89,
+    "block_id": "noise_81",
+    "offset": 30772,
+    "byte_length": 362,
+    "source_file": "noise/noise_81.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 90,
+    "block_id": "noise_82",
+    "offset": 31134,
+    "byte_length": 362,
+    "source_file": "noise/noise_82.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 91,
+    "block_id": "noise_83",
+    "offset": 31496,
+    "byte_length": 362,
+    "source_file": "noise/noise_83.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 92,
+    "block_id": "noise_84",
+    "offset": 31858,
+    "byte_length": 362,
+    "source_file": "noise/noise_84.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 93,
+    "block_id": "noise_85",
+    "offset": 32220,
+    "byte_length": 362,
+    "source_file": "noise/noise_85.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 94,
+    "block_id": "noise_86",
+    "offset": 32582,
+    "byte_length": 362,
+    "source_file": "noise/noise_86.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 95,
+    "block_id": "noise_87",
+    "offset": 32944,
+    "byte_length": 362,
+    "source_file": "noise/noise_87.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 96,
+    "block_id": "noise_88",
+    "offset": 33306,
+    "byte_length": 362,
+    "source_file": "noise/noise_88.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 97,
+    "block_id": "noise_89",
+    "offset": 33668,
+    "byte_length": 362,
+    "source_file": "noise/noise_89.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 98,
+    "block_id": "noise_90",
+    "offset": 34030,
+    "byte_length": 362,
+    "source_file": "noise/noise_90.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 99,
+    "block_id": "noise_91",
+    "offset": 34392,
+    "byte_length": 362,
+    "source_file": "noise/noise_91.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 100,
+    "block_id": "noise_92",
+    "offset": 34754,
+    "byte_length": 362,
+    "source_file": "noise/noise_92.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 101,
+    "block_id": "noise_93",
+    "offset": 35116,
+    "byte_length": 362,
+    "source_file": "noise/noise_93.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 102,
+    "block_id": "noise_94",
+    "offset": 35478,
+    "byte_length": 362,
+    "source_file": "noise/noise_94.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 103,
+    "block_id": "noise_95",
+    "offset": 35840,
+    "byte_length": 362,
+    "source_file": "noise/noise_95.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 104,
+    "block_id": "noise_96",
+    "offset": 36202,
+    "byte_length": 362,
+    "source_file": "noise/noise_96.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 105,
+    "block_id": "noise_97",
+    "offset": 36564,
+    "byte_length": 362,
+    "source_file": "noise/noise_97.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 106,
+    "block_id": "noise_98",
+    "offset": 36926,
+    "byte_length": 362,
+    "source_file": "noise/noise_98.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 107,
+    "block_id": "noise_99",
+    "offset": 37288,
+    "byte_length": 362,
+    "source_file": "noise/noise_99.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 108,
+    "block_id": "noise_100",
+    "offset": 37650,
+    "byte_length": 365,
+    "source_file": "noise/noise_100.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 109,
+    "block_id": "noise_101",
+    "offset": 38015,
+    "byte_length": 365,
+    "source_file": "noise/noise_101.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 110,
+    "block_id": "noise_102",
+    "offset": 38380,
+    "byte_length": 365,
+    "source_file": "noise/noise_102.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 111,
+    "block_id": "noise_103",
+    "offset": 38745,
+    "byte_length": 365,
+    "source_file": "noise/noise_103.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 112,
+    "block_id": "noise_104",
+    "offset": 39110,
+    "byte_length": 365,
+    "source_file": "noise/noise_104.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 113,
+    "block_id": "noise_105",
+    "offset": 39475,
+    "byte_length": 365,
+    "source_file": "noise/noise_105.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 114,
+    "block_id": "noise_106",
+    "offset": 39840,
+    "byte_length": 365,
+    "source_file": "noise/noise_106.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 115,
+    "block_id": "noise_107",
+    "offset": 40205,
+    "byte_length": 365,
+    "source_file": "noise/noise_107.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 116,
+    "block_id": "noise_108",
+    "offset": 40570,
+    "byte_length": 365,
+    "source_file": "noise/noise_108.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 117,
+    "block_id": "noise_109",
+    "offset": 40935,
+    "byte_length": 365,
+    "source_file": "noise/noise_109.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 118,
+    "block_id": "noise_110",
+    "offset": 41300,
+    "byte_length": 365,
+    "source_file": "noise/noise_110.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 119,
+    "block_id": "noise_111",
+    "offset": 41665,
+    "byte_length": 365,
+    "source_file": "noise/noise_111.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 120,
+    "block_id": "noise_112",
+    "offset": 42030,
+    "byte_length": 365,
+    "source_file": "noise/noise_112.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 121,
+    "block_id": "noise_113",
+    "offset": 42395,
+    "byte_length": 365,
+    "source_file": "noise/noise_113.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 122,
+    "block_id": "noise_114",
+    "offset": 42760,
+    "byte_length": 365,
+    "source_file": "noise/noise_114.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 123,
+    "block_id": "noise_115",
+    "offset": 43125,
+    "byte_length": 365,
+    "source_file": "noise/noise_115.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 124,
+    "block_id": "noise_116",
+    "offset": 43490,
+    "byte_length": 365,
+    "source_file": "noise/noise_116.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 125,
+    "block_id": "noise_117",
+    "offset": 43855,
+    "byte_length": 365,
+    "source_file": "noise/noise_117.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 126,
+    "block_id": "noise_118",
+    "offset": 44220,
+    "byte_length": 365,
+    "source_file": "noise/noise_118.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 127,
+    "block_id": "noise_119",
+    "offset": 44585,
+    "byte_length": 365,
+    "source_file": "noise/noise_119.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 128,
+    "block_id": "noise_120",
+    "offset": 44950,
+    "byte_length": 365,
+    "source_file": "noise/noise_120.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 129,
+    "block_id": "noise_121",
+    "offset": 45315,
+    "byte_length": 365,
+    "source_file": "noise/noise_121.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 130,
+    "block_id": "noise_122",
+    "offset": 45680,
+    "byte_length": 365,
+    "source_file": "noise/noise_122.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 131,
+    "block_id": "noise_123",
+    "offset": 46045,
+    "byte_length": 365,
+    "source_file": "noise/noise_123.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 132,
+    "block_id": "noise_124",
+    "offset": 46410,
+    "byte_length": 365,
+    "source_file": "noise/noise_124.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 133,
+    "block_id": "noise_125",
+    "offset": 46775,
+    "byte_length": 365,
+    "source_file": "noise/noise_125.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 134,
+    "block_id": "noise_126",
+    "offset": 47140,
+    "byte_length": 365,
+    "source_file": "noise/noise_126.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 135,
+    "block_id": "noise_127",
+    "offset": 47505,
+    "byte_length": 365,
+    "source_file": "noise/noise_127.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 136,
+    "block_id": "noise_128",
+    "offset": 47870,
+    "byte_length": 365,
+    "source_file": "noise/noise_128.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 137,
+    "block_id": "noise_129",
+    "offset": 48235,
+    "byte_length": 365,
+    "source_file": "noise/noise_129.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 138,
+    "block_id": "noise_130",
+    "offset": 48600,
+    "byte_length": 365,
+    "source_file": "noise/noise_130.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 139,
+    "block_id": "noise_131",
+    "offset": 48965,
+    "byte_length": 365,
+    "source_file": "noise/noise_131.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 140,
+    "block_id": "noise_132",
+    "offset": 49330,
+    "byte_length": 365,
+    "source_file": "noise/noise_132.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 141,
+    "block_id": "noise_133",
+    "offset": 49695,
+    "byte_length": 365,
+    "source_file": "noise/noise_133.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 142,
+    "block_id": "noise_134",
+    "offset": 50060,
+    "byte_length": 365,
+    "source_file": "noise/noise_134.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 143,
+    "block_id": "noise_135",
+    "offset": 50425,
+    "byte_length": 365,
+    "source_file": "noise/noise_135.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 144,
+    "block_id": "noise_136",
+    "offset": 50790,
+    "byte_length": 365,
+    "source_file": "noise/noise_136.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 145,
+    "block_id": "noise_137",
+    "offset": 51155,
+    "byte_length": 365,
+    "source_file": "noise/noise_137.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 146,
+    "block_id": "noise_138",
+    "offset": 51520,
+    "byte_length": 365,
+    "source_file": "noise/noise_138.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 147,
+    "block_id": "noise_139",
+    "offset": 51885,
+    "byte_length": 365,
+    "source_file": "noise/noise_139.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 148,
+    "block_id": "noise_140",
+    "offset": 52250,
+    "byte_length": 365,
+    "source_file": "noise/noise_140.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 149,
+    "block_id": "noise_141",
+    "offset": 52615,
+    "byte_length": 365,
+    "source_file": "noise/noise_141.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 150,
+    "block_id": "noise_142",
+    "offset": 52980,
+    "byte_length": 365,
+    "source_file": "noise/noise_142.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 151,
+    "block_id": "noise_143",
+    "offset": 53345,
+    "byte_length": 365,
+    "source_file": "noise/noise_143.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 152,
+    "block_id": "noise_144",
+    "offset": 53710,
+    "byte_length": 365,
+    "source_file": "noise/noise_144.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 153,
+    "block_id": "noise_145",
+    "offset": 54075,
+    "byte_length": 365,
+    "source_file": "noise/noise_145.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 154,
+    "block_id": "noise_146",
+    "offset": 54440,
+    "byte_length": 365,
+    "source_file": "noise/noise_146.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 155,
+    "block_id": "noise_147",
+    "offset": 54805,
+    "byte_length": 365,
+    "source_file": "noise/noise_147.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 156,
+    "block_id": "noise_148",
+    "offset": 55170,
+    "byte_length": 365,
+    "source_file": "noise/noise_148.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 157,
+    "block_id": "noise_149",
+    "offset": 55535,
+    "byte_length": 365,
+    "source_file": "noise/noise_149.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 158,
+    "block_id": "noise_150",
+    "offset": 55900,
+    "byte_length": 365,
+    "source_file": "noise/noise_150.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 159,
+    "block_id": "noise_151",
+    "offset": 56265,
+    "byte_length": 365,
+    "source_file": "noise/noise_151.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 160,
+    "block_id": "noise_152",
+    "offset": 56630,
+    "byte_length": 365,
+    "source_file": "noise/noise_152.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 161,
+    "block_id": "noise_153",
+    "offset": 56995,
+    "byte_length": 365,
+    "source_file": "noise/noise_153.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 162,
+    "block_id": "noise_154",
+    "offset": 57360,
+    "byte_length": 365,
+    "source_file": "noise/noise_154.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 163,
+    "block_id": "noise_155",
+    "offset": 57725,
+    "byte_length": 365,
+    "source_file": "noise/noise_155.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 164,
+    "block_id": "noise_156",
+    "offset": 58090,
+    "byte_length": 365,
+    "source_file": "noise/noise_156.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 165,
+    "block_id": "noise_157",
+    "offset": 58455,
+    "byte_length": 365,
+    "source_file": "noise/noise_157.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 166,
+    "block_id": "noise_158",
+    "offset": 58820,
+    "byte_length": 365,
+    "source_file": "noise/noise_158.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 167,
+    "block_id": "noise_159",
+    "offset": 59185,
+    "byte_length": 365,
+    "source_file": "noise/noise_159.txt",
+    "category": "conversation",
+    "token_count": 29,
+    "chunk_index": 0
+  }
+]

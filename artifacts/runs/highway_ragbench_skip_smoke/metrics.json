@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "status": "SKIPPED",
+    "model": "qwen3:8b",
+    "configs": [],
+    "count": 0,
+    "baseline_answer_correct_rate": 0.0,
+    "highway_answer_correct_rate": 0.0,
+    "quality_delta_pp": 0.0,
+    "source_attribution_rate": 0.0,
+    "hallucination_rate": 0.0,
+    "tokens_avoided_pct": 0.0,
+    "prompt_pair_is_distinct_rate": 0.0,
+    "source_hash_present_rate": 0.0,
+    "avg_baseline_blocks": 0.0,
+    "avg_highway_blocks": 0.0,
+    "context_compile_p50_ms": 0.0,
+    "context_compile_p95_ms": 0.0,
+    "baseline_ttft_p95_ms": 0.0,
+    "highway_ttft_p95_ms": 0.0,
+    "net_latency_benefit_ms": 0.0,
+    "tokens_per_correct_grounded_answer": 0.0,
+    "cost_avoided_per_1000_requests": 0.0,
+    "poison_fail_rate": 0.0,
+    "skip_reason": "datasets_not_installed"
+  }
+}

@@ -1,0 +1,2522 @@
+[
+  {
+    "block_idx": 0,
+    "block_id": "cache_fact",
+    "offset": 0,
+    "byte_length": 194,
+    "source_file": "dev/cache_manager.py",
+    "category": "dev/code",
+    "token_count": 8,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 1,
+    "block_id": "cache_obsolete",
+    "offset": 194,
+    "byte_length": 221,
+    "source_file": "archive/cache_obsolete.md",
+    "category": "dev/code",
+    "token_count": 12,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 2,
+    "block_id": "gateway_fact",
+    "offset": 415,
+    "byte_length": 203,
+    "source_file": "infra/gateway_error.log",
+    "category": "infra/logs",
+    "token_count": 9,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 3,
+    "block_id": "gateway_obsolete",
+    "offset": 618,
+    "byte_length": 229,
+    "source_file": "archive/gateway_obsolete.md",
+    "category": "infra/logs",
+    "token_count": 12,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 4,
+    "block_id": "onboarding_fact",
+    "offset": 847,
+    "byte_length": 200,
+    "source_file": "tickets/onboarding_142.md",
+    "category": "produit/tickets",
+    "token_count": 7,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 5,
+    "block_id": "onboarding_obsolete",
+    "offset": 1047,
+    "byte_length": 243,
+    "source_file": "archive/onboarding_obsolete.md",
+    "category": "produit/tickets",
+    "token_count": 12,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 6,
+    "block_id": "neptune_fact",
+    "offset": 1290,
+    "byte_length": 196,
+    "source_file": "finance/neptune_budget.md",
+    "category": "finance/budgets",
+    "token_count": 6,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 7,
+    "block_id": "neptune_obsolete",
+    "offset": 1486,
+    "byte_length": 234,
+    "source_file": "archive/neptune_obsolete.md",
+    "category": "finance/budgets",
+    "token_count": 12,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 8,
+    "block_id": "kronos_fact",
+    "offset": 1720,
+    "byte_length": 203,
+    "source_file": "planning/kronos_deadline.md",
+    "category": "planning/deadlines",
+    "token_count": 6,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 9,
+    "block_id": "kronos_obsolete",
+    "offset": 1923,
+    "byte_length": 234,
+    "source_file": "archive/kronos_obsolete.md",
+    "category": "planning/deadlines",
+    "token_count": 12,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 10,
+    "block_id": "vector_fact",
+    "offset": 2157,
+    "byte_length": 219,
+    "source_file": "research/vector_index.md",
+    "category": "recherche/docs techniques",
+    "token_count": 10,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 11,
+    "block_id": "vector_obsolete",
+    "offset": 2376,
+    "byte_length": 241,
+    "source_file": "archive/vector_obsolete.md",
+    "category": "recherche/docs techniques",
+    "token_count": 12,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 12,
+    "block_id": "noise_0",
+    "offset": 2617,
+    "byte_length": 232,
+    "source_file": "noise/noise_0.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 13,
+    "block_id": "noise_1",
+    "offset": 2849,
+    "byte_length": 234,
+    "source_file": "noise/noise_1.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 14,
+    "block_id": "noise_2",
+    "offset": 3083,
+    "byte_length": 239,
+    "source_file": "noise/noise_2.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 15,
+    "block_id": "noise_3",
+    "offset": 3322,
+    "byte_length": 239,
+    "source_file": "noise/noise_3.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 16,
+    "block_id": "noise_4",
+    "offset": 3561,
+    "byte_length": 242,
+    "source_file": "noise/noise_4.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 17,
+    "block_id": "noise_5",
+    "offset": 3803,
+    "byte_length": 249,
+    "source_file": "noise/noise_5.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 18,
+    "block_id": "noise_6",
+    "offset": 4052,
+    "byte_length": 232,
+    "source_file": "noise/noise_6.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 19,
+    "block_id": "noise_7",
+    "offset": 4284,
+    "byte_length": 234,
+    "source_file": "noise/noise_7.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 20,
+    "block_id": "noise_8",
+    "offset": 4518,
+    "byte_length": 239,
+    "source_file": "noise/noise_8.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 21,
+    "block_id": "noise_9",
+    "offset": 4757,
+    "byte_length": 239,
+    "source_file": "noise/noise_9.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 22,
+    "block_id": "noise_10",
+    "offset": 4996,
+    "byte_length": 245,
+    "source_file": "noise/noise_10.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 23,
+    "block_id": "noise_11",
+    "offset": 5241,
+    "byte_length": 252,
+    "source_file": "noise/noise_11.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 24,
+    "block_id": "noise_12",
+    "offset": 5493,
+    "byte_length": 235,
+    "source_file": "noise/noise_12.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 25,
+    "block_id": "noise_13",
+    "offset": 5728,
+    "byte_length": 237,
+    "source_file": "noise/noise_13.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 26,
+    "block_id": "noise_14",
+    "offset": 5965,
+    "byte_length": 242,
+    "source_file": "noise/noise_14.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 27,
+    "block_id": "noise_15",
+    "offset": 6207,
+    "byte_length": 242,
+    "source_file": "noise/noise_15.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 28,
+    "block_id": "noise_16",
+    "offset": 6449,
+    "byte_length": 245,
+    "source_file": "noise/noise_16.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 29,
+    "block_id": "noise_17",
+    "offset": 6694,
+    "byte_length": 252,
+    "source_file": "noise/noise_17.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 30,
+    "block_id": "noise_18",
+    "offset": 6946,
+    "byte_length": 235,
+    "source_file": "noise/noise_18.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 31,
+    "block_id": "noise_19",
+    "offset": 7181,
+    "byte_length": 237,
+    "source_file": "noise/noise_19.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 32,
+    "block_id": "noise_20",
+    "offset": 7418,
+    "byte_length": 242,
+    "source_file": "noise/noise_20.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 33,
+    "block_id": "noise_21",
+    "offset": 7660,
+    "byte_length": 242,
+    "source_file": "noise/noise_21.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 34,
+    "block_id": "noise_22",
+    "offset": 7902,
+    "byte_length": 245,
+    "source_file": "noise/noise_22.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 35,
+    "block_id": "noise_23",
+    "offset": 8147,
+    "byte_length": 252,
+    "source_file": "noise/noise_23.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 36,
+    "block_id": "noise_24",
+    "offset": 8399,
+    "byte_length": 235,
+    "source_file": "noise/noise_24.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 37,
+    "block_id": "noise_25",
+    "offset": 8634,
+    "byte_length": 237,
+    "source_file": "noise/noise_25.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 38,
+    "block_id": "noise_26",
+    "offset": 8871,
+    "byte_length": 242,
+    "source_file": "noise/noise_26.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 39,
+    "block_id": "noise_27",
+    "offset": 9113,
+    "byte_length": 242,
+    "source_file": "noise/noise_27.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 40,
+    "block_id": "noise_28",
+    "offset": 9355,
+    "byte_length": 245,
+    "source_file": "noise/noise_28.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 41,
+    "block_id": "noise_29",
+    "offset": 9600,
+    "byte_length": 252,
+    "source_file": "noise/noise_29.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 42,
+    "block_id": "noise_30",
+    "offset": 9852,
+    "byte_length": 235,
+    "source_file": "noise/noise_30.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 43,
+    "block_id": "noise_31",
+    "offset": 10087,
+    "byte_length": 237,
+    "source_file": "noise/noise_31.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 44,
+    "block_id": "noise_32",
+    "offset": 10324,
+    "byte_length": 242,
+    "source_file": "noise/noise_32.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 45,
+    "block_id": "noise_33",
+    "offset": 10566,
+    "byte_length": 242,
+    "source_file": "noise/noise_33.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 46,
+    "block_id": "noise_34",
+    "offset": 10808,
+    "byte_length": 245,
+    "source_file": "noise/noise_34.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 47,
+    "block_id": "noise_35",
+    "offset": 11053,
+    "byte_length": 252,
+    "source_file": "noise/noise_35.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 48,
+    "block_id": "noise_36",
+    "offset": 11305,
+    "byte_length": 235,
+    "source_file": "noise/noise_36.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 49,
+    "block_id": "noise_37",
+    "offset": 11540,
+    "byte_length": 237,
+    "source_file": "noise/noise_37.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 50,
+    "block_id": "noise_38",
+    "offset": 11777,
+    "byte_length": 242,
+    "source_file": "noise/noise_38.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 51,
+    "block_id": "noise_39",
+    "offset": 12019,
+    "byte_length": 242,
+    "source_file": "noise/noise_39.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 52,
+    "block_id": "noise_40",
+    "offset": 12261,
+    "byte_length": 245,
+    "source_file": "noise/noise_40.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 53,
+    "block_id": "noise_41",
+    "offset": 12506,
+    "byte_length": 252,
+    "source_file": "noise/noise_41.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 54,
+    "block_id": "noise_42",
+    "offset": 12758,
+    "byte_length": 235,
+    "source_file": "noise/noise_42.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 55,
+    "block_id": "noise_43",
+    "offset": 12993,
+    "byte_length": 237,
+    "source_file": "noise/noise_43.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 56,
+    "block_id": "noise_44",
+    "offset": 13230,
+    "byte_length": 242,
+    "source_file": "noise/noise_44.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 57,
+    "block_id": "noise_45",
+    "offset": 13472,
+    "byte_length": 242,
+    "source_file": "noise/noise_45.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 58,
+    "block_id": "noise_46",
+    "offset": 13714,
+    "byte_length": 245,
+    "source_file": "noise/noise_46.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 59,
+    "block_id": "noise_47",
+    "offset": 13959,
+    "byte_length": 252,
+    "source_file": "noise/noise_47.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 60,
+    "block_id": "noise_48",
+    "offset": 14211,
+    "byte_length": 235,
+    "source_file": "noise/noise_48.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 61,
+    "block_id": "noise_49",
+    "offset": 14446,
+    "byte_length": 237,
+    "source_file": "noise/noise_49.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 62,
+    "block_id": "noise_50",
+    "offset": 14683,
+    "byte_length": 242,
+    "source_file": "noise/noise_50.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 63,
+    "block_id": "noise_51",
+    "offset": 14925,
+    "byte_length": 242,
+    "source_file": "noise/noise_51.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 64,
+    "block_id": "noise_52",
+    "offset": 15167,
+    "byte_length": 245,
+    "source_file": "noise/noise_52.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 65,
+    "block_id": "noise_53",
+    "offset": 15412,
+    "byte_length": 252,
+    "source_file": "noise/noise_53.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 66,
+    "block_id": "noise_54",
+    "offset": 15664,
+    "byte_length": 235,
+    "source_file": "noise/noise_54.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 67,
+    "block_id": "noise_55",
+    "offset": 15899,
+    "byte_length": 237,
+    "source_file": "noise/noise_55.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 68,
+    "block_id": "noise_56",
+    "offset": 16136,
+    "byte_length": 242,
+    "source_file": "noise/noise_56.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 69,
+    "block_id": "noise_57",
+    "offset": 16378,
+    "byte_length": 242,
+    "source_file": "noise/noise_57.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 70,
+    "block_id": "noise_58",
+    "offset": 16620,
+    "byte_length": 245,
+    "source_file": "noise/noise_58.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 71,
+    "block_id": "noise_59",
+    "offset": 16865,
+    "byte_length": 252,
+    "source_file": "noise/noise_59.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 72,
+    "block_id": "noise_60",
+    "offset": 17117,
+    "byte_length": 235,
+    "source_file": "noise/noise_60.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 73,
+    "block_id": "noise_61",
+    "offset": 17352,
+    "byte_length": 237,
+    "source_file": "noise/noise_61.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 74,
+    "block_id": "noise_62",
+    "offset": 17589,
+    "byte_length": 242,
+    "source_file": "noise/noise_62.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 75,
+    "block_id": "noise_63",
+    "offset": 17831,
+    "byte_length": 242,
+    "source_file": "noise/noise_63.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 76,
+    "block_id": "noise_64",
+    "offset": 18073,
+    "byte_length": 245,
+    "source_file": "noise/noise_64.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 77,
+    "block_id": "noise_65",
+    "offset": 18318,
+    "byte_length": 252,
+    "source_file": "noise/noise_65.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 78,
+    "block_id": "noise_66",
+    "offset": 18570,
+    "byte_length": 235,
+    "source_file": "noise/noise_66.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 79,
+    "block_id": "noise_67",
+    "offset": 18805,
+    "byte_length": 237,
+    "source_file": "noise/noise_67.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 80,
+    "block_id": "noise_68",
+    "offset": 19042,
+    "byte_length": 242,
+    "source_file": "noise/noise_68.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 81,
+    "block_id": "noise_69",
+    "offset": 19284,
+    "byte_length": 242,
+    "source_file": "noise/noise_69.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 82,
+    "block_id": "noise_70",
+    "offset": 19526,
+    "byte_length": 245,
+    "source_file": "noise/noise_70.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 83,
+    "block_id": "noise_71",
+    "offset": 19771,
+    "byte_length": 252,
+    "source_file": "noise/noise_71.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 84,
+    "block_id": "noise_72",
+    "offset": 20023,
+    "byte_length": 235,
+    "source_file": "noise/noise_72.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 85,
+    "block_id": "noise_73",
+    "offset": 20258,
+    "byte_length": 237,
+    "source_file": "noise/noise_73.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 86,
+    "block_id": "noise_74",
+    "offset": 20495,
+    "byte_length": 242,
+    "source_file": "noise/noise_74.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 87,
+    "block_id": "noise_75",
+    "offset": 20737,
+    "byte_length": 242,
+    "source_file": "noise/noise_75.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 88,
+    "block_id": "noise_76",
+    "offset": 20979,
+    "byte_length": 245,
+    "source_file": "noise/noise_76.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 89,
+    "block_id": "noise_77",
+    "offset": 21224,
+    "byte_length": 252,
+    "source_file": "noise/noise_77.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 90,
+    "block_id": "noise_78",
+    "offset": 21476,
+    "byte_length": 235,
+    "source_file": "noise/noise_78.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 91,
+    "block_id": "noise_79",
+    "offset": 21711,
+    "byte_length": 237,
+    "source_file": "noise/noise_79.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 92,
+    "block_id": "noise_80",
+    "offset": 21948,
+    "byte_length": 242,
+    "source_file": "noise/noise_80.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 93,
+    "block_id": "noise_81",
+    "offset": 22190,
+    "byte_length": 242,
+    "source_file": "noise/noise_81.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 94,
+    "block_id": "noise_82",
+    "offset": 22432,
+    "byte_length": 245,
+    "source_file": "noise/noise_82.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 95,
+    "block_id": "noise_83",
+    "offset": 22677,
+    "byte_length": 252,
+    "source_file": "noise/noise_83.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 96,
+    "block_id": "noise_84",
+    "offset": 22929,
+    "byte_length": 235,
+    "source_file": "noise/noise_84.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 97,
+    "block_id": "noise_85",
+    "offset": 23164,
+    "byte_length": 237,
+    "source_file": "noise/noise_85.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 98,
+    "block_id": "noise_86",
+    "offset": 23401,
+    "byte_length": 242,
+    "source_file": "noise/noise_86.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 99,
+    "block_id": "noise_87",
+    "offset": 23643,
+    "byte_length": 242,
+    "source_file": "noise/noise_87.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 100,
+    "block_id": "noise_88",
+    "offset": 23885,
+    "byte_length": 245,
+    "source_file": "noise/noise_88.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 101,
+    "block_id": "noise_89",
+    "offset": 24130,
+    "byte_length": 252,
+    "source_file": "noise/noise_89.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 102,
+    "block_id": "noise_90",
+    "offset": 24382,
+    "byte_length": 235,
+    "source_file": "noise/noise_90.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 103,
+    "block_id": "noise_91",
+    "offset": 24617,
+    "byte_length": 237,
+    "source_file": "noise/noise_91.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 104,
+    "block_id": "noise_92",
+    "offset": 24854,
+    "byte_length": 242,
+    "source_file": "noise/noise_92.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 105,
+    "block_id": "noise_93",
+    "offset": 25096,
+    "byte_length": 242,
+    "source_file": "noise/noise_93.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 106,
+    "block_id": "noise_94",
+    "offset": 25338,
+    "byte_length": 245,
+    "source_file": "noise/noise_94.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 107,
+    "block_id": "noise_95",
+    "offset": 25583,
+    "byte_length": 252,
+    "source_file": "noise/noise_95.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 108,
+    "block_id": "noise_96",
+    "offset": 25835,
+    "byte_length": 235,
+    "source_file": "noise/noise_96.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 109,
+    "block_id": "noise_97",
+    "offset": 26070,
+    "byte_length": 237,
+    "source_file": "noise/noise_97.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 110,
+    "block_id": "noise_98",
+    "offset": 26307,
+    "byte_length": 242,
+    "source_file": "noise/noise_98.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 111,
+    "block_id": "noise_99",
+    "offset": 26549,
+    "byte_length": 242,
+    "source_file": "noise/noise_99.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 112,
+    "block_id": "noise_100",
+    "offset": 26791,
+    "byte_length": 248,
+    "source_file": "noise/noise_100.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 113,
+    "block_id": "noise_101",
+    "offset": 27039,
+    "byte_length": 255,
+    "source_file": "noise/noise_101.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 114,
+    "block_id": "noise_102",
+    "offset": 27294,
+    "byte_length": 238,
+    "source_file": "noise/noise_102.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 115,
+    "block_id": "noise_103",
+    "offset": 27532,
+    "byte_length": 240,
+    "source_file": "noise/noise_103.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 116,
+    "block_id": "noise_104",
+    "offset": 27772,
+    "byte_length": 245,
+    "source_file": "noise/noise_104.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 117,
+    "block_id": "noise_105",
+    "offset": 28017,
+    "byte_length": 245,
+    "source_file": "noise/noise_105.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 118,
+    "block_id": "noise_106",
+    "offset": 28262,
+    "byte_length": 248,
+    "source_file": "noise/noise_106.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 119,
+    "block_id": "noise_107",
+    "offset": 28510,
+    "byte_length": 255,
+    "source_file": "noise/noise_107.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 120,
+    "block_id": "noise_108",
+    "offset": 28765,
+    "byte_length": 238,
+    "source_file": "noise/noise_108.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 121,
+    "block_id": "noise_109",
+    "offset": 29003,
+    "byte_length": 240,
+    "source_file": "noise/noise_109.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 122,
+    "block_id": "noise_110",
+    "offset": 29243,
+    "byte_length": 245,
+    "source_file": "noise/noise_110.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 123,
+    "block_id": "noise_111",
+    "offset": 29488,
+    "byte_length": 245,
+    "source_file": "noise/noise_111.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 124,
+    "block_id": "noise_112",
+    "offset": 29733,
+    "byte_length": 248,
+    "source_file": "noise/noise_112.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 125,
+    "block_id": "noise_113",
+    "offset": 29981,
+    "byte_length": 255,
+    "source_file": "noise/noise_113.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 126,
+    "block_id": "noise_114",
+    "offset": 30236,
+    "byte_length": 238,
+    "source_file": "noise/noise_114.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 127,
+    "block_id": "noise_115",
+    "offset": 30474,
+    "byte_length": 240,
+    "source_file": "noise/noise_115.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 128,
+    "block_id": "noise_116",
+    "offset": 30714,
+    "byte_length": 245,
+    "source_file": "noise/noise_116.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 129,
+    "block_id": "noise_117",
+    "offset": 30959,
+    "byte_length": 245,
+    "source_file": "noise/noise_117.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 130,
+    "block_id": "noise_118",
+    "offset": 31204,
+    "byte_length": 248,
+    "source_file": "noise/noise_118.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 131,
+    "block_id": "noise_119",
+    "offset": 31452,
+    "byte_length": 255,
+    "source_file": "noise/noise_119.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 132,
+    "block_id": "noise_120",
+    "offset": 31707,
+    "byte_length": 238,
+    "source_file": "noise/noise_120.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 133,
+    "block_id": "noise_121",
+    "offset": 31945,
+    "byte_length": 240,
+    "source_file": "noise/noise_121.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 134,
+    "block_id": "noise_122",
+    "offset": 32185,
+    "byte_length": 245,
+    "source_file": "noise/noise_122.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 135,
+    "block_id": "noise_123",
+    "offset": 32430,
+    "byte_length": 245,
+    "source_file": "noise/noise_123.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 136,
+    "block_id": "noise_124",
+    "offset": 32675,
+    "byte_length": 248,
+    "source_file": "noise/noise_124.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 137,
+    "block_id": "noise_125",
+    "offset": 32923,
+    "byte_length": 255,
+    "source_file": "noise/noise_125.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 138,
+    "block_id": "noise_126",
+    "offset": 33178,
+    "byte_length": 238,
+    "source_file": "noise/noise_126.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 139,
+    "block_id": "noise_127",
+    "offset": 33416,
+    "byte_length": 240,
+    "source_file": "noise/noise_127.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 140,
+    "block_id": "noise_128",
+    "offset": 33656,
+    "byte_length": 245,
+    "source_file": "noise/noise_128.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 141,
+    "block_id": "noise_129",
+    "offset": 33901,
+    "byte_length": 245,
+    "source_file": "noise/noise_129.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 142,
+    "block_id": "noise_130",
+    "offset": 34146,
+    "byte_length": 248,
+    "source_file": "noise/noise_130.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 143,
+    "block_id": "noise_131",
+    "offset": 34394,
+    "byte_length": 255,
+    "source_file": "noise/noise_131.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 144,
+    "block_id": "noise_132",
+    "offset": 34649,
+    "byte_length": 238,
+    "source_file": "noise/noise_132.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 145,
+    "block_id": "noise_133",
+    "offset": 34887,
+    "byte_length": 240,
+    "source_file": "noise/noise_133.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 146,
+    "block_id": "noise_134",
+    "offset": 35127,
+    "byte_length": 245,
+    "source_file": "noise/noise_134.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 147,
+    "block_id": "noise_135",
+    "offset": 35372,
+    "byte_length": 245,
+    "source_file": "noise/noise_135.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 148,
+    "block_id": "noise_136",
+    "offset": 35617,
+    "byte_length": 248,
+    "source_file": "noise/noise_136.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 149,
+    "block_id": "noise_137",
+    "offset": 35865,
+    "byte_length": 255,
+    "source_file": "noise/noise_137.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 150,
+    "block_id": "noise_138",
+    "offset": 36120,
+    "byte_length": 238,
+    "source_file": "noise/noise_138.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 151,
+    "block_id": "noise_139",
+    "offset": 36358,
+    "byte_length": 240,
+    "source_file": "noise/noise_139.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 152,
+    "block_id": "noise_140",
+    "offset": 36598,
+    "byte_length": 245,
+    "source_file": "noise/noise_140.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 153,
+    "block_id": "noise_141",
+    "offset": 36843,
+    "byte_length": 245,
+    "source_file": "noise/noise_141.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 154,
+    "block_id": "noise_142",
+    "offset": 37088,
+    "byte_length": 248,
+    "source_file": "noise/noise_142.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 155,
+    "block_id": "noise_143",
+    "offset": 37336,
+    "byte_length": 255,
+    "source_file": "noise/noise_143.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 156,
+    "block_id": "noise_144",
+    "offset": 37591,
+    "byte_length": 238,
+    "source_file": "noise/noise_144.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 157,
+    "block_id": "noise_145",
+    "offset": 37829,
+    "byte_length": 240,
+    "source_file": "noise/noise_145.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 158,
+    "block_id": "noise_146",
+    "offset": 38069,
+    "byte_length": 245,
+    "source_file": "noise/noise_146.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 159,
+    "block_id": "noise_147",
+    "offset": 38314,
+    "byte_length": 245,
+    "source_file": "noise/noise_147.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 160,
+    "block_id": "noise_148",
+    "offset": 38559,
+    "byte_length": 248,
+    "source_file": "noise/noise_148.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 161,
+    "block_id": "noise_149",
+    "offset": 38807,
+    "byte_length": 255,
+    "source_file": "noise/noise_149.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 162,
+    "block_id": "noise_150",
+    "offset": 39062,
+    "byte_length": 238,
+    "source_file": "noise/noise_150.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 163,
+    "block_id": "noise_151",
+    "offset": 39300,
+    "byte_length": 240,
+    "source_file": "noise/noise_151.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 164,
+    "block_id": "noise_152",
+    "offset": 39540,
+    "byte_length": 245,
+    "source_file": "noise/noise_152.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 165,
+    "block_id": "noise_153",
+    "offset": 39785,
+    "byte_length": 245,
+    "source_file": "noise/noise_153.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 166,
+    "block_id": "noise_154",
+    "offset": 40030,
+    "byte_length": 248,
+    "source_file": "noise/noise_154.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 167,
+    "block_id": "noise_155",
+    "offset": 40278,
+    "byte_length": 255,
+    "source_file": "noise/noise_155.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 168,
+    "block_id": "noise_156",
+    "offset": 40533,
+    "byte_length": 238,
+    "source_file": "noise/noise_156.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 169,
+    "block_id": "noise_157",
+    "offset": 40771,
+    "byte_length": 240,
+    "source_file": "noise/noise_157.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 170,
+    "block_id": "noise_158",
+    "offset": 41011,
+    "byte_length": 245,
+    "source_file": "noise/noise_158.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 171,
+    "block_id": "noise_159",
+    "offset": 41256,
+    "byte_length": 245,
+    "source_file": "noise/noise_159.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 172,
+    "block_id": "noise_160",
+    "offset": 41501,
+    "byte_length": 248,
+    "source_file": "noise/noise_160.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 173,
+    "block_id": "noise_161",
+    "offset": 41749,
+    "byte_length": 255,
+    "source_file": "noise/noise_161.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 174,
+    "block_id": "noise_162",
+    "offset": 42004,
+    "byte_length": 238,
+    "source_file": "noise/noise_162.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 175,
+    "block_id": "noise_163",
+    "offset": 42242,
+    "byte_length": 240,
+    "source_file": "noise/noise_163.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 176,
+    "block_id": "noise_164",
+    "offset": 42482,
+    "byte_length": 245,
+    "source_file": "noise/noise_164.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 177,
+    "block_id": "noise_165",
+    "offset": 42727,
+    "byte_length": 245,
+    "source_file": "noise/noise_165.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 178,
+    "block_id": "noise_166",
+    "offset": 42972,
+    "byte_length": 248,
+    "source_file": "noise/noise_166.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 179,
+    "block_id": "noise_167",
+    "offset": 43220,
+    "byte_length": 255,
+    "source_file": "noise/noise_167.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 180,
+    "block_id": "noise_168",
+    "offset": 43475,
+    "byte_length": 238,
+    "source_file": "noise/noise_168.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 181,
+    "block_id": "noise_169",
+    "offset": 43713,
+    "byte_length": 240,
+    "source_file": "noise/noise_169.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 182,
+    "block_id": "noise_170",
+    "offset": 43953,
+    "byte_length": 245,
+    "source_file": "noise/noise_170.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 183,
+    "block_id": "noise_171",
+    "offset": 44198,
+    "byte_length": 245,
+    "source_file": "noise/noise_171.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 184,
+    "block_id": "noise_172",
+    "offset": 44443,
+    "byte_length": 248,
+    "source_file": "noise/noise_172.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 185,
+    "block_id": "noise_173",
+    "offset": 44691,
+    "byte_length": 255,
+    "source_file": "noise/noise_173.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 186,
+    "block_id": "noise_174",
+    "offset": 44946,
+    "byte_length": 238,
+    "source_file": "noise/noise_174.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 187,
+    "block_id": "noise_175",
+    "offset": 45184,
+    "byte_length": 240,
+    "source_file": "noise/noise_175.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 188,
+    "block_id": "noise_176",
+    "offset": 45424,
+    "byte_length": 245,
+    "source_file": "noise/noise_176.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 189,
+    "block_id": "noise_177",
+    "offset": 45669,
+    "byte_length": 245,
+    "source_file": "noise/noise_177.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 190,
+    "block_id": "noise_178",
+    "offset": 45914,
+    "byte_length": 248,
+    "source_file": "noise/noise_178.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 191,
+    "block_id": "noise_179",
+    "offset": 46162,
+    "byte_length": 255,
+    "source_file": "noise/noise_179.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 192,
+    "block_id": "noise_180",
+    "offset": 46417,
+    "byte_length": 238,
+    "source_file": "noise/noise_180.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 193,
+    "block_id": "noise_181",
+    "offset": 46655,
+    "byte_length": 240,
+    "source_file": "noise/noise_181.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 194,
+    "block_id": "noise_182",
+    "offset": 46895,
+    "byte_length": 245,
+    "source_file": "noise/noise_182.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 195,
+    "block_id": "noise_183",
+    "offset": 47140,
+    "byte_length": 245,
+    "source_file": "noise/noise_183.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 196,
+    "block_id": "noise_184",
+    "offset": 47385,
+    "byte_length": 248,
+    "source_file": "noise/noise_184.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 197,
+    "block_id": "noise_185",
+    "offset": 47633,
+    "byte_length": 255,
+    "source_file": "noise/noise_185.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 198,
+    "block_id": "noise_186",
+    "offset": 47888,
+    "byte_length": 238,
+    "source_file": "noise/noise_186.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 199,
+    "block_id": "noise_187",
+    "offset": 48126,
+    "byte_length": 240,
+    "source_file": "noise/noise_187.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 200,
+    "block_id": "noise_188",
+    "offset": 48366,
+    "byte_length": 245,
+    "source_file": "noise/noise_188.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 201,
+    "block_id": "noise_189",
+    "offset": 48611,
+    "byte_length": 245,
+    "source_file": "noise/noise_189.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 202,
+    "block_id": "noise_190",
+    "offset": 48856,
+    "byte_length": 248,
+    "source_file": "noise/noise_190.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 203,
+    "block_id": "noise_191",
+    "offset": 49104,
+    "byte_length": 255,
+    "source_file": "noise/noise_191.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 204,
+    "block_id": "noise_192",
+    "offset": 49359,
+    "byte_length": 238,
+    "source_file": "noise/noise_192.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 205,
+    "block_id": "noise_193",
+    "offset": 49597,
+    "byte_length": 240,
+    "source_file": "noise/noise_193.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 206,
+    "block_id": "noise_194",
+    "offset": 49837,
+    "byte_length": 245,
+    "source_file": "noise/noise_194.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 207,
+    "block_id": "noise_195",
+    "offset": 50082,
+    "byte_length": 245,
+    "source_file": "noise/noise_195.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 208,
+    "block_id": "noise_196",
+    "offset": 50327,
+    "byte_length": 248,
+    "source_file": "noise/noise_196.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 209,
+    "block_id": "noise_197",
+    "offset": 50575,
+    "byte_length": 255,
+    "source_file": "noise/noise_197.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 210,
+    "block_id": "noise_198",
+    "offset": 50830,
+    "byte_length": 238,
+    "source_file": "noise/noise_198.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 211,
+    "block_id": "noise_199",
+    "offset": 51068,
+    "byte_length": 240,
+    "source_file": "noise/noise_199.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 212,
+    "block_id": "noise_200",
+    "offset": 51308,
+    "byte_length": 245,
+    "source_file": "noise/noise_200.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 213,
+    "block_id": "noise_201",
+    "offset": 51553,
+    "byte_length": 245,
+    "source_file": "noise/noise_201.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 214,
+    "block_id": "noise_202",
+    "offset": 51798,
+    "byte_length": 248,
+    "source_file": "noise/noise_202.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 215,
+    "block_id": "noise_203",
+    "offset": 52046,
+    "byte_length": 255,
+    "source_file": "noise/noise_203.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 216,
+    "block_id": "noise_204",
+    "offset": 52301,
+    "byte_length": 238,
+    "source_file": "noise/noise_204.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 217,
+    "block_id": "noise_205",
+    "offset": 52539,
+    "byte_length": 240,
+    "source_file": "noise/noise_205.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 218,
+    "block_id": "noise_206",
+    "offset": 52779,
+    "byte_length": 245,
+    "source_file": "noise/noise_206.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 219,
+    "block_id": "noise_207",
+    "offset": 53024,
+    "byte_length": 245,
+    "source_file": "noise/noise_207.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 220,
+    "block_id": "noise_208",
+    "offset": 53269,
+    "byte_length": 248,
+    "source_file": "noise/noise_208.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 221,
+    "block_id": "noise_209",
+    "offset": 53517,
+    "byte_length": 255,
+    "source_file": "noise/noise_209.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 222,
+    "block_id": "noise_210",
+    "offset": 53772,
+    "byte_length": 238,
+    "source_file": "noise/noise_210.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 223,
+    "block_id": "noise_211",
+    "offset": 54010,
+    "byte_length": 240,
+    "source_file": "noise/noise_211.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 224,
+    "block_id": "noise_212",
+    "offset": 54250,
+    "byte_length": 245,
+    "source_file": "noise/noise_212.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 225,
+    "block_id": "noise_213",
+    "offset": 54495,
+    "byte_length": 245,
+    "source_file": "noise/noise_213.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 226,
+    "block_id": "noise_214",
+    "offset": 54740,
+    "byte_length": 248,
+    "source_file": "noise/noise_214.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 227,
+    "block_id": "noise_215",
+    "offset": 54988,
+    "byte_length": 255,
+    "source_file": "noise/noise_215.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 228,
+    "block_id": "noise_216",
+    "offset": 55243,
+    "byte_length": 238,
+    "source_file": "noise/noise_216.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 229,
+    "block_id": "noise_217",
+    "offset": 55481,
+    "byte_length": 240,
+    "source_file": "noise/noise_217.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 230,
+    "block_id": "noise_218",
+    "offset": 55721,
+    "byte_length": 245,
+    "source_file": "noise/noise_218.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 231,
+    "block_id": "noise_219",
+    "offset": 55966,
+    "byte_length": 245,
+    "source_file": "noise/noise_219.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 232,
+    "block_id": "noise_220",
+    "offset": 56211,
+    "byte_length": 248,
+    "source_file": "noise/noise_220.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 233,
+    "block_id": "noise_221",
+    "offset": 56459,
+    "byte_length": 255,
+    "source_file": "noise/noise_221.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 234,
+    "block_id": "noise_222",
+    "offset": 56714,
+    "byte_length": 238,
+    "source_file": "noise/noise_222.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 235,
+    "block_id": "noise_223",
+    "offset": 56952,
+    "byte_length": 240,
+    "source_file": "noise/noise_223.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 236,
+    "block_id": "noise_224",
+    "offset": 57192,
+    "byte_length": 245,
+    "source_file": "noise/noise_224.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 237,
+    "block_id": "noise_225",
+    "offset": 57437,
+    "byte_length": 245,
+    "source_file": "noise/noise_225.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 238,
+    "block_id": "noise_226",
+    "offset": 57682,
+    "byte_length": 248,
+    "source_file": "noise/noise_226.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 239,
+    "block_id": "noise_227",
+    "offset": 57930,
+    "byte_length": 255,
+    "source_file": "noise/noise_227.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 240,
+    "block_id": "noise_228",
+    "offset": 58185,
+    "byte_length": 238,
+    "source_file": "noise/noise_228.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 241,
+    "block_id": "noise_229",
+    "offset": 58423,
+    "byte_length": 240,
+    "source_file": "noise/noise_229.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 242,
+    "block_id": "noise_230",
+    "offset": 58663,
+    "byte_length": 245,
+    "source_file": "noise/noise_230.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 243,
+    "block_id": "noise_231",
+    "offset": 58908,
+    "byte_length": 245,
+    "source_file": "noise/noise_231.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 244,
+    "block_id": "noise_232",
+    "offset": 59153,
+    "byte_length": 248,
+    "source_file": "noise/noise_232.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 245,
+    "block_id": "noise_233",
+    "offset": 59401,
+    "byte_length": 255,
+    "source_file": "noise/noise_233.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 246,
+    "block_id": "noise_234",
+    "offset": 59656,
+    "byte_length": 238,
+    "source_file": "noise/noise_234.md",
+    "category": "dev/code",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 247,
+    "block_id": "noise_235",
+    "offset": 59894,
+    "byte_length": 240,
+    "source_file": "noise/noise_235.md",
+    "category": "infra/logs",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 248,
+    "block_id": "noise_236",
+    "offset": 60134,
+    "byte_length": 245,
+    "source_file": "noise/noise_236.md",
+    "category": "produit/tickets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 249,
+    "block_id": "noise_237",
+    "offset": 60379,
+    "byte_length": 245,
+    "source_file": "noise/noise_237.md",
+    "category": "finance/budgets",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 250,
+    "block_id": "noise_238",
+    "offset": 60624,
+    "byte_length": 248,
+    "source_file": "noise/noise_238.md",
+    "category": "planning/deadlines",
+    "token_count": 14,
+    "chunk_index": 0
+  },
+  {
+    "block_idx": 251,
+    "block_id": "noise_239",
+    "offset": 60872,
+    "byte_length": 255,
+    "source_file": "noise/noise_239.md",
+    "category": "recherche/docs techniques",
+    "token_count": 14,
+    "chunk_index": 0
+  }
+]

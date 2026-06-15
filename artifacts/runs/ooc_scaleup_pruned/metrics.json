@@ -1,0 +1,57 @@
+{
+  "sizes": [
+    1000,
+    10000
+  ],
+  "query_count": 20,
+  "seed": 42,
+  "strategy": "ooc_marker_entity_pruned",
+  "summaries": [
+    {
+      "strategy": "ooc_marker_entity_pruned",
+      "candidate_cap": 200,
+      "count": 20,
+      "overall_em": 100.0,
+      "gh_em_global": 100.0,
+      "no_leak_pass_rate": 100.0,
+      "llm_bypass_rate": 100.0,
+      "mean_latency_ms": 78.51051499965251,
+      "p50_latency_ms": 77.53109999976004,
+      "p95_latency_ms": 85.38358499827154,
+      "p99_latency_ms": 91.12895700069201,
+      "max_latency_ms": 92.56530000129715,
+      "avg_bytes_read": 14749.0,
+      "max_bytes_read": 14749.0,
+      "avg_blocks_materialized": 50.0,
+      "avg_embedding_rows_scanned": 1.0,
+      "avg_resident_mb": 0.014066000000000004,
+      "max_resident_mb": 0.014066,
+      "index_size_mb": 2.8397483825683594,
+      "ooc_metrics_coverage": 100.0,
+      "size": 1000
+    },
+    {
+      "strategy": "ooc_marker_entity_pruned",
+      "candidate_cap": 200,
+      "count": 20,
+      "overall_em": 100.0,
+      "gh_em_global": 100.0,
+      "no_leak_pass_rate": 100.0,
+      "llm_bypass_rate": 100.0,
+      "mean_latency_ms": 658.7283199998637,
+      "p50_latency_ms": 660.0928000007116,
+      "p95_latency_ms": 675.1596899975993,
+      "p99_latency_ms": 681.192417998318,
+      "max_latency_ms": 682.7005999984976,
+      "avg_bytes_read": 14779.0,
+      "max_bytes_read": 14779.0,
+      "avg_blocks_materialized": 50.0,
+      "avg_embedding_rows_scanned": 1.0,
+      "avg_resident_mb": 0.014094,
+      "max_resident_mb": 0.014094,
+      "index_size_mb": 28.715699195861816,
+      "ooc_metrics_coverage": 100.0,
+      "size": 10000
+    }
+  ]
+}

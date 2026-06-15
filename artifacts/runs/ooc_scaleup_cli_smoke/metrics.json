@@ -1,0 +1,33 @@
+{
+  "sizes": [
+    1000
+  ],
+  "query_count": 2,
+  "seed": 42,
+  "strategy": "ooc_marker_entity_pruned",
+  "summaries": [
+    {
+      "strategy": "ooc_marker_entity_pruned",
+      "candidate_cap": 200,
+      "count": 2,
+      "overall_em": 100.0,
+      "gh_em_global": 100.0,
+      "no_leak_pass_rate": 100.0,
+      "llm_bypass_rate": 100.0,
+      "mean_latency_ms": 9.005149999211426,
+      "p50_latency_ms": 9.005149999211426,
+      "p95_latency_ms": 14.198555000439228,
+      "p99_latency_ms": 14.660191000548366,
+      "max_latency_ms": 14.77560000057565,
+      "avg_bytes_read": 338.5,
+      "max_bytes_read": 368.0,
+      "avg_blocks_materialized": 1.0,
+      "avg_embedding_rows_scanned": 1.0,
+      "avg_resident_mb": 0.00032300000000000004,
+      "max_resident_mb": 0.000351,
+      "index_size_mb": 2.838491439819336,
+      "ooc_metrics_coverage": 100.0,
+      "size": 1000
+    }
+  ]
+}
