@@ -4,6 +4,7 @@ import time
 import urllib.request
 import re
 import hashlib
+import logging
 from typing import Dict, Any, List, Tuple, Optional
 from highway.runtime.cache_manager import CacheManager
 from highway.retrieval.search import SearchRouter
@@ -12,6 +13,10 @@ from highway.retrieval.ir_builder import IRBuilder
 from highway.runtime.compiler import ContextCompiler
 from highway.runtime.output_verifier import OutputVerifier
 from highway.kernels.compute_kernels import ComparisonKernel, AggregationKernel, CanonicalFactStore, FieldLookupKernel, MultiFactKernel, EvidencePackBuilder, ClaimLevelVerifier
+from highway.errors import ContextOverflowError, HighwayError, LLMUnavailableError, MalformedJSONError
+
+logger = logging.getLogger("highway.scheduler")
+
 
 class ExecutionScheduler:
     def __init__(self, index_dir: str, cache_dir: str, vllm_port: int = 8000, model_name: str = "Qwen/Qwen2.5-0.5B-Instruct"):
@@ -47,6 +52,11 @@ class ExecutionScheduler:
         storage_metrics = getattr(self.search_router, "last_storage_metrics", {})
         if storage_metrics:
             self.last_query_metrics.update(storage_metrics)
+
+    def _record_execution_error(self, error: HighwayError) -> str:
+        self.last_query_metrics["execution_error"] = error.code
+        self.last_query_metrics["execution_error_structured"] = error.to_dict()
+        return error.to_legacy_answer()
 
     def _call_llm(self, prompt: str) -> str:
         try:
@@ -126,14 +136,12 @@ class ExecutionScheduler:
                 cleaned_text = re.sub(r'^\s*"', '', cleaned_text)
                 return cleaned_text.strip()
         except Exception as e:
-            print(f"[Scheduler] vLLM serving request failed: {e}")
+            logger.error("vLLM serving request failed", extra={"error": str(e)})
             error_str = str(e)
             if "400" in error_str and ("maximum context length" in error_str or "context length" in error_str):
-                self.last_query_metrics["execution_error"] = "CONTEXT_OVERFLOW"
-                return "EXECUTION_ERROR:CONTEXT_OVERFLOW"
+                return self._record_execution_error(ContextOverflowError(message=error_str))
             else:
-                self.last_query_metrics["execution_error"] = "LLM_UNAVAILABLE"
-                return "EXECUTION_ERROR:LLM_UNAVAILABLE"
+                return self._record_execution_error(LLMUnavailableError(message=error_str))
 
     def route_execution(self, proof_ir: Dict[str, Any]) -> str:
         intent = proof_ir["query"].get("intent", "single_fact_lookup")
@@ -518,10 +526,12 @@ class ExecutionScheduler:
                 response_json = self._call_llm_json(prompt_text, schema_dict)
                 self.last_query_metrics["malformed_json"] = False
             except Exception as e:
-                print(f"[Scheduler] vLLM guided JSON call failed: {e}")
+                logger.error("vLLM guided JSON call failed", extra={"error": str(e)})
                 self.last_query_metrics["malformed_json"] = True
+                malformed_error = MalformedJSONError(message=str(e))
+                malformed_answer = self._record_execution_error(malformed_error)
                 response_json = {
-                    "answer": "EXECUTION_ERROR:MALFORMED_JSON",
+                    "answer": malformed_answer,
                     "conclusion": "ERROR",
                     "supporting_claims": []
                 }
@@ -536,8 +546,15 @@ class ExecutionScheduler:
             
             while not verification["verifier_pass"] and repair_attempts < max_repairs and not self.last_query_metrics["malformed_json"]:
                 repair_attempts += 1
-                print(f"[Scheduler] Verification failed for {q_id or 'unknown'}. Initiating repair loop attempt {repair_attempts}/{max_repairs}...")
-                print(f"[Scheduler] Errors: {verification['errors']}")
+                logger.warning(
+                    "Verification failed. Initiating repair loop attempt",
+                    extra={
+                        "query_id": q_id or "unknown",
+                        "repair_attempt": repair_attempts,
+                        "max_repairs": max_repairs,
+                        "errors": verification["errors"]
+                    }
+                )
                 
                 # Build repair prompt
                 repair_prompt = self._build_repair_prompt(prompt_text, response_json, verification["errors"])
@@ -548,10 +565,12 @@ class ExecutionScheduler:
                     response_json = self._call_llm_json(repair_prompt, schema_dict)
                     self.last_query_metrics["malformed_json"] = False
                 except Exception as e:
-                    print(f"[Scheduler] vLLM repair JSON call failed: {e}")
+                    logger.error("vLLM repair JSON call failed", extra={"error": str(e)})
                     self.last_query_metrics["malformed_json"] = True
+                    malformed_error = MalformedJSONError(message=str(e))
+                    malformed_answer = self._record_execution_error(malformed_error)
                     response_json = {
-                        "answer": "EXECUTION_ERROR:MALFORMED_JSON",
+                        "answer": malformed_answer,
                         "conclusion": "ERROR",
                         "supporting_claims": []
                     }
@@ -679,7 +698,7 @@ class ExecutionScheduler:
                 
                 return json.loads(cleaned)
         except Exception as e:
-            print(f"[Scheduler] JSON LLM call failed: {e}")
+            logger.error("JSON LLM call failed", extra={"error": str(e)})
             raise e
 
     def _build_repair_prompt(self, original_prompt: str, response_json: Dict[str, Any], errors: List[str]) -> str:
